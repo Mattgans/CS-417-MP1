@@ -9,7 +9,10 @@ public class Campfire : MonoBehaviour
 
     public GameObject fireEffect; 
     private bool isLit = false;
-
+    private void Start()
+    {
+        fireEffect.SetActive(false);
+    }
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Branch"))
