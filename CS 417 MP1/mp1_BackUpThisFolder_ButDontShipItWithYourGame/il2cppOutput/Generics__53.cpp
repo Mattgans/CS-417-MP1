@@ -25439,7 +25439,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool ResourceHandle_Equals_mB138D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/RenderGraph/RenderGraphResources.cs:124>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/RenderGraph/RenderGraphResources.cs:124>
 		ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C L_0 = ___0_hdl;
 		uint32_t L_1 = L_0.___m_Value;
 		uint32_t L_2 = __this->___m_Value;
@@ -25778,7 +25778,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Vector4_GetHashCode_m53F6
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ResourceHandle_get_type_m701594E0AD16E28CFEB238EE8B05F86EE806D29C_inline (ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/RenderGraph/RenderGraphResources.cs:54>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/RenderGraph/RenderGraphResources.cs:54>
 		int32_t L_0 = __this->___m_Type;
 		return L_0;
 	}

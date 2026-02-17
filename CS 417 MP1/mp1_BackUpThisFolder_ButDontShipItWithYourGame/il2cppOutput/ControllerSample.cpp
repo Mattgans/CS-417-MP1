@@ -2314,7 +2314,7 @@ inline void List_1_AddWithResize_mAD159B09F28BD7914562E219CA52E2D4BDCF5530 (List
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 79823
+// Method Definition Index: 79846
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t457AAFC061E62B901010AD2465E4831F4F387673 UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m24BF1A65F2ECB5BCE73D484A0D62A11505EDB59B (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2348,7 +2348,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t457AAFC061E62B901010AD2465E48
 		return L_6;
 	}
 }
-// Method Definition Index: 79824
+// Method Definition Index: 79847
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m064E32F744FA4BC5809512BDD202A1AC20FBBE9D (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t97F096C5B044A41558562270E35B90948994128A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2434,27 +2434,27 @@ IL2CPP_EXTERN_C void MonoScriptData_t457AAFC061E62B901010AD2465E4831F4F387673_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 79825
+// Method Definition Index: 79848
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* ActionAssetEnabler_get_actionAsset_mE41DDC464BD13732EAB2420B2E2FAF460F4DBA1C (ActionAssetEnabler_tBB0ED517D87A38FD52878C17A2F30252F2086EB4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionAssetEnabler.cs:11>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionAssetEnabler.cs:11>
 		InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* L_0 = __this->___m_ActionAsset;
 		return L_0;
 	}
 }
-// Method Definition Index: 79826
+// Method Definition Index: 79849
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionAssetEnabler_set_actionAsset_m27789A0C0F0D119359E50F13F0E7E02311B2497F (ActionAssetEnabler_tBB0ED517D87A38FD52878C17A2F30252F2086EB4* __this, InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionAssetEnabler.cs:12>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionAssetEnabler.cs:12>
 		InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* L_0 = ___0_value;
 		__this->___m_ActionAsset = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ActionAsset), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 79827
+// Method Definition Index: 79850
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionAssetEnabler_OnEnable_m43D11FC2C8F768E97B70590D55DBB68234876349 (ActionAssetEnabler_tBB0ED517D87A38FD52878C17A2F30252F2086EB4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2464,7 +2464,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionAssetEnabler_OnEnable_m43D11FC2C8F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionAssetEnabler.cs:17>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionAssetEnabler.cs:17>
 		InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* L_0 = __this->___m_ActionAsset;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -2475,7 +2475,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionAssetEnabler_OnEnable_m43D11FC2C8F
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionAssetEnabler.cs:19>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionAssetEnabler.cs:19>
 		InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* L_2 = __this->___m_ActionAsset;
 		NullCheck(L_2);
 		InputActionAsset_Enable_m5102429EE832C7891F73B6979612702CECA8F431(L_2, NULL);
@@ -2483,11 +2483,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionAssetEnabler_OnEnable_m43D11FC2C8F
 
 IL_0019:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionAssetEnabler.cs:21>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionAssetEnabler.cs:21>
 		return;
 	}
 }
-// Method Definition Index: 79828
+// Method Definition Index: 79851
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionAssetEnabler__ctor_m93124AE2795E7B0C96AD9BCE9CBCDBBADA6B8127 (ActionAssetEnabler_tBB0ED517D87A38FD52878C17A2F30252F2086EB4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2503,37 +2503,37 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionAssetEnabler__ctor_m93124AE2795E7B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 79829
+// Method Definition Index: 79852
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToAxis_OnActionPerformed_m15BA57906622CAA1061428FB8421D33C7D85738F (ActionToAxis_tFC0A79F71EB016015623DDB30582E68C83D2AF41* __this, CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8 ___0_ctx, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToAxis.cs:11>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToAxis.cs:11>
 		CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8 L_0 = ___0_ctx;
 		ActionToAxis_UpdateValue_mA79995D9439F00CA60AF56F14D715D09D9E78644(__this, L_0, NULL);
 		return;
 	}
 }
-// Method Definition Index: 79830
+// Method Definition Index: 79853
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToAxis_OnActionStarted_m5F5FB50118A40D661AF7A96C057915895D1A65F2 (ActionToAxis_tFC0A79F71EB016015623DDB30582E68C83D2AF41* __this, CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8 ___0_ctx, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToAxis.cs:12>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToAxis.cs:12>
 		CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8 L_0 = ___0_ctx;
 		ActionToAxis_UpdateValue_mA79995D9439F00CA60AF56F14D715D09D9E78644(__this, L_0, NULL);
 		return;
 	}
 }
-// Method Definition Index: 79831
+// Method Definition Index: 79854
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToAxis_OnActionCanceled_m21B721FACEE2C12D6E796787746F5BBC098CE8EB (ActionToAxis_tFC0A79F71EB016015623DDB30582E68C83D2AF41* __this, CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8 ___0_ctx, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToAxis.cs:13>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToAxis.cs:13>
 		CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8 L_0 = ___0_ctx;
 		ActionToAxis_UpdateValue_mA79995D9439F00CA60AF56F14D715D09D9E78644(__this, L_0, NULL);
 		return;
 	}
 }
-// Method Definition Index: 79832
+// Method Definition Index: 79855
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToAxis_UpdateValue_mA79995D9439F00CA60AF56F14D715D09D9E78644 (ActionToAxis_tFC0A79F71EB016015623DDB30582E68C83D2AF41* __this, CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8 ___0_ctx, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2543,7 +2543,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToAxis_UpdateValue_mA79995D9439F00
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToAxis.cs:15>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToAxis.cs:15>
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_0 = __this->____slider;
 		float L_1;
 		L_1 = CallbackContext_ReadValue_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m7EBC8C123F0601CE5B340BA966923AEC449A8ACF((&___0_ctx), CallbackContext_ReadValue_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m7EBC8C123F0601CE5B340BA966923AEC449A8ACF_RuntimeMethod_var);
@@ -2552,7 +2552,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToAxis_UpdateValue_mA79995D9439F00
 		return;
 	}
 }
-// Method Definition Index: 79833
+// Method Definition Index: 79856
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToAxis__ctor_m646BCB0AC83166B1755868C52CB68300CC2B7172 (ActionToAxis_tFC0A79F71EB016015623DDB30582E68C83D2AF41* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2568,7 +2568,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToAxis__ctor_m646BCB0AC83166B17558
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 79834
+// Method Definition Index: 79857
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToButton_Awake_m9B828A54B76BA68948562D2A24F6EDC1EC37580D (ActionToButton_t1A6EDAA7DA114268478B8F286D81B069C0860712* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2578,7 +2578,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToButton_Awake_m9B828A54B76BA68948
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButton.cs:20>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButton.cs:20>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_0 = __this->____image;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -2589,11 +2589,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToButton_Awake_m9B828A54B76BA68948
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButton.cs:22>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButton.cs:22>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_2 = __this->____image;
 		NullCheck(L_2);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_2, (bool)0, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButton.cs:23>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButton.cs:23>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_3 = __this->____image;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_4 = __this->____normalColor;
 		NullCheck(L_3);
@@ -2602,11 +2602,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToButton_Awake_m9B828A54B76BA68948
 
 IL_002b:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButton.cs:25>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButton.cs:25>
 		return;
 	}
 }
-// Method Definition Index: 79835
+// Method Definition Index: 79858
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToButton_OnActionStarted_m434754BA829098B8A40D3548EF50ECBC7007FDD7 (ActionToButton_t1A6EDAA7DA114268478B8F286D81B069C0860712* __this, CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8 ___0_ctx, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2616,7 +2616,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToButton_OnActionStarted_m434754BA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButton.cs:29>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButton.cs:29>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_0 = __this->____image;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -2627,7 +2627,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToButton_OnActionStarted_m434754BA
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButton.cs:30>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButton.cs:30>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_2 = __this->____image;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3 = __this->____pressedColor;
 		NullCheck(L_2);
@@ -2636,11 +2636,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToButton_OnActionStarted_m434754BA
 
 IL_001f:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButton.cs:31>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButton.cs:31>
 		return;
 	}
 }
-// Method Definition Index: 79836
+// Method Definition Index: 79859
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToButton_OnActionCanceled_mD6F46DB81A7876862AE2DA43DF55D90259F2AC68 (ActionToButton_t1A6EDAA7DA114268478B8F286D81B069C0860712* __this, CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8 ___0_ctx, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2650,7 +2650,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToButton_OnActionCanceled_mD6F46DB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButton.cs:35>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButton.cs:35>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_0 = __this->____image;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -2661,7 +2661,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToButton_OnActionCanceled_mD6F46DB
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButton.cs:36>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButton.cs:36>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_2 = __this->____image;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3 = __this->____normalColor;
 		NullCheck(L_2);
@@ -2670,11 +2670,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToButton_OnActionCanceled_mD6F46DB
 
 IL_001f:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButton.cs:37>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButton.cs:37>
 		return;
 	}
 }
-// Method Definition Index: 79837
+// Method Definition Index: 79860
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToButton_OnActionBound_m85A76AFB4BDC87FF020708C11481E06EF98D85A6 (ActionToButton_t1A6EDAA7DA114268478B8F286D81B069C0860712* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2684,7 +2684,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToButton_OnActionBound_m85A76AFB4B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButton.cs:41>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButton.cs:41>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_0 = __this->____image;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -2695,7 +2695,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToButton_OnActionBound_m85A76AFB4B
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButton.cs:42>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButton.cs:42>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_2 = __this->____image;
 		NullCheck(L_2);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_2, (bool)1, NULL);
@@ -2703,19 +2703,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToButton_OnActionBound_m85A76AFB4B
 
 IL_001a:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButton.cs:43>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButton.cs:43>
 		return;
 	}
 }
-// Method Definition Index: 79838
+// Method Definition Index: 79861
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToButton__ctor_m6972F73815359CFE2B992A0204A3C737A46B1961 (ActionToButton_t1A6EDAA7DA114268478B8F286D81B069C0860712* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButton.cs:14>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButton.cs:14>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
 		L_0 = Color_get_red_mA2E53E7173FDC97E68E335049AB0FAAEE43A844D_inline(NULL);
 		__this->____normalColor = L_0;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButton.cs:16>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButton.cs:16>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1;
 		L_1 = Color_get_green_mEB001F2CD8C68C6BBAEF9101990B779D3AA2A6EF_inline(NULL);
 		__this->____pressedColor = L_1;
@@ -2731,27 +2731,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToButton__ctor_m6972F73815359CFE2B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 79839
+// Method Definition Index: 79862
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ActionToButtonISX_get_actionReference_mF283E8AA8742FA276C560983344EE27243D4179D (ActionToButtonISX_t499BC074901FEC927C3D0B658006E36B56620C48* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:11>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:11>
 		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_0 = __this->___m_ActionReference;
 		return L_0;
 	}
 }
-// Method Definition Index: 79840
+// Method Definition Index: 79863
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToButtonISX_set_actionReference_m96F7EA278A3DE182FEF60ECFE393E20A4F5D7DDF (ActionToButtonISX_t499BC074901FEC927C3D0B658006E36B56620C48* __this, InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:11>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:11>
 		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_0 = ___0_value;
 		__this->___m_ActionReference = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ActionReference), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 79841
+// Method Definition Index: 79864
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToButtonISX_OnEnable_mA018E3BA258282B8628095CC433B9E9F67552BA2 (ActionToButtonISX_t499BC074901FEC927C3D0B658006E36B56620C48* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2765,7 +2765,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToButtonISX_OnEnable_mA018E3BA2582
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:27>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:27>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_0 = __this->___image;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -2776,14 +2776,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToButtonISX_OnEnable_mA018E3BA2582
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:28>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:28>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m23033D7E2F0F298BE465B7F3A63CDF40A4EB70EB(_stringLiteral0571F5D1DEB0FE72E1AB264E0E626D71B3CE1024, __this, NULL);
 	}
 
 IL_0019:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:30>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:30>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
 		L_2 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_2);
@@ -2791,7 +2791,7 @@ IL_0019:
 		L_3 = GameObject_GetComponent_TisGraphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931_m80F11D9CC2DF54B8A1F27C9D6757B3EBBE3874AE(L_2, GameObject_GetComponent_TisGraphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931_m80F11D9CC2DF54B8A1F27C9D6757B3EBBE3874AE_RuntimeMethod_var);
 		__this->___graphic = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___graphic), (void*)L_3);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:31>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:31>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
 		L_4 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_4);
@@ -2799,11 +2799,11 @@ IL_0019:
 		L_5 = GameObject_GetComponentsInChildren_TisGraphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931_m1C18C5113105B0F592C6F681BFD3A8A2D07AD913(L_4, GameObject_GetComponentsInChildren_TisGraphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931_m1C18C5113105B0F592C6F681BFD3A8A2D07AD913_RuntimeMethod_var);
 		__this->___graphics = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___graphics), (void*)L_5);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:32>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:32>
 		return;
 	}
 }
-// Method Definition Index: 79842
+// Method Definition Index: 79865
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToButtonISX_Update_m81AB168DB0366F2B102BBFBFF26B13BC3D64BECF (ActionToButtonISX_t499BC074901FEC927C3D0B658006E36B56620C48* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2831,7 +2831,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToButtonISX_Update_m81AB168DB0366F
 	memset((&G_B17_0), 0, sizeof(G_B17_0));
 	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* G_B17_1 = NULL;
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:38>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:38>
 		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_0;
 		L_0 = ActionToButtonISX_get_actionReference_mF283E8AA8742FA276C560983344EE27243D4179D_inline(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -2895,11 +2895,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToButtonISX_Update_m81AB168DB0366F
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:40>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:40>
 		ActionToButtonISX_SetVisible_mE6D710AD3087E609510538489BEAD1886A7222F2(__this, (bool)1, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:42>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:42>
 		V_1 = (Type_t*)NULL;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:44>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:44>
 		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_13;
 		L_13 = ActionToButtonISX_get_actionReference_mF283E8AA8742FA276C560983344EE27243D4179D_inline(__this, NULL);
 		NullCheck(L_13);
@@ -2914,7 +2914,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToButtonISX_Update_m81AB168DB0366F
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:46>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:46>
 		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_16;
 		L_16 = ActionToButtonISX_get_actionReference_mF283E8AA8742FA276C560983344EE27243D4179D_inline(__this, NULL);
 		NullCheck(L_16);
@@ -2932,14 +2932,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToButtonISX_Update_m81AB168DB0366F
 
 IL_0098:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:50>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:50>
 		Type_t* L_20 = __this->___lastActiveType;
 		V_1 = L_20;
 	}
 
 IL_009f:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:53>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:53>
 		Type_t* L_21 = V_1;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_22 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.boolean_class->byval_arg) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
@@ -2953,14 +2953,14 @@ IL_009f:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:55>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:55>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_25 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.boolean_class->byval_arg) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_26;
 		L_26 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_25, NULL);
 		__this->___lastActiveType = L_26;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___lastActiveType), (void*)L_26);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:56>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:56>
 		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_27;
 		L_27 = ActionToButtonISX_get_actionReference_mF283E8AA8742FA276C560983344EE27243D4179D_inline(__this, NULL);
 		NullCheck(L_27);
@@ -2970,7 +2970,7 @@ IL_009f:
 		bool L_29;
 		L_29 = InputAction_ReadValue_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_mDDDE5696826C7F74925D950F06671083FD179431(L_28, InputAction_ReadValue_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_mDDDE5696826C7F74925D950F06671083FD179431_RuntimeMethod_var);
 		V_2 = L_29;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:57>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:57>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_30 = __this->___image;
 		bool L_31 = V_2;
 		if (L_31)
@@ -3003,7 +3003,7 @@ IL_00e9:
 
 IL_00ef:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:59>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:59>
 		Type_t* L_34 = V_1;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_35 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.single_class->byval_arg) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
@@ -3017,14 +3017,14 @@ IL_00ef:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:61>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:61>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_38 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.single_class->byval_arg) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_39;
 		L_39 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_38, NULL);
 		__this->___lastActiveType = L_39;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___lastActiveType), (void*)L_39);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:62>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:62>
 		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_40;
 		L_40 = ActionToButtonISX_get_actionReference_mF283E8AA8742FA276C560983344EE27243D4179D_inline(__this, NULL);
 		NullCheck(L_40);
@@ -3034,7 +3034,7 @@ IL_00ef:
 		float L_42;
 		L_42 = InputAction_ReadValue_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m37FC749080A83C05777D1F779F38B8A27BAFA97B(L_41, InputAction_ReadValue_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m37FC749080A83C05777D1F779F38B8A27BAFA97B_RuntimeMethod_var);
 		V_3 = L_42;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:63>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:63>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_43 = __this->___image;
 		float L_44 = V_3;
 		if ((((double)((double)L_44)) > ((double)(0.5))))
@@ -3067,7 +3067,7 @@ IL_0143:
 
 IL_0149:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:67>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:67>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_47 = __this->___image;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_48 = __this->___disabledColor;
 		NullCheck(L_47);
@@ -3077,13 +3077,13 @@ IL_0149:
 
 IL_015b:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:72>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:72>
 		ActionToButtonISX_SetVisible_mE6D710AD3087E609510538489BEAD1886A7222F2(__this, (bool)0, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:74>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:74>
 		return;
 	}
 }
-// Method Definition Index: 79843
+// Method Definition Index: 79866
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToButtonISX_SetVisible_mE6D710AD3087E609510538489BEAD1886A7222F2 (ActionToButtonISX_t499BC074901FEC927C3D0B658006E36B56620C48* __this, bool ___0_visible, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3094,7 +3094,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToButtonISX_SetVisible_mE6D710AD30
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:78>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:78>
 		Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* L_0 = __this->___graphic;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -3105,7 +3105,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToButtonISX_SetVisible_mE6D710AD30
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:79>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:79>
 		Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* L_2 = __this->___graphic;
 		bool L_3 = ___0_visible;
 		NullCheck(L_2);
@@ -3114,14 +3114,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToButtonISX_SetVisible_mE6D710AD30
 
 IL_001a:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:81>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:81>
 		V_0 = 0;
 		goto IL_0030;
 	}
 
 IL_001e:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:83>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:83>
 		GraphicU5BU5D_t81AB09C67D8A58A146D74F24CFF6EEFDE096830F* L_4 = __this->___graphics;
 		int32_t L_5 = V_0;
 		NullCheck(L_4);
@@ -3130,14 +3130,14 @@ IL_001e:
 		bool L_8 = ___0_visible;
 		NullCheck(L_7);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_7, L_8, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:81>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:81>
 		int32_t L_9 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_9, 1));
 	}
 
 IL_0030:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:81>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:81>
 		int32_t L_10 = V_0;
 		GraphicU5BU5D_t81AB09C67D8A58A146D74F24CFF6EEFDE096830F* L_11 = __this->___graphics;
 		NullCheck(L_11);
@@ -3147,11 +3147,11 @@ IL_0030:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:85>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:85>
 		return;
 	}
 }
-// Method Definition Index: 79844
+// Method Definition Index: 79867
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToButtonISX__ctor_mF3B97F9DB09ECA66CA197A5340165D59BBA163B8 (ActionToButtonISX_t499BC074901FEC927C3D0B658006E36B56620C48* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3161,15 +3161,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToButtonISX__ctor_mF3B97F9DB09ECA6
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:14>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:14>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
 		L_0 = Color_get_green_mEB001F2CD8C68C6BBAEF9101990B779D3AA2A6EF_inline(NULL);
 		__this->___enabledColor = L_0;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:17>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:17>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1;
 		L_1 = Color_get_red_mA2E53E7173FDC97E68E335049AB0FAAEE43A844D_inline(NULL);
 		__this->___disabledColor = L_1;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:23>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:23>
 		GraphicU5BU5D_t81AB09C67D8A58A146D74F24CFF6EEFDE096830F* L_2 = (GraphicU5BU5D_t81AB09C67D8A58A146D74F24CFF6EEFDE096830F*)(GraphicU5BU5D_t81AB09C67D8A58A146D74F24CFF6EEFDE096830F*)SZArrayNew(GraphicU5BU5D_t81AB09C67D8A58A146D74F24CFF6EEFDE096830F_il2cpp_TypeInfo_var, (uint32_t)0);
 		__this->___graphics = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___graphics), (void*)L_2);
@@ -3185,7 +3185,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToButtonISX__ctor_mF3B97F9DB09ECA6
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 79845
+// Method Definition Index: 79868
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToControl_OnEnable_m4998F37FFEAFC984C88F39644F3C5B6E7C79A742 (ActionToControl_t5F5EB7996CEF59FE50AF6A397A0B3E7B0FA243FC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3196,7 +3196,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToControl_OnEnable_m4998F37FFEAFC9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:18>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:18>
 		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_0 = __this->____actionReference;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -3219,13 +3219,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToControl_OnEnable_m4998F37FFEAFC9
 
 IL_001b:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:19>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:19>
 		return;
 	}
 
 IL_001c:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:21>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:21>
 		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_4 = __this->____actionReference;
 		NullCheck(L_4);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_5;
@@ -3234,7 +3234,7 @@ IL_001c:
 		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_6, __this, (intptr_t)((void*)GetVirtualMethodInfo(__this, 6)), NULL);
 		NullCheck(L_5);
 		InputAction_add_started_m850C46EBBEEFB3F9760AA83BFD6ECA00850657E5(L_5, L_6, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:22>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:22>
 		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_7 = __this->____actionReference;
 		NullCheck(L_7);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_8;
@@ -3243,7 +3243,7 @@ IL_001c:
 		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_9, __this, (intptr_t)((void*)GetVirtualMethodInfo(__this, 7)), NULL);
 		NullCheck(L_8);
 		InputAction_add_performed_m0337FFA16EBEF7AE365C3B558CFDFF7BB9747B54(L_8, L_9, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:23>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:23>
 		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_10 = __this->____actionReference;
 		NullCheck(L_10);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_11;
@@ -3252,16 +3252,16 @@ IL_001c:
 		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_12, __this, (intptr_t)((void*)GetVirtualMethodInfo(__this, 8)), NULL);
 		NullCheck(L_11);
 		InputAction_add_canceled_m69EC253E21CC314BFB350A86E294D0651F5ECA77(L_11, L_12, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:25>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:25>
 		RuntimeObject* L_13;
 		L_13 = ActionToControl_UpdateBinding_mD7B34F6D4EE7788F49D89106024ED67A2A0561F6(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_14;
 		L_14 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_13, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:26>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:26>
 		return;
 	}
 }
-// Method Definition Index: 79846
+// Method Definition Index: 79869
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToControl_OnDisable_m968522F178EC56A379F6E1BE5D68A91E404D946B (ActionToControl_t5F5EB7996CEF59FE50AF6A397A0B3E7B0FA243FC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3272,7 +3272,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToControl_OnDisable_m968522F178EC5
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:30>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:30>
 		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_0 = __this->____actionReference;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -3295,13 +3295,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToControl_OnDisable_m968522F178EC5
 
 IL_001b:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:31>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:31>
 		return;
 	}
 
 IL_001c:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:33>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:33>
 		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_4 = __this->____actionReference;
 		NullCheck(L_4);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_5;
@@ -3310,7 +3310,7 @@ IL_001c:
 		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_6, __this, (intptr_t)((void*)GetVirtualMethodInfo(__this, 6)), NULL);
 		NullCheck(L_5);
 		InputAction_remove_started_m0B782C3E7D5EA619502E7079E1271108A3183D68(L_5, L_6, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:34>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:34>
 		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_7 = __this->____actionReference;
 		NullCheck(L_7);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_8;
@@ -3319,7 +3319,7 @@ IL_001c:
 		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_9, __this, (intptr_t)((void*)GetVirtualMethodInfo(__this, 7)), NULL);
 		NullCheck(L_8);
 		InputAction_remove_performed_m1BE84CED38F11F17C825FA782B35C92D708E6E44(L_8, L_9, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:35>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:35>
 		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_10 = __this->____actionReference;
 		NullCheck(L_10);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_11;
@@ -3328,11 +3328,11 @@ IL_001c:
 		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_12, __this, (intptr_t)((void*)GetVirtualMethodInfo(__this, 8)), NULL);
 		NullCheck(L_11);
 		InputAction_remove_canceled_m7CF8D377C61DB1290E153C56312A7C075544AF7F(L_11, L_12, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:36>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:36>
 		return;
 	}
 }
-// Method Definition Index: 79847
+// Method Definition Index: 79870
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ActionToControl_UpdateBinding_mD7B34F6D4EE7788F49D89106024ED67A2A0561F6 (ActionToControl_t5F5EB7996CEF59FE50AF6A397A0B3E7B0FA243FC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3351,39 +3351,39 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ActionToControl_UpdateBinding_
 		return L_1;
 	}
 }
-// Method Definition Index: 79848
+// Method Definition Index: 79871
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToControl_OnActionStarted_mAD336FDBD5A163883AEA04BE1387D4024B5BB248 (ActionToControl_t5F5EB7996CEF59FE50AF6A397A0B3E7B0FA243FC* __this, CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8 ___0_ctx, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:60>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:60>
 		return;
 	}
 }
-// Method Definition Index: 79849
+// Method Definition Index: 79872
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToControl_OnActionPerformed_m59FC2363F7BB372FE028D1005EC402FC69505910 (ActionToControl_t5F5EB7996CEF59FE50AF6A397A0B3E7B0FA243FC* __this, CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8 ___0_ctx, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:62>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:62>
 		return;
 	}
 }
-// Method Definition Index: 79850
+// Method Definition Index: 79873
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToControl_OnActionCanceled_mC41810C2BF0F0A216335F25E2FF6A37DC8EF9361 (ActionToControl_t5F5EB7996CEF59FE50AF6A397A0B3E7B0FA243FC* __this, CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8 ___0_ctx, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:64>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:64>
 		return;
 	}
 }
-// Method Definition Index: 79851
+// Method Definition Index: 79874
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToControl_OnActionBound_m78FCA73A3EC2019EFE6781B66E209731E0F7CD4E (ActionToControl_t5F5EB7996CEF59FE50AF6A397A0B3E7B0FA243FC* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:68>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:68>
 		return;
 	}
 }
-// Method Definition Index: 79852
+// Method Definition Index: 79875
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToControl__ctor_mB02E19CE335B702D7AF02C9000F862FCDC85602F (ActionToControl_t5F5EB7996CEF59FE50AF6A397A0B3E7B0FA243FC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3399,7 +3399,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToControl__ctor_mB02E19CE335B702D7
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 79853
+// Method Definition Index: 79876
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUpdateBindingU3Ed__4__ctor_mD79DB1BFE0042D64D77B4C8ABA779EAFA83917E4 (U3CUpdateBindingU3Ed__4_t54142745D8CFCDC4944533739647552C8E7229D2* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -3409,14 +3409,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUpdateBindingU3Ed__4__ctor_mD79DB1BFE
 		return;
 	}
 }
-// Method Definition Index: 79854
+// Method Definition Index: 79877
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUpdateBindingU3Ed__4_System_IDisposable_Dispose_mB973A7913EB2C5A25ED23D4428859B2EA3FA094B (U3CUpdateBindingU3Ed__4_t54142745D8CFCDC4944533739647552C8E7229D2* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 79855
+// Method Definition Index: 79878
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CUpdateBindingU3Ed__4_MoveNext_m261963558BF8A77EF2238561988F269CD0E5723A (U3CUpdateBindingU3Ed__4_t54142745D8CFCDC4944533739647552C8E7229D2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3459,7 +3459,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CUpdateBindingU3Ed__4_MoveNext_m261963
 IL_001a:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:40>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:40>
 		ActionToControl_t5F5EB7996CEF59FE50AF6A397A0B3E7B0FA243FC* L_4 = V_1;
 		NullCheck(L_4);
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_5 = L_4->____text;
@@ -3472,7 +3472,7 @@ IL_001a:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:41>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:41>
 		ActionToControl_t5F5EB7996CEF59FE50AF6A397A0B3E7B0FA243FC* L_7 = V_1;
 		NullCheck(L_7);
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_8 = L_7->____text;
@@ -3492,10 +3492,10 @@ IL_001a:
 
 IL_0052:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:45>
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:46>
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:47>
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:48>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:45>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:46>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:47>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:48>
 		ActionToControl_t5F5EB7996CEF59FE50AF6A397A0B3E7B0FA243FC* L_13 = V_1;
 		NullCheck(L_13);
 		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_14 = L_13->____actionReference;
@@ -3577,7 +3577,7 @@ IL_0052:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:50>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:50>
 		ActionToControl_t5F5EB7996CEF59FE50AF6A397A0B3E7B0FA243FC* L_37 = V_1;
 		NullCheck(L_37);
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_38 = L_37->____text;
@@ -3599,7 +3599,7 @@ IL_0052:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:51>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:51>
 		ActionToControl_t5F5EB7996CEF59FE50AF6A397A0B3E7B0FA243FC* L_42 = V_1;
 		NullCheck(L_42);
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_43 = L_42->____text;
@@ -3610,17 +3610,17 @@ IL_0052:
 
 IL_00f3:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:52>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:52>
 		ActionToControl_t5F5EB7996CEF59FE50AF6A397A0B3E7B0FA243FC* L_45 = V_1;
 		NullCheck(L_45);
 		VirtualActionInvoker0::Invoke(9, L_45);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:53>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:53>
 		goto IL_0126;
 	}
 
 IL_00fb:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:56>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:56>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_46 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_46, (1.0f), NULL);
 		__this->___U3CU3E2__current = L_46;
@@ -3636,7 +3636,7 @@ IL_0114:
 
 IL_011b:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:43>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:43>
 		ActionToControl_t5F5EB7996CEF59FE50AF6A397A0B3E7B0FA243FC* L_47 = V_1;
 		NullCheck(L_47);
 		bool L_48;
@@ -3649,11 +3649,11 @@ IL_011b:
 
 IL_0126:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:58>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToControl.cs:58>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 79856
+// Method Definition Index: 79879
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CUpdateBindingU3Ed__4_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m1166AA8637A1E744BFB31E308948F8C4EDE155F2 (U3CUpdateBindingU3Ed__4_t54142745D8CFCDC4944533739647552C8E7229D2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3661,7 +3661,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CUpdateBindingU3Ed__4_System
 		return L_0;
 	}
 }
-// Method Definition Index: 79857
+// Method Definition Index: 79880
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUpdateBindingU3Ed__4_System_Collections_IEnumerator_Reset_m2DAEF600349DFCB28E048CCC3D44DB829143952C (U3CUpdateBindingU3Ed__4_t54142745D8CFCDC4944533739647552C8E7229D2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3670,7 +3670,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUpdateBindingU3Ed__4_System_Collectio
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CUpdateBindingU3Ed__4_System_Collections_IEnumerator_Reset_m2DAEF600349DFCB28E048CCC3D44DB829143952C_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 79858
+// Method Definition Index: 79881
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CUpdateBindingU3Ed__4_System_Collections_IEnumerator_get_Current_m647CECEFFF2FEC872BE25FF28403A5182AD69BDD (U3CUpdateBindingU3Ed__4_t54142745D8CFCDC4944533739647552C8E7229D2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3686,17 +3686,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CUpdateBindingU3Ed__4_System
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 79859
+// Method Definition Index: 79882
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToDeviceInfo_OnEnable_m12A7214DD82E45A22B04728B5F303F53EF3559F5 (ActionToDeviceInfo_tBCD578D12E59858889810C9F743B65D99A14CEDD* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToDeviceInfo.cs:16>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToDeviceInfo.cs:16>
 		ActionToDeviceInfo_UpdateText_m29CF29803DFD3BDAC03556BA776DD2C79B5D0894(__this, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToDeviceInfo.cs:17>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToDeviceInfo.cs:17>
 		return;
 	}
 }
-// Method Definition Index: 79860
+// Method Definition Index: 79883
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToDeviceInfo_UpdateText_m29CF29803DFD3BDAC03556BA776DD2C79B5D0894 (ActionToDeviceInfo_tBCD578D12E59858889810C9F743B65D99A14CEDD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3732,7 +3732,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToDeviceInfo_UpdateText_m29CF29803
 	String_t* G_B6_5 = NULL;
 	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* G_B6_6 = NULL;
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToDeviceInfo.cs:21>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToDeviceInfo.cs:21>
 		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_0 = __this->____actionReference;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -3781,13 +3781,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToDeviceInfo_UpdateText_m29CF29803
 
 IL_0043:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToDeviceInfo.cs:22>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToDeviceInfo.cs:22>
 		return;
 	}
 
 IL_0044:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToDeviceInfo.cs:24>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToDeviceInfo.cs:24>
 		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_10 = __this->____actionReference;
 		NullCheck(L_10);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_11;
@@ -3802,7 +3802,7 @@ IL_0044:
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_14;
 		L_14 = InputControl_get_device_mAB3E013F566CF3407B8C36BC781EBD751DFAB324_inline(L_13, NULL);
 		V_0 = L_14;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToDeviceInfo.cs:25>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToDeviceInfo.cs:25>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_15 = __this->____text;
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_16 = V_0;
 		NullCheck(L_16);
@@ -3869,11 +3869,11 @@ IL_00ae:
 		L_33 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(G_B7_5, G_B7_4, G_B7_3, L_32, NULL);
 		NullCheck(G_B7_6);
 		VirtualActionInvoker1< String_t* >::Invoke(75, G_B7_6, L_33);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToDeviceInfo.cs:26>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToDeviceInfo.cs:26>
 		return;
 	}
 }
-// Method Definition Index: 79861
+// Method Definition Index: 79884
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToDeviceInfo__ctor_m4D9423783D3C87F0866545D7DADAFE8470BD6C20 (ActionToDeviceInfo_tBCD578D12E59858889810C9F743B65D99A14CEDD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3889,7 +3889,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToDeviceInfo__ctor_m4D9423783D3C87
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 79862
+// Method Definition Index: 79885
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_mFEE7659DFE77502758F02D3B3E3C3E9951209F4C (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3906,7 +3906,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_mFEE7659DFE77502758F02D3B
 		return;
 	}
 }
-// Method Definition Index: 79863
+// Method Definition Index: 79886
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m820ECDB36969BBED7F63B9D7AF1FC3ADCA988620 (U3CU3Ec_tBB15C923C488E2FF903055BA6542030B8605D772* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3914,11 +3914,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m820ECDB36969BBED7F63B9D7A
 		return;
 	}
 }
-// Method Definition Index: 79864
+// Method Definition Index: 79887
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CU3Ec_U3CUpdateTextU3Eb__3_0_m02CD5648F038ED75A2C1079E68B09BA286A2E8F4 (U3CU3Ec_tBB15C923C488E2FF903055BA6542030B8605D772* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_u, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToDeviceInfo.cs:25>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToDeviceInfo.cs:25>
 		String_t* L_0;
 		L_0 = InternedString_ToString_mED327D67EF001C5EDFF284336F13C3E3F025993A((&___0_u), NULL);
 		return L_0;
@@ -3932,7 +3932,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CU3Ec_U3CUpdateTextU3Eb__3_0_m02C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 79865
+// Method Definition Index: 79888
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToHaptics_Start_m3632ED8EA812FBE39E0BBE8EFB987EB4F71CB80D (ActionToHaptics_tFDDBEB9E46ED89ABED63D8FCD0262783F48F9CE1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3944,7 +3944,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToHaptics_Start_m3632ED8EA812FBE39
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToHaptics.cs:16>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToHaptics.cs:16>
 		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_0 = __this->___action;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -3967,34 +3967,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToHaptics_Start_m3632ED8EA812FBE39
 
 IL_001c:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToHaptics.cs:17>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToHaptics.cs:17>
 		return;
 	}
 
 IL_001d:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToHaptics.cs:19>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToHaptics.cs:19>
 		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_4 = __this->___action;
 		NullCheck(L_4);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_5;
 		L_5 = InputActionReference_get_action_m395EDEA6A93B54555D22323FDA6E1B1E931CE6EF(L_4, NULL);
 		NullCheck(L_5);
 		InputAction_Enable_mB3897C0741409C033656E4566EC49135C3C8BC68(L_5, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToHaptics.cs:20>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToHaptics.cs:20>
 		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_6 = __this->___hapticAction;
 		NullCheck(L_6);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_7;
 		L_7 = InputActionReference_get_action_m395EDEA6A93B54555D22323FDA6E1B1E931CE6EF(L_6, NULL);
 		NullCheck(L_7);
 		InputAction_Enable_mB3897C0741409C033656E4566EC49135C3C8BC68(L_7, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToHaptics.cs:21>
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToHaptics.cs:22>
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToHaptics.cs:23>
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToHaptics.cs:24>
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToHaptics.cs:25>
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToHaptics.cs:26>
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToHaptics.cs:27>
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToHaptics.cs:28>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToHaptics.cs:21>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToHaptics.cs:22>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToHaptics.cs:23>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToHaptics.cs:24>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToHaptics.cs:25>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToHaptics.cs:26>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToHaptics.cs:27>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToHaptics.cs:28>
 		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_8 = __this->___action;
 		NullCheck(L_8);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_9;
@@ -4003,23 +4003,23 @@ IL_001d:
 		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_10, __this, (intptr_t)((void*)ActionToHaptics_U3CStartU3Eb__5_0_m4D1FC1E14D405F65606BCD190FF58765E98C9622_RuntimeMethod_var), NULL);
 		NullCheck(L_9);
 		InputAction_add_performed_m0337FFA16EBEF7AE365C3B558CFDFF7BB9747B54(L_9, L_10, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToHaptics.cs:29>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToHaptics.cs:29>
 		return;
 	}
 }
-// Method Definition Index: 79866
+// Method Definition Index: 79889
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToHaptics__ctor_mC4702324B011EC6D8995C886AF52046675814B28 (ActionToHaptics_tFDDBEB9E46ED89ABED63D8FCD0262783F48F9CE1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToHaptics.cs:10>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToHaptics.cs:10>
 		__this->____amplitude = (1.0f);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToHaptics.cs:11>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToHaptics.cs:11>
 		__this->____duration = (0.100000001f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}
 }
-// Method Definition Index: 79867
+// Method Definition Index: 79890
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToHaptics_U3CStartU3Eb__5_0_m4D1FC1E14D405F65606BCD190FF58765E98C9622 (ActionToHaptics_tFDDBEB9E46ED89ABED63D8FCD0262783F48F9CE1* __this, CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8 ___0_ctx, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4030,7 +4030,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToHaptics_U3CStartU3Eb__5_0_m4D1FC
 	}
 	InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* V_0 = NULL;
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToHaptics.cs:23>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToHaptics.cs:23>
 		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_0 = __this->___action;
 		NullCheck(L_0);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_1;
@@ -4039,7 +4039,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToHaptics_U3CStartU3Eb__5_0_m4D1FC
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_2;
 		L_2 = InputAction_get_activeControl_m1FE60E2AD60BA8C13A4D4EB7B5628422FC348081(L_1, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToHaptics.cs:24>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToHaptics.cs:24>
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_3 = V_0;
 		if (L_3)
 		{
@@ -4047,13 +4047,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToHaptics_U3CStartU3Eb__5_0_m4D1FC
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToHaptics.cs:25>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToHaptics.cs:25>
 		return;
 	}
 
 IL_0015:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToHaptics.cs:27>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToHaptics.cs:27>
 		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_4 = __this->___hapticAction;
 		NullCheck(L_4);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_5;
@@ -4067,7 +4067,7 @@ IL_0015:
 		L_10 = InputControl_get_device_mAB3E013F566CF3407B8C36BC781EBD751DFAB324_inline(L_9, NULL);
 		il2cpp_codegen_runtime_class_init_inline(OpenXRInput_tFD2E002B12B331679909AA81EE0428CA661C6224_il2cpp_TypeInfo_var);
 		OpenXRInput_SendHapticImpulse_m16137E35A743E364626B10B929F1D522C94A5AD4(L_5, L_6, L_7, L_8, L_10, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToHaptics.cs:28>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToHaptics.cs:28>
 		return;
 	}
 }
@@ -4079,27 +4079,27 @@ IL_0015:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 79868
+// Method Definition Index: 79891
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ActionToSliderISX_get_actionReference_m027969CABF4A14B0D45B949B6FBC3D3422199348 (ActionToSliderISX_t45DD868ED1DA25F3974D81AC45659720ABD146C3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToSliderISX.cs:10>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToSliderISX.cs:10>
 		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_0 = __this->___m_ActionReference;
 		return L_0;
 	}
 }
-// Method Definition Index: 79869
+// Method Definition Index: 79892
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToSliderISX_set_actionReference_mEA0CA1E80BC9332840BB996D2488454CD6B4CA7D (ActionToSliderISX_t45DD868ED1DA25F3974D81AC45659720ABD146C3* __this, InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToSliderISX.cs:10>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToSliderISX.cs:10>
 		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_0 = ___0_value;
 		__this->___m_ActionReference = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ActionReference), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 79870
+// Method Definition Index: 79893
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToSliderISX_OnEnable_mF25785C0CB861AF1D0EC41738D2C3EE4D97A10D6 (ActionToSliderISX_t45DD868ED1DA25F3974D81AC45659720ABD146C3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4113,7 +4113,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToSliderISX_OnEnable_mF25785C0CB86
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToSliderISX.cs:20>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToSliderISX.cs:20>
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_0 = __this->___slider;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -4124,14 +4124,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToSliderISX_OnEnable_mF25785C0CB86
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToSliderISX.cs:21>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToSliderISX.cs:21>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m23033D7E2F0F298BE465B7F3A63CDF40A4EB70EB(_stringLiteralD247A25733ACDBD81E5D8E60F931935A0373AEE3, __this, NULL);
 	}
 
 IL_0019:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToSliderISX.cs:23>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToSliderISX.cs:23>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
 		L_2 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_2);
@@ -4139,7 +4139,7 @@ IL_0019:
 		L_3 = GameObject_GetComponent_TisGraphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931_m80F11D9CC2DF54B8A1F27C9D6757B3EBBE3874AE(L_2, GameObject_GetComponent_TisGraphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931_m80F11D9CC2DF54B8A1F27C9D6757B3EBBE3874AE_RuntimeMethod_var);
 		__this->___graphic = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___graphic), (void*)L_3);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToSliderISX.cs:24>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToSliderISX.cs:24>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
 		L_4 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_4);
@@ -4147,11 +4147,11 @@ IL_0019:
 		L_5 = GameObject_GetComponentsInChildren_TisGraphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931_m1C18C5113105B0F592C6F681BFD3A8A2D07AD913(L_4, GameObject_GetComponentsInChildren_TisGraphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931_m1C18C5113105B0F592C6F681BFD3A8A2D07AD913_RuntimeMethod_var);
 		__this->___graphics = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___graphics), (void*)L_5);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToSliderISX.cs:25>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToSliderISX.cs:25>
 		return;
 	}
 }
-// Method Definition Index: 79871
+// Method Definition Index: 79894
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToSliderISX_Update_mAFF3E71C144A7976BFE5D7991CFA341DD4DBA033 (ActionToSliderISX_t45DD868ED1DA25F3974D81AC45659720ABD146C3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4163,7 +4163,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToSliderISX_Update_mAFF3E71C144A79
 	}
 	float V_0 = 0.0f;
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToSliderISX.cs:29>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToSliderISX.cs:29>
 		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_0;
 		L_0 = ActionToSliderISX_get_actionReference_m027969CABF4A14B0D45B949B6FBC3D3422199348_inline(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -4196,7 +4196,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToSliderISX_Update_mAFF3E71C144A79
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToSliderISX.cs:31>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToSliderISX.cs:31>
 		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_6;
 		L_6 = ActionToSliderISX_get_actionReference_m027969CABF4A14B0D45B949B6FBC3D3422199348_inline(__this, NULL);
 		NullCheck(L_6);
@@ -4211,13 +4211,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToSliderISX_Update_mAFF3E71C144A79
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToSliderISX.cs:33>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToSliderISX.cs:33>
 		ActionToSliderISX_SetVisible_mF24898C2E90DE29C9BCF3E366FCD7B8524E4B5C6(__this, (bool)1, NULL);
 	}
 
 IL_0042:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToSliderISX.cs:36>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToSliderISX.cs:36>
 		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_9;
 		L_9 = ActionToSliderISX_get_actionReference_m027969CABF4A14B0D45B949B6FBC3D3422199348_inline(__this, NULL);
 		NullCheck(L_9);
@@ -4227,7 +4227,7 @@ IL_0042:
 		float L_11;
 		L_11 = InputAction_ReadValue_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m37FC749080A83C05777D1F779F38B8A27BAFA97B(L_10, InputAction_ReadValue_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m37FC749080A83C05777D1F779F38B8A27BAFA97B_RuntimeMethod_var);
 		V_0 = L_11;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToSliderISX.cs:37>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToSliderISX.cs:37>
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_12 = __this->___slider;
 		float L_13 = V_0;
 		NullCheck(L_12);
@@ -4237,13 +4237,13 @@ IL_0042:
 
 IL_0060:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToSliderISX.cs:41>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToSliderISX.cs:41>
 		ActionToSliderISX_SetVisible_mF24898C2E90DE29C9BCF3E366FCD7B8524E4B5C6(__this, (bool)0, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToSliderISX.cs:43>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToSliderISX.cs:43>
 		return;
 	}
 }
-// Method Definition Index: 79872
+// Method Definition Index: 79895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToSliderISX_SetVisible_mF24898C2E90DE29C9BCF3E366FCD7B8524E4B5C6 (ActionToSliderISX_t45DD868ED1DA25F3974D81AC45659720ABD146C3* __this, bool ___0_visible, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4254,7 +4254,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToSliderISX_SetVisible_mF24898C2E9
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToSliderISX.cs:47>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToSliderISX.cs:47>
 		Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* L_0 = __this->___graphic;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -4265,7 +4265,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToSliderISX_SetVisible_mF24898C2E9
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToSliderISX.cs:48>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToSliderISX.cs:48>
 		Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* L_2 = __this->___graphic;
 		bool L_3 = ___0_visible;
 		NullCheck(L_2);
@@ -4274,14 +4274,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToSliderISX_SetVisible_mF24898C2E9
 
 IL_001a:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToSliderISX.cs:50>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToSliderISX.cs:50>
 		V_0 = 0;
 		goto IL_0030;
 	}
 
 IL_001e:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToSliderISX.cs:52>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToSliderISX.cs:52>
 		GraphicU5BU5D_t81AB09C67D8A58A146D74F24CFF6EEFDE096830F* L_4 = __this->___graphics;
 		int32_t L_5 = V_0;
 		NullCheck(L_4);
@@ -4290,14 +4290,14 @@ IL_001e:
 		bool L_8 = ___0_visible;
 		NullCheck(L_7);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_7, L_8, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToSliderISX.cs:50>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToSliderISX.cs:50>
 		int32_t L_9 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_9, 1));
 	}
 
 IL_0030:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToSliderISX.cs:50>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToSliderISX.cs:50>
 		int32_t L_10 = V_0;
 		GraphicU5BU5D_t81AB09C67D8A58A146D74F24CFF6EEFDE096830F* L_11 = __this->___graphics;
 		NullCheck(L_11);
@@ -4307,11 +4307,11 @@ IL_0030:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToSliderISX.cs:54>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToSliderISX.cs:54>
 		return;
 	}
 }
-// Method Definition Index: 79873
+// Method Definition Index: 79896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToSliderISX__ctor_m73FFA363EAD8EBE1EE8031DC9957B34194BA1B10 (ActionToSliderISX_t45DD868ED1DA25F3974D81AC45659720ABD146C3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4321,7 +4321,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToSliderISX__ctor_m73FFA363EAD8EBE
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToSliderISX.cs:16>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToSliderISX.cs:16>
 		GraphicU5BU5D_t81AB09C67D8A58A146D74F24CFF6EEFDE096830F* L_0 = (GraphicU5BU5D_t81AB09C67D8A58A146D74F24CFF6EEFDE096830F*)(GraphicU5BU5D_t81AB09C67D8A58A146D74F24CFF6EEFDE096830F*)SZArrayNew(GraphicU5BU5D_t81AB09C67D8A58A146D74F24CFF6EEFDE096830F_il2cpp_TypeInfo_var, (uint32_t)0);
 		__this->___graphics = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___graphics), (void*)L_0);
@@ -4337,37 +4337,37 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToSliderISX__ctor_m73FFA363EAD8EBE
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 79874
+// Method Definition Index: 79897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToVector2_OnActionPerformed_m8D01FBFD52BD4E4EE91625A2597EB706BB18FCAE (ActionToVector2_t4B0588067915DAFF215FCF61B512F5A46345F3BA* __this, CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8 ___0_ctx, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2.cs:10>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2.cs:10>
 		CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8 L_0 = ___0_ctx;
 		ActionToVector2_UpdateHandle_mBD9FD84A297D16AB9D3C588661B84E848B2A5894(__this, L_0, NULL);
 		return;
 	}
 }
-// Method Definition Index: 79875
+// Method Definition Index: 79898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToVector2_OnActionStarted_mC4ED20EA65F682C246840D67609D4FDFEBAF93E0 (ActionToVector2_t4B0588067915DAFF215FCF61B512F5A46345F3BA* __this, CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8 ___0_ctx, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2.cs:12>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2.cs:12>
 		CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8 L_0 = ___0_ctx;
 		ActionToVector2_UpdateHandle_mBD9FD84A297D16AB9D3C588661B84E848B2A5894(__this, L_0, NULL);
 		return;
 	}
 }
-// Method Definition Index: 79876
+// Method Definition Index: 79899
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToVector2_OnActionCanceled_mE15BE3AAFDF4DFC7D428544A4C5164C2C29929F0 (ActionToVector2_t4B0588067915DAFF215FCF61B512F5A46345F3BA* __this, CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8 ___0_ctx, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2.cs:14>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2.cs:14>
 		CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8 L_0 = ___0_ctx;
 		ActionToVector2_UpdateHandle_mBD9FD84A297D16AB9D3C588661B84E848B2A5894(__this, L_0, NULL);
 		return;
 	}
 }
-// Method Definition Index: 79877
+// Method Definition Index: 79900
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToVector2_UpdateHandle_mBD9FD84A297D16AB9D3C588661B84E848B2A5894 (ActionToVector2_t4B0588067915DAFF215FCF61B512F5A46345F3BA* __this, CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8 ___0_ctx, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4379,7 +4379,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToVector2_UpdateHandle_mBD9FD84A29
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2.cs:18>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2.cs:18>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->____handle;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_1 = __this->____handle;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2;
@@ -4397,11 +4397,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToVector2_UpdateHandle_mBD9FD84A29
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7 = V_0;
 		NullCheck(L_0);
 		RectTransform_set_anchorMin_m931442ABE3368D6D4309F43DF1D64AB64B0F52E3(L_0, L_7, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2.cs:19>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2.cs:19>
 		return;
 	}
 }
-// Method Definition Index: 79878
+// Method Definition Index: 79901
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToVector2__ctor_m2C1596CA2972B7C2E61CF443D282654D4FEC2CE9 (ActionToVector2_t4B0588067915DAFF215FCF61B512F5A46345F3BA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4417,27 +4417,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToVector2__ctor_m2C1596CA2972B7C2E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 79879
+// Method Definition Index: 79902
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ActionToVector2SliderISX_get_actionReference_mCAD1C4A7862F424CCD35A8631483CC7CEB4DBD6D (ActionToVector2SliderISX_t4F3FA40AF8BF13623F2E175231C5D37005FD8F4B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2SliderISX.cs:10>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2SliderISX.cs:10>
 		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_0 = __this->___m_ActionReference;
 		return L_0;
 	}
 }
-// Method Definition Index: 79880
+// Method Definition Index: 79903
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToVector2SliderISX_set_actionReference_m36BE5CBF98C9172BA7B3C9F49F48882256E5E938 (ActionToVector2SliderISX_t4F3FA40AF8BF13623F2E175231C5D37005FD8F4B* __this, InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2SliderISX.cs:10>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2SliderISX.cs:10>
 		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_0 = ___0_value;
 		__this->___m_ActionReference = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ActionReference), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 79881
+// Method Definition Index: 79904
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToVector2SliderISX_OnEnable_m8240E949BEDDD590CF51A2FBC6C75F7CFA0BAA2C (ActionToVector2SliderISX_t4F3FA40AF8BF13623F2E175231C5D37005FD8F4B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4450,7 +4450,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToVector2SliderISX_OnEnable_m8240E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2SliderISX.cs:21>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2SliderISX.cs:21>
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_0 = __this->___xAxisSlider;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -4461,14 +4461,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToVector2SliderISX_OnEnable_m8240E
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2SliderISX.cs:22>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2SliderISX.cs:22>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m23033D7E2F0F298BE465B7F3A63CDF40A4EB70EB(_stringLiteral8F99F40B002E6812B3FC6B4018D04CB3B6BC23BF, __this, NULL);
 	}
 
 IL_0019:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2SliderISX.cs:24>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2SliderISX.cs:24>
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_2 = __this->___yAxisSlider;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -4479,18 +4479,18 @@ IL_0019:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2SliderISX.cs:25>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2SliderISX.cs:25>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m23033D7E2F0F298BE465B7F3A63CDF40A4EB70EB(_stringLiteral0737B1ACDF8964B9F3EED1B9A7B1CA4CBB2E56F7, __this, NULL);
 	}
 
 IL_0032:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2SliderISX.cs:26>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2SliderISX.cs:26>
 		return;
 	}
 }
-// Method Definition Index: 79882
+// Method Definition Index: 79905
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToVector2SliderISX_Update_m78FE5CE543C35208010535E382171BEA1636DE41 (ActionToVector2SliderISX_t4F3FA40AF8BF13623F2E175231C5D37005FD8F4B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4503,7 +4503,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToVector2SliderISX_Update_m78FE5CE
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2SliderISX.cs:30>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2SliderISX.cs:30>
 		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_0;
 		L_0 = ActionToVector2SliderISX_get_actionReference_mCAD1C4A7862F424CCD35A8631483CC7CEB4DBD6D_inline(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -4546,7 +4546,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToVector2SliderISX_Update_m78FE5CE
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2SliderISX.cs:32>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2SliderISX.cs:32>
 		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_8;
 		L_8 = ActionToVector2SliderISX_get_actionReference_mCAD1C4A7862F424CCD35A8631483CC7CEB4DBD6D_inline(__this, NULL);
 		NullCheck(L_8);
@@ -4561,7 +4561,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToVector2SliderISX_Update_m78FE5CE
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2SliderISX.cs:34>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2SliderISX.cs:34>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11;
 		L_11 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		ActionToVector2SliderISX_SetVisible_mE14DDFCFE657B4B036BB26476ACE56879E942534(__this, L_11, (bool)1, NULL);
@@ -4569,7 +4569,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToVector2SliderISX_Update_m78FE5CE
 
 IL_0056:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2SliderISX.cs:37>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2SliderISX.cs:37>
 		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_12;
 		L_12 = ActionToVector2SliderISX_get_actionReference_mCAD1C4A7862F424CCD35A8631483CC7CEB4DBD6D_inline(__this, NULL);
 		NullCheck(L_12);
@@ -4579,13 +4579,13 @@ IL_0056:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_14;
 		L_14 = InputAction_ReadValue_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m8D02BA85303ABD48D9963369E106B0C83A393FBF(L_13, InputAction_ReadValue_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m8D02BA85303ABD48D9963369E106B0C83A393FBF_RuntimeMethod_var);
 		V_0 = L_14;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2SliderISX.cs:38>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2SliderISX.cs:38>
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_15 = __this->___xAxisSlider;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_16 = V_0;
 		float L_17 = L_16.___x;
 		NullCheck(L_15);
 		VirtualActionInvoker1< float >::Invoke(47, L_15, L_17);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2SliderISX.cs:39>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2SliderISX.cs:39>
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_18 = __this->___yAxisSlider;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_19 = V_0;
 		float L_20 = L_19.___y;
@@ -4596,15 +4596,15 @@ IL_0056:
 
 IL_008a:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2SliderISX.cs:43>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2SliderISX.cs:43>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21;
 		L_21 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		ActionToVector2SliderISX_SetVisible_mE14DDFCFE657B4B036BB26476ACE56879E942534(__this, L_21, (bool)0, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2SliderISX.cs:45>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2SliderISX.cs:45>
 		return;
 	}
 }
-// Method Definition Index: 79883
+// Method Definition Index: 79906
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToVector2SliderISX_SetVisible_mE14DDFCFE657B4B036BB26476ACE56879E942534 (ActionToVector2SliderISX_t4F3FA40AF8BF13623F2E175231C5D37005FD8F4B* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_go, bool ___1_visible, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4619,13 +4619,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToVector2SliderISX_SetVisible_mE14
 	GraphicU5BU5D_t81AB09C67D8A58A146D74F24CFF6EEFDE096830F* V_1 = NULL;
 	int32_t V_2 = 0;
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2SliderISX.cs:49>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2SliderISX.cs:49>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_go;
 		NullCheck(L_0);
 		Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* L_1;
 		L_1 = GameObject_GetComponent_TisGraphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931_m80F11D9CC2DF54B8A1F27C9D6757B3EBBE3874AE(L_0, GameObject_GetComponent_TisGraphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931_m80F11D9CC2DF54B8A1F27C9D6757B3EBBE3874AE_RuntimeMethod_var);
 		V_0 = L_1;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2SliderISX.cs:50>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2SliderISX.cs:50>
 		Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* L_2 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -4636,7 +4636,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToVector2SliderISX_SetVisible_mE14
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2SliderISX.cs:51>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2SliderISX.cs:51>
 		Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* L_4 = V_0;
 		bool L_5 = ___1_visible;
 		NullCheck(L_4);
@@ -4645,20 +4645,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToVector2SliderISX_SetVisible_mE14
 
 IL_0017:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2SliderISX.cs:53>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2SliderISX.cs:53>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = ___0_go;
 		NullCheck(L_6);
 		GraphicU5BU5D_t81AB09C67D8A58A146D74F24CFF6EEFDE096830F* L_7;
 		L_7 = GameObject_GetComponentsInChildren_TisGraphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931_m1C18C5113105B0F592C6F681BFD3A8A2D07AD913(L_6, GameObject_GetComponentsInChildren_TisGraphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931_m1C18C5113105B0F592C6F681BFD3A8A2D07AD913_RuntimeMethod_var);
 		V_1 = L_7;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2SliderISX.cs:54>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2SliderISX.cs:54>
 		V_2 = 0;
 		goto IL_002f;
 	}
 
 IL_0022:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2SliderISX.cs:56>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2SliderISX.cs:56>
 		GraphicU5BU5D_t81AB09C67D8A58A146D74F24CFF6EEFDE096830F* L_8 = V_1;
 		int32_t L_9 = V_2;
 		NullCheck(L_8);
@@ -4667,14 +4667,14 @@ IL_0022:
 		bool L_12 = ___1_visible;
 		NullCheck(L_11);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_11, L_12, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2SliderISX.cs:54>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2SliderISX.cs:54>
 		int32_t L_13 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 	}
 
 IL_002f:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2SliderISX.cs:54>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2SliderISX.cs:54>
 		int32_t L_14 = V_2;
 		GraphicU5BU5D_t81AB09C67D8A58A146D74F24CFF6EEFDE096830F* L_15 = V_1;
 		NullCheck(L_15);
@@ -4684,11 +4684,11 @@ IL_002f:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2SliderISX.cs:58>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2SliderISX.cs:58>
 		return;
 	}
 }
-// Method Definition Index: 79884
+// Method Definition Index: 79907
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToVector2SliderISX__ctor_mC985DC2ADB5774CAE3D703805CF5299A715EEFA0 (ActionToVector2SliderISX_t4F3FA40AF8BF13623F2E175231C5D37005FD8F4B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4704,7 +4704,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToVector2SliderISX__ctor_mC985DC2A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 79885
+// Method Definition Index: 79908
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToVisibility_OnEnable_mE70482F6EEFB069B5AFF26602AAE7BFF8688973C (ActionToVisibility_t70675625A5300BED4EB52AD37BE0915053BDFCD6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4714,7 +4714,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToVisibility_OnEnable_mE70482F6EEF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibility.cs:15>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibility.cs:15>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->____target;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -4725,7 +4725,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToVisibility_OnEnable_mE70482F6EEF
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibility.cs:16>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibility.cs:16>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
 		L_2 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		__this->____target = L_2;
@@ -4734,11 +4734,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToVisibility_OnEnable_mE70482F6EEF
 
 IL_001a:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibility.cs:18>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibility.cs:18>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->____target;
 		NullCheck(L_3);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)0, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibility.cs:20>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibility.cs:20>
 		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_4 = __this->____actionReference;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -4759,7 +4759,7 @@ IL_001a:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibility.cs:21>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibility.cs:21>
 		RuntimeObject* L_8;
 		L_8 = ActionToVisibility_UpdateVisibility_m4185D017353C17A1EC46E39CCC71187D9B2EC61C(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_9;
@@ -4768,11 +4768,11 @@ IL_001a:
 
 IL_004e:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibility.cs:22>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibility.cs:22>
 		return;
 	}
 }
-// Method Definition Index: 79886
+// Method Definition Index: 79909
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ActionToVisibility_UpdateVisibility_m4185D017353C17A1EC46E39CCC71187D9B2EC61C (ActionToVisibility_t70675625A5300BED4EB52AD37BE0915053BDFCD6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4791,7 +4791,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ActionToVisibility_UpdateVisib
 		return L_1;
 	}
 }
-// Method Definition Index: 79887
+// Method Definition Index: 79910
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToVisibility__ctor_mE8BA88988B7847CA31D926D47F76F8DEB78EEB2D (ActionToVisibility_t70675625A5300BED4EB52AD37BE0915053BDFCD6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4807,7 +4807,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToVisibility__ctor_mE8BA88988B7847
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 79888
+// Method Definition Index: 79911
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUpdateVisibilityU3Ed__3__ctor_m26BAE8E80717A2590A44858F480D0E4082072F11 (U3CUpdateVisibilityU3Ed__3_t2FDB225F2F983039E37101E33F3BC67B81216319* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -4817,14 +4817,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUpdateVisibilityU3Ed__3__ctor_m26BAE8
 		return;
 	}
 }
-// Method Definition Index: 79889
+// Method Definition Index: 79912
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUpdateVisibilityU3Ed__3_System_IDisposable_Dispose_m768417D9E75B4EABBC1D707F90DD8C1A31E58117 (U3CUpdateVisibilityU3Ed__3_t2FDB225F2F983039E37101E33F3BC67B81216319* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 79890
+// Method Definition Index: 79913
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CUpdateVisibilityU3Ed__3_MoveNext_m47047E39F8CC9EFCDF4D241D99B68EE979F88168 (U3CUpdateVisibilityU3Ed__3_t2FDB225F2F983039E37101E33F3BC67B81216319* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4871,10 +4871,10 @@ IL_001a:
 
 IL_0026:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibility.cs:28>
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibility.cs:29>
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibility.cs:30>
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibility.cs:31>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibility.cs:28>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibility.cs:29>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibility.cs:30>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibility.cs:31>
 		ActionToVisibility_t70675625A5300BED4EB52AD37BE0915053BDFCD6* L_4 = V_1;
 		NullCheck(L_4);
 		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_5 = L_4->____actionReference;
@@ -4956,19 +4956,19 @@ IL_0026:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibility.cs:33>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibility.cs:33>
 		ActionToVisibility_t70675625A5300BED4EB52AD37BE0915053BDFCD6* L_28 = V_1;
 		NullCheck(L_28);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_29 = L_28->____target;
 		NullCheck(L_29);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_29, (bool)1, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibility.cs:34>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibility.cs:34>
 		goto IL_00db;
 	}
 
 IL_00b0:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibility.cs:36>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibility.cs:36>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_30 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_30, (1.0f), NULL);
 		__this->___U3CU3E2__current = L_30;
@@ -4984,7 +4984,7 @@ IL_00c9:
 
 IL_00d0:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibility.cs:26>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibility.cs:26>
 		ActionToVisibility_t70675625A5300BED4EB52AD37BE0915053BDFCD6* L_31 = V_1;
 		NullCheck(L_31);
 		bool L_32;
@@ -4997,11 +4997,11 @@ IL_00d0:
 
 IL_00db:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibility.cs:38>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibility.cs:38>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 79891
+// Method Definition Index: 79914
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CUpdateVisibilityU3Ed__3_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m6B9BF76EE0F3EE109D903D1CC4603C1079B54852 (U3CUpdateVisibilityU3Ed__3_t2FDB225F2F983039E37101E33F3BC67B81216319* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5009,7 +5009,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CUpdateVisibilityU3Ed__3_Sys
 		return L_0;
 	}
 }
-// Method Definition Index: 79892
+// Method Definition Index: 79915
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUpdateVisibilityU3Ed__3_System_Collections_IEnumerator_Reset_mE90FA4F39FFB68E111BAB911C2F2E2E5B06EC52C (U3CUpdateVisibilityU3Ed__3_t2FDB225F2F983039E37101E33F3BC67B81216319* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5018,7 +5018,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUpdateVisibilityU3Ed__3_System_Collec
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CUpdateVisibilityU3Ed__3_System_Collections_IEnumerator_Reset_mE90FA4F39FFB68E111BAB911C2F2E2E5B06EC52C_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 79893
+// Method Definition Index: 79916
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CUpdateVisibilityU3Ed__3_System_Collections_IEnumerator_get_Current_mB55FFDFB0BD72808EF6E1A814A5B2185B9CFAE7F (U3CUpdateVisibilityU3Ed__3_t2FDB225F2F983039E37101E33F3BC67B81216319* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5034,20 +5034,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CUpdateVisibilityU3Ed__3_Sys
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 79894
+// Method Definition Index: 79917
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD ActionToVisibilityISX_get_actionReference_m99FC11C7A7585AFEBC4405CE2815E01019208638 (ActionToVisibilityISX_tE7F3FE5CAAE14121AD0FAEEAC7AC44817F7CD487* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibilityISX.cs:9>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibilityISX.cs:9>
 		InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD L_0 = __this->___m_ActionReference;
 		return L_0;
 	}
 }
-// Method Definition Index: 79895
+// Method Definition Index: 79918
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToVisibilityISX_set_actionReference_mDC1B1564602367F3CBC96D65D9983728887622F9 (ActionToVisibilityISX_tE7F3FE5CAAE14121AD0FAEEAC7AC44817F7CD487* __this, InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibilityISX.cs:9>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibilityISX.cs:9>
 		InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD L_0 = ___0_value;
 		__this->___m_ActionReference = L_0;
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___m_ActionReference))->___m_Action), (void*)NULL);
@@ -5057,31 +5057,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToVisibilityISX_set_actionReferenc
 		return;
 	}
 }
-// Method Definition Index: 79896
+// Method Definition Index: 79919
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ActionToVisibilityISX_get_targetGameObject_mD4378331B0284E1A1B4133CE29250FE67258A789 (ActionToVisibilityISX_tE7F3FE5CAAE14121AD0FAEEAC7AC44817F7CD487* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibilityISX.cs:14>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibilityISX.cs:14>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___m_TargetGameobject;
 		return L_0;
 	}
 }
-// Method Definition Index: 79897
+// Method Definition Index: 79920
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToVisibilityISX_set_targetGameObject_m39D42C98A3D2691BE7344DCA82C7A020CC855B6F (ActionToVisibilityISX_tE7F3FE5CAAE14121AD0FAEEAC7AC44817F7CD487* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibilityISX.cs:14>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibilityISX.cs:14>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_value;
 		__this->___m_TargetGameobject = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_TargetGameobject), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 79898
+// Method Definition Index: 79921
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToVisibilityISX_Start_m78F6704DF3C67062E225DD811C7E7DB76193E031 (ActionToVisibilityISX_tE7F3FE5CAAE14121AD0FAEEAC7AC44817F7CD487* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibilityISX.cs:18>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibilityISX.cs:18>
 		InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD L_0 = __this->___m_ActionReference;
 		InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD* L_1 = (InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD*)(&__this->___m_ActionReference);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_2;
@@ -5092,7 +5092,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToVisibilityISX_Start_m78F6704DF3C
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibilityISX.cs:19>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibilityISX.cs:19>
 		InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD* L_3 = (InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD*)(&__this->___m_ActionReference);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_4;
 		L_4 = InputActionProperty_get_action_mABF2197D9CC6586E5DFB0481CF9C1B2586F41A47(L_3, NULL);
@@ -5102,11 +5102,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToVisibilityISX_Start_m78F6704DF3C
 
 IL_0024:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibilityISX.cs:20>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibilityISX.cs:20>
 		return;
 	}
 }
-// Method Definition Index: 79899
+// Method Definition Index: 79922
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToVisibilityISX_Update_mF8E06A963CE07EFAFCBD7EFC96CD318D43F87F1C (ActionToVisibilityISX_tE7F3FE5CAAE14121AD0FAEEAC7AC44817F7CD487* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5119,7 +5119,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToVisibilityISX_Update_mF8E06A963C
 	ReadOnlyArray_1_tA1DF7A256AD2BF17FB155224CB2611ED215EFCD3 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibilityISX.cs:24>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibilityISX.cs:24>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___m_TargetGameobject;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -5130,16 +5130,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToVisibilityISX_Update_mF8E06A963C
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibilityISX.cs:25>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibilityISX.cs:25>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibilityISX.cs:27>
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibilityISX.cs:28>
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibilityISX.cs:29>
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibilityISX.cs:30>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibilityISX.cs:27>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibilityISX.cs:28>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibilityISX.cs:29>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibilityISX.cs:30>
 		InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD L_2 = __this->___m_ActionReference;
 		InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD* L_3 = (InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD*)(&__this->___m_ActionReference);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_4;
@@ -5177,25 +5177,25 @@ IL_000f:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibilityISX.cs:32>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibilityISX.cs:32>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = __this->___m_TargetGameobject;
 		NullCheck(L_12);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_12, (bool)1, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibilityISX.cs:33>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibilityISX.cs:33>
 		return;
 	}
 
 IL_005d:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibilityISX.cs:38>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibilityISX.cs:38>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = __this->___m_TargetGameobject;
 		NullCheck(L_13);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_13, (bool)0, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibilityISX.cs:40>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVisibilityISX.cs:40>
 		return;
 	}
 }
-// Method Definition Index: 79900
+// Method Definition Index: 79923
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToVisibilityISX__ctor_m99C5847A3BC1AD1B114D2583E4E1D3BF3A93A8E6 (ActionToVisibilityISX_tE7F3FE5CAAE14121AD0FAEEAC7AC44817F7CD487* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5211,18 +5211,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActionToVisibilityISX__ctor_m99C5847A3BC
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 79901
+// Method Definition Index: 79924
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticTrackingModeChanger_OnEnable_mFF934E6937B5B01F55705D3300BA98BECC6740E4 (AutomaticTrackingModeChanger_t6B262B9AF83228D5FF56EB10DBD11B06221C545E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:18>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:18>
 		float L_0 = __this->___m_ChangeInterval;
 		__this->___m_TimeRemainingTillChange = L_0;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:19>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:19>
 		return;
 	}
 }
-// Method Definition Index: 79902
+// Method Definition Index: 79925
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticTrackingModeChanger_Update_m7723C0BDA82D61809D568BDC05701666183E42BA (AutomaticTrackingModeChanger_t6B262B9AF83228D5FF56EB10DBD11B06221C545E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5240,12 +5240,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticTrackingModeChanger_Update_m772
 	List_1_t90832B88D7207769654164CC28440CF594CC397D* G_B2_0 = NULL;
 	XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34* G_B4_0 = NULL;
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:23>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:23>
 		float L_0 = __this->___m_TimeRemainingTillChange;
 		float L_1;
 		L_1 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		__this->___m_TimeRemainingTillChange = ((float)il2cpp_codegen_subtract(L_0, L_1));
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:24>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:24>
 		float L_2 = __this->___m_TimeRemainingTillChange;
 		if ((!(((float)L_2) <= ((float)(0.0f)))))
 		{
@@ -5253,14 +5253,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticTrackingModeChanger_Update_m772
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:26>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:26>
 		List_1_t90832B88D7207769654164CC28440CF594CC397D* L_3 = (List_1_t90832B88D7207769654164CC28440CF594CC397D*)il2cpp_codegen_object_new(List_1_t90832B88D7207769654164CC28440CF594CC397D_il2cpp_TypeInfo_var);
 		List_1__ctor_mC249FC827BC3BE999A938F8B5BD884F8AA0CB7FA(L_3, List_1__ctor_mC249FC827BC3BE999A938F8B5BD884F8AA0CB7FA_RuntimeMethod_var);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:27>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:27>
 		List_1_t90832B88D7207769654164CC28440CF594CC397D* L_4 = L_3;
 		il2cpp_codegen_runtime_class_init_inline(SubsystemManager_t9A7261E4D0B53B996F04B8707D8E1C33AB65E824_il2cpp_TypeInfo_var);
 		SubsystemManager_GetSubsystems_TisXRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34_m9B556FE7439236CF6F5643A62BC660E4E6DE1CDE(L_4, SubsystemManager_GetSubsystems_TisXRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34_m9B556FE7439236CF6F5643A62BC660E4E6DE1CDE_RuntimeMethod_var);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:28>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:28>
 		List_1_t90832B88D7207769654164CC28440CF594CC397D* L_5 = L_4;
 		if (L_5)
 		{
@@ -5285,7 +5285,7 @@ IL_0031:
 IL_0037:
 	{
 		V_0 = G_B4_0;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:29>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:29>
 		XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34* L_7 = V_0;
 		if (!L_7)
 		{
@@ -5293,17 +5293,17 @@ IL_0037:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:31>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:31>
 		XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34* L_8 = V_0;
 		AutomaticTrackingModeChanger_UpdateSupportedTrackingOriginModes_m2904D009FDFA92064D2CA49A88AA381F80C2083E(__this, L_8, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:32>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:32>
 		XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34* L_9 = V_0;
 		AutomaticTrackingModeChanger_SetToNextMode_mAB5B22C48C5D451442AD304F2E61173376BD0068(__this, L_9, NULL);
 	}
 
 IL_0049:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:34>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:34>
 		float L_10 = __this->___m_TimeRemainingTillChange;
 		float L_11 = __this->___m_ChangeInterval;
 		__this->___m_TimeRemainingTillChange = ((float)il2cpp_codegen_add(L_10, L_11));
@@ -5311,11 +5311,11 @@ IL_0049:
 
 IL_005c:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:36>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:36>
 		return;
 	}
 }
-// Method Definition Index: 79903
+// Method Definition Index: 79926
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticTrackingModeChanger_UpdateSupportedTrackingOriginModes_m2904D009FDFA92064D2CA49A88AA381F80C2083E (AutomaticTrackingModeChanger_t6B262B9AF83228D5FF56EB10DBD11B06221C545E* __this, XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34* ___0_subsystem, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5330,28 +5330,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticTrackingModeChanger_UpdateSuppo
 	int32_t V_1 = 0;
 	uint32_t V_2 = 0;
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:40>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:40>
 		XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34* L_0 = ___0_subsystem;
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = XRInputSubsystem_GetSupportedTrackingOriginModes_mBA7190E84E6BB4F251C232B97565E228AECB3018(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:41>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:41>
 		il2cpp_codegen_runtime_class_init_inline(AutomaticTrackingModeChanger_t6B262B9AF83228D5FF56EB10DBD11B06221C545E_il2cpp_TypeInfo_var);
 		List_1_t42E0E1BCD95D9D2D6866B8FA81DEF846638F10B6* L_2 = ((AutomaticTrackingModeChanger_t6B262B9AF83228D5FF56EB10DBD11B06221C545E_StaticFields*)il2cpp_codegen_static_fields_for(AutomaticTrackingModeChanger_t6B262B9AF83228D5FF56EB10DBD11B06221C545E_il2cpp_TypeInfo_var))->___s_SupportedTrackingOriginModes;
 		NullCheck(L_2);
 		List_1_Clear_m85284719A74AA8E5DAE21C7EF4DC61200AEFF414_inline(L_2, List_1_Clear_m85284719A74AA8E5DAE21C7EF4DC61200AEFF414_RuntimeMethod_var);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:42>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:42>
 		V_1 = 0;
 		goto IL_0030;
 	}
 
 IL_0015:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:44>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:44>
 		int32_t L_3 = V_1;
 		V_2 = ((int32_t)(1<<((int32_t)(L_3&((int32_t)31)))));
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:45>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:45>
 		uint32_t L_4 = V_2;
 		int32_t L_5 = V_0;
 		if (!((int32_t)((int32_t)L_4&(int32_t)L_5)))
@@ -5360,7 +5360,7 @@ IL_0015:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:47>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:47>
 		il2cpp_codegen_runtime_class_init_inline(AutomaticTrackingModeChanger_t6B262B9AF83228D5FF56EB10DBD11B06221C545E_il2cpp_TypeInfo_var);
 		List_1_t42E0E1BCD95D9D2D6866B8FA81DEF846638F10B6* L_6 = ((AutomaticTrackingModeChanger_t6B262B9AF83228D5FF56EB10DBD11B06221C545E_StaticFields*)il2cpp_codegen_static_fields_for(AutomaticTrackingModeChanger_t6B262B9AF83228D5FF56EB10DBD11B06221C545E_il2cpp_TypeInfo_var))->___s_SupportedTrackingOriginModes;
 		uint32_t L_7 = V_2;
@@ -5370,14 +5370,14 @@ IL_0015:
 
 IL_002c:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:42>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:42>
 		int32_t L_8 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_8, 1));
 	}
 
 IL_0030:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:42>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:42>
 		int32_t L_9 = V_1;
 		if ((((int32_t)L_9) < ((int32_t)((int32_t)31))))
 		{
@@ -5385,11 +5385,11 @@ IL_0030:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:50>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:50>
 		return;
 	}
 }
-// Method Definition Index: 79904
+// Method Definition Index: 79927
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticTrackingModeChanger_SetToNextMode_mAB5B22C48C5D451442AD304F2E61173376BD0068 (AutomaticTrackingModeChanger_t6B262B9AF83228D5FF56EB10DBD11B06221C545E* __this, XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34* ___0_subsystem, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5404,20 +5404,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticTrackingModeChanger_SetToNextMo
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:54>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:54>
 		XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34* L_0 = ___0_subsystem;
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = XRInputSubsystem_GetTrackingOriginMode_mBAFED615F74039A681825BB956AD3C8FA7DE45F2(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:55>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:55>
 		V_1 = 0;
 		goto IL_003f;
 	}
 
 IL_000b:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:57>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:57>
 		int32_t L_2 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(AutomaticTrackingModeChanger_t6B262B9AF83228D5FF56EB10DBD11B06221C545E_il2cpp_TypeInfo_var);
 		List_1_t42E0E1BCD95D9D2D6866B8FA81DEF846638F10B6* L_3 = ((AutomaticTrackingModeChanger_t6B262B9AF83228D5FF56EB10DBD11B06221C545E_StaticFields*)il2cpp_codegen_static_fields_for(AutomaticTrackingModeChanger_t6B262B9AF83228D5FF56EB10DBD11B06221C545E_il2cpp_TypeInfo_var))->___s_SupportedTrackingOriginModes;
@@ -5431,7 +5431,7 @@ IL_000b:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:59>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:59>
 		int32_t L_6 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(AutomaticTrackingModeChanger_t6B262B9AF83228D5FF56EB10DBD11B06221C545E_il2cpp_TypeInfo_var);
 		List_1_t42E0E1BCD95D9D2D6866B8FA81DEF846638F10B6* L_7 = ((AutomaticTrackingModeChanger_t6B262B9AF83228D5FF56EB10DBD11B06221C545E_StaticFields*)il2cpp_codegen_static_fields_for(AutomaticTrackingModeChanger_t6B262B9AF83228D5FF56EB10DBD11B06221C545E_il2cpp_TypeInfo_var))->___s_SupportedTrackingOriginModes;
@@ -5439,7 +5439,7 @@ IL_000b:
 		int32_t L_8;
 		L_8 = List_1_get_Count_mE1C6C5D92833BFC72592E3C236933A0298504491_inline(L_7, List_1_get_Count_mE1C6C5D92833BFC72592E3C236933A0298504491_RuntimeMethod_var);
 		V_2 = ((int32_t)(((int32_t)il2cpp_codegen_add(L_6, 1))%L_8));
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:60>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:60>
 		XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34* L_9 = ___0_subsystem;
 		List_1_t42E0E1BCD95D9D2D6866B8FA81DEF846638F10B6* L_10 = ((AutomaticTrackingModeChanger_t6B262B9AF83228D5FF56EB10DBD11B06221C545E_StaticFields*)il2cpp_codegen_static_fields_for(AutomaticTrackingModeChanger_t6B262B9AF83228D5FF56EB10DBD11B06221C545E_il2cpp_TypeInfo_var))->___s_SupportedTrackingOriginModes;
 		int32_t L_11 = V_2;
@@ -5449,20 +5449,20 @@ IL_000b:
 		NullCheck(L_9);
 		bool L_13;
 		L_13 = XRInputSubsystem_TrySetTrackingOriginMode_m132C190CEAE4403A381BF1C1C4B5FF349F2A3FA7(L_9, L_12, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:61>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:61>
 		return;
 	}
 
 IL_003b:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:55>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:55>
 		int32_t L_14 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_14, 1));
 	}
 
 IL_003f:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:55>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:55>
 		int32_t L_15 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(AutomaticTrackingModeChanger_t6B262B9AF83228D5FF56EB10DBD11B06221C545E_il2cpp_TypeInfo_var);
 		List_1_t42E0E1BCD95D9D2D6866B8FA81DEF846638F10B6* L_16 = ((AutomaticTrackingModeChanger_t6B262B9AF83228D5FF56EB10DBD11B06221C545E_StaticFields*)il2cpp_codegen_static_fields_for(AutomaticTrackingModeChanger_t6B262B9AF83228D5FF56EB10DBD11B06221C545E_il2cpp_TypeInfo_var))->___s_SupportedTrackingOriginModes;
@@ -5475,21 +5475,21 @@ IL_003f:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:64>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:64>
 		return;
 	}
 }
-// Method Definition Index: 79905
+// Method Definition Index: 79928
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticTrackingModeChanger__ctor_mA1300830FCEB5EC466EDE71F549F50D03A222680 (AutomaticTrackingModeChanger_t6B262B9AF83228D5FF56EB10DBD11B06221C545E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:9>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:9>
 		__this->___m_ChangeInterval = (5.0f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}
 }
-// Method Definition Index: 79906
+// Method Definition Index: 79929
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticTrackingModeChanger__cctor_m6A94109943EE1A10D7C1FD10B516B64EE7B18ABC (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5503,12 +5503,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticTrackingModeChanger__cctor_m6A9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:13>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:13>
 		List_1_t90832B88D7207769654164CC28440CF594CC397D* L_0 = (List_1_t90832B88D7207769654164CC28440CF594CC397D*)il2cpp_codegen_object_new(List_1_t90832B88D7207769654164CC28440CF594CC397D_il2cpp_TypeInfo_var);
 		List_1__ctor_mC249FC827BC3BE999A938F8B5BD884F8AA0CB7FA(L_0, List_1__ctor_mC249FC827BC3BE999A938F8B5BD884F8AA0CB7FA_RuntimeMethod_var);
 		((AutomaticTrackingModeChanger_t6B262B9AF83228D5FF56EB10DBD11B06221C545E_StaticFields*)il2cpp_codegen_static_fields_for(AutomaticTrackingModeChanger_t6B262B9AF83228D5FF56EB10DBD11B06221C545E_il2cpp_TypeInfo_var))->___s_InputSubsystems = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((AutomaticTrackingModeChanger_t6B262B9AF83228D5FF56EB10DBD11B06221C545E_StaticFields*)il2cpp_codegen_static_fields_for(AutomaticTrackingModeChanger_t6B262B9AF83228D5FF56EB10DBD11B06221C545E_il2cpp_TypeInfo_var))->___s_InputSubsystems), (void*)L_0);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:14>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/AutomaticTrackingModeChanger.cs:14>
 		List_1_t42E0E1BCD95D9D2D6866B8FA81DEF846638F10B6* L_1 = (List_1_t42E0E1BCD95D9D2D6866B8FA81DEF846638F10B6*)il2cpp_codegen_object_new(List_1_t42E0E1BCD95D9D2D6866B8FA81DEF846638F10B6_il2cpp_TypeInfo_var);
 		List_1__ctor_m97279BB1B51D370C9C3886359857FB7E0662F8E5(L_1, List_1__ctor_m97279BB1B51D370C9C3886359857FB7E0662F8E5_RuntimeMethod_var);
 		((AutomaticTrackingModeChanger_t6B262B9AF83228D5FF56EB10DBD11B06221C545E_StaticFields*)il2cpp_codegen_static_fields_for(AutomaticTrackingModeChanger_t6B262B9AF83228D5FF56EB10DBD11B06221C545E_il2cpp_TypeInfo_var))->___s_SupportedTrackingOriginModes = L_1;
@@ -5524,20 +5524,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AutomaticTrackingModeChanger__cctor_m6A9
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 79907
+// Method Definition Index: 79930
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD DisplayDeviceInfoFromActionISX_get_property_mB84DEB04ECAFDEA7586D2B36F5BC9E731AB1DCD1 (DisplayDeviceInfoFromActionISX_t9847E7957947920C4E9FBCEAC190507B61E470C0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:10>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:10>
 		InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD L_0 = __this->___m_Property;
 		return L_0;
 	}
 }
-// Method Definition Index: 79908
+// Method Definition Index: 79931
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisplayDeviceInfoFromActionISX_set_property_m9086B053D28E9B2D26432937AB165C7719FCD007 (DisplayDeviceInfoFromActionISX_t9847E7957947920C4E9FBCEAC190507B61E470C0* __this, InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:10>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:10>
 		InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD L_0 = ___0_value;
 		__this->___m_Property = L_0;
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___m_Property))->___m_Action), (void*)NULL);
@@ -5547,49 +5547,49 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisplayDeviceInfoFromActionISX_set_prope
 		return;
 	}
 }
-// Method Definition Index: 79909
+// Method Definition Index: 79932
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* DisplayDeviceInfoFromActionISX_get_rootObject_m29BB32F84354AE06ABB37CBE777607DF2412A4B1 (DisplayDeviceInfoFromActionISX_t9847E7957947920C4E9FBCEAC190507B61E470C0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:14>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:14>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___m_RootObject;
 		return L_0;
 	}
 }
-// Method Definition Index: 79910
+// Method Definition Index: 79933
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisplayDeviceInfoFromActionISX_set_rootObject_m1D0B181C1815FCCDBE1FF6C34B37434B0BA971A6 (DisplayDeviceInfoFromActionISX_t9847E7957947920C4E9FBCEAC190507B61E470C0* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:14>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:14>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_value;
 		__this->___m_RootObject = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_RootObject), (void*)L_0);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:14>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:14>
 		return;
 	}
 }
-// Method Definition Index: 79911
+// Method Definition Index: 79934
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* DisplayDeviceInfoFromActionISX_get_targetText_m3276642B74362061688F3817AC0FA34287703ADB (DisplayDeviceInfoFromActionISX_t9847E7957947920C4E9FBCEAC190507B61E470C0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:18>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:18>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___m_TargetText;
 		return L_0;
 	}
 }
-// Method Definition Index: 79912
+// Method Definition Index: 79935
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisplayDeviceInfoFromActionISX_set_targetText_mD293D5B927EBAA908B98FB6947C6E5A4C4CC2B22 (DisplayDeviceInfoFromActionISX_t9847E7957947920C4E9FBCEAC190507B61E470C0* __this, Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:18>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:18>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = ___0_value;
 		__this->___m_TargetText = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_TargetText), (void*)L_0);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:18>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:18>
 		return;
 	}
 }
-// Method Definition Index: 79913
+// Method Definition Index: 79936
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisplayDeviceInfoFromActionISX_OnEnable_mC24FBA4CFBA607E0EA0B5798CBBADFC87E422DC5 (DisplayDeviceInfoFromActionISX_t9847E7957947920C4E9FBCEAC190507B61E470C0* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5601,7 +5601,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisplayDeviceInfoFromActionISX_OnEnable_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:22>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:22>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0;
 		L_0 = DisplayDeviceInfoFromActionISX_get_targetText_m3276642B74362061688F3817AC0FA34287703ADB_inline(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -5613,18 +5613,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisplayDeviceInfoFromActionISX_OnEnable_
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:23>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:23>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteralEDF950C7FD6FD60A8F4D9D41F8D39DC465CF3ADB, NULL);
 	}
 
 IL_0018:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:24>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:24>
 		return;
 	}
 }
-// Method Definition Index: 79914
+// Method Definition Index: 79937
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisplayDeviceInfoFromActionISX_Update_m1E4EF4A316C7EA6BE68FD81A075A403AAADD971F (DisplayDeviceInfoFromActionISX_t9847E7957947920C4E9FBCEAC190507B61E470C0* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5655,7 +5655,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisplayDeviceInfoFromActionISX_Update_m1
 	InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 V_5;
 	memset((&V_5), 0, sizeof(V_5));
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:28>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:28>
 		InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD L_0 = __this->___m_Property;
 		InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD* L_1 = (InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD*)(&__this->___m_Property);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_2;
@@ -5681,7 +5681,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisplayDeviceInfoFromActionISX_Update_m1
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:30>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:30>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->___m_RootObject;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_8;
@@ -5692,7 +5692,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisplayDeviceInfoFromActionISX_Update_m1
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:31>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:31>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = __this->___m_RootObject;
 		NullCheck(L_9);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_9, (bool)1, NULL);
@@ -5700,7 +5700,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisplayDeviceInfoFromActionISX_Update_m1
 
 IL_004f:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:34>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:34>
 		InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD* L_10 = (InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD*)(&__this->___m_Property);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_11;
 		L_11 = InputActionProperty_get_action_mABF2197D9CC6586E5DFB0481CF9C1B2586F41A47(L_10, NULL);
@@ -5714,7 +5714,7 @@ IL_004f:
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_14;
 		L_14 = InputControl_get_device_mAB3E013F566CF3407B8C36BC781EBD751DFAB324_inline(L_13, NULL);
 		V_1 = L_14;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:35>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:35>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_15;
 		L_15 = DisplayDeviceInfoFromActionISX_get_targetText_m3276642B74362061688F3817AC0FA34287703ADB_inline(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -5726,7 +5726,7 @@ IL_004f:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:37>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:37>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_17 = __this->___m_TargetText;
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_18 = V_1;
 		NullCheck(L_18);
@@ -5742,9 +5742,9 @@ IL_004f:
 		L_24 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralDEE28C18494D794852D03319FBBEB5AF85D7B86E, L_19, L_23, NULL);
 		NullCheck(L_17);
 		VirtualActionInvoker1< String_t* >::Invoke(75, L_17, L_24);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:38>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:38>
 		V_2 = (bool)0;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:39>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:39>
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_25 = V_1;
 		NullCheck(L_25);
 		ReadOnlyArray_1_t1C2864D7CF4D444AB2616316AC8DD33932F77064 L_26;
@@ -5772,11 +5772,11 @@ FINALLY_0122:
 
 IL_00b9_1:
 			{
-				//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:39>
+				//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:39>
 				InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_28;
 				L_28 = Enumerator_get_Current_m2B01581AC51B1F0C02CD201096E09A39D4D7294D((&V_3), Enumerator_get_Current_m2B01581AC51B1F0C02CD201096E09A39D4D7294D_RuntimeMethod_var);
 				V_5 = L_28;
-				//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:41>
+				//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:41>
 				bool L_29 = V_2;
 				if (L_29)
 				{
@@ -5784,9 +5784,9 @@ IL_00b9_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:43>
+				//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:43>
 				V_2 = (bool)1;
-				//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:44>
+				//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:44>
 				Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_30 = __this->___m_TargetText;
 				Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_31 = L_30;
 				NullCheck(L_31);
@@ -5806,7 +5806,7 @@ IL_00b9_1:
 
 IL_00f0_1:
 			{
-				//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:48>
+				//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:48>
 				Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_38 = __this->___m_TargetText;
 				Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_39 = L_38;
 				NullCheck(L_39);
@@ -5825,7 +5825,7 @@ IL_00f0_1:
 
 IL_0117_1:
 			{
-				//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:39>
+				//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:39>
 				bool L_46;
 				L_46 = Enumerator_MoveNext_m7C82D326DCEA75ECE1975B8EECF58D0AAE7D6995((&V_3), Enumerator_MoveNext_m7C82D326DCEA75ECE1975B8EECF58D0AAE7D6995_RuntimeMethod_var);
 				if (L_46)
@@ -5845,7 +5845,7 @@ IL_0117_1:
 
 IL_0130:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:52>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:52>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_47 = __this->___m_TargetText;
 		NullCheck(L_47);
 		String_t* L_48;
@@ -5859,7 +5859,7 @@ IL_0130:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:53>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:53>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_50 = __this->___m_TargetText;
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_51 = __this->___m_TargetText;
 		NullCheck(L_51);
@@ -5874,13 +5874,13 @@ IL_0130:
 
 IL_0162:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:55>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:55>
 		return;
 	}
 
 IL_0163:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:59>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:59>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_54 = __this->___m_RootObject;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_55;
@@ -5891,7 +5891,7 @@ IL_0163:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:60>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:60>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_56 = __this->___m_RootObject;
 		NullCheck(L_56);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_56, (bool)0, NULL);
@@ -5899,7 +5899,7 @@ IL_0163:
 
 IL_017d:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:63>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:63>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_57 = __this->___m_TargetText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_58;
@@ -5910,7 +5910,7 @@ IL_017d:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:64>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:64>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_59 = __this->___m_TargetText;
 		NullCheck(L_59);
 		VirtualActionInvoker1< String_t* >::Invoke(75, L_59, _stringLiteralE8784EC976A4B025737B3623D61D326A638E6522);
@@ -5918,11 +5918,11 @@ IL_017d:
 
 IL_019b:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:66>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:66>
 		return;
 	}
 }
-// Method Definition Index: 79915
+// Method Definition Index: 79938
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisplayDeviceInfoFromActionISX__ctor_m4EB948181B51340BB8FA3E559D544EE8F912540D (DisplayDeviceInfoFromActionISX_t9847E7957947920C4E9FBCEAC190507B61E470C0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5938,7 +5938,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisplayDeviceInfoFromActionISX__ctor_m4E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 79916
+// Method Definition Index: 79939
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MarkLateLatchNode_Start_m1691267FA6849ED3793201A1AD22807ABB1542A1 (MarkLateLatchNode_t244931AA8A73DC3CFFE8EA2C356AA91BA207E123* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5960,15 +5960,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MarkLateLatchNode_Start_m1691267FA6849ED
 	List_1_tA7666C6690CE2AEE97571615AD3AFCE2BB020597* V_0 = NULL;
 	bool V_1 = false;
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/MarkLateLatchNode.cs:24>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/MarkLateLatchNode.cs:24>
 		List_1_tA7666C6690CE2AEE97571615AD3AFCE2BB020597* L_0 = (List_1_tA7666C6690CE2AEE97571615AD3AFCE2BB020597*)il2cpp_codegen_object_new(List_1_tA7666C6690CE2AEE97571615AD3AFCE2BB020597_il2cpp_TypeInfo_var);
 		List_1__ctor_mBE7647ECE0B8ABB952EDC379472F9E541D41D6DF(L_0, List_1__ctor_mBE7647ECE0B8ABB952EDC379472F9E541D41D6DF_RuntimeMethod_var);
 		V_0 = L_0;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/MarkLateLatchNode.cs:25>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/MarkLateLatchNode.cs:25>
 		List_1_tA7666C6690CE2AEE97571615AD3AFCE2BB020597* L_1 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(SubsystemManager_t9A7261E4D0B53B996F04B8707D8E1C33AB65E824_il2cpp_TypeInfo_var);
 		SubsystemManager_GetSubsystems_TisXRDisplaySubsystem_t4B00B0BF1894A039ACFA8DDC2C2EB9301118C1F1_mC46F1C6303FCBD97534E4A266593A5ED6AE5E164(L_1, SubsystemManager_GetSubsystems_TisXRDisplaySubsystem_t4B00B0BF1894A039ACFA8DDC2C2EB9301118C1F1_mC46F1C6303FCBD97534E4A266593A5ED6AE5E164_RuntimeMethod_var);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/MarkLateLatchNode.cs:27>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/MarkLateLatchNode.cs:27>
 		List_1_tA7666C6690CE2AEE97571615AD3AFCE2BB020597* L_2 = V_0;
 		NullCheck(L_2);
 		int32_t L_3;
@@ -5979,7 +5979,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MarkLateLatchNode_Start_m1691267FA6849ED
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/MarkLateLatchNode.cs:28>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/MarkLateLatchNode.cs:28>
 		List_1_tA7666C6690CE2AEE97571615AD3AFCE2BB020597* L_4 = V_0;
 		NullCheck(L_4);
 		XRDisplaySubsystem_t4B00B0BF1894A039ACFA8DDC2C2EB9301118C1F1* L_5;
@@ -5990,7 +5990,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MarkLateLatchNode_Start_m1691267FA6849ED
 
 IL_0022:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/MarkLateLatchNode.cs:29>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/MarkLateLatchNode.cs:29>
 		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_6 = __this->____ActionReference;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_7;
@@ -6001,7 +6001,7 @@ IL_0022:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/MarkLateLatchNode.cs:31>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/MarkLateLatchNode.cs:31>
 		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_8 = __this->____ActionReference;
 		NullCheck(L_8);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_9;
@@ -6010,7 +6010,7 @@ IL_0022:
 		bool L_10;
 		L_10 = OpenXRInput_TrySetControllerLateLatchAction_mA0E91512E6C1ADC536E811CDC67645DFD1AFA278(L_9, NULL);
 		V_1 = L_10;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/MarkLateLatchNode.cs:32>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/MarkLateLatchNode.cs:32>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_11 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)2);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_12 = L_11;
 		bool L_13 = V_1;
@@ -6030,17 +6030,17 @@ IL_0022:
 
 IL_0063:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/MarkLateLatchNode.cs:34>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/MarkLateLatchNode.cs:34>
 		return;
 	}
 }
-// Method Definition Index: 79917
+// Method Definition Index: 79940
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MarkLateLatchNode_Update_m5C4876FDD4F3D584583491F7FB42CCABB84A5273 (MarkLateLatchNode_t244931AA8A73DC3CFFE8EA2C356AA91BA207E123* __this, const RuntimeMethod* method) 
 {
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/MarkLateLatchNode.cs:39>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/MarkLateLatchNode.cs:39>
 		XRDisplaySubsystem_t4B00B0BF1894A039ACFA8DDC2C2EB9301118C1F1* L_0 = __this->___m_DisplaySubsystem;
 		if (!L_0)
 		{
@@ -6048,7 +6048,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MarkLateLatchNode_Update_m5C4876FDD4F3D5
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/MarkLateLatchNode.cs:41>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/MarkLateLatchNode.cs:41>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
 		L_1 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = L_1;
@@ -6062,25 +6062,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MarkLateLatchNode_Update_m5C4876FDD4F3D5
 		L_5 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_3, L_4, NULL);
 		NullCheck(L_2);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_2, L_5, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/MarkLateLatchNode.cs:42>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/MarkLateLatchNode.cs:42>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
 		L_6 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_6);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_7;
 		L_7 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_6, NULL);
 		V_0 = L_7;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/MarkLateLatchNode.cs:43>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/MarkLateLatchNode.cs:43>
 		float* L_8 = (float*)(&(&V_0)->___x);
 		float* L_9 = L_8;
 		float L_10 = *((float*)L_9);
 		*((float*)L_9) = (float)((float)il2cpp_codegen_add(L_10, (9.99999975E-06f)));
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/MarkLateLatchNode.cs:44>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/MarkLateLatchNode.cs:44>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11;
 		L_11 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_12 = V_0;
 		NullCheck(L_11);
 		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_11, L_12, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/MarkLateLatchNode.cs:45>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/MarkLateLatchNode.cs:45>
 		XRDisplaySubsystem_t4B00B0BF1894A039ACFA8DDC2C2EB9301118C1F1* L_13 = __this->___m_DisplaySubsystem;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_14;
 		L_14 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
@@ -6091,11 +6091,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MarkLateLatchNode_Update_m5C4876FDD4F3D5
 
 IL_0071:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/MarkLateLatchNode.cs:47>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/MarkLateLatchNode.cs:47>
 		return;
 	}
 }
-// Method Definition Index: 79918
+// Method Definition Index: 79941
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MarkLateLatchNode__ctor_mC815756AF97993110C4919BEE525063EC5967450 (MarkLateLatchNode_t244931AA8A73DC3CFFE8EA2C356AA91BA207E123* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6111,45 +6111,45 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MarkLateLatchNode__ctor_mC815756AF979931
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 79919
+// Method Definition Index: 79942
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TrackingModeOrigin_get_currentTrackingOriginMode_m34C590CA46D5E96F613FA76C98BCE5CAB63D59E0 (TrackingModeOrigin_t878B751BDEF45371F4E6AF07597ADA68E2ABB3DA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:26>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:26>
 		int32_t L_0 = __this->___m_CurrentTrackingOriginMode;
 		return L_0;
 	}
 }
-// Method Definition Index: 79920
+// Method Definition Index: 79943
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TrackingModeOrigin_get_desiredTrackingOriginMode_mE4A0D54C870F6D70B32552354BB7F9A56A1FD9B9 (TrackingModeOrigin_t878B751BDEF45371F4E6AF07597ADA68E2ABB3DA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:33>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:33>
 		int32_t L_0 = __this->___m_DesiredTrackingOriginMode;
 		return L_0;
 	}
 }
-// Method Definition Index: 79921
+// Method Definition Index: 79944
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackingModeOrigin_set_desiredTrackingOriginMode_mFA761435CD26916AA12625468D30858BC26B3151 (TrackingModeOrigin_t878B751BDEF45371F4E6AF07597ADA68E2ABB3DA* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:33>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:33>
 		int32_t L_0 = ___0_value;
 		__this->___m_DesiredTrackingOriginMode = L_0;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:33>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:33>
 		return;
 	}
 }
-// Method Definition Index: 79922
+// Method Definition Index: 79945
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TrackingModeOrigin_get_supportedTrackingOriginModes_m854C10674164D2AC526EF886B712BD56C2425B32 (TrackingModeOrigin_t878B751BDEF45371F4E6AF07597ADA68E2ABB3DA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:37>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:37>
 		int32_t L_0 = __this->___m_SupportedTrackingOriginModes;
 		return L_0;
 	}
 }
-// Method Definition Index: 79923
+// Method Definition Index: 79946
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackingModeOrigin_OnEnable_mCEB7DC2E27EEBB2287AF2DC9F0AE276C321D1C58 (TrackingModeOrigin_t878B751BDEF45371F4E6AF07597ADA68E2ABB3DA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6166,19 +6166,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackingModeOrigin_OnEnable_mCEB7DC2E27E
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:43>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:43>
 		il2cpp_codegen_runtime_class_init_inline(TrackingModeOrigin_t878B751BDEF45371F4E6AF07597ADA68E2ABB3DA_il2cpp_TypeInfo_var);
 		List_1_t90832B88D7207769654164CC28440CF594CC397D* L_0 = ((TrackingModeOrigin_t878B751BDEF45371F4E6AF07597ADA68E2ABB3DA_StaticFields*)il2cpp_codegen_static_fields_for(TrackingModeOrigin_t878B751BDEF45371F4E6AF07597ADA68E2ABB3DA_il2cpp_TypeInfo_var))->___s_InputSubsystems;
 		il2cpp_codegen_runtime_class_init_inline(SubsystemManager_t9A7261E4D0B53B996F04B8707D8E1C33AB65E824_il2cpp_TypeInfo_var);
 		SubsystemManager_GetSubsystems_TisXRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34_m9B556FE7439236CF6F5643A62BC660E4E6DE1CDE(L_0, SubsystemManager_GetSubsystems_TisXRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34_m9B556FE7439236CF6F5643A62BC660E4E6DE1CDE_RuntimeMethod_var);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:44>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:44>
 		V_0 = 0;
 		goto IL_002e;
 	}
 
 IL_000e:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:46>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:46>
 		il2cpp_codegen_runtime_class_init_inline(TrackingModeOrigin_t878B751BDEF45371F4E6AF07597ADA68E2ABB3DA_il2cpp_TypeInfo_var);
 		List_1_t90832B88D7207769654164CC28440CF594CC397D* L_1 = ((TrackingModeOrigin_t878B751BDEF45371F4E6AF07597ADA68E2ABB3DA_StaticFields*)il2cpp_codegen_static_fields_for(TrackingModeOrigin_t878B751BDEF45371F4E6AF07597ADA68E2ABB3DA_il2cpp_TypeInfo_var))->___s_InputSubsystems;
 		int32_t L_2 = V_0;
@@ -6189,14 +6189,14 @@ IL_000e:
 		Action_1__ctor_m06CD1A5164C93280C6A23D8435BF77A89B8E4B0F(L_4, __this, (intptr_t)((void*)TrackingModeOrigin_TrackingOriginUpdated_mBC94899E00926385C9E9C288C17C41681FB7E856_RuntimeMethod_var), NULL);
 		NullCheck(L_3);
 		XRInputSubsystem_add_trackingOriginUpdated_mA5E69767B6E8D505BE73804A4B4EA738A27F675E(L_3, L_4, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:44>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:44>
 		int32_t L_5 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_5, 1));
 	}
 
 IL_002e:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:44>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:44>
 		int32_t L_6 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(TrackingModeOrigin_t878B751BDEF45371F4E6AF07597ADA68E2ABB3DA_il2cpp_TypeInfo_var);
 		List_1_t90832B88D7207769654164CC28440CF594CC397D* L_7 = ((TrackingModeOrigin_t878B751BDEF45371F4E6AF07597ADA68E2ABB3DA_StaticFields*)il2cpp_codegen_static_fields_for(TrackingModeOrigin_t878B751BDEF45371F4E6AF07597ADA68E2ABB3DA_il2cpp_TypeInfo_var))->___s_InputSubsystems;
@@ -6209,11 +6209,11 @@ IL_002e:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:52>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:52>
 		return;
 	}
 }
-// Method Definition Index: 79924
+// Method Definition Index: 79947
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackingModeOrigin_OnDisable_m43B682A77CDB76062DF8B75BCFE8FD4BEE825ED6 (TrackingModeOrigin_t878B751BDEF45371F4E6AF07597ADA68E2ABB3DA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6230,19 +6230,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackingModeOrigin_OnDisable_m43B682A77C
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:56>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:56>
 		il2cpp_codegen_runtime_class_init_inline(TrackingModeOrigin_t878B751BDEF45371F4E6AF07597ADA68E2ABB3DA_il2cpp_TypeInfo_var);
 		List_1_t90832B88D7207769654164CC28440CF594CC397D* L_0 = ((TrackingModeOrigin_t878B751BDEF45371F4E6AF07597ADA68E2ABB3DA_StaticFields*)il2cpp_codegen_static_fields_for(TrackingModeOrigin_t878B751BDEF45371F4E6AF07597ADA68E2ABB3DA_il2cpp_TypeInfo_var))->___s_InputSubsystems;
 		il2cpp_codegen_runtime_class_init_inline(SubsystemManager_t9A7261E4D0B53B996F04B8707D8E1C33AB65E824_il2cpp_TypeInfo_var);
 		SubsystemManager_GetSubsystems_TisXRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34_m9B556FE7439236CF6F5643A62BC660E4E6DE1CDE(L_0, SubsystemManager_GetSubsystems_TisXRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34_m9B556FE7439236CF6F5643A62BC660E4E6DE1CDE_RuntimeMethod_var);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:57>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:57>
 		V_0 = 0;
 		goto IL_002e;
 	}
 
 IL_000e:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:59>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:59>
 		il2cpp_codegen_runtime_class_init_inline(TrackingModeOrigin_t878B751BDEF45371F4E6AF07597ADA68E2ABB3DA_il2cpp_TypeInfo_var);
 		List_1_t90832B88D7207769654164CC28440CF594CC397D* L_1 = ((TrackingModeOrigin_t878B751BDEF45371F4E6AF07597ADA68E2ABB3DA_StaticFields*)il2cpp_codegen_static_fields_for(TrackingModeOrigin_t878B751BDEF45371F4E6AF07597ADA68E2ABB3DA_il2cpp_TypeInfo_var))->___s_InputSubsystems;
 		int32_t L_2 = V_0;
@@ -6253,14 +6253,14 @@ IL_000e:
 		Action_1__ctor_m06CD1A5164C93280C6A23D8435BF77A89B8E4B0F(L_4, __this, (intptr_t)((void*)TrackingModeOrigin_TrackingOriginUpdated_mBC94899E00926385C9E9C288C17C41681FB7E856_RuntimeMethod_var), NULL);
 		NullCheck(L_3);
 		XRInputSubsystem_remove_trackingOriginUpdated_m6A04D2813F1D4A37C013BA00EBC862D1EEA7473E(L_3, L_4, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:57>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:57>
 		int32_t L_5 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_5, 1));
 	}
 
 IL_002e:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:57>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:57>
 		int32_t L_6 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(TrackingModeOrigin_t878B751BDEF45371F4E6AF07597ADA68E2ABB3DA_il2cpp_TypeInfo_var);
 		List_1_t90832B88D7207769654164CC28440CF594CC397D* L_7 = ((TrackingModeOrigin_t878B751BDEF45371F4E6AF07597ADA68E2ABB3DA_StaticFields*)il2cpp_codegen_static_fields_for(TrackingModeOrigin_t878B751BDEF45371F4E6AF07597ADA68E2ABB3DA_il2cpp_TypeInfo_var))->___s_InputSubsystems;
@@ -6273,11 +6273,11 @@ IL_002e:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:61>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:61>
 		return;
 	}
 }
-// Method Definition Index: 79925
+// Method Definition Index: 79948
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackingModeOrigin_OnDesiredSelectionChanged_m533161D07149D732DD1BB88768C07425C7E1E2CD (TrackingModeOrigin_t878B751BDEF45371F4E6AF07597ADA68E2ABB3DA* __this, int32_t ___0_newValue, const RuntimeMethod* method) 
 {
 	TrackingModeOrigin_t878B751BDEF45371F4E6AF07597ADA68E2ABB3DA* G_B2_0 = NULL;
@@ -6285,7 +6285,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackingModeOrigin_OnDesiredSelectionCha
 	int32_t G_B3_0 = 0;
 	TrackingModeOrigin_t878B751BDEF45371F4E6AF07597ADA68E2ABB3DA* G_B3_1 = NULL;
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:65>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:65>
 		int32_t L_0 = ___0_newValue;
 		if (!L_0)
 		{
@@ -6311,23 +6311,23 @@ IL_000f:
 	{
 		NullCheck(G_B3_1);
 		TrackingModeOrigin_set_desiredTrackingOriginMode_mFA761435CD26916AA12625468D30858BC26B3151_inline(G_B3_1, G_B3_0, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:66>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:66>
 		return;
 	}
 }
-// Method Definition Index: 79926
+// Method Definition Index: 79949
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackingModeOrigin_TrackingOriginUpdated_mBC94899E00926385C9E9C288C17C41681FB7E856 (TrackingModeOrigin_t878B751BDEF45371F4E6AF07597ADA68E2ABB3DA* __this, XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34* ___0_obj, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:70>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:70>
 		float L_0;
 		L_0 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		__this->___m_LastRecenteredTime = L_0;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:71>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:71>
 		return;
 	}
 }
-// Method Definition Index: 79927
+// Method Definition Index: 79950
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackingModeOrigin_Update_mC7B13D197F3B75E8931F3778CACB60A9DAA64E32 (TrackingModeOrigin_t878B751BDEF45371F4E6AF07597ADA68E2ABB3DA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6353,14 +6353,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackingModeOrigin_Update_mC7B13D197F3B7
 	int32_t G_B11_0 = 0;
 	TrackingModeOrigin_t878B751BDEF45371F4E6AF07597ADA68E2ABB3DA* G_B11_1 = NULL;
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:75>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:75>
 		V_0 = (XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34*)NULL;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:77>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:77>
 		il2cpp_codegen_runtime_class_init_inline(TrackingModeOrigin_t878B751BDEF45371F4E6AF07597ADA68E2ABB3DA_il2cpp_TypeInfo_var);
 		List_1_t90832B88D7207769654164CC28440CF594CC397D* L_0 = ((TrackingModeOrigin_t878B751BDEF45371F4E6AF07597ADA68E2ABB3DA_StaticFields*)il2cpp_codegen_static_fields_for(TrackingModeOrigin_t878B751BDEF45371F4E6AF07597ADA68E2ABB3DA_il2cpp_TypeInfo_var))->___s_InputSubsystems;
 		il2cpp_codegen_runtime_class_init_inline(SubsystemManager_t9A7261E4D0B53B996F04B8707D8E1C33AB65E824_il2cpp_TypeInfo_var);
 		SubsystemManager_GetSubsystems_TisXRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34_m9B556FE7439236CF6F5643A62BC660E4E6DE1CDE(L_0, SubsystemManager_GetSubsystems_TisXRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34_m9B556FE7439236CF6F5643A62BC660E4E6DE1CDE_RuntimeMethod_var);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:78>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:78>
 		List_1_t90832B88D7207769654164CC28440CF594CC397D* L_1 = ((TrackingModeOrigin_t878B751BDEF45371F4E6AF07597ADA68E2ABB3DA_StaticFields*)il2cpp_codegen_static_fields_for(TrackingModeOrigin_t878B751BDEF45371F4E6AF07597ADA68E2ABB3DA_il2cpp_TypeInfo_var))->___s_InputSubsystems;
 		NullCheck(L_1);
 		int32_t L_2;
@@ -6371,7 +6371,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackingModeOrigin_Update_mC7B13D197F3B7
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:80>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:80>
 		il2cpp_codegen_runtime_class_init_inline(TrackingModeOrigin_t878B751BDEF45371F4E6AF07597ADA68E2ABB3DA_il2cpp_TypeInfo_var);
 		List_1_t90832B88D7207769654164CC28440CF594CC397D* L_3 = ((TrackingModeOrigin_t878B751BDEF45371F4E6AF07597ADA68E2ABB3DA_StaticFields*)il2cpp_codegen_static_fields_for(TrackingModeOrigin_t878B751BDEF45371F4E6AF07597ADA68E2ABB3DA_il2cpp_TypeInfo_var))->___s_InputSubsystems;
 		NullCheck(L_3);
@@ -6382,7 +6382,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackingModeOrigin_Update_mC7B13D197F3B7
 
 IL_0025:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:83>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:83>
 		XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34* L_5 = V_0;
 		if (L_5)
 		{
@@ -6411,7 +6411,7 @@ IL_0032:
 	{
 		NullCheck(G_B5_1);
 		G_B5_1->___m_SupportedTrackingOriginModes = G_B5_0;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:85>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:85>
 		int32_t L_8 = __this->___m_CurrentTrackingOriginMode;
 		int32_t L_9 = __this->___m_DesiredTrackingOriginMode;
 		int32_t L_10 = __this->___m_DesiredTrackingOriginMode;
@@ -6421,7 +6421,7 @@ IL_0032:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:87>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:87>
 		XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34* L_11 = V_0;
 		if (!L_11)
 		{
@@ -6438,7 +6438,7 @@ IL_0032:
 
 IL_0064:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:89>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:89>
 		XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34* L_15 = V_0;
 		if (L_15)
 		{
@@ -6467,7 +6467,7 @@ IL_0071:
 	{
 		NullCheck(G_B11_1);
 		G_B11_1->___m_CurrentTrackingOriginMode = G_B11_0;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:91>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:91>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_18 = __this->___m_CurrentTrackingOriginModeDisplay;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_19;
@@ -6478,7 +6478,7 @@ IL_0071:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:92>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:92>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_20 = __this->___m_CurrentTrackingOriginModeDisplay;
 		int32_t* L_21 = (int32_t*)(&__this->___m_CurrentTrackingOriginMode);
 		Il2CppFakeBox<int32_t> L_22(TrackingOriginModeFlags_t04723708FB00785CE6A9CDECBB4501ADAB612C4F_il2cpp_TypeInfo_var, L_21);
@@ -6490,7 +6490,7 @@ IL_0071:
 
 IL_00a0:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:94>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:94>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_24 = __this->___m_RecenteredImage;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_25;
@@ -6501,18 +6501,18 @@ IL_00a0:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:96>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:96>
 		float L_26;
 		L_26 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		float L_27 = __this->___m_LastRecenteredTime;
 		float L_28 = __this->___m_RecenteredColorResetTime;
 		V_1 = ((float)(((float)il2cpp_codegen_subtract(L_26, L_27))/L_28));
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:97>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:97>
 		float L_29 = V_1;
 		float L_30;
 		L_30 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_29, (0.0f), (1.0f), NULL);
 		V_1 = L_30;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:98>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:98>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_31 = __this->___m_RecenteredImage;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_32 = __this->___m_RecenteredColor;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_33 = __this->___m_RecenteredOffColor;
@@ -6525,29 +6525,29 @@ IL_00a0:
 
 IL_00f0:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:100>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:100>
 		return;
 	}
 }
-// Method Definition Index: 79928
+// Method Definition Index: 79951
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackingModeOrigin__ctor_m3E11FE193D977B832D217F529BAA49642E3BDE85 (TrackingModeOrigin_t878B751BDEF45371F4E6AF07597ADA68E2ABB3DA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:14>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:14>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
 		L_0 = Color_get_red_mA2E53E7173FDC97E68E335049AB0FAAEE43A844D_inline(NULL);
 		__this->___m_RecenteredOffColor = L_0;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:17>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:17>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1;
 		L_1 = Color_get_green_mEB001F2CD8C68C6BBAEF9101990B779D3AA2A6EF_inline(NULL);
 		__this->___m_RecenteredColor = L_1;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:20>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:20>
 		__this->___m_RecenteredColorResetTime = (1.0f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}
 }
-// Method Definition Index: 79929
+// Method Definition Index: 79952
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackingModeOrigin__cctor_mDCC774EA27674B39460F510B5D1CA7EEBAD58EC4 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6559,7 +6559,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackingModeOrigin__cctor_mDCC774EA27674
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:39>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:39>
 		List_1_t90832B88D7207769654164CC28440CF594CC397D* L_0 = (List_1_t90832B88D7207769654164CC28440CF594CC397D*)il2cpp_codegen_object_new(List_1_t90832B88D7207769654164CC28440CF594CC397D_il2cpp_TypeInfo_var);
 		List_1__ctor_mC249FC827BC3BE999A938F8B5BD884F8AA0CB7FA(L_0, List_1__ctor_mC249FC827BC3BE999A938F8B5BD884F8AA0CB7FA_RuntimeMethod_var);
 		((TrackingModeOrigin_t878B751BDEF45371F4E6AF07597ADA68E2ABB3DA_StaticFields*)il2cpp_codegen_static_fields_for(TrackingModeOrigin_t878B751BDEF45371F4E6AF07597ADA68E2ABB3DA_il2cpp_TypeInfo_var))->___s_InputSubsystems = L_0;
@@ -6614,11 +6614,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED02
 		return L_0;
 	}
 }
-// Method Definition Index: 79839
+// Method Definition Index: 79862
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ActionToButtonISX_get_actionReference_mF283E8AA8742FA276C560983344EE27243D4179D_inline (ActionToButtonISX_t499BC074901FEC927C3D0B658006E36B56620C48* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:11>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToButtonISX.cs:11>
 		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_0 = __this->___m_ActionReference;
 		return L_0;
 	}
@@ -6650,11 +6650,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t InputDevice_get_deviceId_
 		return L_0;
 	}
 }
-// Method Definition Index: 79868
+// Method Definition Index: 79891
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ActionToSliderISX_get_actionReference_m027969CABF4A14B0D45B949B6FBC3D3422199348_inline (ActionToSliderISX_t45DD868ED1DA25F3974D81AC45659720ABD146C3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToSliderISX.cs:10>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToSliderISX.cs:10>
 		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_0 = __this->___m_ActionReference;
 		return L_0;
 	}
@@ -6713,20 +6713,20 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 		return L_6;
 	}
 }
-// Method Definition Index: 79879
+// Method Definition Index: 79902
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ActionToVector2SliderISX_get_actionReference_mCAD1C4A7862F424CCD35A8631483CC7CEB4DBD6D_inline (ActionToVector2SliderISX_t4F3FA40AF8BF13623F2E175231C5D37005FD8F4B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2SliderISX.cs:10>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/ActionToVector2SliderISX.cs:10>
 		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_0 = __this->___m_ActionReference;
 		return L_0;
 	}
 }
-// Method Definition Index: 79911
+// Method Definition Index: 79934
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* DisplayDeviceInfoFromActionISX_get_targetText_m3276642B74362061688F3817AC0FA34287703ADB_inline (DisplayDeviceInfoFromActionISX_t9847E7957947920C4E9FBCEAC190507B61E470C0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:18>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/DisplayDeviceInfoFromActionISX.cs:18>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___m_TargetText;
 		return L_0;
 	}
@@ -6778,14 +6778,14 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_12;
 	}
 }
-// Method Definition Index: 79921
+// Method Definition Index: 79944
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TrackingModeOrigin_set_desiredTrackingOriginMode_mFA761435CD26916AA12625468D30858BC26B3151_inline (TrackingModeOrigin_t878B751BDEF45371F4E6AF07597ADA68E2ABB3DA* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:33>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:33>
 		int32_t L_0 = ___0_value;
 		__this->___m_DesiredTrackingOriginMode = L_0;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:33>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Samples/OpenXR Plugin/1.16.1/Controller/Scripts/TrackingModeOrigin.cs:33>
 		return;
 	}
 }

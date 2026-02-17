@@ -909,7 +909,7 @@ struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_marshaled_com : 
 	float ___m_Seconds;
 };
 #pragma pack(push, tp, 1)
-struct __StaticArrayInitTypeSizeU3D2128_tA7570381E89E4A761B06308383876B35A98B308A 
+struct __StaticArrayInitTypeSizeU3D2149_tAB6A87F770786E8BED92D42A25BE5EC3E154B940 
 {
 	union
 	{
@@ -919,12 +919,12 @@ struct __StaticArrayInitTypeSizeU3D2128_tA7570381E89E4A761B06308383876B35A98B308
 			{
 			};
 		};
-		uint8_t __StaticArrayInitTypeSizeU3D2128_tA7570381E89E4A761B06308383876B35A98B308A__padding[2128];
+		uint8_t __StaticArrayInitTypeSizeU3D2149_tAB6A87F770786E8BED92D42A25BE5EC3E154B940__padding[2149];
 	};
 };
 #pragma pack(pop, tp)
 #pragma pack(push, tp, 1)
-struct __StaticArrayInitTypeSizeU3D4824_t379647BCB9FC7BCB7AF9C1B188C270DF9667A532 
+struct __StaticArrayInitTypeSizeU3D4858_t00DE133B40D8B6484C604066EB53AAAA87B39FBC 
 {
 	union
 	{
@@ -934,7 +934,7 @@ struct __StaticArrayInitTypeSizeU3D4824_t379647BCB9FC7BCB7AF9C1B188C270DF9667A53
 			{
 			};
 		};
-		uint8_t __StaticArrayInitTypeSizeU3D4824_t379647BCB9FC7BCB7AF9C1B188C270DF9667A532__padding[4824];
+		uint8_t __StaticArrayInitTypeSizeU3D4858_t00DE133B40D8B6484C604066EB53AAAA87B39FBC__padding[4858];
 	};
 };
 #pragma pack(pop, tp)
@@ -2125,8 +2125,8 @@ struct List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918_StaticFields
 };
 struct U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA_StaticFields
 {
-	__StaticArrayInitTypeSizeU3D4824_t379647BCB9FC7BCB7AF9C1B188C270DF9667A532 ___473D757C5CC400B9383E79F913D2619E628D83A45FDA9C292E8053F3B204C3DC;
-	__StaticArrayInitTypeSizeU3D2128_tA7570381E89E4A761B06308383876B35A98B308A ___993F5EBE96B7F7221C2134C635BC6CFBD8539FB77EA62DD57200E34F52EF74AD;
+	__StaticArrayInitTypeSizeU3D4858_t00DE133B40D8B6484C604066EB53AAAA87B39FBC ___E6187E2C76478EB105033595A9D9E4986BD6A2C72E4A2F13F5F9D7EC8632386D;
+	__StaticArrayInitTypeSizeU3D2149_tAB6A87F770786E8BED92D42A25BE5EC3E154B940 ___FE68DF92DCDA461ACA37A2A1508CA415941F2A26D2BA6BC5C239AFFB3D2D5240;
 };
 struct String_t_StaticFields
 {
@@ -2873,7 +2873,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_magnitude_mF0D6
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75991
+// Method Definition Index: 76014
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexShakeB_Awake_mFA9A180BD1769CC79E6325314B5652D605ABE58E (VertexShakeB_tA3849618A1BE8DCE150A615F38CE2E247FC6F6C8* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2883,16 +2883,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexShakeB_Awake_mFA9A180BD1769CC79E63
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:21>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:21>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0;
 		L_0 = Component_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_m0C4C5268B54C7097888C6B109527A680772EBCB5(__this, Component_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_m0C4C5268B54C7097888C6B109527A680772EBCB5_RuntimeMethod_var);
 		__this->___m_TextComponent = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_TextComponent), (void*)L_0);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:22>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:22>
 		return;
 	}
 }
-// Method Definition Index: 75992
+// Method Definition Index: 76015
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexShakeB_OnEnable_m4999DF4598174EDA2A47F4F667B5CE061DF97C21 (VertexShakeB_tA3849618A1BE8DCE150A615F38CE2E247FC6F6C8* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2905,18 +2905,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexShakeB_OnEnable_m4999DF4598174EDA2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:27>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:27>
 		il2cpp_codegen_runtime_class_init_inline(TMPro_EventManager_t0234DB5BF625FC164B395C5C3B6F2CB8C89A3BA9_il2cpp_TypeInfo_var);
 		FastAction_1_tE50C6A692DF85AB55BE3160B659FA7DF19DFA005* L_0 = ((TMPro_EventManager_t0234DB5BF625FC164B395C5C3B6F2CB8C89A3BA9_StaticFields*)il2cpp_codegen_static_fields_for(TMPro_EventManager_t0234DB5BF625FC164B395C5C3B6F2CB8C89A3BA9_il2cpp_TypeInfo_var))->___TEXT_CHANGED_EVENT;
 		Action_1_t7F8A08D55E64F30F0E9A4213699C99903459421A* L_1 = (Action_1_t7F8A08D55E64F30F0E9A4213699C99903459421A*)il2cpp_codegen_object_new(Action_1_t7F8A08D55E64F30F0E9A4213699C99903459421A_il2cpp_TypeInfo_var);
 		Action_1__ctor_m95478636F075134CA2998E22B214611472600983(L_1, __this, (intptr_t)((void*)VertexShakeB_ON_TEXT_CHANGED_mF8641640C828A9664AE03AF01CB4832E14EF436D_RuntimeMethod_var), NULL);
 		NullCheck(L_0);
 		FastAction_1_Add_m368726E3508DB2176C4F87A79C0C0CC4816176D6(L_0, L_1, FastAction_1_Add_m368726E3508DB2176C4F87A79C0C0CC4816176D6_RuntimeMethod_var);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:28>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:28>
 		return;
 	}
 }
-// Method Definition Index: 75993
+// Method Definition Index: 76016
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexShakeB_OnDisable_m2FB32CBD277A271400BF8AF2A35294C09FE9B8E5 (VertexShakeB_tA3849618A1BE8DCE150A615F38CE2E247FC6F6C8* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2929,31 +2929,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexShakeB_OnDisable_m2FB32CBD277A2714
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:32>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:32>
 		il2cpp_codegen_runtime_class_init_inline(TMPro_EventManager_t0234DB5BF625FC164B395C5C3B6F2CB8C89A3BA9_il2cpp_TypeInfo_var);
 		FastAction_1_tE50C6A692DF85AB55BE3160B659FA7DF19DFA005* L_0 = ((TMPro_EventManager_t0234DB5BF625FC164B395C5C3B6F2CB8C89A3BA9_StaticFields*)il2cpp_codegen_static_fields_for(TMPro_EventManager_t0234DB5BF625FC164B395C5C3B6F2CB8C89A3BA9_il2cpp_TypeInfo_var))->___TEXT_CHANGED_EVENT;
 		Action_1_t7F8A08D55E64F30F0E9A4213699C99903459421A* L_1 = (Action_1_t7F8A08D55E64F30F0E9A4213699C99903459421A*)il2cpp_codegen_object_new(Action_1_t7F8A08D55E64F30F0E9A4213699C99903459421A_il2cpp_TypeInfo_var);
 		Action_1__ctor_m95478636F075134CA2998E22B214611472600983(L_1, __this, (intptr_t)((void*)VertexShakeB_ON_TEXT_CHANGED_mF8641640C828A9664AE03AF01CB4832E14EF436D_RuntimeMethod_var), NULL);
 		NullCheck(L_0);
 		FastAction_1_Remove_mB29130AC90F5F8967CD89587717469E44E4D186F(L_0, L_1, FastAction_1_Remove_mB29130AC90F5F8967CD89587717469E44E4D186F_RuntimeMethod_var);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:33>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:33>
 		return;
 	}
 }
-// Method Definition Index: 75994
+// Method Definition Index: 76017
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexShakeB_Start_m58786A0944340EF16E024ADB596C9AB5686C2AF1 (VertexShakeB_tA3849618A1BE8DCE150A615F38CE2E247FC6F6C8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:38>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:38>
 		RuntimeObject* L_0;
 		L_0 = VertexShakeB_AnimateVertexColors_m06D25FE7F9F3EFF693DDC889BF725F01D0CF2A6F(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_1;
 		L_1 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_0, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:39>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:39>
 		return;
 	}
 }
-// Method Definition Index: 75995
+// Method Definition Index: 76018
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexShakeB_ON_TEXT_CHANGED_mF8641640C828A9664AE03AF01CB4832E14EF436D (VertexShakeB_tA3849618A1BE8DCE150A615F38CE2E247FC6F6C8* __this, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_obj, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2963,7 +2963,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexShakeB_ON_TEXT_CHANGED_mF8641640C8
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:44>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:44>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___m_TextComponent;
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1 = L_0;
 		___0_obj = L_1;
@@ -2976,17 +2976,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexShakeB_ON_TEXT_CHANGED_mF8641640C8
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:45>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:45>
 		__this->___hasTextChanged = (bool)1;
 	}
 
 IL_0017:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:46>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:46>
 		return;
 	}
 }
-// Method Definition Index: 75996
+// Method Definition Index: 76019
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* VertexShakeB_AnimateVertexColors_m06D25FE7F9F3EFF693DDC889BF725F01D0CF2A6F (VertexShakeB_tA3849618A1BE8DCE150A615F38CE2E247FC6F6C8* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3005,15 +3005,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* VertexShakeB_AnimateVertexColo
 		return L_1;
 	}
 }
-// Method Definition Index: 75997
+// Method Definition Index: 76020
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexShakeB__ctor_m9D068774503CF8642CC0BAC0E909ECE91E4E2198 (VertexShakeB_tA3849618A1BE8DCE150A615F38CE2E247FC6F6C8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:11>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:11>
 		__this->___AngleMultiplier = (1.0f);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:12>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:12>
 		__this->___SpeedMultiplier = (1.0f);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:13>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:13>
 		__this->___CurveScale = (1.0f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -3027,7 +3027,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexShakeB__ctor_m9D068774503CF8642CC0
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75998
+// Method Definition Index: 76021
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAnimateVertexColorsU3Ed__10__ctor_mBE5C0E4A0F65F07A7510D171683AD319F76E6C6D (U3CAnimateVertexColorsU3Ed__10_tD6C6C3147726423C8C82952A638432E12AA2C91E* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -3037,14 +3037,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAnimateVertexColorsU3Ed__10__ctor_mBE
 		return;
 	}
 }
-// Method Definition Index: 75999
+// Method Definition Index: 76022
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAnimateVertexColorsU3Ed__10_System_IDisposable_Dispose_m4DD41FA568ABBC327FA38C0E345EFB6F1A71C2C8 (U3CAnimateVertexColorsU3Ed__10_tD6C6C3147726423C8C82952A638432E12AA2C91E* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 76000
+// Method Definition Index: 76023
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CAnimateVertexColorsU3Ed__10_MoveNext_mDD84A4116FCAAF920F86BA72F890CE0BE76AF348 (U3CAnimateVertexColorsU3Ed__10_tD6C6C3147726423C8C82952A638432E12AA2C91E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3106,13 +3106,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CAnimateVertexColorsU3Ed__10_MoveNext_
 IL_0022:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:57>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:57>
 		VertexShakeB_tA3849618A1BE8DCE150A615F38CE2E247FC6F6C8* L_3 = V_1;
 		NullCheck(L_3);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_4 = L_3->___m_TextComponent;
 		NullCheck(L_4);
 		VirtualActionInvoker2< bool, bool >::Invoke(106, L_4, (bool)0, (bool)0);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:59>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:59>
 		VertexShakeB_tA3849618A1BE8DCE150A615F38CE2E247FC6F6C8* L_5 = V_1;
 		NullCheck(L_5);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_6 = L_5->___m_TextComponent;
@@ -3121,11 +3121,11 @@ IL_0022:
 		L_7 = TMP_Text_get_textInfo_mA24C606B8EA51436E4AA3B9D6DCDFA7A8995E10E(L_6, NULL);
 		__this->___U3CtextInfoU3E5__2 = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CtextInfoU3E5__2), (void*)L_7);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:62>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:62>
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_8 = (Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D*)(Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D*)SZArrayNew(Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D_il2cpp_TypeInfo_var, (uint32_t)0);
 		__this->___U3CcopyOfVerticesU3E5__3 = L_8;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CcopyOfVerticesU3E5__3), (void*)L_8);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:64>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:64>
 		VertexShakeB_tA3849618A1BE8DCE150A615F38CE2E247FC6F6C8* L_9 = V_1;
 		NullCheck(L_9);
 		L_9->___hasTextChanged = (bool)1;
@@ -3133,7 +3133,7 @@ IL_0022:
 
 IL_005a:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:69>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:69>
 		VertexShakeB_tA3849618A1BE8DCE150A615F38CE2E247FC6F6C8* L_10 = V_1;
 		NullCheck(L_10);
 		bool L_11 = L_10->___hasTextChanged;
@@ -3143,7 +3143,7 @@ IL_005a:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:71>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:71>
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_12 = __this->___U3CcopyOfVerticesU3E5__3;
 		NullCheck(L_12);
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_13 = __this->___U3CtextInfoU3E5__2;
@@ -3156,7 +3156,7 @@ IL_005a:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:72>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:72>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_15 = __this->___U3CtextInfoU3E5__2;
 		NullCheck(L_15);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_16 = L_15->___meshInfo;
@@ -3168,14 +3168,14 @@ IL_005a:
 
 IL_0091:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:74>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:74>
 		V_4 = 0;
 		goto IL_00c7;
 	}
 
 IL_0096:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:76>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:76>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_18 = __this->___U3CtextInfoU3E5__2;
 		NullCheck(L_18);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_19 = L_18->___meshInfo;
@@ -3184,21 +3184,21 @@ IL_0096:
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_21 = ((L_19)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_20)))->___vertices;
 		NullCheck(L_21);
 		V_5 = ((int32_t)(((RuntimeArray*)L_21)->max_length));
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:77>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:77>
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_22 = __this->___U3CcopyOfVerticesU3E5__3;
 		int32_t L_23 = V_4;
 		int32_t L_24 = V_5;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_25 = (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)SZArrayNew(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var, (uint32_t)L_24);
 		NullCheck(L_22);
 		(L_22)->SetAt(static_cast<il2cpp_array_size_t>(L_23), (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)L_25);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:74>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:74>
 		int32_t L_26 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_26, 1));
 	}
 
 IL_00c7:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:74>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:74>
 		int32_t L_27 = V_4;
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_28 = __this->___U3CtextInfoU3E5__2;
 		NullCheck(L_28);
@@ -3210,7 +3210,7 @@ IL_00c7:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:80>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:80>
 		VertexShakeB_tA3849618A1BE8DCE150A615F38CE2E247FC6F6C8* L_30 = V_1;
 		NullCheck(L_30);
 		L_30->___hasTextChanged = (bool)0;
@@ -3218,18 +3218,18 @@ IL_00c7:
 
 IL_00df:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:83>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:83>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_31 = __this->___U3CtextInfoU3E5__2;
 		NullCheck(L_31);
 		int32_t L_32 = L_31->___characterCount;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:86>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:86>
 		if (L_32)
 		{
 			goto IL_0111;
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:88>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:88>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_33 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_33, (0.25f), NULL);
 		__this->___U3CU3E2__current = L_33;
@@ -3241,25 +3241,25 @@ IL_00df:
 IL_0105:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:89>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:89>
 		goto IL_005a;
 	}
 
 IL_0111:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:92>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:92>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_34 = __this->___U3CtextInfoU3E5__2;
 		NullCheck(L_34);
 		int32_t L_35 = L_34->___lineCount;
 		V_3 = L_35;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:95>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:95>
 		V_6 = 0;
 		goto IL_0625;
 	}
 
 IL_0125:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:98>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:98>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_36 = __this->___U3CtextInfoU3E5__2;
 		NullCheck(L_36);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_37 = L_36->___lineInfo;
@@ -3267,7 +3267,7 @@ IL_0125:
 		NullCheck(L_37);
 		int32_t L_39 = ((L_37)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_38)))->___firstCharacterIndex;
 		V_7 = L_39;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:99>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:99>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_40 = __this->___U3CtextInfoU3E5__2;
 		NullCheck(L_40);
 		TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E* L_41 = L_40->___lineInfo;
@@ -3275,7 +3275,7 @@ IL_0125:
 		NullCheck(L_41);
 		int32_t L_43 = ((L_41)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_42)))->___lastCharacterIndex;
 		V_8 = L_43;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:102>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:102>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_44 = __this->___U3CtextInfoU3E5__2;
 		NullCheck(L_44);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_45 = L_44->___characterInfo;
@@ -3293,13 +3293,13 @@ IL_0125:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_53;
 		L_53 = Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline(L_52, (2.0f), NULL);
 		V_9 = L_53;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:103>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:103>
 		float L_54;
 		L_54 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494((-0.25f), (0.25f), NULL);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_55;
 		L_55 = Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline((0.0f), (0.0f), L_54, NULL);
 		V_10 = L_55;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:106>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:106>
 		int32_t L_56 = V_7;
 		V_11 = L_56;
 		goto IL_0616;
@@ -3307,7 +3307,7 @@ IL_0125:
 
 IL_01bf:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:109>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:109>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_57 = __this->___U3CtextInfoU3E5__2;
 		NullCheck(L_57);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_58 = L_57->___characterInfo;
@@ -3320,7 +3320,7 @@ IL_01bf:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:113>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:113>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_61 = __this->___U3CtextInfoU3E5__2;
 		NullCheck(L_61);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_62 = L_61->___characterInfo;
@@ -3328,7 +3328,7 @@ IL_01bf:
 		NullCheck(L_62);
 		int32_t L_64 = ((L_62)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_63)))->___materialReferenceIndex;
 		V_12 = L_64;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:116>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:116>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_65 = __this->___U3CtextInfoU3E5__2;
 		NullCheck(L_65);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_66 = L_65->___characterInfo;
@@ -3336,7 +3336,7 @@ IL_01bf:
 		NullCheck(L_66);
 		int32_t L_68 = ((L_66)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_67)))->___vertexIndex;
 		V_13 = L_68;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:119>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:119>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_69 = __this->___U3CtextInfoU3E5__2;
 		NullCheck(L_69);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_70 = L_69->___meshInfo;
@@ -3344,7 +3344,7 @@ IL_01bf:
 		NullCheck(L_70);
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_72 = ((L_70)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_71)))->___vertices;
 		V_14 = L_72;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:122>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:122>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_73 = V_14;
 		int32_t L_74 = V_13;
 		NullCheck(L_73);
@@ -3360,7 +3360,7 @@ IL_01bf:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_82;
 		L_82 = Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline(L_81, (2.0f), NULL);
 		V_15 = L_82;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:126>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:126>
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_83 = __this->___U3CcopyOfVerticesU3E5__3;
 		int32_t L_84 = V_12;
 		NullCheck(L_83);
@@ -3377,7 +3377,7 @@ IL_01bf:
 		L_93 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_91, L_92, NULL);
 		NullCheck(L_86);
 		(L_86)->SetAt(static_cast<il2cpp_array_size_t>(L_87), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_93);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:127>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:127>
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_94 = __this->___U3CcopyOfVerticesU3E5__3;
 		int32_t L_95 = V_12;
 		NullCheck(L_94);
@@ -3394,7 +3394,7 @@ IL_01bf:
 		L_104 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_102, L_103, NULL);
 		NullCheck(L_97);
 		(L_97)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_98, 1))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_104);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:128>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:128>
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_105 = __this->___U3CcopyOfVerticesU3E5__3;
 		int32_t L_106 = V_12;
 		NullCheck(L_105);
@@ -3411,7 +3411,7 @@ IL_01bf:
 		L_115 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_113, L_114, NULL);
 		NullCheck(L_108);
 		(L_108)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_109, 2))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_115);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:129>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:129>
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_116 = __this->___U3CcopyOfVerticesU3E5__3;
 		int32_t L_117 = V_12;
 		NullCheck(L_116);
@@ -3428,11 +3428,11 @@ IL_01bf:
 		L_126 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_124, L_125, NULL);
 		NullCheck(L_119);
 		(L_119)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_120, 3))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_126);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:132>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:132>
 		float L_127;
 		L_127 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494((0.949999988f), (1.04999995f), NULL);
 		V_16 = L_127;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:135>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:135>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_128;
 		L_128 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_129;
@@ -3445,7 +3445,7 @@ IL_01bf:
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_133;
 		L_133 = Matrix4x4_TRS_mCC04FD47347234B451ACC6CCD2CE6D02E1E0E1E3_inline(L_128, L_129, L_132, NULL);
 		V_2 = L_133;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:138>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:138>
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_134 = __this->___U3CcopyOfVerticesU3E5__3;
 		int32_t L_135 = V_12;
 		NullCheck(L_134);
@@ -3465,7 +3465,7 @@ IL_01bf:
 		L_146 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814_inline((&V_2), L_145, NULL);
 		NullCheck(L_137);
 		(L_137)->SetAt(static_cast<il2cpp_array_size_t>(L_138), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_146);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:139>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:139>
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_147 = __this->___U3CcopyOfVerticesU3E5__3;
 		int32_t L_148 = V_12;
 		NullCheck(L_147);
@@ -3485,7 +3485,7 @@ IL_01bf:
 		L_159 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814_inline((&V_2), L_158, NULL);
 		NullCheck(L_150);
 		(L_150)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_151, 1))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_159);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:140>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:140>
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_160 = __this->___U3CcopyOfVerticesU3E5__3;
 		int32_t L_161 = V_12;
 		NullCheck(L_160);
@@ -3505,7 +3505,7 @@ IL_01bf:
 		L_172 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814_inline((&V_2), L_171, NULL);
 		NullCheck(L_163);
 		(L_163)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_164, 2))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_172);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:141>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:141>
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_173 = __this->___U3CcopyOfVerticesU3E5__3;
 		int32_t L_174 = V_12;
 		NullCheck(L_173);
@@ -3525,7 +3525,7 @@ IL_01bf:
 		L_185 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814_inline((&V_2), L_184, NULL);
 		NullCheck(L_176);
 		(L_176)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_177, 3))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_185);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:144>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:144>
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_186 = __this->___U3CcopyOfVerticesU3E5__3;
 		int32_t L_187 = V_12;
 		NullCheck(L_186);
@@ -3539,7 +3539,7 @@ IL_01bf:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_194;
 		L_194 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_192, L_193, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_191 = L_194;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:145>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:145>
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_195 = __this->___U3CcopyOfVerticesU3E5__3;
 		int32_t L_196 = V_12;
 		NullCheck(L_195);
@@ -3553,7 +3553,7 @@ IL_01bf:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_203;
 		L_203 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_201, L_202, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_200 = L_203;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:146>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:146>
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_204 = __this->___U3CcopyOfVerticesU3E5__3;
 		int32_t L_205 = V_12;
 		NullCheck(L_204);
@@ -3567,7 +3567,7 @@ IL_01bf:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_212;
 		L_212 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_210, L_211, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_209 = L_212;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:147>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:147>
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_213 = __this->___U3CcopyOfVerticesU3E5__3;
 		int32_t L_214 = V_12;
 		NullCheck(L_213);
@@ -3581,7 +3581,7 @@ IL_01bf:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_221;
 		L_221 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_219, L_220, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_218 = L_221;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:151>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:151>
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_222 = __this->___U3CcopyOfVerticesU3E5__3;
 		int32_t L_223 = V_12;
 		NullCheck(L_222);
@@ -3595,7 +3595,7 @@ IL_01bf:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_230;
 		L_230 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_228, L_229, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_227 = L_230;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:152>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:152>
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_231 = __this->___U3CcopyOfVerticesU3E5__3;
 		int32_t L_232 = V_12;
 		NullCheck(L_231);
@@ -3609,7 +3609,7 @@ IL_01bf:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_239;
 		L_239 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_237, L_238, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_236 = L_239;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:153>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:153>
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_240 = __this->___U3CcopyOfVerticesU3E5__3;
 		int32_t L_241 = V_12;
 		NullCheck(L_240);
@@ -3623,7 +3623,7 @@ IL_01bf:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_248;
 		L_248 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_246, L_247, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_245 = L_248;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:154>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:154>
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_249 = __this->___U3CcopyOfVerticesU3E5__3;
 		int32_t L_250 = V_12;
 		NullCheck(L_249);
@@ -3637,7 +3637,7 @@ IL_01bf:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_257;
 		L_257 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_255, L_256, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_254 = L_257;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:157>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:157>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_258;
 		L_258 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_259 = V_10;
@@ -3646,7 +3646,7 @@ IL_01bf:
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_261;
 		L_261 = Matrix4x4_TRS_mCC04FD47347234B451ACC6CCD2CE6D02E1E0E1E3_inline(L_258, L_259, L_260, NULL);
 		V_2 = L_261;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:160>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:160>
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_262 = __this->___U3CcopyOfVerticesU3E5__3;
 		int32_t L_263 = V_12;
 		NullCheck(L_262);
@@ -3666,7 +3666,7 @@ IL_01bf:
 		L_274 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814_inline((&V_2), L_273, NULL);
 		NullCheck(L_265);
 		(L_265)->SetAt(static_cast<il2cpp_array_size_t>(L_266), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_274);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:161>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:161>
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_275 = __this->___U3CcopyOfVerticesU3E5__3;
 		int32_t L_276 = V_12;
 		NullCheck(L_275);
@@ -3686,7 +3686,7 @@ IL_01bf:
 		L_287 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814_inline((&V_2), L_286, NULL);
 		NullCheck(L_278);
 		(L_278)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_279, 1))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_287);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:162>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:162>
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_288 = __this->___U3CcopyOfVerticesU3E5__3;
 		int32_t L_289 = V_12;
 		NullCheck(L_288);
@@ -3706,7 +3706,7 @@ IL_01bf:
 		L_300 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814_inline((&V_2), L_299, NULL);
 		NullCheck(L_291);
 		(L_291)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_292, 2))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_300);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:163>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:163>
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_301 = __this->___U3CcopyOfVerticesU3E5__3;
 		int32_t L_302 = V_12;
 		NullCheck(L_301);
@@ -3726,7 +3726,7 @@ IL_01bf:
 		L_313 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814_inline((&V_2), L_312, NULL);
 		NullCheck(L_304);
 		(L_304)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_305, 3))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_313);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:166>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:166>
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_314 = __this->___U3CcopyOfVerticesU3E5__3;
 		int32_t L_315 = V_12;
 		NullCheck(L_314);
@@ -3740,7 +3740,7 @@ IL_01bf:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_322;
 		L_322 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_320, L_321, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_319 = L_322;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:167>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:167>
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_323 = __this->___U3CcopyOfVerticesU3E5__3;
 		int32_t L_324 = V_12;
 		NullCheck(L_323);
@@ -3754,7 +3754,7 @@ IL_01bf:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_331;
 		L_331 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_329, L_330, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_328 = L_331;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:168>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:168>
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_332 = __this->___U3CcopyOfVerticesU3E5__3;
 		int32_t L_333 = V_12;
 		NullCheck(L_332);
@@ -3768,7 +3768,7 @@ IL_01bf:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_340;
 		L_340 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_338, L_339, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_337 = L_340;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:169>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:169>
 		Vector3U5BU5DU5BU5D_t9E2E40AB6AB9079C8F16A0B6410FF6CF2EE8B53D* L_341 = __this->___U3CcopyOfVerticesU3E5__3;
 		int32_t L_342 = V_12;
 		NullCheck(L_341);
@@ -3786,14 +3786,14 @@ IL_01bf:
 
 IL_0610:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:106>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:106>
 		int32_t L_350 = V_11;
 		V_11 = ((int32_t)il2cpp_codegen_add(L_350, 1));
 	}
 
 IL_0616:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:106>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:106>
 		int32_t L_351 = V_11;
 		int32_t L_352 = V_8;
 		if ((((int32_t)L_351) <= ((int32_t)L_352)))
@@ -3802,14 +3802,14 @@ IL_0616:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:95>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:95>
 		int32_t L_353 = V_6;
 		V_6 = ((int32_t)il2cpp_codegen_add(L_353, 1));
 	}
 
 IL_0625:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:95>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:95>
 		int32_t L_354 = V_6;
 		int32_t L_355 = V_3;
 		if ((((int32_t)L_354) < ((int32_t)L_355)))
@@ -3818,14 +3818,14 @@ IL_0625:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:174>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:174>
 		V_17 = 0;
 		goto IL_0681;
 	}
 
 IL_0632:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:176>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:176>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_356 = __this->___U3CtextInfoU3E5__2;
 		NullCheck(L_356);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_357 = L_356->___meshInfo;
@@ -3839,7 +3839,7 @@ IL_0632:
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_363 = (L_360)->GetAt(static_cast<il2cpp_array_size_t>(L_362));
 		NullCheck(L_359);
 		Mesh_set_vertices_m5BB814D89E9ACA00DBF19F7D8E22CB73AC73FE5C(L_359, L_363, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:177>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:177>
 		VertexShakeB_tA3849618A1BE8DCE150A615F38CE2E247FC6F6C8* L_364 = V_1;
 		NullCheck(L_364);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_365 = L_364->___m_TextComponent;
@@ -3852,14 +3852,14 @@ IL_0632:
 		int32_t L_370 = V_17;
 		NullCheck(L_365);
 		VirtualActionInvoker2< Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*, int32_t >::Invoke(107, L_365, L_369, L_370);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:174>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:174>
 		int32_t L_371 = V_17;
 		V_17 = ((int32_t)il2cpp_codegen_add(L_371, 1));
 	}
 
 IL_0681:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:174>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:174>
 		int32_t L_372 = V_17;
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_373 = __this->___U3CtextInfoU3E5__2;
 		NullCheck(L_373);
@@ -3871,7 +3871,7 @@ IL_0681:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:180>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:180>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_375 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_375, (0.100000001f), NULL);
 		__this->___U3CU3E2__current = L_375;
@@ -3883,11 +3883,11 @@ IL_0681:
 IL_06ab:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:66>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs:66>
 		goto IL_005a;
 	}
 }
-// Method Definition Index: 76001
+// Method Definition Index: 76024
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAnimateVertexColorsU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m250CC96EC17E74D79536FDA4EB6F5B5F985C0845 (U3CAnimateVertexColorsU3Ed__10_tD6C6C3147726423C8C82952A638432E12AA2C91E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3895,7 +3895,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAnimateVertexColorsU3Ed__10
 		return L_0;
 	}
 }
-// Method Definition Index: 76002
+// Method Definition Index: 76025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAnimateVertexColorsU3Ed__10_System_Collections_IEnumerator_Reset_m5A5869FEFA67D5E9659F1145B83581D954550C1A (U3CAnimateVertexColorsU3Ed__10_tD6C6C3147726423C8C82952A638432E12AA2C91E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3904,7 +3904,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAnimateVertexColorsU3Ed__10_System_Co
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CAnimateVertexColorsU3Ed__10_System_Collections_IEnumerator_Reset_m5A5869FEFA67D5E9659F1145B83581D954550C1A_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 76003
+// Method Definition Index: 76026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAnimateVertexColorsU3Ed__10_System_Collections_IEnumerator_get_Current_m496F1BFEADA21FFB684F8C1996EAB707CFA1C5F0 (U3CAnimateVertexColorsU3Ed__10_tD6C6C3147726423C8C82952A638432E12AA2C91E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3920,7 +3920,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAnimateVertexColorsU3Ed__10
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76004
+// Method Definition Index: 76027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexZoom_Awake_m29C1DE789B968D726EDD69F605321A223D47C1A0 (VertexZoom_t51F05EB153497034D27896F07590D790A73981A6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3930,16 +3930,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexZoom_Awake_m29C1DE789B968D726EDD69
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:22>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:22>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0;
 		L_0 = Component_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_m0C4C5268B54C7097888C6B109527A680772EBCB5(__this, Component_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_m0C4C5268B54C7097888C6B109527A680772EBCB5_RuntimeMethod_var);
 		__this->___m_TextComponent = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_TextComponent), (void*)L_0);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:23>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:23>
 		return;
 	}
 }
-// Method Definition Index: 76005
+// Method Definition Index: 76028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexZoom_OnEnable_mE3719F01B6A8590066988F425F8A63103B5A7B47 (VertexZoom_t51F05EB153497034D27896F07590D790A73981A6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3952,18 +3952,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexZoom_OnEnable_mE3719F01B6A85900669
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:28>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:28>
 		il2cpp_codegen_runtime_class_init_inline(TMPro_EventManager_t0234DB5BF625FC164B395C5C3B6F2CB8C89A3BA9_il2cpp_TypeInfo_var);
 		FastAction_1_tE50C6A692DF85AB55BE3160B659FA7DF19DFA005* L_0 = ((TMPro_EventManager_t0234DB5BF625FC164B395C5C3B6F2CB8C89A3BA9_StaticFields*)il2cpp_codegen_static_fields_for(TMPro_EventManager_t0234DB5BF625FC164B395C5C3B6F2CB8C89A3BA9_il2cpp_TypeInfo_var))->___TEXT_CHANGED_EVENT;
 		Action_1_t7F8A08D55E64F30F0E9A4213699C99903459421A* L_1 = (Action_1_t7F8A08D55E64F30F0E9A4213699C99903459421A*)il2cpp_codegen_object_new(Action_1_t7F8A08D55E64F30F0E9A4213699C99903459421A_il2cpp_TypeInfo_var);
 		Action_1__ctor_m95478636F075134CA2998E22B214611472600983(L_1, __this, (intptr_t)((void*)VertexZoom_ON_TEXT_CHANGED_mFF049D0455A7DD19D6BDACBEEB737B4AAE32DDA7_RuntimeMethod_var), NULL);
 		NullCheck(L_0);
 		FastAction_1_Add_m368726E3508DB2176C4F87A79C0C0CC4816176D6(L_0, L_1, FastAction_1_Add_m368726E3508DB2176C4F87A79C0C0CC4816176D6_RuntimeMethod_var);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:29>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:29>
 		return;
 	}
 }
-// Method Definition Index: 76006
+// Method Definition Index: 76029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexZoom_OnDisable_mBB91C9EFA049395743D27358A427BB2B05850B47 (VertexZoom_t51F05EB153497034D27896F07590D790A73981A6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3976,31 +3976,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexZoom_OnDisable_mBB91C9EFA049395743
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:34>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:34>
 		il2cpp_codegen_runtime_class_init_inline(TMPro_EventManager_t0234DB5BF625FC164B395C5C3B6F2CB8C89A3BA9_il2cpp_TypeInfo_var);
 		FastAction_1_tE50C6A692DF85AB55BE3160B659FA7DF19DFA005* L_0 = ((TMPro_EventManager_t0234DB5BF625FC164B395C5C3B6F2CB8C89A3BA9_StaticFields*)il2cpp_codegen_static_fields_for(TMPro_EventManager_t0234DB5BF625FC164B395C5C3B6F2CB8C89A3BA9_il2cpp_TypeInfo_var))->___TEXT_CHANGED_EVENT;
 		Action_1_t7F8A08D55E64F30F0E9A4213699C99903459421A* L_1 = (Action_1_t7F8A08D55E64F30F0E9A4213699C99903459421A*)il2cpp_codegen_object_new(Action_1_t7F8A08D55E64F30F0E9A4213699C99903459421A_il2cpp_TypeInfo_var);
 		Action_1__ctor_m95478636F075134CA2998E22B214611472600983(L_1, __this, (intptr_t)((void*)VertexZoom_ON_TEXT_CHANGED_mFF049D0455A7DD19D6BDACBEEB737B4AAE32DDA7_RuntimeMethod_var), NULL);
 		NullCheck(L_0);
 		FastAction_1_Remove_mB29130AC90F5F8967CD89587717469E44E4D186F(L_0, L_1, FastAction_1_Remove_mB29130AC90F5F8967CD89587717469E44E4D186F_RuntimeMethod_var);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:35>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:35>
 		return;
 	}
 }
-// Method Definition Index: 76007
+// Method Definition Index: 76030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexZoom_Start_mB03D03148C98EBC9117D69510D24F21978546FCB (VertexZoom_t51F05EB153497034D27896F07590D790A73981A6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:40>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:40>
 		RuntimeObject* L_0;
 		L_0 = VertexZoom_AnimateVertexColors_m632BD9DC8FB193AF2D5B540524B11AF139FDF5F0(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_1;
 		L_1 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_0, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:41>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:41>
 		return;
 	}
 }
-// Method Definition Index: 76008
+// Method Definition Index: 76031
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexZoom_ON_TEXT_CHANGED_mFF049D0455A7DD19D6BDACBEEB737B4AAE32DDA7 (VertexZoom_t51F05EB153497034D27896F07590D790A73981A6* __this, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_obj, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4010,7 +4010,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexZoom_ON_TEXT_CHANGED_mFF049D0455A7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:46>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:46>
 		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_0 = ___0_obj;
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1 = __this->___m_TextComponent;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -4022,17 +4022,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexZoom_ON_TEXT_CHANGED_mFF049D0455A7
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:47>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:47>
 		__this->___hasTextChanged = (bool)1;
 	}
 
 IL_0015:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:48>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:48>
 		return;
 	}
 }
-// Method Definition Index: 76009
+// Method Definition Index: 76032
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* VertexZoom_AnimateVertexColors_m632BD9DC8FB193AF2D5B540524B11AF139FDF5F0 (VertexZoom_t51F05EB153497034D27896F07590D790A73981A6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4051,15 +4051,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* VertexZoom_AnimateVertexColors
 		return L_1;
 	}
 }
-// Method Definition Index: 76010
+// Method Definition Index: 76033
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexZoom__ctor_m454AF80ACB5C555BCB4B5E658A22B5A4FCC39422 (VertexZoom_t51F05EB153497034D27896F07590D790A73981A6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:12>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:12>
 		__this->___AngleMultiplier = (1.0f);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:13>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:13>
 		__this->___SpeedMultiplier = (1.0f);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:14>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:14>
 		__this->___CurveScale = (1.0f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -4073,7 +4073,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VertexZoom__ctor_m454AF80ACB5C555BCB4B5E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76011
+// Method Definition Index: 76034
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass10_0__ctor_m8C69A89B34AA3D16243E69F1E0015856C791CC8A (U3CU3Ec__DisplayClass10_0_t62C0E1CEED92DDFC3DD4C58EC8806FC7D82A7FB7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4081,7 +4081,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass10_0__ctor_m8C69A89
 		return;
 	}
 }
-// Method Definition Index: 76012
+// Method Definition Index: 76035
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t U3CU3Ec__DisplayClass10_0_U3CAnimateVertexColorsU3Eb__0_m8E51A05E012CCFA439DCF10A8B5C4FA196E4344A (U3CU3Ec__DisplayClass10_0_t62C0E1CEED92DDFC3DD4C58EC8806FC7D82A7FB7* __this, int32_t ___0_a, int32_t ___1_b, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4092,7 +4092,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t U3CU3Ec__DisplayClass10_0_U3CAnimateV
 	}
 	float V_0 = 0.0f;
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:175>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:175>
 		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_0 = __this->___modifiedCharScale;
 		int32_t L_1 = ___0_a;
 		NullCheck(L_0);
@@ -4117,7 +4117,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t U3CU3Ec__DisplayClass10_0_U3CAnimateV
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76013
+// Method Definition Index: 76036
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAnimateVertexColorsU3Ed__10__ctor_m7A5B8E07B89E628DB7119F7F61311165A2DBC4D6 (U3CAnimateVertexColorsU3Ed__10_t2EB585545BBB614E711BE1D5C7BF139053486123* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -4127,14 +4127,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAnimateVertexColorsU3Ed__10__ctor_m7A
 		return;
 	}
 }
-// Method Definition Index: 76014
+// Method Definition Index: 76037
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAnimateVertexColorsU3Ed__10_System_IDisposable_Dispose_m974E92A444C6343E94C76BB6CC6508F7AE4FD36E (U3CAnimateVertexColorsU3Ed__10_t2EB585545BBB614E711BE1D5C7BF139053486123* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 76015
+// Method Definition Index: 76038
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CAnimateVertexColorsU3Ed__10_MoveNext_m6DBC52A95A92A54A1801DC4CEE548FA568251D5E (U3CAnimateVertexColorsU3Ed__10_t2EB585545BBB614E711BE1D5C7BF139053486123* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4211,13 +4211,13 @@ IL_0022:
 		U3CU3Ec__DisplayClass10_0__ctor_m8C69A89B34AA3D16243E69F1E0015856C791CC8A(L_3, NULL);
 		__this->___U3CU3E8__1 = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E8__1), (void*)L_3);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:59>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:59>
 		VertexZoom_t51F05EB153497034D27896F07590D790A73981A6* L_4 = V_1;
 		NullCheck(L_4);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_5 = L_4->___m_TextComponent;
 		NullCheck(L_5);
 		VirtualActionInvoker2< bool, bool >::Invoke(106, L_5, (bool)0, (bool)0);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:61>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:61>
 		VertexZoom_t51F05EB153497034D27896F07590D790A73981A6* L_6 = V_1;
 		NullCheck(L_6);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_7 = L_6->___m_TextComponent;
@@ -4226,26 +4226,26 @@ IL_0022:
 		L_8 = TMP_Text_get_textInfo_mA24C606B8EA51436E4AA3B9D6DCDFA7A8995E10E(L_7, NULL);
 		__this->___U3CtextInfoU3E5__2 = L_8;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CtextInfoU3E5__2), (void*)L_8);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:64>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:64>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_9 = __this->___U3CtextInfoU3E5__2;
 		NullCheck(L_9);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_10;
 		L_10 = TMP_TextInfo_CopyMeshInfoVertexData_mF66E2F8821470E68D95FEB53D456CFA86241C0CA(L_9, NULL);
 		__this->___U3CcachedMeshInfoVertexDataU3E5__3 = L_10;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CcachedMeshInfoVertexDataU3E5__3), (void*)L_10);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:67>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:67>
 		U3CU3Ec__DisplayClass10_0_t62C0E1CEED92DDFC3DD4C58EC8806FC7D82A7FB7* L_11 = __this->___U3CU3E8__1;
 		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_12 = (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918*)il2cpp_codegen_object_new(List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918_il2cpp_TypeInfo_var);
 		List_1__ctor_mC29D3D824786832A31096310B3B3016B8B42B802(L_12, List_1__ctor_mC29D3D824786832A31096310B3B3016B8B42B802_RuntimeMethod_var);
 		NullCheck(L_11);
 		L_11->___modifiedCharScale = L_12;
 		Il2CppCodeGenWriteBarrier((void**)(&L_11->___modifiedCharScale), (void*)L_12);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:68>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:68>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_13 = (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*)il2cpp_codegen_object_new(List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73_il2cpp_TypeInfo_var);
 		List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8(L_13, List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8_RuntimeMethod_var);
 		__this->___U3CscaleSortingOrderU3E5__4 = L_13;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CscaleSortingOrderU3E5__4), (void*)L_13);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:70>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:70>
 		VertexZoom_t51F05EB153497034D27896F07590D790A73981A6* L_14 = V_1;
 		NullCheck(L_14);
 		L_14->___hasTextChanged = (bool)1;
@@ -4253,7 +4253,7 @@ IL_0022:
 
 IL_0085:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:75>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:75>
 		VertexZoom_t51F05EB153497034D27896F07590D790A73981A6* L_15 = V_1;
 		NullCheck(L_15);
 		bool L_16 = L_15->___hasTextChanged;
@@ -4263,14 +4263,14 @@ IL_0085:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:78>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:78>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_17 = __this->___U3CtextInfoU3E5__2;
 		NullCheck(L_17);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_18;
 		L_18 = TMP_TextInfo_CopyMeshInfoVertexData_mF66E2F8821470E68D95FEB53D456CFA86241C0CA(L_17, NULL);
 		__this->___U3CcachedMeshInfoVertexDataU3E5__3 = L_18;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CcachedMeshInfoVertexDataU3E5__3), (void*)L_18);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:80>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:80>
 		VertexZoom_t51F05EB153497034D27896F07590D790A73981A6* L_19 = V_1;
 		NullCheck(L_19);
 		L_19->___hasTextChanged = (bool)0;
@@ -4278,12 +4278,12 @@ IL_0085:
 
 IL_00a5:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:83>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:83>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_20 = __this->___U3CtextInfoU3E5__2;
 		NullCheck(L_20);
 		int32_t L_21 = L_20->___characterCount;
 		V_3 = L_21;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:86>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:86>
 		int32_t L_22 = V_3;
 		if (L_22)
 		{
@@ -4291,7 +4291,7 @@ IL_00a5:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:88>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:88>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_23 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_23, (0.25f), NULL);
 		__this->___U3CU3E2__current = L_23;
@@ -4303,30 +4303,30 @@ IL_00a5:
 IL_00cd:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:89>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:89>
 		goto IL_0085;
 	}
 
 IL_00d6:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:93>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:93>
 		U3CU3Ec__DisplayClass10_0_t62C0E1CEED92DDFC3DD4C58EC8806FC7D82A7FB7* L_24 = __this->___U3CU3E8__1;
 		NullCheck(L_24);
 		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_25 = L_24->___modifiedCharScale;
 		NullCheck(L_25);
 		List_1_Clear_m6CD2E5AAE6552A27AECCC57936767B4DCFC902B1_inline(L_25, List_1_Clear_m6CD2E5AAE6552A27AECCC57936767B4DCFC902B1_RuntimeMethod_var);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:94>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:94>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_26 = __this->___U3CscaleSortingOrderU3E5__4;
 		NullCheck(L_26);
 		List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_inline(L_26, List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_RuntimeMethod_var);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:96>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:96>
 		V_4 = 0;
 		goto IL_045a;
 	}
 
 IL_00f9:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:98>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:98>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_27 = __this->___U3CtextInfoU3E5__2;
 		NullCheck(L_27);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_28 = L_27->___characterInfo;
@@ -4334,7 +4334,7 @@ IL_00f9:
 		NullCheck(L_28);
 		int32_t L_30 = L_29;
 		TMP_CharacterInfo_t8B8FF32D6AACE251F2E7835AA5BC6608D535D9F8 L_31 = (L_28)->GetAt(static_cast<il2cpp_array_size_t>(L_30));
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:101>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:101>
 		bool L_32 = L_31.___isVisible;
 		if (!L_32)
 		{
@@ -4342,7 +4342,7 @@ IL_00f9:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:105>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:105>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_33 = __this->___U3CtextInfoU3E5__2;
 		NullCheck(L_33);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_34 = L_33->___characterInfo;
@@ -4350,7 +4350,7 @@ IL_00f9:
 		NullCheck(L_34);
 		int32_t L_36 = ((L_34)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_35)))->___materialReferenceIndex;
 		V_5 = L_36;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:108>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:108>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_37 = __this->___U3CtextInfoU3E5__2;
 		NullCheck(L_37);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_38 = L_37->___characterInfo;
@@ -4358,13 +4358,13 @@ IL_00f9:
 		NullCheck(L_38);
 		int32_t L_40 = ((L_38)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_39)))->___vertexIndex;
 		V_6 = L_40;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:111>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:111>
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_41 = __this->___U3CcachedMeshInfoVertexDataU3E5__3;
 		int32_t L_42 = V_5;
 		NullCheck(L_41);
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_43 = ((L_41)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_42)))->___vertices;
 		V_7 = L_43;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:116>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:116>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_44 = V_7;
 		int32_t L_45 = V_6;
 		NullCheck(L_44);
@@ -4381,11 +4381,11 @@ IL_00f9:
 		L_53 = Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline(L_52, (2.0f), NULL);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_54;
 		L_54 = Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline(L_53, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:120>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:120>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_55;
 		L_55 = Vector2_op_Implicit_m6D9CABB2C791A192867D7A4559D132BE86DD3EB7_inline(L_54, NULL);
 		V_8 = L_55;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:122>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:122>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_56 = __this->___U3CtextInfoU3E5__2;
 		NullCheck(L_56);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_57 = L_56->___meshInfo;
@@ -4393,7 +4393,7 @@ IL_00f9:
 		NullCheck(L_57);
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_59 = ((L_57)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_58)))->___vertices;
 		V_9 = L_59;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:124>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:124>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_60 = V_9;
 		int32_t L_61 = V_6;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_62 = V_7;
@@ -4406,7 +4406,7 @@ IL_00f9:
 		L_67 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_65, L_66, NULL);
 		NullCheck(L_60);
 		(L_60)->SetAt(static_cast<il2cpp_array_size_t>(L_61), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_67);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:125>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:125>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_68 = V_9;
 		int32_t L_69 = V_6;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_70 = V_7;
@@ -4419,7 +4419,7 @@ IL_00f9:
 		L_75 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_73, L_74, NULL);
 		NullCheck(L_68);
 		(L_68)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_69, 1))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_75);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:126>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:126>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_76 = V_9;
 		int32_t L_77 = V_6;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_78 = V_7;
@@ -4432,7 +4432,7 @@ IL_00f9:
 		L_83 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_81, L_82, NULL);
 		NullCheck(L_76);
 		(L_76)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_77, 2))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_83);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:127>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:127>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_84 = V_9;
 		int32_t L_85 = V_6;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_86 = V_7;
@@ -4445,18 +4445,18 @@ IL_00f9:
 		L_91 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_89, L_90, NULL);
 		NullCheck(L_84);
 		(L_84)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_85, 3))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_91);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:132>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:132>
 		float L_92;
 		L_92 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494((1.0f), (1.5f), NULL);
 		V_10 = L_92;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:135>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:135>
 		U3CU3Ec__DisplayClass10_0_t62C0E1CEED92DDFC3DD4C58EC8806FC7D82A7FB7* L_93 = __this->___U3CU3E8__1;
 		NullCheck(L_93);
 		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_94 = L_93->___modifiedCharScale;
 		float L_95 = V_10;
 		NullCheck(L_94);
 		List_1_Add_m2F86E252D086E288E02FA1C830B7E86C0A431E51_inline(L_94, L_95, List_1_Add_m2F86E252D086E288E02FA1C830B7E86C0A431E51_RuntimeMethod_var);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:136>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:136>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_96 = __this->___U3CscaleSortingOrderU3E5__4;
 		U3CU3Ec__DisplayClass10_0_t62C0E1CEED92DDFC3DD4C58EC8806FC7D82A7FB7* L_97 = __this->___U3CU3E8__1;
 		NullCheck(L_97);
@@ -4466,7 +4466,7 @@ IL_00f9:
 		L_99 = List_1_get_Count_m545762F67009314D9C63DD209B42FFF950569B05_inline(L_98, List_1_get_Count_m545762F67009314D9C63DD209B42FFF950569B05_RuntimeMethod_var);
 		NullCheck(L_96);
 		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_96, ((int32_t)il2cpp_codegen_subtract(L_99, 1)), List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:140>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:140>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_100;
 		memset((&L_100), 0, sizeof(L_100));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_100), (0.0f), (0.0f), (0.0f), NULL);
@@ -4480,7 +4480,7 @@ IL_00f9:
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_105;
 		L_105 = Matrix4x4_TRS_mCC04FD47347234B451ACC6CCD2CE6D02E1E0E1E3_inline(L_100, L_101, L_104, NULL);
 		V_2 = L_105;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:142>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:142>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_106 = V_9;
 		int32_t L_107 = V_6;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_108 = V_9;
@@ -4492,7 +4492,7 @@ IL_00f9:
 		L_112 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814_inline((&V_2), L_111, NULL);
 		NullCheck(L_106);
 		(L_106)->SetAt(static_cast<il2cpp_array_size_t>(L_107), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_112);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:143>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:143>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_113 = V_9;
 		int32_t L_114 = V_6;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_115 = V_9;
@@ -4504,7 +4504,7 @@ IL_00f9:
 		L_119 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814_inline((&V_2), L_118, NULL);
 		NullCheck(L_113);
 		(L_113)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_114, 1))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_119);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:144>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:144>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_120 = V_9;
 		int32_t L_121 = V_6;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_122 = V_9;
@@ -4516,7 +4516,7 @@ IL_00f9:
 		L_126 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814_inline((&V_2), L_125, NULL);
 		NullCheck(L_120);
 		(L_120)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_121, 2))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_126);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:145>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:145>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_127 = V_9;
 		int32_t L_128 = V_6;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_129 = V_9;
@@ -4528,7 +4528,7 @@ IL_00f9:
 		L_133 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814_inline((&V_2), L_132, NULL);
 		NullCheck(L_127);
 		(L_127)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_128, 3))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_133);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:147>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:147>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_134 = V_9;
 		int32_t L_135 = V_6;
 		NullCheck(L_134);
@@ -4538,7 +4538,7 @@ IL_00f9:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_139;
 		L_139 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_137, L_138, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_136 = L_139;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:148>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:148>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_140 = V_9;
 		int32_t L_141 = V_6;
 		NullCheck(L_140);
@@ -4548,7 +4548,7 @@ IL_00f9:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_145;
 		L_145 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_143, L_144, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_142 = L_145;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:149>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:149>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_146 = V_9;
 		int32_t L_147 = V_6;
 		NullCheck(L_146);
@@ -4558,7 +4558,7 @@ IL_00f9:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_151;
 		L_151 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_149, L_150, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_148 = L_151;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:150>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:150>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_152 = V_9;
 		int32_t L_153 = V_6;
 		NullCheck(L_152);
@@ -4568,20 +4568,20 @@ IL_00f9:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_157;
 		L_157 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_155, L_156, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_154 = L_157;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:153>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:153>
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_158 = __this->___U3CcachedMeshInfoVertexDataU3E5__3;
 		int32_t L_159 = V_5;
 		NullCheck(L_158);
 		Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* L_160 = ((L_158)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_159)))->___uvs0;
 		V_11 = L_160;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:154>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:154>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_161 = __this->___U3CtextInfoU3E5__2;
 		NullCheck(L_161);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_162 = L_161->___meshInfo;
 		int32_t L_163 = V_5;
 		NullCheck(L_162);
 		Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* L_164 = ((L_162)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_163)))->___uvs0;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:156>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:156>
 		Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* L_165 = L_164;
 		int32_t L_166 = V_6;
 		Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* L_167 = V_11;
@@ -4591,7 +4591,7 @@ IL_00f9:
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_170 = (L_167)->GetAt(static_cast<il2cpp_array_size_t>(L_169));
 		NullCheck(L_165);
 		(L_165)->SetAt(static_cast<il2cpp_array_size_t>(L_166), (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3)L_170);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:157>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:157>
 		Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* L_171 = L_165;
 		int32_t L_172 = V_6;
 		Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* L_173 = V_11;
@@ -4601,7 +4601,7 @@ IL_00f9:
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_176 = (L_173)->GetAt(static_cast<il2cpp_array_size_t>(L_175));
 		NullCheck(L_171);
 		(L_171)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_172, 1))), (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3)L_176);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:158>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:158>
 		Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* L_177 = L_171;
 		int32_t L_178 = V_6;
 		Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* L_179 = V_11;
@@ -4611,7 +4611,7 @@ IL_00f9:
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_182 = (L_179)->GetAt(static_cast<il2cpp_array_size_t>(L_181));
 		NullCheck(L_177);
 		(L_177)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_178, 2))), (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3)L_182);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:159>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:159>
 		int32_t L_183 = V_6;
 		Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* L_184 = V_11;
 		int32_t L_185 = V_6;
@@ -4620,20 +4620,20 @@ IL_00f9:
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_187 = (L_184)->GetAt(static_cast<il2cpp_array_size_t>(L_186));
 		NullCheck(L_177);
 		(L_177)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_183, 3))), (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3)L_187);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:162>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:162>
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_188 = __this->___U3CcachedMeshInfoVertexDataU3E5__3;
 		int32_t L_189 = V_5;
 		NullCheck(L_188);
 		Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* L_190 = ((L_188)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_189)))->___colors32;
 		V_12 = L_190;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:163>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:163>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_191 = __this->___U3CtextInfoU3E5__2;
 		NullCheck(L_191);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_192 = L_191->___meshInfo;
 		int32_t L_193 = V_5;
 		NullCheck(L_192);
 		Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* L_194 = ((L_192)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_193)))->___colors32;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:165>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:165>
 		Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* L_195 = L_194;
 		int32_t L_196 = V_6;
 		Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* L_197 = V_12;
@@ -4643,7 +4643,7 @@ IL_00f9:
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_200 = (L_197)->GetAt(static_cast<il2cpp_array_size_t>(L_199));
 		NullCheck(L_195);
 		(L_195)->SetAt(static_cast<il2cpp_array_size_t>(L_196), (Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B)L_200);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:166>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:166>
 		Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* L_201 = L_195;
 		int32_t L_202 = V_6;
 		Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* L_203 = V_12;
@@ -4653,7 +4653,7 @@ IL_00f9:
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_206 = (L_203)->GetAt(static_cast<il2cpp_array_size_t>(L_205));
 		NullCheck(L_201);
 		(L_201)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_202, 1))), (Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B)L_206);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:167>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:167>
 		Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* L_207 = L_201;
 		int32_t L_208 = V_6;
 		Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* L_209 = V_12;
@@ -4663,7 +4663,7 @@ IL_00f9:
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_212 = (L_209)->GetAt(static_cast<il2cpp_array_size_t>(L_211));
 		NullCheck(L_207);
 		(L_207)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_208, 2))), (Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B)L_212);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:168>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:168>
 		int32_t L_213 = V_6;
 		Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* L_214 = V_12;
 		int32_t L_215 = V_6;
@@ -4676,14 +4676,14 @@ IL_00f9:
 
 IL_0454:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:96>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:96>
 		int32_t L_218 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_218, 1));
 	}
 
 IL_045a:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:96>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:96>
 		int32_t L_219 = V_4;
 		int32_t L_220 = V_3;
 		if ((((int32_t)L_219) < ((int32_t)L_220)))
@@ -4692,14 +4692,14 @@ IL_045a:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:172>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:172>
 		V_13 = 0;
 		goto IL_0586;
 	}
 
 IL_046a:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:175>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:175>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_221 = __this->___U3CscaleSortingOrderU3E5__4;
 		U3CU3Ec__DisplayClass10_0_t62C0E1CEED92DDFC3DD4C58EC8806FC7D82A7FB7* L_222 = __this->___U3CU3E8__1;
 		NullCheck(L_222);
@@ -4733,7 +4733,7 @@ IL_04a0:
 	{
 		NullCheck(G_B16_1);
 		List_1_Sort_m90CDC07AEBE737318A490F4C2BC6F2955443EDA4(G_B16_1, G_B16_0, List_1_Sort_m90CDC07AEBE737318A490F4C2BC6F2955443EDA4_RuntimeMethod_var);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:177>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:177>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_230 = __this->___U3CtextInfoU3E5__2;
 		NullCheck(L_230);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_231 = L_230->___meshInfo;
@@ -4742,7 +4742,7 @@ IL_04a0:
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_233 = __this->___U3CscaleSortingOrderU3E5__4;
 		il2cpp_codegen_runtime_class_init_inline(TMP_MeshInfo_t320C52212E9D672EBB5F5C18C3E0700AA33DD76B_il2cpp_TypeInfo_var);
 		TMP_MeshInfo_SortGeometry_m74ED0FE2065414A659EE9A9C809E1B0B4A8A7734(((L_231)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_232))), L_233, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:180>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:180>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_234 = __this->___U3CtextInfoU3E5__2;
 		NullCheck(L_234);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_235 = L_234->___meshInfo;
@@ -4757,7 +4757,7 @@ IL_04a0:
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_241 = ((L_239)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_240)))->___vertices;
 		NullCheck(L_237);
 		Mesh_set_vertices_m5BB814D89E9ACA00DBF19F7D8E22CB73AC73FE5C(L_237, L_241, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:181>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:181>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_242 = __this->___U3CtextInfoU3E5__2;
 		NullCheck(L_242);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_243 = L_242->___meshInfo;
@@ -4772,7 +4772,7 @@ IL_04a0:
 		Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* L_249 = ((L_247)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_248)))->___uvs0;
 		NullCheck(L_245);
 		Mesh_SetUVs_mDFA98E5557AB6585FE0F8AB5C9286D1C69A53324(L_245, 0, L_249, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:182>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:182>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_250 = __this->___U3CtextInfoU3E5__2;
 		NullCheck(L_250);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_251 = L_250->___meshInfo;
@@ -4787,7 +4787,7 @@ IL_04a0:
 		Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* L_257 = ((L_255)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_256)))->___colors32;
 		NullCheck(L_253);
 		Mesh_set_colors32_m0E4462B7A1D613E6FB15DD7584BCE5491C17820F(L_253, L_257, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:184>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:184>
 		VertexZoom_t51F05EB153497034D27896F07590D790A73981A6* L_258 = V_1;
 		NullCheck(L_258);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_259 = L_258->___m_TextComponent;
@@ -4800,14 +4800,14 @@ IL_04a0:
 		int32_t L_264 = V_13;
 		NullCheck(L_259);
 		VirtualActionInvoker2< Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*, int32_t >::Invoke(107, L_259, L_263, L_264);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:172>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:172>
 		int32_t L_265 = V_13;
 		V_13 = ((int32_t)il2cpp_codegen_add(L_265, 1));
 	}
 
 IL_0586:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:172>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:172>
 		int32_t L_266 = V_13;
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_267 = __this->___U3CtextInfoU3E5__2;
 		NullCheck(L_267);
@@ -4819,7 +4819,7 @@ IL_0586:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:187>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:187>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_269 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_269, (0.100000001f), NULL);
 		__this->___U3CU3E2__current = L_269;
@@ -4831,11 +4831,11 @@ IL_0586:
 IL_05b3:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:72>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs:72>
 		goto IL_0085;
 	}
 }
-// Method Definition Index: 76016
+// Method Definition Index: 76039
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAnimateVertexColorsU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m110CD16E89E725B1484D24FFB1753768F78A988B (U3CAnimateVertexColorsU3Ed__10_t2EB585545BBB614E711BE1D5C7BF139053486123* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4843,7 +4843,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAnimateVertexColorsU3Ed__10
 		return L_0;
 	}
 }
-// Method Definition Index: 76017
+// Method Definition Index: 76040
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAnimateVertexColorsU3Ed__10_System_Collections_IEnumerator_Reset_mDE5E71C88F5096FD70EB061287ADF0B847732821 (U3CAnimateVertexColorsU3Ed__10_t2EB585545BBB614E711BE1D5C7BF139053486123* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4852,7 +4852,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAnimateVertexColorsU3Ed__10_System_Co
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CAnimateVertexColorsU3Ed__10_System_Collections_IEnumerator_Reset_mDE5E71C88F5096FD70EB061287ADF0B847732821_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 76018
+// Method Definition Index: 76041
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAnimateVertexColorsU3Ed__10_System_Collections_IEnumerator_get_Current_m14B89756695EE73AEBB6F3A613F65E1343A8CC2C (U3CAnimateVertexColorsU3Ed__10_t2EB585545BBB614E711BE1D5C7BF139053486123* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4868,7 +4868,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CAnimateVertexColorsU3Ed__10
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76019
+// Method Definition Index: 76042
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WarpTextExample_Awake_m92842E51B4DBB2E4341ACB179468049FAB23949F (WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4878,7 +4878,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WarpTextExample_Awake_m92842E51B4DBB2E43
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:20>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:20>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_0);
@@ -4886,24 +4886,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WarpTextExample_Awake_m92842E51B4DBB2E43
 		L_1 = GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3(L_0, GameObject_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mA59A63181077B821132B53D44724D7F86C6FECB3_RuntimeMethod_var);
 		__this->___m_TextComponent = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_TextComponent), (void*)L_1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:21>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:21>
 		return;
 	}
 }
-// Method Definition Index: 76020
+// Method Definition Index: 76043
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WarpTextExample_Start_m3339EDC03B6FC498916520CBCCDB5F9FA090F809 (WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:26>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:26>
 		RuntimeObject* L_0;
 		L_0 = WarpTextExample_WarpText_mBE4B6E5B6D8AAE9340CD59B1FA9DFE9A34665E98(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_1;
 		L_1 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_0, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:27>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:27>
 		return;
 	}
 }
-// Method Definition Index: 76021
+// Method Definition Index: 76044
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* WarpTextExample_CopyAnimationCurve_m65A93388CC2CF58CD2E08CC8EF682A2C97C558FF (WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* __this, AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* ___0_curve, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4913,10 +4913,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD9991
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:32>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:32>
 		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_0 = (AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354*)il2cpp_codegen_object_new(AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354_il2cpp_TypeInfo_var);
 		AnimationCurve__ctor_m0D976567166F92383307DC8EB8D7082CD34E226F(L_0, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:34>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:34>
 		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_1 = L_0;
 		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_2 = ___0_curve;
 		NullCheck(L_2);
@@ -4924,11 +4924,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD9991
 		L_3 = AnimationCurve_get_keys_m34452C69464AB459C04BFFEA4F541F06B419AC4E(L_2, NULL);
 		NullCheck(L_1);
 		AnimationCurve_set_keys_mBE1284B44CDBB1D8381177A3D581A6E71467F95C(L_1, L_3, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:36>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:36>
 		return L_1;
 	}
 }
-// Method Definition Index: 76022
+// Method Definition Index: 76045
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* WarpTextExample_WarpText_mBE4B6E5B6D8AAE9340CD59B1FA9DFE9A34665E98 (WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4947,7 +4947,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* WarpTextExample_WarpText_mBE4B
 		return L_1;
 	}
 }
-// Method Definition Index: 76023
+// Method Definition Index: 76046
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WarpTextExample__ctor_mBD48A5403123F25C45B5E60C19E1EA397FBA1795 (WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4958,7 +4958,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WarpTextExample__ctor_mBD48A5403123F25C4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:13>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:13>
 		KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3* L_0 = (KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3*)(KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3*)SZArrayNew(KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3_il2cpp_TypeInfo_var, (uint32_t)5);
 		KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3* L_1 = L_0;
 		Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0 L_2;
@@ -4994,11 +4994,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WarpTextExample__ctor_mBD48A5403123F25C4
 		AnimationCurve__ctor_mEABC98C03805713354D61E50D9340766BD5B717E(L_11, L_9, NULL);
 		__this->___VertexCurve = L_11;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___VertexCurve), (void*)L_11);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:14>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:14>
 		__this->___AngleMultiplier = (1.0f);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:15>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:15>
 		__this->___SpeedMultiplier = (1.0f);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:16>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:16>
 		__this->___CurveScale = (1.0f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -5012,7 +5012,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WarpTextExample__ctor_mBD48A5403123F25C4
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76024
+// Method Definition Index: 76047
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWarpTextU3Ed__8__ctor_m1943C34BBEAF121203BA8C5D725E991283A4A3BB (U3CWarpTextU3Ed__8_tF1A14DF86D48AE9144155D4BF8E31E63471F358E* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -5022,14 +5022,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWarpTextU3Ed__8__ctor_m1943C34BBEAF12
 		return;
 	}
 }
-// Method Definition Index: 76025
+// Method Definition Index: 76048
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWarpTextU3Ed__8_System_IDisposable_Dispose_m145D2DA1026419984AD79D5D62FBC38C9441AB53 (U3CWarpTextU3Ed__8_tF1A14DF86D48AE9144155D4BF8E31E63471F358E* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 76026
+// Method Definition Index: 76049
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CWarpTextU3Ed__8_MoveNext_mCE7A826C5E4854C2C509C77BD18F5A9B6D691B02 (U3CWarpTextU3Ed__8_tF1A14DF86D48AE9144155D4BF8E31E63471F358E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5092,37 +5092,37 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CWarpTextU3Ed__8_MoveNext_mCE7A826C5E4
 IL_0022:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:47>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:47>
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_3 = V_1;
 		NullCheck(L_3);
 		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_4 = L_3->___VertexCurve;
 		NullCheck(L_4);
 		AnimationCurve_set_preWrapMode_mA618E67F536483FA5F3507A2D97C045E089D1B2D(L_4, 1, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:48>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:48>
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_5 = V_1;
 		NullCheck(L_5);
 		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_6 = L_5->___VertexCurve;
 		NullCheck(L_6);
 		AnimationCurve_set_postWrapMode_m39A4758ABD5D2AEE475940829352792FE7E9CBA9(L_6, 1, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:55>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:55>
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_7 = V_1;
 		NullCheck(L_7);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_8 = L_7->___m_TextComponent;
 		NullCheck(L_8);
 		TMP_Text_set_havePropertiesChanged_mA38D7BC9E260BF29450738B827F2220A05662B31(L_8, (bool)1, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:56>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:56>
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_9 = V_1;
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_10 = V_1;
 		NullCheck(L_10);
 		float L_11 = L_10->___CurveScale;
 		NullCheck(L_9);
 		L_9->___CurveScale = ((float)il2cpp_codegen_multiply(L_11, (10.0f)));
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:57>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:57>
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_12 = V_1;
 		NullCheck(L_12);
 		float L_13 = L_12->___CurveScale;
 		__this->___U3Cold_CurveScaleU3E5__2 = L_13;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:58>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:58>
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_14 = V_1;
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_15 = V_1;
 		NullCheck(L_15);
@@ -5136,7 +5136,7 @@ IL_0022:
 
 IL_007d:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:62>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:62>
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_18 = V_1;
 		NullCheck(L_18);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_19 = L_18->___m_TextComponent;
@@ -5181,7 +5181,7 @@ IL_007d:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:64>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:64>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 1;
@@ -5191,18 +5191,18 @@ IL_007d:
 IL_00d6:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:65>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:65>
 		goto IL_007d;
 	}
 
 IL_00df:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:68>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:68>
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_31 = V_1;
 		NullCheck(L_31);
 		float L_32 = L_31->___CurveScale;
 		__this->___U3Cold_CurveScaleU3E5__2 = L_32;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:69>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:69>
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_33 = V_1;
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_34 = V_1;
 		NullCheck(L_34);
@@ -5212,13 +5212,13 @@ IL_00df:
 		L_36 = WarpTextExample_CopyAnimationCurve_m65A93388CC2CF58CD2E08CC8EF682A2C97C558FF(L_33, L_35, NULL);
 		__this->___U3Cold_curveU3E5__3 = L_36;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3Cold_curveU3E5__3), (void*)L_36);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:71>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:71>
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_37 = V_1;
 		NullCheck(L_37);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_38 = L_37->___m_TextComponent;
 		NullCheck(L_38);
 		VirtualActionInvoker2< bool, bool >::Invoke(106, L_38, (bool)0, (bool)0);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:73>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:73>
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_39 = V_1;
 		NullCheck(L_39);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_40 = L_39->___m_TextComponent;
@@ -5226,12 +5226,12 @@ IL_00df:
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_41;
 		L_41 = TMP_Text_get_textInfo_mA24C606B8EA51436E4AA3B9D6DCDFA7A8995E10E(L_40, NULL);
 		V_4 = L_41;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:74>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:74>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_42 = V_4;
 		NullCheck(L_42);
 		int32_t L_43 = L_42->___characterCount;
 		V_5 = L_43;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:77>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:77>
 		int32_t L_44 = V_5;
 		if (!L_44)
 		{
@@ -5239,7 +5239,7 @@ IL_00df:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:82>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:82>
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_45 = V_1;
 		NullCheck(L_45);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_46 = L_45->___m_TextComponent;
@@ -5251,7 +5251,7 @@ IL_00df:
 		L_48 = Bounds_get_min_m465AC9BBE1DE5D8E8AD95AC19B9899068FEEBB13_inline((&V_8), NULL);
 		float L_49 = L_48.___x;
 		V_6 = L_49;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:83>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:83>
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_50 = V_1;
 		NullCheck(L_50);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_51 = L_50->___m_TextComponent;
@@ -5263,14 +5263,14 @@ IL_00df:
 		L_53 = Bounds_get_max_m6446F2AB97C1E57CA89467B9DE52D4EB61F1CB09_inline((&V_8), NULL);
 		float L_54 = L_53.___x;
 		V_7 = L_54;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:87>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:87>
 		V_9 = 0;
 		goto IL_0446;
 	}
 
 IL_0165:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:89>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:89>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_55 = V_4;
 		NullCheck(L_55);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_56 = L_55->___characterInfo;
@@ -5283,7 +5283,7 @@ IL_0165:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:92>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:92>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_59 = V_4;
 		NullCheck(L_59);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_60 = L_59->___characterInfo;
@@ -5291,7 +5291,7 @@ IL_0165:
 		NullCheck(L_60);
 		int32_t L_62 = ((L_60)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_61)))->___vertexIndex;
 		V_10 = L_62;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:95>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:95>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_63 = V_4;
 		NullCheck(L_63);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_64 = L_63->___characterInfo;
@@ -5299,7 +5299,7 @@ IL_0165:
 		NullCheck(L_64);
 		int32_t L_66 = ((L_64)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_65)))->___materialReferenceIndex;
 		V_11 = L_66;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:97>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:97>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_67 = V_4;
 		NullCheck(L_67);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_68 = L_67->___meshInfo;
@@ -5307,7 +5307,7 @@ IL_0165:
 		NullCheck(L_68);
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_70 = ((L_68)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_69)))->___vertices;
 		V_2 = L_70;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:100>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:100>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_71 = V_2;
 		int32_t L_72 = V_10;
 		NullCheck(L_71);
@@ -5328,7 +5328,7 @@ IL_0165:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_82;
 		L_82 = Vector2_op_Implicit_m6D9CABB2C791A192867D7A4559D132BE86DD3EB7_inline(L_81, NULL);
 		V_12 = L_82;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:104>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:104>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_83 = V_2;
 		int32_t L_84 = V_10;
 		NullCheck(L_83);
@@ -5340,7 +5340,7 @@ IL_0165:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_89;
 		L_89 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_86, L_88, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_85 = L_89;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:105>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:105>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_90 = V_2;
 		int32_t L_91 = V_10;
 		NullCheck(L_90);
@@ -5352,7 +5352,7 @@ IL_0165:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_96;
 		L_96 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_93, L_95, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_92 = L_96;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:106>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:106>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_97 = V_2;
 		int32_t L_98 = V_10;
 		NullCheck(L_97);
@@ -5364,7 +5364,7 @@ IL_0165:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_103;
 		L_103 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_100, L_102, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_99 = L_103;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:107>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:107>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_104 = V_2;
 		int32_t L_105 = V_10;
 		NullCheck(L_104);
@@ -5376,17 +5376,17 @@ IL_0165:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_110;
 		L_110 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_107, L_109, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_106 = L_110;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:110>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:110>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_111 = V_12;
 		float L_112 = L_111.___x;
 		float L_113 = V_6;
 		float L_114 = V_7;
 		float L_115 = V_6;
 		V_13 = ((float)(((float)il2cpp_codegen_subtract(L_112, L_113))/((float)il2cpp_codegen_subtract(L_114, L_115))));
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:111>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:111>
 		float L_116 = V_13;
 		V_14 = ((float)il2cpp_codegen_add(L_116, (9.99999975E-05f)));
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:112>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:112>
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_117 = V_1;
 		NullCheck(L_117);
 		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_118 = L_117->___VertexCurve;
@@ -5398,7 +5398,7 @@ IL_0165:
 		NullCheck(L_121);
 		float L_122 = L_121->___CurveScale;
 		V_15 = ((float)il2cpp_codegen_multiply(L_120, L_122));
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:113>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:113>
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_123 = V_1;
 		NullCheck(L_123);
 		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_124 = L_123->___VertexCurve;
@@ -5410,11 +5410,11 @@ IL_0165:
 		NullCheck(L_127);
 		float L_128 = L_127->___CurveScale;
 		V_16 = ((float)il2cpp_codegen_multiply(L_126, L_128));
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:115>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:115>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_129;
 		memset((&L_129), 0, sizeof(L_129));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_129), (1.0f), (0.0f), (0.0f), NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:117>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:117>
 		float L_130 = V_14;
 		float L_131 = V_7;
 		float L_132 = V_6;
@@ -5432,7 +5432,7 @@ IL_0165:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_140;
 		L_140 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_135, L_139, NULL);
 		V_17 = L_140;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:119>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:119>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_141 = L_129;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_142;
 		L_142 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&V_17), NULL);
@@ -5441,11 +5441,11 @@ IL_0165:
 		float L_144;
 		L_144 = acosf(L_143);
 		V_18 = ((float)il2cpp_codegen_multiply(L_144, (57.2957802f)));
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:120>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:120>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_145 = V_17;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_146;
 		L_146 = Vector3_Cross_mF93A280558BCE756D13B6CC5DCD7DE8A43148987_inline(L_141, L_145, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:121>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:121>
 		float L_147 = L_146.___z;
 		if ((((float)L_147) > ((float)(0.0f))))
 		{
@@ -5467,7 +5467,7 @@ IL_0339:
 IL_033b:
 	{
 		V_19 = G_B14_0;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:123>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:123>
 		float L_150 = V_15;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_151;
 		memset((&L_151), 0, sizeof(L_151));
@@ -5480,7 +5480,7 @@ IL_033b:
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_155;
 		L_155 = Matrix4x4_TRS_mCC04FD47347234B451ACC6CCD2CE6D02E1E0E1E3_inline(L_151, L_153, L_154, NULL);
 		V_3 = L_155;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:125>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:125>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_156 = V_2;
 		int32_t L_157 = V_10;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_158 = V_2;
@@ -5492,7 +5492,7 @@ IL_033b:
 		L_162 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814_inline((&V_3), L_161, NULL);
 		NullCheck(L_156);
 		(L_156)->SetAt(static_cast<il2cpp_array_size_t>(L_157), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_162);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:126>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:126>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_163 = V_2;
 		int32_t L_164 = V_10;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_165 = V_2;
@@ -5504,7 +5504,7 @@ IL_033b:
 		L_169 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814_inline((&V_3), L_168, NULL);
 		NullCheck(L_163);
 		(L_163)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_164, 1))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_169);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:127>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:127>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_170 = V_2;
 		int32_t L_171 = V_10;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_172 = V_2;
@@ -5516,7 +5516,7 @@ IL_033b:
 		L_176 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814_inline((&V_3), L_175, NULL);
 		NullCheck(L_170);
 		(L_170)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_171, 2))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_176);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:128>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:128>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_177 = V_2;
 		int32_t L_178 = V_10;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_179 = V_2;
@@ -5528,7 +5528,7 @@ IL_033b:
 		L_183 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814_inline((&V_3), L_182, NULL);
 		NullCheck(L_177);
 		(L_177)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_178, 3))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_183);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:130>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:130>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_184 = V_2;
 		int32_t L_185 = V_10;
 		NullCheck(L_184);
@@ -5538,7 +5538,7 @@ IL_033b:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_189;
 		L_189 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_187, L_188, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_186 = L_189;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:131>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:131>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_190 = V_2;
 		int32_t L_191 = V_10;
 		NullCheck(L_190);
@@ -5548,7 +5548,7 @@ IL_033b:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_195;
 		L_195 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_193, L_194, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_192 = L_195;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:132>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:132>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_196 = V_2;
 		int32_t L_197 = V_10;
 		NullCheck(L_196);
@@ -5558,7 +5558,7 @@ IL_033b:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_201;
 		L_201 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_199, L_200, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_198 = L_201;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:133>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:133>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_202 = V_2;
 		int32_t L_203 = V_10;
 		NullCheck(L_202);
@@ -5572,14 +5572,14 @@ IL_033b:
 
 IL_0440:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:87>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:87>
 		int32_t L_208 = V_9;
 		V_9 = ((int32_t)il2cpp_codegen_add(L_208, 1));
 	}
 
 IL_0446:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:87>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:87>
 		int32_t L_209 = V_9;
 		int32_t L_210 = V_5;
 		if ((((int32_t)L_209) < ((int32_t)L_210)))
@@ -5588,13 +5588,13 @@ IL_0446:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:138>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:138>
 		WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E* L_211 = V_1;
 		NullCheck(L_211);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_212 = L_211->___m_TextComponent;
 		NullCheck(L_212);
 		VirtualActionInvoker0::Invoke(109, L_212);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:140>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:140>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_213 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_213, (0.0250000004f), NULL);
 		__this->___U3CU3E2__current = L_213;
@@ -5606,11 +5606,11 @@ IL_0446:
 IL_0473:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:60>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs:60>
 		goto IL_007d;
 	}
 }
-// Method Definition Index: 76027
+// Method Definition Index: 76050
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CWarpTextU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD80368E9B7E259311C03E406B75161ED6F7618E3 (U3CWarpTextU3Ed__8_tF1A14DF86D48AE9144155D4BF8E31E63471F358E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5618,7 +5618,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CWarpTextU3Ed__8_System_Coll
 		return L_0;
 	}
 }
-// Method Definition Index: 76028
+// Method Definition Index: 76051
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWarpTextU3Ed__8_System_Collections_IEnumerator_Reset_m07746C332D2D8CE5DEA59873C26F2FAD4B369B42 (U3CWarpTextU3Ed__8_tF1A14DF86D48AE9144155D4BF8E31E63471F358E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5627,7 +5627,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWarpTextU3Ed__8_System_Collections_IE
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CWarpTextU3Ed__8_System_Collections_IEnumerator_Reset_m07746C332D2D8CE5DEA59873C26F2FAD4B369B42_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 76029
+// Method Definition Index: 76052
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CWarpTextU3Ed__8_System_Collections_IEnumerator_get_Current_m71D7F84D9DEF63BEC6B44866515DDCF35B142A19 (U3CWarpTextU3Ed__8_tF1A14DF86D48AE9144155D4BF8E31E63471F358E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5643,7 +5643,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CWarpTextU3Ed__8_System_Coll
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76030
+// Method Definition Index: 76053
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Clock_Start_mEE1DFA6558B219F19AFE1887B48ADD3B93110BE1 (Clock_t17EA52E53E247753CBF8E7DD07D5A5EB41A2AC86* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5653,13 +5653,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Clock_Start_mEE1DFA6558B219F19AFE1887B48
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Clock/Clock.cs:18>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Clock/Clock.cs:18>
 		MonoBehaviour_InvokeRepeating_mF208501E0E4918F9168BBBA5FC50D8F80D01514D(__this, _stringLiteralAB1C58BCFE4923AC585F9F3DD1BFBE46FC63DA9E, (0.0f), (1.0f), NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Clock/Clock.cs:19>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Clock/Clock.cs:19>
 		return;
 	}
 }
-// Method Definition Index: 76031
+// Method Definition Index: 76054
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Clock_UpdateHands_mECAD671B92C9434A9F6354C4F6C7C7E219EDCBC6 (Clock_t17EA52E53E247753CBF8E7DD07D5A5EB41A2AC86* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5681,7 +5681,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Clock_UpdateHands_mECAD671B92C9434A9F635
 	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D V_6;
 	memset((&V_6), 0, sizeof(V_6));
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Clock/Clock.cs:24>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Clock/Clock.cs:24>
 		il2cpp_codegen_runtime_class_init_inline(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_0;
 		L_0 = DateTime_get_Now_m636CB9651A9099D20BA1CF813A0C69637317325C(NULL);
@@ -5689,30 +5689,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Clock_UpdateHands_mECAD671B92C9434A9F635
 		int32_t L_1;
 		L_1 = DateTime_get_Hour_m350B2AEB6ED8AAD80F0779C1FD37EEE13952A7F3((&V_6), NULL);
 		V_0 = ((float)((int32_t)il2cpp_codegen_multiply(L_1, ((int32_t)30))));
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Clock/Clock.cs:25>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Clock/Clock.cs:25>
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_2;
 		L_2 = DateTime_get_Now_m636CB9651A9099D20BA1CF813A0C69637317325C(NULL);
 		V_6 = L_2;
 		int32_t L_3;
 		L_3 = DateTime_get_Minute_m73003491DA85D2C9951ECCF890D9BF6AFFB9E973((&V_6), NULL);
 		V_1 = ((float)((int32_t)il2cpp_codegen_multiply(L_3, 6)));
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Clock/Clock.cs:26>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Clock/Clock.cs:26>
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_4;
 		L_4 = DateTime_get_Now_m636CB9651A9099D20BA1CF813A0C69637317325C(NULL);
 		V_6 = L_4;
 		int32_t L_5;
 		L_5 = DateTime_get_Second_mC860BA28DED65249BE9EA46E4898730C7828B3EA((&V_6), NULL);
 		V_2 = ((float)((int32_t)il2cpp_codegen_multiply(L_5, 6)));
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Clock/Clock.cs:29>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Clock/Clock.cs:29>
 		float L_6 = V_0;
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_3), (0.0f), (0.0f), L_6, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Clock/Clock.cs:30>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Clock/Clock.cs:30>
 		float L_7 = V_1;
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_4), (0.0f), (0.0f), L_7, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Clock/Clock.cs:31>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Clock/Clock.cs:31>
 		float L_8 = V_2;
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_5), (0.0f), (0.0f), L_8, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Clock/Clock.cs:34>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Clock/Clock.cs:34>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9 = __this->___handHours;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_10;
@@ -5723,7 +5723,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Clock_UpdateHands_mECAD671B92C9434A9F635
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Clock/Clock.cs:36>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Clock/Clock.cs:36>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11 = __this->___handHours;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = V_3;
 		NullCheck(L_11);
@@ -5732,7 +5732,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Clock_UpdateHands_mECAD671B92C9434A9F635
 
 IL_0086:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Clock/Clock.cs:39>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Clock/Clock.cs:39>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13 = __this->___handMinutes;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_14;
@@ -5743,7 +5743,7 @@ IL_0086:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Clock/Clock.cs:41>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Clock/Clock.cs:41>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_15 = __this->___handMinutes;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = V_4;
 		NullCheck(L_15);
@@ -5752,7 +5752,7 @@ IL_0086:
 
 IL_00a0:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Clock/Clock.cs:44>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Clock/Clock.cs:44>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_17 = __this->___handSeconds;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_18;
@@ -5763,7 +5763,7 @@ IL_00a0:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Clock/Clock.cs:46>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Clock/Clock.cs:46>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_19 = __this->___handSeconds;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = V_5;
 		NullCheck(L_19);
@@ -5772,21 +5772,21 @@ IL_00a0:
 
 IL_00ba:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Clock/Clock.cs:48>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Clock/Clock.cs:48>
 		return;
 	}
 }
-// Method Definition Index: 76032
+// Method Definition Index: 76055
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Clock_OnDestroy_m180D107D5F34818240BDE62D01111BCA16E00DDE (Clock_t17EA52E53E247753CBF8E7DD07D5A5EB41A2AC86* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Clock/Clock.cs:52>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Clock/Clock.cs:52>
 		MonoBehaviour_CancelInvoke_m177BCBDFCEA3E09C02E3E444BF4FBA648FAE3CFA(__this, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Clock/Clock.cs:53>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Clock/Clock.cs:53>
 		return;
 	}
 }
-// Method Definition Index: 76033
+// Method Definition Index: 76056
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Clock__ctor_m56A9618938A0B8FAB4FD4522279E793F37BF4455 (Clock_t17EA52E53E247753CBF8E7DD07D5A5EB41A2AC86* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5802,17 +5802,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Clock__ctor_m56A9618938A0B8FAB4FD4522279
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76034
+// Method Definition Index: 76057
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClosetopencloseDoor_Start_mA2F0D9A67524E1E3B8A692CEB7141CF60F9E28DD (ClosetopencloseDoor_tB0EDA1832C32D2132A6B6D454754400C6D3FA933* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Closet/ClosetopencloseDoor.cs:17>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Closet/ClosetopencloseDoor.cs:17>
 		__this->___open = (bool)0;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Closet/ClosetopencloseDoor.cs:18>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Closet/ClosetopencloseDoor.cs:18>
 		return;
 	}
 }
-// Method Definition Index: 76035
+// Method Definition Index: 76058
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClosetopencloseDoor_OnMouseOver_mA90BDB1B09EC0BFE1CF58A4DEC03774387766137 (ClosetopencloseDoor_tB0EDA1832C32D2132A6B6D454754400C6D3FA933* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5822,7 +5822,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClosetopencloseDoor_OnMouseOver_mA90BDB1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Closet/ClosetopencloseDoor.cs:23>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Closet/ClosetopencloseDoor.cs:23>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___Player;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -5833,7 +5833,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClosetopencloseDoor_OnMouseOver_mA90BDB1
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Closet/ClosetopencloseDoor.cs:25>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Closet/ClosetopencloseDoor.cs:25>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = __this->___Player;
 		NullCheck(L_2);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
@@ -5845,14 +5845,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClosetopencloseDoor_OnMouseOver_mA90BDB1
 		L_5 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_4, NULL);
 		float L_6;
 		L_6 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_3, L_5, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Closet/ClosetopencloseDoor.cs:26>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Closet/ClosetopencloseDoor.cs:26>
 		if ((!(((float)L_6) < ((float)(15.0f)))))
 		{
 			goto IL_006a;
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Closet/ClosetopencloseDoor.cs:28>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Closet/ClosetopencloseDoor.cs:28>
 		bool L_7 = __this->___open;
 		if (L_7)
 		{
@@ -5860,7 +5860,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClosetopencloseDoor_OnMouseOver_mA90BDB1
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Closet/ClosetopencloseDoor.cs:30>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Closet/ClosetopencloseDoor.cs:30>
 		bool L_8;
 		L_8 = Input_GetMouseButtonDown_m8DFC792D15FFF15D311614D5CC6C5D055E5A1DE3(0, NULL);
 		if (!L_8)
@@ -5869,7 +5869,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClosetopencloseDoor_OnMouseOver_mA90BDB1
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Closet/ClosetopencloseDoor.cs:32>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Closet/ClosetopencloseDoor.cs:32>
 		RuntimeObject* L_9;
 		L_9 = ClosetopencloseDoor_opening_mCCB59361E9B9BE64C31F83B5538ABEC467E2EBED(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_10;
@@ -5879,7 +5879,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClosetopencloseDoor_OnMouseOver_mA90BDB1
 
 IL_004d:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Closet/ClosetopencloseDoor.cs:37>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Closet/ClosetopencloseDoor.cs:37>
 		bool L_11 = __this->___open;
 		if (!L_11)
 		{
@@ -5887,7 +5887,7 @@ IL_004d:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Closet/ClosetopencloseDoor.cs:39>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Closet/ClosetopencloseDoor.cs:39>
 		bool L_12;
 		L_12 = Input_GetMouseButtonDown_m8DFC792D15FFF15D311614D5CC6C5D055E5A1DE3(0, NULL);
 		if (!L_12)
@@ -5896,7 +5896,7 @@ IL_004d:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Closet/ClosetopencloseDoor.cs:41>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Closet/ClosetopencloseDoor.cs:41>
 		RuntimeObject* L_13;
 		L_13 = ClosetopencloseDoor_closing_m693CA9189EA4752DF4D0FC1B0ECC8B98371469DC(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_14;
@@ -5905,11 +5905,11 @@ IL_004d:
 
 IL_006a:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Closet/ClosetopencloseDoor.cs:52>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Closet/ClosetopencloseDoor.cs:52>
 		return;
 	}
 }
-// Method Definition Index: 76036
+// Method Definition Index: 76059
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ClosetopencloseDoor_opening_mCCB59361E9B9BE64C31F83B5538ABEC467E2EBED (ClosetopencloseDoor_tB0EDA1832C32D2132A6B6D454754400C6D3FA933* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5928,7 +5928,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ClosetopencloseDoor_opening_mC
 		return L_1;
 	}
 }
-// Method Definition Index: 76037
+// Method Definition Index: 76060
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ClosetopencloseDoor_closing_m693CA9189EA4752DF4D0FC1B0ECC8B98371469DC (ClosetopencloseDoor_tB0EDA1832C32D2132A6B6D454754400C6D3FA933* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5947,7 +5947,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ClosetopencloseDoor_closing_m6
 		return L_1;
 	}
 }
-// Method Definition Index: 76038
+// Method Definition Index: 76061
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClosetopencloseDoor__ctor_mA8A05329D50B75331545175F96A663E5C0A409D8 (ClosetopencloseDoor_tB0EDA1832C32D2132A6B6D454754400C6D3FA933* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5963,7 +5963,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClosetopencloseDoor__ctor_mA8A05329D50B7
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76039
+// Method Definition Index: 76062
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6__ctor_mF031D197E478F27BD550CCDDCAF87A5D97723B8C (U3CclosingU3Ed__6_t4A69CAE73B3853983C9C0459AA33E22EC88344E0* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -5973,14 +5973,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6__ctor_mF031D197E478F27
 		return;
 	}
 }
-// Method Definition Index: 76040
+// Method Definition Index: 76063
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6_System_IDisposable_Dispose_m6D3E8763004DB73555521AD825F51E514C274EE7 (U3CclosingU3Ed__6_t4A69CAE73B3853983C9C0459AA33E22EC88344E0* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 76041
+// Method Definition Index: 76064
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CclosingU3Ed__6_MoveNext_m8AF87E846FE9AA57721473921FBC9EC35AA47511 (U3CclosingU3Ed__6_t4A69CAE73B3853983C9C0459AA33E22EC88344E0* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6018,19 +6018,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CclosingU3Ed__6_MoveNext_m8AF87E846FE9
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Closet/ClosetopencloseDoor.cs:64>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Closet/ClosetopencloseDoor.cs:64>
 		MonoBehaviour_print_m9E6FF71C673B651F35DD418C293CFC50C46803B6(_stringLiteral28ED81CF5AD6FE392326D7F88BC350380E97CAC5, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Closet/ClosetopencloseDoor.cs:65>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Closet/ClosetopencloseDoor.cs:65>
 		ClosetopencloseDoor_tB0EDA1832C32D2132A6B6D454754400C6D3FA933* L_4 = V_1;
 		NullCheck(L_4);
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_5 = L_4->___Closetopenandclose;
 		NullCheck(L_5);
 		Animator_Play_m0F6A9F84B2E256E644D56C34A7A9BD622CB00FF9(L_5, _stringLiteralD14233E7783951F635FA33EC66C4039886C0C5FD, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Closet/ClosetopencloseDoor.cs:66>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Closet/ClosetopencloseDoor.cs:66>
 		ClosetopencloseDoor_tB0EDA1832C32D2132A6B6D454754400C6D3FA933* L_6 = V_1;
 		NullCheck(L_6);
 		L_6->___open = (bool)0;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Closet/ClosetopencloseDoor.cs:67>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Closet/ClosetopencloseDoor.cs:67>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_7 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_7, (0.5f), NULL);
 		__this->___U3CU3E2__current = L_7;
@@ -6042,11 +6042,11 @@ IL_0017:
 IL_0058:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Closet/ClosetopencloseDoor.cs:68>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Closet/ClosetopencloseDoor.cs:68>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 76042
+// Method Definition Index: 76065
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m6EB8FC2C70DDECB917509AA28A8C661C0ABDE066 (U3CclosingU3Ed__6_t4A69CAE73B3853983C9C0459AA33E22EC88344E0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6054,7 +6054,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Colle
 		return L_0;
 	}
 }
-// Method Definition Index: 76043
+// Method Definition Index: 76066
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6_System_Collections_IEnumerator_Reset_m31C3AE5A139C3C7C67115720F2ADC7A8D8EA7AE0 (U3CclosingU3Ed__6_t4A69CAE73B3853983C9C0459AA33E22EC88344E0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6063,7 +6063,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6_System_Collections_IEn
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CclosingU3Ed__6_System_Collections_IEnumerator_Reset_m31C3AE5A139C3C7C67115720F2ADC7A8D8EA7AE0_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 76044
+// Method Definition Index: 76067
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Collections_IEnumerator_get_Current_m96853EA0B0D2E63442FC988292110895A2D0A726 (U3CclosingU3Ed__6_t4A69CAE73B3853983C9C0459AA33E22EC88344E0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6079,7 +6079,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Colle
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76045
+// Method Definition Index: 76068
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5__ctor_m9C55463BA32967EE04B10D3D450B95B65F6BF9C5 (U3CopeningU3Ed__5_t8D1FB73497F0CC086D824E735129D35B4F0BC461* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -6089,14 +6089,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5__ctor_m9C55463BA32967E
 		return;
 	}
 }
-// Method Definition Index: 76046
+// Method Definition Index: 76069
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5_System_IDisposable_Dispose_m083D16767A8F523B77E57F90362D6A54C4E59E6C (U3CopeningU3Ed__5_t8D1FB73497F0CC086D824E735129D35B4F0BC461* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 76047
+// Method Definition Index: 76070
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CopeningU3Ed__5_MoveNext_mE1D67BAB412117D3CFB71E27F5AAFE65908E26A3 (U3CopeningU3Ed__5_t8D1FB73497F0CC086D824E735129D35B4F0BC461* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6134,19 +6134,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CopeningU3Ed__5_MoveNext_mE1D67BAB4121
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Closet/ClosetopencloseDoor.cs:56>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Closet/ClosetopencloseDoor.cs:56>
 		MonoBehaviour_print_m9E6FF71C673B651F35DD418C293CFC50C46803B6(_stringLiteral22C446C7E5E3265EDDBA27BFE391935857CD98BE, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Closet/ClosetopencloseDoor.cs:57>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Closet/ClosetopencloseDoor.cs:57>
 		ClosetopencloseDoor_tB0EDA1832C32D2132A6B6D454754400C6D3FA933* L_4 = V_1;
 		NullCheck(L_4);
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_5 = L_4->___Closetopenandclose;
 		NullCheck(L_5);
 		Animator_Play_m0F6A9F84B2E256E644D56C34A7A9BD622CB00FF9(L_5, _stringLiteralDEA5DAB9D21EFA1911E11B56ED81850A27AC9237, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Closet/ClosetopencloseDoor.cs:58>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Closet/ClosetopencloseDoor.cs:58>
 		ClosetopencloseDoor_tB0EDA1832C32D2132A6B6D454754400C6D3FA933* L_6 = V_1;
 		NullCheck(L_6);
 		L_6->___open = (bool)1;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Closet/ClosetopencloseDoor.cs:59>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Closet/ClosetopencloseDoor.cs:59>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_7 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_7, (0.5f), NULL);
 		__this->___U3CU3E2__current = L_7;
@@ -6158,11 +6158,11 @@ IL_0017:
 IL_0058:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Closet/ClosetopencloseDoor.cs:60>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Closet/ClosetopencloseDoor.cs:60>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 76048
+// Method Definition Index: 76071
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mBE2022A5A1CCBC0CFD2D4C54B959DF7FC25EE83A (U3CopeningU3Ed__5_t8D1FB73497F0CC086D824E735129D35B4F0BC461* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6170,7 +6170,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Colle
 		return L_0;
 	}
 }
-// Method Definition Index: 76049
+// Method Definition Index: 76072
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5_System_Collections_IEnumerator_Reset_m94177105AF9597696ABEFDAEC612A96F40E35B6D (U3CopeningU3Ed__5_t8D1FB73497F0CC086D824E735129D35B4F0BC461* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6179,7 +6179,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5_System_Collections_IEn
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CopeningU3Ed__5_System_Collections_IEnumerator_Reset_m94177105AF9597696ABEFDAEC612A96F40E35B6D_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 76050
+// Method Definition Index: 76073
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Collections_IEnumerator_get_Current_mAC9BDF2BB89116E173AA37D383D96D6642DEAF7F (U3CopeningU3Ed__5_t8D1FB73497F0CC086D824E735129D35B4F0BC461* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6195,17 +6195,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Colle
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76051
+// Method Definition Index: 76074
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OvenFlip_Start_mAC836D7DC3811DEBAD95FEF85FA6A84379DADB1C (OvenFlip_t67426D82AE7AF86EC4B1F45014E578678E4D06F7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen/OvenFlip.cs:17>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen/OvenFlip.cs:17>
 		__this->___open = (bool)0;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen/OvenFlip.cs:18>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen/OvenFlip.cs:18>
 		return;
 	}
 }
-// Method Definition Index: 76052
+// Method Definition Index: 76075
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OvenFlip_OnMouseOver_m99AD2C8221290AB8D197FCAF31EC944C4C498BC8 (OvenFlip_t67426D82AE7AF86EC4B1F45014E578678E4D06F7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6215,7 +6215,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OvenFlip_OnMouseOver_m99AD2C8221290AB8D1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen/OvenFlip.cs:23>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen/OvenFlip.cs:23>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___Player;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -6226,7 +6226,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OvenFlip_OnMouseOver_m99AD2C8221290AB8D1
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen/OvenFlip.cs:25>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen/OvenFlip.cs:25>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = __this->___Player;
 		NullCheck(L_2);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
@@ -6238,14 +6238,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OvenFlip_OnMouseOver_m99AD2C8221290AB8D1
 		L_5 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_4, NULL);
 		float L_6;
 		L_6 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_3, L_5, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen/OvenFlip.cs:26>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen/OvenFlip.cs:26>
 		if ((!(((float)L_6) < ((float)(15.0f)))))
 		{
 			goto IL_006a;
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen/OvenFlip.cs:28>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen/OvenFlip.cs:28>
 		bool L_7 = __this->___open;
 		if (L_7)
 		{
@@ -6253,7 +6253,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OvenFlip_OnMouseOver_m99AD2C8221290AB8D1
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen/OvenFlip.cs:30>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen/OvenFlip.cs:30>
 		bool L_8;
 		L_8 = Input_GetMouseButtonDown_m8DFC792D15FFF15D311614D5CC6C5D055E5A1DE3(0, NULL);
 		if (!L_8)
@@ -6262,7 +6262,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OvenFlip_OnMouseOver_m99AD2C8221290AB8D1
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen/OvenFlip.cs:32>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen/OvenFlip.cs:32>
 		RuntimeObject* L_9;
 		L_9 = OvenFlip_opening_m4D63EB404C03DE4BCF46B423100562B5D01A7284(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_10;
@@ -6272,7 +6272,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OvenFlip_OnMouseOver_m99AD2C8221290AB8D1
 
 IL_004d:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen/OvenFlip.cs:37>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen/OvenFlip.cs:37>
 		bool L_11 = __this->___open;
 		if (!L_11)
 		{
@@ -6280,7 +6280,7 @@ IL_004d:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen/OvenFlip.cs:39>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen/OvenFlip.cs:39>
 		bool L_12;
 		L_12 = Input_GetMouseButtonDown_m8DFC792D15FFF15D311614D5CC6C5D055E5A1DE3(0, NULL);
 		if (!L_12)
@@ -6289,7 +6289,7 @@ IL_004d:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen/OvenFlip.cs:41>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen/OvenFlip.cs:41>
 		RuntimeObject* L_13;
 		L_13 = OvenFlip_closing_mFFFAC2E79979871EFF5A3A333261EE7096C00A7B(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_14;
@@ -6298,11 +6298,11 @@ IL_004d:
 
 IL_006a:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen/OvenFlip.cs:52>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen/OvenFlip.cs:52>
 		return;
 	}
 }
-// Method Definition Index: 76053
+// Method Definition Index: 76076
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OvenFlip_opening_m4D63EB404C03DE4BCF46B423100562B5D01A7284 (OvenFlip_t67426D82AE7AF86EC4B1F45014E578678E4D06F7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6321,7 +6321,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OvenFlip_opening_m4D63EB404C03
 		return L_1;
 	}
 }
-// Method Definition Index: 76054
+// Method Definition Index: 76077
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OvenFlip_closing_mFFFAC2E79979871EFF5A3A333261EE7096C00A7B (OvenFlip_t67426D82AE7AF86EC4B1F45014E578678E4D06F7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6340,7 +6340,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OvenFlip_closing_mFFFAC2E79979
 		return L_1;
 	}
 }
-// Method Definition Index: 76055
+// Method Definition Index: 76078
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OvenFlip__ctor_m5DE5EC8EF9736FDD59E0B401834982687B853704 (OvenFlip_t67426D82AE7AF86EC4B1F45014E578678E4D06F7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6356,7 +6356,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OvenFlip__ctor_m5DE5EC8EF9736FDD59E0B401
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76056
+// Method Definition Index: 76079
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6__ctor_m98C2F1E9CAB35F73DA4DB5CCC3255FD1016BF7AD (U3CclosingU3Ed__6_tB966F7834B3F3A0C7A9DFD48961B0423AD539C04* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -6366,14 +6366,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6__ctor_m98C2F1E9CAB35F7
 		return;
 	}
 }
-// Method Definition Index: 76057
+// Method Definition Index: 76080
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6_System_IDisposable_Dispose_mBE68E8082F7FDC85289E5DCABAB3256A90CC3A90 (U3CclosingU3Ed__6_tB966F7834B3F3A0C7A9DFD48961B0423AD539C04* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 76058
+// Method Definition Index: 76081
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CclosingU3Ed__6_MoveNext_m4EFB3C000F51AC0722848B3806149A2C9DCEB3F7 (U3CclosingU3Ed__6_tB966F7834B3F3A0C7A9DFD48961B0423AD539C04* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6411,19 +6411,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CclosingU3Ed__6_MoveNext_m4EFB3C000F51
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen/OvenFlip.cs:64>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen/OvenFlip.cs:64>
 		MonoBehaviour_print_m9E6FF71C673B651F35DD418C293CFC50C46803B6(_stringLiteral9EA7FA3E82B407E3083259451D6608D8247A3C5F, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen/OvenFlip.cs:65>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen/OvenFlip.cs:65>
 		OvenFlip_t67426D82AE7AF86EC4B1F45014E578678E4D06F7* L_4 = V_1;
 		NullCheck(L_4);
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_5 = L_4->___openandcloseoven;
 		NullCheck(L_5);
 		Animator_Play_m0F6A9F84B2E256E644D56C34A7A9BD622CB00FF9(L_5, _stringLiteral7B2AC819D685C53DB85CB6CAE6716753B4BBC6CA, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen/OvenFlip.cs:66>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen/OvenFlip.cs:66>
 		OvenFlip_t67426D82AE7AF86EC4B1F45014E578678E4D06F7* L_6 = V_1;
 		NullCheck(L_6);
 		L_6->___open = (bool)0;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen/OvenFlip.cs:67>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen/OvenFlip.cs:67>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_7 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_7, (0.5f), NULL);
 		__this->___U3CU3E2__current = L_7;
@@ -6435,11 +6435,11 @@ IL_0017:
 IL_0058:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen/OvenFlip.cs:68>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen/OvenFlip.cs:68>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 76059
+// Method Definition Index: 76082
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mA25D85E93B177A273F1F61AFE306D06A867201A9 (U3CclosingU3Ed__6_tB966F7834B3F3A0C7A9DFD48961B0423AD539C04* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6447,7 +6447,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Colle
 		return L_0;
 	}
 }
-// Method Definition Index: 76060
+// Method Definition Index: 76083
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6_System_Collections_IEnumerator_Reset_mAB0C23610C406D3AD6F34CDAAC18CDEEDB8C80F9 (U3CclosingU3Ed__6_tB966F7834B3F3A0C7A9DFD48961B0423AD539C04* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6456,7 +6456,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6_System_Collections_IEn
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CclosingU3Ed__6_System_Collections_IEnumerator_Reset_mAB0C23610C406D3AD6F34CDAAC18CDEEDB8C80F9_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 76061
+// Method Definition Index: 76084
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Collections_IEnumerator_get_Current_m25480345B2DB03142ACCD26AAD7013439BDF33F1 (U3CclosingU3Ed__6_tB966F7834B3F3A0C7A9DFD48961B0423AD539C04* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6472,7 +6472,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Colle
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76062
+// Method Definition Index: 76085
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5__ctor_m4549A3256E9D6A501409E9BD0FA71DF690A7BBFE (U3CopeningU3Ed__5_tD77B91056776467F0749490EA1923D4169059D8E* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -6482,14 +6482,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5__ctor_m4549A3256E9D6A5
 		return;
 	}
 }
-// Method Definition Index: 76063
+// Method Definition Index: 76086
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5_System_IDisposable_Dispose_mFB6CBDFB0DB44FBFF3AFA73E8273819ACD1DA7F0 (U3CopeningU3Ed__5_tD77B91056776467F0749490EA1923D4169059D8E* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 76064
+// Method Definition Index: 76087
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CopeningU3Ed__5_MoveNext_m42CFA014B20FE1F53403E07513A51747D57102A7 (U3CopeningU3Ed__5_tD77B91056776467F0749490EA1923D4169059D8E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6527,19 +6527,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CopeningU3Ed__5_MoveNext_m42CFA014B20F
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen/OvenFlip.cs:56>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen/OvenFlip.cs:56>
 		MonoBehaviour_print_m9E6FF71C673B651F35DD418C293CFC50C46803B6(_stringLiteral2C77DF174D758CF558C6CC300CB509AD9B27AD58, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen/OvenFlip.cs:57>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen/OvenFlip.cs:57>
 		OvenFlip_t67426D82AE7AF86EC4B1F45014E578678E4D06F7* L_4 = V_1;
 		NullCheck(L_4);
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_5 = L_4->___openandcloseoven;
 		NullCheck(L_5);
 		Animator_Play_m0F6A9F84B2E256E644D56C34A7A9BD622CB00FF9(L_5, _stringLiteral5B1CC9D75C46F3CE861C1A12EC0A39C3E5433142, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen/OvenFlip.cs:58>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen/OvenFlip.cs:58>
 		OvenFlip_t67426D82AE7AF86EC4B1F45014E578678E4D06F7* L_6 = V_1;
 		NullCheck(L_6);
 		L_6->___open = (bool)1;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen/OvenFlip.cs:59>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen/OvenFlip.cs:59>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_7 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_7, (0.5f), NULL);
 		__this->___U3CU3E2__current = L_7;
@@ -6551,11 +6551,11 @@ IL_0017:
 IL_0058:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen/OvenFlip.cs:60>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen/OvenFlip.cs:60>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 76065
+// Method Definition Index: 76088
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD7C8C7ED76291DA7E0A860D412A7F2E8BD04BE8F (U3CopeningU3Ed__5_tD77B91056776467F0749490EA1923D4169059D8E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6563,7 +6563,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Colle
 		return L_0;
 	}
 }
-// Method Definition Index: 76066
+// Method Definition Index: 76089
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5_System_Collections_IEnumerator_Reset_m32B10BD387958767CADF558C026070CC17F315C6 (U3CopeningU3Ed__5_tD77B91056776467F0749490EA1923D4169059D8E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6572,7 +6572,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5_System_Collections_IEn
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CopeningU3Ed__5_System_Collections_IEnumerator_Reset_m32B10BD387958767CADF558C026070CC17F315C6_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 76067
+// Method Definition Index: 76090
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Collections_IEnumerator_get_Current_mBE51856006F3D3EF6E1DEB92E1957C63B263627C (U3CopeningU3Ed__5_tD77B91056776467F0749490EA1923D4169059D8E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6588,17 +6588,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Colle
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76068
+// Method Definition Index: 76091
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BRGlassDoor_Start_mE2BD8AFD640A2131F4744180FC3D8439A3C52D87 (BRGlassDoor_t939D0022018D59178678FE7F0E0F47927B698FD4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/BRGlassDoor.cs:17>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/BRGlassDoor.cs:17>
 		__this->___open = (bool)0;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/BRGlassDoor.cs:18>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/BRGlassDoor.cs:18>
 		return;
 	}
 }
-// Method Definition Index: 76069
+// Method Definition Index: 76092
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BRGlassDoor_OnMouseOver_m12C9CD156694569523445DCB6C30D63EB80A9669 (BRGlassDoor_t939D0022018D59178678FE7F0E0F47927B698FD4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6608,7 +6608,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BRGlassDoor_OnMouseOver_m12C9CD156694569
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/BRGlassDoor.cs:23>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/BRGlassDoor.cs:23>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___Player;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -6619,7 +6619,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BRGlassDoor_OnMouseOver_m12C9CD156694569
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/BRGlassDoor.cs:25>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/BRGlassDoor.cs:25>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = __this->___Player;
 		NullCheck(L_2);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
@@ -6631,14 +6631,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BRGlassDoor_OnMouseOver_m12C9CD156694569
 		L_5 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_4, NULL);
 		float L_6;
 		L_6 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_3, L_5, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/BRGlassDoor.cs:26>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/BRGlassDoor.cs:26>
 		if ((!(((float)L_6) < ((float)(15.0f)))))
 		{
 			goto IL_006a;
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/BRGlassDoor.cs:28>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/BRGlassDoor.cs:28>
 		bool L_7 = __this->___open;
 		if (L_7)
 		{
@@ -6646,7 +6646,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BRGlassDoor_OnMouseOver_m12C9CD156694569
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/BRGlassDoor.cs:30>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/BRGlassDoor.cs:30>
 		bool L_8;
 		L_8 = Input_GetMouseButtonDown_m8DFC792D15FFF15D311614D5CC6C5D055E5A1DE3(0, NULL);
 		if (!L_8)
@@ -6655,7 +6655,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BRGlassDoor_OnMouseOver_m12C9CD156694569
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/BRGlassDoor.cs:32>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/BRGlassDoor.cs:32>
 		RuntimeObject* L_9;
 		L_9 = BRGlassDoor_opening_mB0A21B09E90B78200ACAEC42098B070DE61135CB(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_10;
@@ -6665,7 +6665,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BRGlassDoor_OnMouseOver_m12C9CD156694569
 
 IL_004d:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/BRGlassDoor.cs:37>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/BRGlassDoor.cs:37>
 		bool L_11 = __this->___open;
 		if (!L_11)
 		{
@@ -6673,7 +6673,7 @@ IL_004d:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/BRGlassDoor.cs:39>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/BRGlassDoor.cs:39>
 		bool L_12;
 		L_12 = Input_GetMouseButtonDown_m8DFC792D15FFF15D311614D5CC6C5D055E5A1DE3(0, NULL);
 		if (!L_12)
@@ -6682,7 +6682,7 @@ IL_004d:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/BRGlassDoor.cs:41>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/BRGlassDoor.cs:41>
 		RuntimeObject* L_13;
 		L_13 = BRGlassDoor_closing_mB78DDF10217FB25263CC472E46E20FDE0A43FB7E(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_14;
@@ -6691,11 +6691,11 @@ IL_004d:
 
 IL_006a:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/BRGlassDoor.cs:52>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/BRGlassDoor.cs:52>
 		return;
 	}
 }
-// Method Definition Index: 76070
+// Method Definition Index: 76093
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* BRGlassDoor_opening_mB0A21B09E90B78200ACAEC42098B070DE61135CB (BRGlassDoor_t939D0022018D59178678FE7F0E0F47927B698FD4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6714,7 +6714,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* BRGlassDoor_opening_mB0A21B09E
 		return L_1;
 	}
 }
-// Method Definition Index: 76071
+// Method Definition Index: 76094
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* BRGlassDoor_closing_mB78DDF10217FB25263CC472E46E20FDE0A43FB7E (BRGlassDoor_t939D0022018D59178678FE7F0E0F47927B698FD4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6733,7 +6733,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* BRGlassDoor_closing_mB78DDF102
 		return L_1;
 	}
 }
-// Method Definition Index: 76072
+// Method Definition Index: 76095
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BRGlassDoor__ctor_m730BBA2B0B35B018E232B24AD321C416219B5BBC (BRGlassDoor_t939D0022018D59178678FE7F0E0F47927B698FD4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6749,7 +6749,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BRGlassDoor__ctor_m730BBA2B0B35B018E232B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76073
+// Method Definition Index: 76096
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6__ctor_m7A2296381199B11893EB62F419CDA6C3015A4554 (U3CclosingU3Ed__6_t55959F56485CED2CFEEEB645E270F5A5E0647598* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -6759,14 +6759,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6__ctor_m7A2296381199B11
 		return;
 	}
 }
-// Method Definition Index: 76074
+// Method Definition Index: 76097
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6_System_IDisposable_Dispose_mA3D9BDBF906B73F438D1417E2143F8CBE41B8634 (U3CclosingU3Ed__6_t55959F56485CED2CFEEEB645E270F5A5E0647598* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 76075
+// Method Definition Index: 76098
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CclosingU3Ed__6_MoveNext_mBA213787986625B1BA80C7544D80415A4FE077B3 (U3CclosingU3Ed__6_t55959F56485CED2CFEEEB645E270F5A5E0647598* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6804,19 +6804,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CclosingU3Ed__6_MoveNext_mBA2137879866
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/BRGlassDoor.cs:64>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/BRGlassDoor.cs:64>
 		MonoBehaviour_print_m9E6FF71C673B651F35DD418C293CFC50C46803B6(_stringLiteral3BC87920B1442F3D7F9BCF13099BFFCAC6A70535, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/BRGlassDoor.cs:65>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/BRGlassDoor.cs:65>
 		BRGlassDoor_t939D0022018D59178678FE7F0E0F47927B698FD4* L_4 = V_1;
 		NullCheck(L_4);
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_5 = L_4->___openandclose;
 		NullCheck(L_5);
 		Animator_Play_m0F6A9F84B2E256E644D56C34A7A9BD622CB00FF9(L_5, _stringLiteral0C805D7E3DFDE2DEB55FAC78B382FAD3A7B38B9B, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/BRGlassDoor.cs:66>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/BRGlassDoor.cs:66>
 		BRGlassDoor_t939D0022018D59178678FE7F0E0F47927B698FD4* L_6 = V_1;
 		NullCheck(L_6);
 		L_6->___open = (bool)0;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/BRGlassDoor.cs:67>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/BRGlassDoor.cs:67>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_7 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_7, (0.5f), NULL);
 		__this->___U3CU3E2__current = L_7;
@@ -6828,11 +6828,11 @@ IL_0017:
 IL_0058:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/BRGlassDoor.cs:68>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/BRGlassDoor.cs:68>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 76076
+// Method Definition Index: 76099
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m7DD9BC9A28B905CB479E99EC65698B9A2B5F0F3F (U3CclosingU3Ed__6_t55959F56485CED2CFEEEB645E270F5A5E0647598* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6840,7 +6840,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Colle
 		return L_0;
 	}
 }
-// Method Definition Index: 76077
+// Method Definition Index: 76100
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6_System_Collections_IEnumerator_Reset_m53ABE4EF226D2D0F19F388E7CFD1C1DDF11D82A1 (U3CclosingU3Ed__6_t55959F56485CED2CFEEEB645E270F5A5E0647598* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6849,7 +6849,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6_System_Collections_IEn
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CclosingU3Ed__6_System_Collections_IEnumerator_Reset_m53ABE4EF226D2D0F19F388E7CFD1C1DDF11D82A1_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 76078
+// Method Definition Index: 76101
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Collections_IEnumerator_get_Current_m31A320B53E488E3073ED7FDB3D2406F0ED791E4C (U3CclosingU3Ed__6_t55959F56485CED2CFEEEB645E270F5A5E0647598* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6865,7 +6865,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Colle
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76079
+// Method Definition Index: 76102
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5__ctor_m9A91DBEC9AE38ECFCFEFE848E9BCCCDDE984EBBC (U3CopeningU3Ed__5_t302F88DA503BBE501A0C55697143D5609AB3F657* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -6875,14 +6875,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5__ctor_m9A91DBEC9AE38EC
 		return;
 	}
 }
-// Method Definition Index: 76080
+// Method Definition Index: 76103
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5_System_IDisposable_Dispose_mEDB05978827289F85ED5E0CBE436D7D6D132F5C0 (U3CopeningU3Ed__5_t302F88DA503BBE501A0C55697143D5609AB3F657* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 76081
+// Method Definition Index: 76104
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CopeningU3Ed__5_MoveNext_m0D0C370892F8ADB7B5319A7DE97FA656E5D03A0F (U3CopeningU3Ed__5_t302F88DA503BBE501A0C55697143D5609AB3F657* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6920,19 +6920,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CopeningU3Ed__5_MoveNext_m0D0C370892F8
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/BRGlassDoor.cs:56>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/BRGlassDoor.cs:56>
 		MonoBehaviour_print_m9E6FF71C673B651F35DD418C293CFC50C46803B6(_stringLiteralDF8AA25C085A64ACFDAE1B7E484722F06A782742, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/BRGlassDoor.cs:57>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/BRGlassDoor.cs:57>
 		BRGlassDoor_t939D0022018D59178678FE7F0E0F47927B698FD4* L_4 = V_1;
 		NullCheck(L_4);
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_5 = L_4->___openandclose;
 		NullCheck(L_5);
 		Animator_Play_m0F6A9F84B2E256E644D56C34A7A9BD622CB00FF9(L_5, _stringLiteral7200D5866E871F59E7DA92E1BD52300F5C0CDD03, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/BRGlassDoor.cs:58>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/BRGlassDoor.cs:58>
 		BRGlassDoor_t939D0022018D59178678FE7F0E0F47927B698FD4* L_6 = V_1;
 		NullCheck(L_6);
 		L_6->___open = (bool)1;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/BRGlassDoor.cs:59>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/BRGlassDoor.cs:59>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_7 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_7, (0.5f), NULL);
 		__this->___U3CU3E2__current = L_7;
@@ -6944,11 +6944,11 @@ IL_0017:
 IL_0058:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/BRGlassDoor.cs:60>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/BRGlassDoor.cs:60>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 76082
+// Method Definition Index: 76105
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mAE751719089E1B3747C87D569CE6B6DBF5D898C7 (U3CopeningU3Ed__5_t302F88DA503BBE501A0C55697143D5609AB3F657* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6956,7 +6956,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Colle
 		return L_0;
 	}
 }
-// Method Definition Index: 76083
+// Method Definition Index: 76106
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5_System_Collections_IEnumerator_Reset_mC9D552A1F31691A3BA354F9269AA6C349BC741C6 (U3CopeningU3Ed__5_t302F88DA503BBE501A0C55697143D5609AB3F657* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6965,7 +6965,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5_System_Collections_IEn
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CopeningU3Ed__5_System_Collections_IEnumerator_Reset_mC9D552A1F31691A3BA354F9269AA6C349BC741C6_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 76084
+// Method Definition Index: 76107
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Collections_IEnumerator_get_Current_mA6975A46BBCA6104B471DC3B61AF9B051019B76B (U3CopeningU3Ed__5_t302F88DA503BBE501A0C55697143D5609AB3F657* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6981,17 +6981,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Colle
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76085
+// Method Definition Index: 76108
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseSlide_Start_mC228D6FB02D720A704215BBD49784CEEDF7C71A3 (opencloseSlide_t5130C6A9B632F1AC3BFDCABCB72582A1031D4775* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/opencloseSlide.cs:17>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/opencloseSlide.cs:17>
 		__this->___open = (bool)0;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/opencloseSlide.cs:18>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/opencloseSlide.cs:18>
 		return;
 	}
 }
-// Method Definition Index: 76086
+// Method Definition Index: 76109
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseSlide_OnMouseOver_mD1B47BFD08C22DE4BB6185E7E5A1BE5E7F13964B (opencloseSlide_t5130C6A9B632F1AC3BFDCABCB72582A1031D4775* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7001,7 +7001,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseSlide_OnMouseOver_mD1B47BFD08C2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/opencloseSlide.cs:23>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/opencloseSlide.cs:23>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___Player;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -7012,7 +7012,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseSlide_OnMouseOver_mD1B47BFD08C2
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/opencloseSlide.cs:25>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/opencloseSlide.cs:25>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = __this->___Player;
 		NullCheck(L_2);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
@@ -7024,14 +7024,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseSlide_OnMouseOver_mD1B47BFD08C2
 		L_5 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_4, NULL);
 		float L_6;
 		L_6 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_3, L_5, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/opencloseSlide.cs:26>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/opencloseSlide.cs:26>
 		if ((!(((float)L_6) < ((float)(15.0f)))))
 		{
 			goto IL_006a;
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/opencloseSlide.cs:28>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/opencloseSlide.cs:28>
 		bool L_7 = __this->___open;
 		if (L_7)
 		{
@@ -7039,7 +7039,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseSlide_OnMouseOver_mD1B47BFD08C2
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/opencloseSlide.cs:30>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/opencloseSlide.cs:30>
 		bool L_8;
 		L_8 = Input_GetMouseButtonDown_m8DFC792D15FFF15D311614D5CC6C5D055E5A1DE3(0, NULL);
 		if (!L_8)
@@ -7048,7 +7048,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseSlide_OnMouseOver_mD1B47BFD08C2
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/opencloseSlide.cs:32>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/opencloseSlide.cs:32>
 		RuntimeObject* L_9;
 		L_9 = opencloseSlide_opening_m47FC8493081996B0E48ED96DB3F562696AA93614(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_10;
@@ -7058,7 +7058,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseSlide_OnMouseOver_mD1B47BFD08C2
 
 IL_004d:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/opencloseSlide.cs:37>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/opencloseSlide.cs:37>
 		bool L_11 = __this->___open;
 		if (!L_11)
 		{
@@ -7066,7 +7066,7 @@ IL_004d:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/opencloseSlide.cs:39>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/opencloseSlide.cs:39>
 		bool L_12;
 		L_12 = Input_GetMouseButtonDown_m8DFC792D15FFF15D311614D5CC6C5D055E5A1DE3(0, NULL);
 		if (!L_12)
@@ -7075,7 +7075,7 @@ IL_004d:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/opencloseSlide.cs:41>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/opencloseSlide.cs:41>
 		RuntimeObject* L_13;
 		L_13 = opencloseSlide_closing_m8DEE923721DC4625E4357A6359EAB1402AFD6774(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_14;
@@ -7084,11 +7084,11 @@ IL_004d:
 
 IL_006a:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/opencloseSlide.cs:52>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/opencloseSlide.cs:52>
 		return;
 	}
 }
-// Method Definition Index: 76087
+// Method Definition Index: 76110
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* opencloseSlide_opening_m47FC8493081996B0E48ED96DB3F562696AA93614 (opencloseSlide_t5130C6A9B632F1AC3BFDCABCB72582A1031D4775* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7107,7 +7107,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* opencloseSlide_opening_m47FC84
 		return L_1;
 	}
 }
-// Method Definition Index: 76088
+// Method Definition Index: 76111
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* opencloseSlide_closing_m8DEE923721DC4625E4357A6359EAB1402AFD6774 (opencloseSlide_t5130C6A9B632F1AC3BFDCABCB72582A1031D4775* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7126,7 +7126,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* opencloseSlide_closing_m8DEE92
 		return L_1;
 	}
 }
-// Method Definition Index: 76089
+// Method Definition Index: 76112
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseSlide__ctor_m52C9D34F2EFF457BA5DF0C8BBAAB5B00129C68C0 (opencloseSlide_t5130C6A9B632F1AC3BFDCABCB72582A1031D4775* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7142,7 +7142,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseSlide__ctor_m52C9D34F2EFF457BA5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76090
+// Method Definition Index: 76113
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6__ctor_m3444068EAD3D5E7195932635017C12C34FA05E28 (U3CclosingU3Ed__6_tD2BEA359A3CE7341973C94828EB27FC051D0D488* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -7152,14 +7152,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6__ctor_m3444068EAD3D5E7
 		return;
 	}
 }
-// Method Definition Index: 76091
+// Method Definition Index: 76114
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6_System_IDisposable_Dispose_mCE55FEF3DEF3053EA43A4B02441D79CBB8FAC7E4 (U3CclosingU3Ed__6_tD2BEA359A3CE7341973C94828EB27FC051D0D488* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 76092
+// Method Definition Index: 76115
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CclosingU3Ed__6_MoveNext_m7C44A3E30227C047A97A72840589F9D3815302F6 (U3CclosingU3Ed__6_tD2BEA359A3CE7341973C94828EB27FC051D0D488* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7197,19 +7197,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CclosingU3Ed__6_MoveNext_m7C44A3E30227
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/opencloseSlide.cs:64>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/opencloseSlide.cs:64>
 		MonoBehaviour_print_m9E6FF71C673B651F35DD418C293CFC50C46803B6(_stringLiteral9EA7FA3E82B407E3083259451D6608D8247A3C5F, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/opencloseSlide.cs:65>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/opencloseSlide.cs:65>
 		opencloseSlide_t5130C6A9B632F1AC3BFDCABCB72582A1031D4775* L_4 = V_1;
 		NullCheck(L_4);
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_5 = L_4->___openandclosewindow;
 		NullCheck(L_5);
 		Animator_Play_m0F6A9F84B2E256E644D56C34A7A9BD622CB00FF9(L_5, _stringLiteral0A59932C5138929B51C1C18758A3203B905A4E50, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/opencloseSlide.cs:66>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/opencloseSlide.cs:66>
 		opencloseSlide_t5130C6A9B632F1AC3BFDCABCB72582A1031D4775* L_6 = V_1;
 		NullCheck(L_6);
 		L_6->___open = (bool)0;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/opencloseSlide.cs:67>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/opencloseSlide.cs:67>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_7 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_7, (0.5f), NULL);
 		__this->___U3CU3E2__current = L_7;
@@ -7221,11 +7221,11 @@ IL_0017:
 IL_0058:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/opencloseSlide.cs:68>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/opencloseSlide.cs:68>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 76093
+// Method Definition Index: 76116
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD3EA00412DBB2D39F91137CBF9824B80C3426BCD (U3CclosingU3Ed__6_tD2BEA359A3CE7341973C94828EB27FC051D0D488* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7233,7 +7233,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Colle
 		return L_0;
 	}
 }
-// Method Definition Index: 76094
+// Method Definition Index: 76117
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6_System_Collections_IEnumerator_Reset_mCE61C75F93991C0B66FA1B60A8EE32B02C828474 (U3CclosingU3Ed__6_tD2BEA359A3CE7341973C94828EB27FC051D0D488* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7242,7 +7242,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6_System_Collections_IEn
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CclosingU3Ed__6_System_Collections_IEnumerator_Reset_mCE61C75F93991C0B66FA1B60A8EE32B02C828474_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 76095
+// Method Definition Index: 76118
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Collections_IEnumerator_get_Current_m43357B528FDF4D2BBADD4DB9CD01599099D66450 (U3CclosingU3Ed__6_tD2BEA359A3CE7341973C94828EB27FC051D0D488* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7258,7 +7258,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Colle
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76096
+// Method Definition Index: 76119
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5__ctor_m31FE550591AEC36986D4E2A136D0CB9E7A8E26A8 (U3CopeningU3Ed__5_tB2BCC9662279E1BBBC5C3B68BB5AA2FDA5CEEE11* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -7268,14 +7268,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5__ctor_m31FE550591AEC36
 		return;
 	}
 }
-// Method Definition Index: 76097
+// Method Definition Index: 76120
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5_System_IDisposable_Dispose_mA3E07C2B6926F97A3CD81AAD627B4B748CA2A37B (U3CopeningU3Ed__5_tB2BCC9662279E1BBBC5C3B68BB5AA2FDA5CEEE11* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 76098
+// Method Definition Index: 76121
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CopeningU3Ed__5_MoveNext_m6244B302C033B0CA66FF6D64F6884162A87C9A67 (U3CopeningU3Ed__5_tB2BCC9662279E1BBBC5C3B68BB5AA2FDA5CEEE11* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7313,19 +7313,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CopeningU3Ed__5_MoveNext_m6244B302C033
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/opencloseSlide.cs:56>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/opencloseSlide.cs:56>
 		MonoBehaviour_print_m9E6FF71C673B651F35DD418C293CFC50C46803B6(_stringLiteral2C77DF174D758CF558C6CC300CB509AD9B27AD58, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/opencloseSlide.cs:57>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/opencloseSlide.cs:57>
 		opencloseSlide_t5130C6A9B632F1AC3BFDCABCB72582A1031D4775* L_4 = V_1;
 		NullCheck(L_4);
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_5 = L_4->___openandclosewindow;
 		NullCheck(L_5);
 		Animator_Play_m0F6A9F84B2E256E644D56C34A7A9BD622CB00FF9(L_5, _stringLiteral6CADD907942F3914D6A7E949952BB1C42CE6C391, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/opencloseSlide.cs:58>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/opencloseSlide.cs:58>
 		opencloseSlide_t5130C6A9B632F1AC3BFDCABCB72582A1031D4775* L_6 = V_1;
 		NullCheck(L_6);
 		L_6->___open = (bool)1;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/opencloseSlide.cs:59>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/opencloseSlide.cs:59>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_7 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_7, (0.5f), NULL);
 		__this->___U3CU3E2__current = L_7;
@@ -7337,11 +7337,11 @@ IL_0017:
 IL_0058:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/opencloseSlide.cs:60>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide/opencloseSlide.cs:60>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 76099
+// Method Definition Index: 76122
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m373A594F26868FDEE0A64E00A46B28D9BEE3CA99 (U3CopeningU3Ed__5_tB2BCC9662279E1BBBC5C3B68BB5AA2FDA5CEEE11* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7349,7 +7349,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Colle
 		return L_0;
 	}
 }
-// Method Definition Index: 76100
+// Method Definition Index: 76123
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5_System_Collections_IEnumerator_Reset_m7B303F20E2062A906064DF392A6FD4F9A2BA7A80 (U3CopeningU3Ed__5_tB2BCC9662279E1BBBC5C3B68BB5AA2FDA5CEEE11* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7358,7 +7358,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5_System_Collections_IEn
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CopeningU3Ed__5_System_Collections_IEnumerator_Reset_m7B303F20E2062A906064DF392A6FD4F9A2BA7A80_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 76101
+// Method Definition Index: 76124
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Collections_IEnumerator_get_Current_m9AA5850EB20415474AE58C32A7A98C3E72FEA450 (U3CopeningU3Ed__5_tB2BCC9662279E1BBBC5C3B68BB5AA2FDA5CEEE11* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7374,17 +7374,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Colle
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76102
+// Method Definition Index: 76125
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseWindowApt_Start_m711E0C71C984C1CFBEA9CEFFE1DD44CC3F4E4BFA (opencloseWindowApt_tB25D3962522C58D3E3C030BE8E4680A2A85BD58A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows/opencloseWindowApt.cs:17>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows/opencloseWindowApt.cs:17>
 		__this->___open = (bool)0;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows/opencloseWindowApt.cs:18>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows/opencloseWindowApt.cs:18>
 		return;
 	}
 }
-// Method Definition Index: 76103
+// Method Definition Index: 76126
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseWindowApt_OnMouseOver_m7E1995888E1497179C7632CC1C27E3ADBF6AF1C5 (opencloseWindowApt_tB25D3962522C58D3E3C030BE8E4680A2A85BD58A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7394,7 +7394,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseWindowApt_OnMouseOver_m7E199588
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows/opencloseWindowApt.cs:23>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows/opencloseWindowApt.cs:23>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___Player;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -7405,7 +7405,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseWindowApt_OnMouseOver_m7E199588
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows/opencloseWindowApt.cs:25>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows/opencloseWindowApt.cs:25>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = __this->___Player;
 		NullCheck(L_2);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
@@ -7417,14 +7417,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseWindowApt_OnMouseOver_m7E199588
 		L_5 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_4, NULL);
 		float L_6;
 		L_6 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_3, L_5, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows/opencloseWindowApt.cs:26>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows/opencloseWindowApt.cs:26>
 		if ((!(((float)L_6) < ((float)(15.0f)))))
 		{
 			goto IL_006a;
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows/opencloseWindowApt.cs:28>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows/opencloseWindowApt.cs:28>
 		bool L_7 = __this->___open;
 		if (L_7)
 		{
@@ -7432,7 +7432,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseWindowApt_OnMouseOver_m7E199588
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows/opencloseWindowApt.cs:30>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows/opencloseWindowApt.cs:30>
 		bool L_8;
 		L_8 = Input_GetMouseButtonDown_m8DFC792D15FFF15D311614D5CC6C5D055E5A1DE3(0, NULL);
 		if (!L_8)
@@ -7441,7 +7441,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseWindowApt_OnMouseOver_m7E199588
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows/opencloseWindowApt.cs:32>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows/opencloseWindowApt.cs:32>
 		RuntimeObject* L_9;
 		L_9 = opencloseWindowApt_opening_m85E23C40A14EFC0CAD211FDD78258BCFF6DB7DA3(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_10;
@@ -7451,7 +7451,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseWindowApt_OnMouseOver_m7E199588
 
 IL_004d:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows/opencloseWindowApt.cs:37>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows/opencloseWindowApt.cs:37>
 		bool L_11 = __this->___open;
 		if (!L_11)
 		{
@@ -7459,7 +7459,7 @@ IL_004d:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows/opencloseWindowApt.cs:39>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows/opencloseWindowApt.cs:39>
 		bool L_12;
 		L_12 = Input_GetMouseButtonDown_m8DFC792D15FFF15D311614D5CC6C5D055E5A1DE3(0, NULL);
 		if (!L_12)
@@ -7468,7 +7468,7 @@ IL_004d:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows/opencloseWindowApt.cs:41>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows/opencloseWindowApt.cs:41>
 		RuntimeObject* L_13;
 		L_13 = opencloseWindowApt_closing_m4E9D018834298C311630432B7925727564712739(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_14;
@@ -7477,11 +7477,11 @@ IL_004d:
 
 IL_006a:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows/opencloseWindowApt.cs:52>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows/opencloseWindowApt.cs:52>
 		return;
 	}
 }
-// Method Definition Index: 76104
+// Method Definition Index: 76127
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* opencloseWindowApt_opening_m85E23C40A14EFC0CAD211FDD78258BCFF6DB7DA3 (opencloseWindowApt_tB25D3962522C58D3E3C030BE8E4680A2A85BD58A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7500,7 +7500,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* opencloseWindowApt_opening_m85
 		return L_1;
 	}
 }
-// Method Definition Index: 76105
+// Method Definition Index: 76128
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* opencloseWindowApt_closing_m4E9D018834298C311630432B7925727564712739 (opencloseWindowApt_tB25D3962522C58D3E3C030BE8E4680A2A85BD58A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7519,7 +7519,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* opencloseWindowApt_closing_m4E
 		return L_1;
 	}
 }
-// Method Definition Index: 76106
+// Method Definition Index: 76129
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseWindowApt__ctor_m48B57EEA9D569E7355130E35698EC7F44DD1090B (opencloseWindowApt_tB25D3962522C58D3E3C030BE8E4680A2A85BD58A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7535,7 +7535,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseWindowApt__ctor_m48B57EEA9D569E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76107
+// Method Definition Index: 76130
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6__ctor_mE13EFFA9F101642331BEB3BB992561CD77745E85 (U3CclosingU3Ed__6_t930F3B3B7CAD6B31B1A4DA7E4AC91C133772B828* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -7545,14 +7545,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6__ctor_mE13EFFA9F101642
 		return;
 	}
 }
-// Method Definition Index: 76108
+// Method Definition Index: 76131
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6_System_IDisposable_Dispose_mCC8718BD2320ADCB069B322B2AF898728CD7E098 (U3CclosingU3Ed__6_t930F3B3B7CAD6B31B1A4DA7E4AC91C133772B828* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 76109
+// Method Definition Index: 76132
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CclosingU3Ed__6_MoveNext_mB2D9372C13E5C1B376378B14E3B5D9DE6E21D717 (U3CclosingU3Ed__6_t930F3B3B7CAD6B31B1A4DA7E4AC91C133772B828* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7590,19 +7590,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CclosingU3Ed__6_MoveNext_mB2D9372C13E5
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows/opencloseWindowApt.cs:64>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows/opencloseWindowApt.cs:64>
 		MonoBehaviour_print_m9E6FF71C673B651F35DD418C293CFC50C46803B6(_stringLiteral9EA7FA3E82B407E3083259451D6608D8247A3C5F, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows/opencloseWindowApt.cs:65>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows/opencloseWindowApt.cs:65>
 		opencloseWindowApt_tB25D3962522C58D3E3C030BE8E4680A2A85BD58A* L_4 = V_1;
 		NullCheck(L_4);
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_5 = L_4->___openandclosewindow;
 		NullCheck(L_5);
 		Animator_Play_m0F6A9F84B2E256E644D56C34A7A9BD622CB00FF9(L_5, _stringLiteral437D4B096877A1450EC9D7A7C4C35431EA2B2FC8, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows/opencloseWindowApt.cs:66>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows/opencloseWindowApt.cs:66>
 		opencloseWindowApt_tB25D3962522C58D3E3C030BE8E4680A2A85BD58A* L_6 = V_1;
 		NullCheck(L_6);
 		L_6->___open = (bool)0;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows/opencloseWindowApt.cs:67>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows/opencloseWindowApt.cs:67>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_7 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_7, (0.5f), NULL);
 		__this->___U3CU3E2__current = L_7;
@@ -7614,11 +7614,11 @@ IL_0017:
 IL_0058:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows/opencloseWindowApt.cs:68>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows/opencloseWindowApt.cs:68>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 76110
+// Method Definition Index: 76133
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m20B70DF415DC989A0772C1C32F22E9029381A187 (U3CclosingU3Ed__6_t930F3B3B7CAD6B31B1A4DA7E4AC91C133772B828* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7626,7 +7626,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Colle
 		return L_0;
 	}
 }
-// Method Definition Index: 76111
+// Method Definition Index: 76134
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6_System_Collections_IEnumerator_Reset_mF61208B891A997E6A73B16273AC4FE6C9BE18FEB (U3CclosingU3Ed__6_t930F3B3B7CAD6B31B1A4DA7E4AC91C133772B828* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7635,7 +7635,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6_System_Collections_IEn
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CclosingU3Ed__6_System_Collections_IEnumerator_Reset_mF61208B891A997E6A73B16273AC4FE6C9BE18FEB_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 76112
+// Method Definition Index: 76135
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Collections_IEnumerator_get_Current_m285288DF2308E1E6D3F97F5C760D9BCBA10CE5A4 (U3CclosingU3Ed__6_t930F3B3B7CAD6B31B1A4DA7E4AC91C133772B828* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7651,7 +7651,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Colle
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76113
+// Method Definition Index: 76136
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5__ctor_mE973B548CA738B4796495D69F8C68B8F4F242689 (U3CopeningU3Ed__5_tA75FFA6CF7B97040BB90C810AA19A330C63A1CF8* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -7661,14 +7661,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5__ctor_mE973B548CA738B4
 		return;
 	}
 }
-// Method Definition Index: 76114
+// Method Definition Index: 76137
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5_System_IDisposable_Dispose_m5F8080DBD8FCF2E7606A13AF330D3ED37C619431 (U3CopeningU3Ed__5_tA75FFA6CF7B97040BB90C810AA19A330C63A1CF8* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 76115
+// Method Definition Index: 76138
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CopeningU3Ed__5_MoveNext_m80589764E8CA6CD1C9DF1AB3C1D2737D7740E32A (U3CopeningU3Ed__5_tA75FFA6CF7B97040BB90C810AA19A330C63A1CF8* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7706,19 +7706,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CopeningU3Ed__5_MoveNext_m80589764E8CA
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows/opencloseWindowApt.cs:56>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows/opencloseWindowApt.cs:56>
 		MonoBehaviour_print_m9E6FF71C673B651F35DD418C293CFC50C46803B6(_stringLiteral2C77DF174D758CF558C6CC300CB509AD9B27AD58, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows/opencloseWindowApt.cs:57>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows/opencloseWindowApt.cs:57>
 		opencloseWindowApt_tB25D3962522C58D3E3C030BE8E4680A2A85BD58A* L_4 = V_1;
 		NullCheck(L_4);
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_5 = L_4->___openandclosewindow;
 		NullCheck(L_5);
 		Animator_Play_m0F6A9F84B2E256E644D56C34A7A9BD622CB00FF9(L_5, _stringLiteralD5F4565D879A5EE081D0C86E94468CA47F45179F, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows/opencloseWindowApt.cs:58>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows/opencloseWindowApt.cs:58>
 		opencloseWindowApt_tB25D3962522C58D3E3C030BE8E4680A2A85BD58A* L_6 = V_1;
 		NullCheck(L_6);
 		L_6->___open = (bool)1;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows/opencloseWindowApt.cs:59>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows/opencloseWindowApt.cs:59>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_7 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_7, (0.5f), NULL);
 		__this->___U3CU3E2__current = L_7;
@@ -7730,11 +7730,11 @@ IL_0017:
 IL_0058:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows/opencloseWindowApt.cs:60>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows/opencloseWindowApt.cs:60>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 76116
+// Method Definition Index: 76139
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m0A39466408B86F4AC24DD479B9329E12AB19D4F4 (U3CopeningU3Ed__5_tA75FFA6CF7B97040BB90C810AA19A330C63A1CF8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7742,7 +7742,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Colle
 		return L_0;
 	}
 }
-// Method Definition Index: 76117
+// Method Definition Index: 76140
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5_System_Collections_IEnumerator_Reset_mE20CB6CC97F692A15040D4285B0C2500F8F54B04 (U3CopeningU3Ed__5_tA75FFA6CF7B97040BB90C810AA19A330C63A1CF8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7751,7 +7751,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5_System_Collections_IEn
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CopeningU3Ed__5_System_Collections_IEnumerator_Reset_mE20CB6CC97F692A15040D4285B0C2500F8F54B04_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 76118
+// Method Definition Index: 76141
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Collections_IEnumerator_get_Current_m3DE01436935C448D77071449C638932F859F4E05 (U3CopeningU3Ed__5_tA75FFA6CF7B97040BB90C810AA19A330C63A1CF8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7767,17 +7767,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Colle
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76119
+// Method Definition Index: 76142
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Drawer_Pull_Zopp_Start_mD3E864FCFB7B448A7C5C507C784D4CE12E7ACC8B (Drawer_Pull_Zopp_tB885E768171C32D47369DBEE8FDF764391F7BAB5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Z Axis -1/Drawer_Pull_Zopp.cs:17>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Z Axis -1/Drawer_Pull_Zopp.cs:17>
 		__this->___open = (bool)0;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Z Axis -1/Drawer_Pull_Zopp.cs:18>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Z Axis -1/Drawer_Pull_Zopp.cs:18>
 		return;
 	}
 }
-// Method Definition Index: 76120
+// Method Definition Index: 76143
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Drawer_Pull_Zopp_OnMouseOver_mE11FE3E15CE0E91153631ACBF47827468F7CDCD1 (Drawer_Pull_Zopp_tB885E768171C32D47369DBEE8FDF764391F7BAB5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7788,7 +7788,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Drawer_Pull_Zopp_OnMouseOver_mE11FE3E15C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Z Axis -1/Drawer_Pull_Zopp.cs:23>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Z Axis -1/Drawer_Pull_Zopp.cs:23>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___Player;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -7799,7 +7799,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Drawer_Pull_Zopp_OnMouseOver_mE11FE3E15C
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Z Axis -1/Drawer_Pull_Zopp.cs:25>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Z Axis -1/Drawer_Pull_Zopp.cs:25>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = __this->___Player;
 		NullCheck(L_2);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
@@ -7811,16 +7811,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Drawer_Pull_Zopp_OnMouseOver_mE11FE3E15C
 		L_5 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_4, NULL);
 		float L_6;
 		L_6 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_3, L_5, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Z Axis -1/Drawer_Pull_Zopp.cs:26>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Z Axis -1/Drawer_Pull_Zopp.cs:26>
 		if ((!(((float)L_6) < ((float)(10.0f)))))
 		{
 			goto IL_0074;
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Z Axis -1/Drawer_Pull_Zopp.cs:28>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Z Axis -1/Drawer_Pull_Zopp.cs:28>
 		MonoBehaviour_print_m9E6FF71C673B651F35DD418C293CFC50C46803B6(_stringLiteralF3A75D921A32532B9A0A2F8A4018127ABD2C0687, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Z Axis -1/Drawer_Pull_Zopp.cs:29>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Z Axis -1/Drawer_Pull_Zopp.cs:29>
 		bool L_7 = __this->___open;
 		if (L_7)
 		{
@@ -7828,7 +7828,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Drawer_Pull_Zopp_OnMouseOver_mE11FE3E15C
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Z Axis -1/Drawer_Pull_Zopp.cs:31>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Z Axis -1/Drawer_Pull_Zopp.cs:31>
 		bool L_8;
 		L_8 = Input_GetMouseButtonDown_m8DFC792D15FFF15D311614D5CC6C5D055E5A1DE3(0, NULL);
 		if (!L_8)
@@ -7837,7 +7837,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Drawer_Pull_Zopp_OnMouseOver_mE11FE3E15C
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Z Axis -1/Drawer_Pull_Zopp.cs:33>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Z Axis -1/Drawer_Pull_Zopp.cs:33>
 		RuntimeObject* L_9;
 		L_9 = Drawer_Pull_Zopp_opening_m5DC756C7B89FEC9BD23F027F0B2556E0F97B0637(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_10;
@@ -7847,7 +7847,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Drawer_Pull_Zopp_OnMouseOver_mE11FE3E15C
 
 IL_0057:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Z Axis -1/Drawer_Pull_Zopp.cs:38>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Z Axis -1/Drawer_Pull_Zopp.cs:38>
 		bool L_11 = __this->___open;
 		if (!L_11)
 		{
@@ -7855,7 +7855,7 @@ IL_0057:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Z Axis -1/Drawer_Pull_Zopp.cs:40>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Z Axis -1/Drawer_Pull_Zopp.cs:40>
 		bool L_12;
 		L_12 = Input_GetMouseButtonDown_m8DFC792D15FFF15D311614D5CC6C5D055E5A1DE3(0, NULL);
 		if (!L_12)
@@ -7864,7 +7864,7 @@ IL_0057:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Z Axis -1/Drawer_Pull_Zopp.cs:42>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Z Axis -1/Drawer_Pull_Zopp.cs:42>
 		RuntimeObject* L_13;
 		L_13 = Drawer_Pull_Zopp_closing_m811B6637FD1011F2AC8801F985969221D93230CD(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_14;
@@ -7873,11 +7873,11 @@ IL_0057:
 
 IL_0074:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Z Axis -1/Drawer_Pull_Zopp.cs:53>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Z Axis -1/Drawer_Pull_Zopp.cs:53>
 		return;
 	}
 }
-// Method Definition Index: 76121
+// Method Definition Index: 76144
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Drawer_Pull_Zopp_opening_m5DC756C7B89FEC9BD23F027F0B2556E0F97B0637 (Drawer_Pull_Zopp_tB885E768171C32D47369DBEE8FDF764391F7BAB5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7896,7 +7896,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Drawer_Pull_Zopp_opening_m5DC7
 		return L_1;
 	}
 }
-// Method Definition Index: 76122
+// Method Definition Index: 76145
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Drawer_Pull_Zopp_closing_m811B6637FD1011F2AC8801F985969221D93230CD (Drawer_Pull_Zopp_tB885E768171C32D47369DBEE8FDF764391F7BAB5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7915,7 +7915,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Drawer_Pull_Zopp_closing_m811B
 		return L_1;
 	}
 }
-// Method Definition Index: 76123
+// Method Definition Index: 76146
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Drawer_Pull_Zopp__ctor_m57562FED1B2CF09BED1C1ADA9985BE784D09CDAC (Drawer_Pull_Zopp_tB885E768171C32D47369DBEE8FDF764391F7BAB5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7931,7 +7931,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Drawer_Pull_Zopp__ctor_m57562FED1B2CF09B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76124
+// Method Definition Index: 76147
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6__ctor_m18FBDADB7054F71B990EAB5502D80941C38B30A2 (U3CclosingU3Ed__6_tA541BCCD9C537A983DCB9FE54F696F0E9E42D4B6* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -7941,14 +7941,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6__ctor_m18FBDADB7054F71
 		return;
 	}
 }
-// Method Definition Index: 76125
+// Method Definition Index: 76148
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6_System_IDisposable_Dispose_m687392E531496829AF3E34F4A782D89BBC1BF804 (U3CclosingU3Ed__6_tA541BCCD9C537A983DCB9FE54F696F0E9E42D4B6* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 76126
+// Method Definition Index: 76149
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CclosingU3Ed__6_MoveNext_m32DFE1732CEB88593C1BDADC989C87BFE9A5947A (U3CclosingU3Ed__6_tA541BCCD9C537A983DCB9FE54F696F0E9E42D4B6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7986,19 +7986,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CclosingU3Ed__6_MoveNext_m32DFE1732CEB
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Z Axis -1/Drawer_Pull_Zopp.cs:65>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Z Axis -1/Drawer_Pull_Zopp.cs:65>
 		MonoBehaviour_print_m9E6FF71C673B651F35DD418C293CFC50C46803B6(_stringLiteral28ED81CF5AD6FE392326D7F88BC350380E97CAC5, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Z Axis -1/Drawer_Pull_Zopp.cs:66>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Z Axis -1/Drawer_Pull_Zopp.cs:66>
 		Drawer_Pull_Zopp_tB885E768171C32D47369DBEE8FDF764391F7BAB5* L_4 = V_1;
 		NullCheck(L_4);
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_5 = L_4->___pull;
 		NullCheck(L_5);
 		Animator_Play_m0F6A9F84B2E256E644D56C34A7A9BD622CB00FF9(L_5, _stringLiteral66D6A148312038979105AD3EA93817F9E0F747CD, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Z Axis -1/Drawer_Pull_Zopp.cs:67>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Z Axis -1/Drawer_Pull_Zopp.cs:67>
 		Drawer_Pull_Zopp_tB885E768171C32D47369DBEE8FDF764391F7BAB5* L_6 = V_1;
 		NullCheck(L_6);
 		L_6->___open = (bool)0;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Z Axis -1/Drawer_Pull_Zopp.cs:68>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Z Axis -1/Drawer_Pull_Zopp.cs:68>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_7 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_7, (0.5f), NULL);
 		__this->___U3CU3E2__current = L_7;
@@ -8010,11 +8010,11 @@ IL_0017:
 IL_0058:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Z Axis -1/Drawer_Pull_Zopp.cs:69>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Z Axis -1/Drawer_Pull_Zopp.cs:69>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 76127
+// Method Definition Index: 76150
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m3F648A860A28DE1F8A46B61252B30665D0226916 (U3CclosingU3Ed__6_tA541BCCD9C537A983DCB9FE54F696F0E9E42D4B6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8022,7 +8022,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Colle
 		return L_0;
 	}
 }
-// Method Definition Index: 76128
+// Method Definition Index: 76151
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6_System_Collections_IEnumerator_Reset_m9A62DF96621F7D40E2CC7B827A2D8D3F2D8F529F (U3CclosingU3Ed__6_tA541BCCD9C537A983DCB9FE54F696F0E9E42D4B6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8031,7 +8031,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6_System_Collections_IEn
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CclosingU3Ed__6_System_Collections_IEnumerator_Reset_m9A62DF96621F7D40E2CC7B827A2D8D3F2D8F529F_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 76129
+// Method Definition Index: 76152
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Collections_IEnumerator_get_Current_m379F4864DC183CF6E6A023A7749E32F2817D3C1F (U3CclosingU3Ed__6_tA541BCCD9C537A983DCB9FE54F696F0E9E42D4B6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8047,7 +8047,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Colle
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76130
+// Method Definition Index: 76153
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5__ctor_m0A37D87F0FD1D00598CC3230365C0B6ABD4A4F99 (U3CopeningU3Ed__5_t5EF115BA1E76136E9C2196F1B0AE8616F560B114* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -8057,14 +8057,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5__ctor_m0A37D87F0FD1D00
 		return;
 	}
 }
-// Method Definition Index: 76131
+// Method Definition Index: 76154
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5_System_IDisposable_Dispose_m7DD90BB099D3A459C674AF6208FFB56D267E00BE (U3CopeningU3Ed__5_t5EF115BA1E76136E9C2196F1B0AE8616F560B114* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 76132
+// Method Definition Index: 76155
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CopeningU3Ed__5_MoveNext_mC275C73ACFE5CF9E1161EB6F42038A6FBB374020 (U3CopeningU3Ed__5_t5EF115BA1E76136E9C2196F1B0AE8616F560B114* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8102,19 +8102,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CopeningU3Ed__5_MoveNext_mC275C73ACFE5
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Z Axis -1/Drawer_Pull_Zopp.cs:57>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Z Axis -1/Drawer_Pull_Zopp.cs:57>
 		MonoBehaviour_print_m9E6FF71C673B651F35DD418C293CFC50C46803B6(_stringLiteral22C446C7E5E3265EDDBA27BFE391935857CD98BE, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Z Axis -1/Drawer_Pull_Zopp.cs:58>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Z Axis -1/Drawer_Pull_Zopp.cs:58>
 		Drawer_Pull_Zopp_tB885E768171C32D47369DBEE8FDF764391F7BAB5* L_4 = V_1;
 		NullCheck(L_4);
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_5 = L_4->___pull;
 		NullCheck(L_5);
 		Animator_Play_m0F6A9F84B2E256E644D56C34A7A9BD622CB00FF9(L_5, _stringLiteral7A7828FB78B3C4D82B5446606B01D969319FB2EA, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Z Axis -1/Drawer_Pull_Zopp.cs:59>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Z Axis -1/Drawer_Pull_Zopp.cs:59>
 		Drawer_Pull_Zopp_tB885E768171C32D47369DBEE8FDF764391F7BAB5* L_6 = V_1;
 		NullCheck(L_6);
 		L_6->___open = (bool)1;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Z Axis -1/Drawer_Pull_Zopp.cs:60>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Z Axis -1/Drawer_Pull_Zopp.cs:60>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_7 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_7, (0.5f), NULL);
 		__this->___U3CU3E2__current = L_7;
@@ -8126,11 +8126,11 @@ IL_0017:
 IL_0058:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Z Axis -1/Drawer_Pull_Zopp.cs:61>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Z Axis -1/Drawer_Pull_Zopp.cs:61>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 76133
+// Method Definition Index: 76156
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mF572BE2105D77273F4B5ACEB7460119F526B3E4E (U3CopeningU3Ed__5_t5EF115BA1E76136E9C2196F1B0AE8616F560B114* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8138,7 +8138,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Colle
 		return L_0;
 	}
 }
-// Method Definition Index: 76134
+// Method Definition Index: 76157
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5_System_Collections_IEnumerator_Reset_m11E7AD90FC73C8ADF5BD97168F770620FBED8AFF (U3CopeningU3Ed__5_t5EF115BA1E76136E9C2196F1B0AE8616F560B114* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8147,7 +8147,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5_System_Collections_IEn
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CopeningU3Ed__5_System_Collections_IEnumerator_Reset_m11E7AD90FC73C8ADF5BD97168F770620FBED8AFF_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 76135
+// Method Definition Index: 76158
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Collections_IEnumerator_get_Current_mD53393D32A7F2A2D153587A8F94D4816ED6C3969 (U3CopeningU3Ed__5_t5EF115BA1E76136E9C2196F1B0AE8616F560B114* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8163,15 +8163,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Colle
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76136
+// Method Definition Index: 76159
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Quitgame_Start_m52A5FE2060E22FC6E764FED118490471B61B98E8 (Quitgame_t3D00F13C4D97E9006E140E30E62D72770FFB63F7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Scenes/Quitgame.cs:13>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Scenes/Quitgame.cs:13>
 		return;
 	}
 }
-// Method Definition Index: 76137
+// Method Definition Index: 76160
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Quitgame_Update_m1EC16BEA60215BE764FB7ED6BCD738CDCBF0E9ED (Quitgame_t3D00F13C4D97E9006E140E30E62D72770FFB63F7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8181,7 +8181,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Quitgame_Update_m1EC16BEA60215BE764FB7ED
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Scenes/Quitgame.cs:18>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Scenes/Quitgame.cs:18>
 		bool L_0;
 		L_0 = Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2(((int32_t)27), NULL);
 		if (!L_0)
@@ -8190,18 +8190,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Quitgame_Update_m1EC16BEA60215BE764FB7ED
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Scenes/Quitgame.cs:20>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Scenes/Quitgame.cs:20>
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		Application_Quit_mE304382DB9A6455C2A474C8F364C7387F37E9281(NULL);
 	}
 
 IL_000e:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Scenes/Quitgame.cs:22>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/Apartment Kit/Scenes/Quitgame.cs:22>
 		return;
 	}
 }
-// Method Definition Index: 76138
+// Method Definition Index: 76161
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Quitgame__ctor_m144F84CC750B21CED7F16BC3466FD8A7AE84B9F6 (Quitgame_t3D00F13C4D97E9006E140E30E62D72770FFB63F7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8217,17 +8217,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Quitgame__ctor_m144F84CC750B21CED7F16BC3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76139
+// Method Definition Index: 76162
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseDoor_Start_m349DEB469468E5A3EFB077B4D219D68BA31123C6 (opencloseDoor_tAA72245263A2303CDFC84B87DB88EF5EA9502815* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs:17>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs:17>
 		__this->___open = (bool)0;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs:18>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs:18>
 		return;
 	}
 }
-// Method Definition Index: 76140
+// Method Definition Index: 76163
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseDoor_OnMouseOver_m2FBD1B18AA7E1464C02B73002681BD340EC5A12D (opencloseDoor_tAA72245263A2303CDFC84B87DB88EF5EA9502815* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8237,7 +8237,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseDoor_OnMouseOver_m2FBD1B18AA7E1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs:23>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs:23>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___Player;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -8248,7 +8248,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseDoor_OnMouseOver_m2FBD1B18AA7E1
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs:25>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs:25>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = __this->___Player;
 		NullCheck(L_2);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
@@ -8260,14 +8260,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseDoor_OnMouseOver_m2FBD1B18AA7E1
 		L_5 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_4, NULL);
 		float L_6;
 		L_6 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_3, L_5, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs:26>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs:26>
 		if ((!(((float)L_6) < ((float)(15.0f)))))
 		{
 			goto IL_006a;
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs:28>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs:28>
 		bool L_7 = __this->___open;
 		if (L_7)
 		{
@@ -8275,7 +8275,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseDoor_OnMouseOver_m2FBD1B18AA7E1
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs:30>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs:30>
 		bool L_8;
 		L_8 = Input_GetMouseButtonDown_m8DFC792D15FFF15D311614D5CC6C5D055E5A1DE3(0, NULL);
 		if (!L_8)
@@ -8284,7 +8284,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseDoor_OnMouseOver_m2FBD1B18AA7E1
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs:32>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs:32>
 		RuntimeObject* L_9;
 		L_9 = opencloseDoor_opening_m3A88F6A82AAC2A74846C8BCE81DC78490FD7A120(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_10;
@@ -8294,7 +8294,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseDoor_OnMouseOver_m2FBD1B18AA7E1
 
 IL_004d:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs:37>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs:37>
 		bool L_11 = __this->___open;
 		if (!L_11)
 		{
@@ -8302,7 +8302,7 @@ IL_004d:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs:39>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs:39>
 		bool L_12;
 		L_12 = Input_GetMouseButtonDown_m8DFC792D15FFF15D311614D5CC6C5D055E5A1DE3(0, NULL);
 		if (!L_12)
@@ -8311,7 +8311,7 @@ IL_004d:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs:41>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs:41>
 		RuntimeObject* L_13;
 		L_13 = opencloseDoor_closing_m2AFC0C1FD7625F4E3AD981284E6E16857ECF19DD(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_14;
@@ -8320,11 +8320,11 @@ IL_004d:
 
 IL_006a:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs:52>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs:52>
 		return;
 	}
 }
-// Method Definition Index: 76141
+// Method Definition Index: 76164
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* opencloseDoor_opening_m3A88F6A82AAC2A74846C8BCE81DC78490FD7A120 (opencloseDoor_tAA72245263A2303CDFC84B87DB88EF5EA9502815* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8343,7 +8343,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* opencloseDoor_opening_m3A88F6A
 		return L_1;
 	}
 }
-// Method Definition Index: 76142
+// Method Definition Index: 76165
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* opencloseDoor_closing_m2AFC0C1FD7625F4E3AD981284E6E16857ECF19DD (opencloseDoor_tAA72245263A2303CDFC84B87DB88EF5EA9502815* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8362,7 +8362,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* opencloseDoor_closing_m2AFC0C1
 		return L_1;
 	}
 }
-// Method Definition Index: 76143
+// Method Definition Index: 76166
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseDoor__ctor_m67478D0D4DE4F58EEF9B4B3E322E950D5A13815E (opencloseDoor_tAA72245263A2303CDFC84B87DB88EF5EA9502815* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8378,7 +8378,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseDoor__ctor_m67478D0D4DE4F58EEF9
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76144
+// Method Definition Index: 76167
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6__ctor_m96DC57FE7A932BE7344E42FC98D81E1A7A9E450B (U3CclosingU3Ed__6_t5AFACD3EF103B8731C7B4918A56FE9E7CC1BB5CA* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -8388,14 +8388,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6__ctor_m96DC57FE7A932BE
 		return;
 	}
 }
-// Method Definition Index: 76145
+// Method Definition Index: 76168
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6_System_IDisposable_Dispose_m94450355214F74315ADB59A329552C8A69B354F5 (U3CclosingU3Ed__6_t5AFACD3EF103B8731C7B4918A56FE9E7CC1BB5CA* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 76146
+// Method Definition Index: 76169
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CclosingU3Ed__6_MoveNext_m7CC5B7CFF89B7BE297796E7A2F35F4B1DF85B322 (U3CclosingU3Ed__6_t5AFACD3EF103B8731C7B4918A56FE9E7CC1BB5CA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8433,19 +8433,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CclosingU3Ed__6_MoveNext_m7CC5B7CFF89B
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs:64>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs:64>
 		MonoBehaviour_print_m9E6FF71C673B651F35DD418C293CFC50C46803B6(_stringLiteral28ED81CF5AD6FE392326D7F88BC350380E97CAC5, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs:65>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs:65>
 		opencloseDoor_tAA72245263A2303CDFC84B87DB88EF5EA9502815* L_4 = V_1;
 		NullCheck(L_4);
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_5 = L_4->___openandclose;
 		NullCheck(L_5);
 		Animator_Play_m0F6A9F84B2E256E644D56C34A7A9BD622CB00FF9(L_5, _stringLiteralDAB2EF6A513D0DA1F97A043466EEE33AC438423E, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs:66>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs:66>
 		opencloseDoor_tAA72245263A2303CDFC84B87DB88EF5EA9502815* L_6 = V_1;
 		NullCheck(L_6);
 		L_6->___open = (bool)0;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs:67>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs:67>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_7 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_7, (0.5f), NULL);
 		__this->___U3CU3E2__current = L_7;
@@ -8457,11 +8457,11 @@ IL_0017:
 IL_0058:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs:68>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs:68>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 76147
+// Method Definition Index: 76170
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m9D21AFC66443347D46ADDC2972BC41B1B5EC1BB0 (U3CclosingU3Ed__6_t5AFACD3EF103B8731C7B4918A56FE9E7CC1BB5CA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8469,7 +8469,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Colle
 		return L_0;
 	}
 }
-// Method Definition Index: 76148
+// Method Definition Index: 76171
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6_System_Collections_IEnumerator_Reset_mABF6E9F31D654229EF462C3B9C6B6A3108E16333 (U3CclosingU3Ed__6_t5AFACD3EF103B8731C7B4918A56FE9E7CC1BB5CA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8478,7 +8478,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6_System_Collections_IEn
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CclosingU3Ed__6_System_Collections_IEnumerator_Reset_mABF6E9F31D654229EF462C3B9C6B6A3108E16333_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 76149
+// Method Definition Index: 76172
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Collections_IEnumerator_get_Current_m98909D7087F09121D4DCF6D278443A75A616C12B (U3CclosingU3Ed__6_t5AFACD3EF103B8731C7B4918A56FE9E7CC1BB5CA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8494,7 +8494,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Colle
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76150
+// Method Definition Index: 76173
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5__ctor_mCDF0A79CB5510376A1A2FD8F924BC6194D0F7496 (U3CopeningU3Ed__5_t2810B98DE432C6629BD88B5C438F0A2C95E85450* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -8504,14 +8504,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5__ctor_mCDF0A79CB551037
 		return;
 	}
 }
-// Method Definition Index: 76151
+// Method Definition Index: 76174
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5_System_IDisposable_Dispose_m25537565BBE1085EB1A607F0D2C8175A4E6AD422 (U3CopeningU3Ed__5_t2810B98DE432C6629BD88B5C438F0A2C95E85450* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 76152
+// Method Definition Index: 76175
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CopeningU3Ed__5_MoveNext_mB1C9B1D6DF1CC96B61FF8FEED8B58C317924510E (U3CopeningU3Ed__5_t2810B98DE432C6629BD88B5C438F0A2C95E85450* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8549,19 +8549,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CopeningU3Ed__5_MoveNext_mB1C9B1D6DF1C
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs:56>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs:56>
 		MonoBehaviour_print_m9E6FF71C673B651F35DD418C293CFC50C46803B6(_stringLiteral22C446C7E5E3265EDDBA27BFE391935857CD98BE, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs:57>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs:57>
 		opencloseDoor_tAA72245263A2303CDFC84B87DB88EF5EA9502815* L_4 = V_1;
 		NullCheck(L_4);
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_5 = L_4->___openandclose;
 		NullCheck(L_5);
 		Animator_Play_m0F6A9F84B2E256E644D56C34A7A9BD622CB00FF9(L_5, _stringLiteralF91D27828858E0E934FC7DADAF6886D7611EF3E8, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs:58>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs:58>
 		opencloseDoor_tAA72245263A2303CDFC84B87DB88EF5EA9502815* L_6 = V_1;
 		NullCheck(L_6);
 		L_6->___open = (bool)1;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs:59>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs:59>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_7 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_7, (0.5f), NULL);
 		__this->___U3CU3E2__current = L_7;
@@ -8573,11 +8573,11 @@ IL_0017:
 IL_0058:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs:60>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor.cs:60>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 76153
+// Method Definition Index: 76176
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mDBE073C0BF7823C303720F0B804054C33356FF75 (U3CopeningU3Ed__5_t2810B98DE432C6629BD88B5C438F0A2C95E85450* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8585,7 +8585,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Colle
 		return L_0;
 	}
 }
-// Method Definition Index: 76154
+// Method Definition Index: 76177
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5_System_Collections_IEnumerator_Reset_m2ADFAF116A418924AA6A5F95464CA8E3126C0B1E (U3CopeningU3Ed__5_t2810B98DE432C6629BD88B5C438F0A2C95E85450* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8594,7 +8594,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5_System_Collections_IEn
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CopeningU3Ed__5_System_Collections_IEnumerator_Reset_m2ADFAF116A418924AA6A5F95464CA8E3126C0B1E_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 76155
+// Method Definition Index: 76178
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Collections_IEnumerator_get_Current_m965915D3E8D1F5321F4F5938FD14AEF1EBA75936 (U3CopeningU3Ed__5_t2810B98DE432C6629BD88B5C438F0A2C95E85450* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8610,17 +8610,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Colle
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76156
+// Method Definition Index: 76179
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseDoor1_Start_mAFB666FAC59494ACF95C237114328042C4B46F14 (opencloseDoor1_t64EF6EAFFF44D6CF6E12947E74D563EA00064E9C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs:17>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs:17>
 		__this->___open = (bool)0;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs:18>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs:18>
 		return;
 	}
 }
-// Method Definition Index: 76157
+// Method Definition Index: 76180
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseDoor1_OnMouseOver_mE19BF4DA9E2BDCEC7566B525B662C267785705D8 (opencloseDoor1_t64EF6EAFFF44D6CF6E12947E74D563EA00064E9C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8630,7 +8630,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseDoor1_OnMouseOver_mE19BF4DA9E2B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs:23>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs:23>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___Player;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -8641,7 +8641,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseDoor1_OnMouseOver_mE19BF4DA9E2B
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs:25>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs:25>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = __this->___Player;
 		NullCheck(L_2);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
@@ -8653,14 +8653,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseDoor1_OnMouseOver_mE19BF4DA9E2B
 		L_5 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_4, NULL);
 		float L_6;
 		L_6 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_3, L_5, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs:26>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs:26>
 		if ((!(((float)L_6) < ((float)(15.0f)))))
 		{
 			goto IL_006a;
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs:28>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs:28>
 		bool L_7 = __this->___open;
 		if (L_7)
 		{
@@ -8668,7 +8668,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseDoor1_OnMouseOver_mE19BF4DA9E2B
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs:30>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs:30>
 		bool L_8;
 		L_8 = Input_GetMouseButtonDown_m8DFC792D15FFF15D311614D5CC6C5D055E5A1DE3(0, NULL);
 		if (!L_8)
@@ -8677,7 +8677,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseDoor1_OnMouseOver_mE19BF4DA9E2B
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs:32>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs:32>
 		RuntimeObject* L_9;
 		L_9 = opencloseDoor1_opening_m1D810DEB61DC5E0F497D98F129F2D7E6C698780B(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_10;
@@ -8687,7 +8687,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseDoor1_OnMouseOver_mE19BF4DA9E2B
 
 IL_004d:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs:37>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs:37>
 		bool L_11 = __this->___open;
 		if (!L_11)
 		{
@@ -8695,7 +8695,7 @@ IL_004d:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs:39>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs:39>
 		bool L_12;
 		L_12 = Input_GetMouseButtonDown_m8DFC792D15FFF15D311614D5CC6C5D055E5A1DE3(0, NULL);
 		if (!L_12)
@@ -8704,7 +8704,7 @@ IL_004d:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs:41>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs:41>
 		RuntimeObject* L_13;
 		L_13 = opencloseDoor1_closing_m508AF39CB92E6A3C670EF38A854FE66B8D294FC5(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_14;
@@ -8713,11 +8713,11 @@ IL_004d:
 
 IL_006a:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs:52>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs:52>
 		return;
 	}
 }
-// Method Definition Index: 76158
+// Method Definition Index: 76181
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* opencloseDoor1_opening_m1D810DEB61DC5E0F497D98F129F2D7E6C698780B (opencloseDoor1_t64EF6EAFFF44D6CF6E12947E74D563EA00064E9C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8736,7 +8736,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* opencloseDoor1_opening_m1D810D
 		return L_1;
 	}
 }
-// Method Definition Index: 76159
+// Method Definition Index: 76182
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* opencloseDoor1_closing_m508AF39CB92E6A3C670EF38A854FE66B8D294FC5 (opencloseDoor1_t64EF6EAFFF44D6CF6E12947E74D563EA00064E9C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8755,7 +8755,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* opencloseDoor1_closing_m508AF3
 		return L_1;
 	}
 }
-// Method Definition Index: 76160
+// Method Definition Index: 76183
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseDoor1__ctor_m3617C6EE154EBB86425D61F84ED1C85276E44465 (opencloseDoor1_t64EF6EAFFF44D6CF6E12947E74D563EA00064E9C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8771,7 +8771,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseDoor1__ctor_m3617C6EE154EBB8642
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76161
+// Method Definition Index: 76184
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6__ctor_m7F32E33676159DDCCA16833C58560F9DD124A1AE (U3CclosingU3Ed__6_tF2538F168B353906D17769880BF49F4EB3A37D81* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -8781,14 +8781,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6__ctor_m7F32E33676159DD
 		return;
 	}
 }
-// Method Definition Index: 76162
+// Method Definition Index: 76185
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6_System_IDisposable_Dispose_m211E98CCA27EF443A78AF2185BE35CE23B64A443 (U3CclosingU3Ed__6_tF2538F168B353906D17769880BF49F4EB3A37D81* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 76163
+// Method Definition Index: 76186
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CclosingU3Ed__6_MoveNext_m80349AAA0F5131C878CA7FA58E6DDA7F6E6CD1EE (U3CclosingU3Ed__6_tF2538F168B353906D17769880BF49F4EB3A37D81* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8826,19 +8826,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CclosingU3Ed__6_MoveNext_m80349AAA0F51
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs:64>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs:64>
 		MonoBehaviour_print_m9E6FF71C673B651F35DD418C293CFC50C46803B6(_stringLiteral28ED81CF5AD6FE392326D7F88BC350380E97CAC5, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs:65>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs:65>
 		opencloseDoor1_t64EF6EAFFF44D6CF6E12947E74D563EA00064E9C* L_4 = V_1;
 		NullCheck(L_4);
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_5 = L_4->___openandclose1;
 		NullCheck(L_5);
 		Animator_Play_m0F6A9F84B2E256E644D56C34A7A9BD622CB00FF9(L_5, _stringLiteral7F3F3886383FDEDF8965C8E930CA0DE3CA08E32C, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs:66>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs:66>
 		opencloseDoor1_t64EF6EAFFF44D6CF6E12947E74D563EA00064E9C* L_6 = V_1;
 		NullCheck(L_6);
 		L_6->___open = (bool)0;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs:67>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs:67>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_7 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_7, (0.5f), NULL);
 		__this->___U3CU3E2__current = L_7;
@@ -8850,11 +8850,11 @@ IL_0017:
 IL_0058:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs:68>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs:68>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 76164
+// Method Definition Index: 76187
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m6C93C7C4C95774A2BB8F0EDAB991FC76705BE63C (U3CclosingU3Ed__6_tF2538F168B353906D17769880BF49F4EB3A37D81* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8862,7 +8862,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Colle
 		return L_0;
 	}
 }
-// Method Definition Index: 76165
+// Method Definition Index: 76188
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6_System_Collections_IEnumerator_Reset_m1CF7C289DF87B534BA5FB5C6A4A9B0C94C797677 (U3CclosingU3Ed__6_tF2538F168B353906D17769880BF49F4EB3A37D81* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8871,7 +8871,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6_System_Collections_IEn
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CclosingU3Ed__6_System_Collections_IEnumerator_Reset_m1CF7C289DF87B534BA5FB5C6A4A9B0C94C797677_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 76166
+// Method Definition Index: 76189
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Collections_IEnumerator_get_Current_mE7B4B02045C067CA36A439A8EE6D453BA434F626 (U3CclosingU3Ed__6_tF2538F168B353906D17769880BF49F4EB3A37D81* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8887,7 +8887,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Colle
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76167
+// Method Definition Index: 76190
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5__ctor_mC92AC40C55474F732A07EB4186D06FD241EE849A (U3CopeningU3Ed__5_tAA2480BC2A019A4A9077E092F4F91A3C2C12F41B* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -8897,14 +8897,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5__ctor_mC92AC40C55474F7
 		return;
 	}
 }
-// Method Definition Index: 76168
+// Method Definition Index: 76191
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5_System_IDisposable_Dispose_m67AE37A63FCB34D71B9D01102444E664EC510387 (U3CopeningU3Ed__5_tAA2480BC2A019A4A9077E092F4F91A3C2C12F41B* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 76169
+// Method Definition Index: 76192
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CopeningU3Ed__5_MoveNext_mC873FD48B125776E73DEC1F233B4EFC6C91714F1 (U3CopeningU3Ed__5_tAA2480BC2A019A4A9077E092F4F91A3C2C12F41B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8942,19 +8942,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CopeningU3Ed__5_MoveNext_mC873FD48B125
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs:56>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs:56>
 		MonoBehaviour_print_m9E6FF71C673B651F35DD418C293CFC50C46803B6(_stringLiteral22C446C7E5E3265EDDBA27BFE391935857CD98BE, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs:57>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs:57>
 		opencloseDoor1_t64EF6EAFFF44D6CF6E12947E74D563EA00064E9C* L_4 = V_1;
 		NullCheck(L_4);
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_5 = L_4->___openandclose1;
 		NullCheck(L_5);
 		Animator_Play_m0F6A9F84B2E256E644D56C34A7A9BD622CB00FF9(L_5, _stringLiteral109F5A6B52D92F2F8FF0B5B430CB41B73B99B119, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs:58>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs:58>
 		opencloseDoor1_t64EF6EAFFF44D6CF6E12947E74D563EA00064E9C* L_6 = V_1;
 		NullCheck(L_6);
 		L_6->___open = (bool)1;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs:59>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs:59>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_7 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_7, (0.5f), NULL);
 		__this->___U3CU3E2__current = L_7;
@@ -8966,11 +8966,11 @@ IL_0017:
 IL_0058:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs:60>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseDoor1.cs:60>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 76170
+// Method Definition Index: 76193
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m6D44FECFB00308D54AB2CC1D1001AFE8C65BB498 (U3CopeningU3Ed__5_tAA2480BC2A019A4A9077E092F4F91A3C2C12F41B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8978,7 +8978,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Colle
 		return L_0;
 	}
 }
-// Method Definition Index: 76171
+// Method Definition Index: 76194
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5_System_Collections_IEnumerator_Reset_mC3402E24902781283F53834B88C0837CB2610D26 (U3CopeningU3Ed__5_tAA2480BC2A019A4A9077E092F4F91A3C2C12F41B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8987,7 +8987,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5_System_Collections_IEn
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CopeningU3Ed__5_System_Collections_IEnumerator_Reset_mC3402E24902781283F53834B88C0837CB2610D26_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 76172
+// Method Definition Index: 76195
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Collections_IEnumerator_get_Current_m4A6FA172066BC71DAAC4C7714CB6F19C0FECA04B (U3CopeningU3Ed__5_tAA2480BC2A019A4A9077E092F4F91A3C2C12F41B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9003,17 +9003,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Colle
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76173
+// Method Definition Index: 76196
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseStallDoor_Start_m8BB7A3B646665BC7708878789D8F2195B1CA1F97 (opencloseStallDoor_tA14F81BF83AC1BB5EA4ADA3E1616ED3E944CECC1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs:17>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs:17>
 		__this->___open = (bool)0;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs:18>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs:18>
 		return;
 	}
 }
-// Method Definition Index: 76174
+// Method Definition Index: 76197
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseStallDoor_OnMouseOver_m7EDEF666AFB27671A5F7787D62E50549E3F577B6 (opencloseStallDoor_tA14F81BF83AC1BB5EA4ADA3E1616ED3E944CECC1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9023,7 +9023,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseStallDoor_OnMouseOver_m7EDEF666
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs:23>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs:23>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___Player;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -9034,7 +9034,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseStallDoor_OnMouseOver_m7EDEF666
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs:25>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs:25>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = __this->___Player;
 		NullCheck(L_2);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
@@ -9046,14 +9046,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseStallDoor_OnMouseOver_m7EDEF666
 		L_5 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_4, NULL);
 		float L_6;
 		L_6 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_3, L_5, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs:26>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs:26>
 		if ((!(((float)L_6) < ((float)(15.0f)))))
 		{
 			goto IL_006a;
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs:28>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs:28>
 		bool L_7 = __this->___open;
 		if (L_7)
 		{
@@ -9061,7 +9061,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseStallDoor_OnMouseOver_m7EDEF666
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs:30>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs:30>
 		bool L_8;
 		L_8 = Input_GetMouseButtonDown_m8DFC792D15FFF15D311614D5CC6C5D055E5A1DE3(0, NULL);
 		if (!L_8)
@@ -9070,7 +9070,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseStallDoor_OnMouseOver_m7EDEF666
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs:32>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs:32>
 		RuntimeObject* L_9;
 		L_9 = opencloseStallDoor_opening_mC009492152B01D720D2C21358B5B1EB364CFD267(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_10;
@@ -9080,7 +9080,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseStallDoor_OnMouseOver_m7EDEF666
 
 IL_004d:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs:37>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs:37>
 		bool L_11 = __this->___open;
 		if (!L_11)
 		{
@@ -9088,7 +9088,7 @@ IL_004d:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs:39>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs:39>
 		bool L_12;
 		L_12 = Input_GetMouseButtonDown_m8DFC792D15FFF15D311614D5CC6C5D055E5A1DE3(0, NULL);
 		if (!L_12)
@@ -9097,7 +9097,7 @@ IL_004d:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs:41>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs:41>
 		RuntimeObject* L_13;
 		L_13 = opencloseStallDoor_closing_m32F68FE792B67E81B075022BB0ED56A01C6D2DDF(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_14;
@@ -9106,11 +9106,11 @@ IL_004d:
 
 IL_006a:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs:52>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs:52>
 		return;
 	}
 }
-// Method Definition Index: 76175
+// Method Definition Index: 76198
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* opencloseStallDoor_opening_mC009492152B01D720D2C21358B5B1EB364CFD267 (opencloseStallDoor_tA14F81BF83AC1BB5EA4ADA3E1616ED3E944CECC1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9129,7 +9129,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* opencloseStallDoor_opening_mC0
 		return L_1;
 	}
 }
-// Method Definition Index: 76176
+// Method Definition Index: 76199
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* opencloseStallDoor_closing_m32F68FE792B67E81B075022BB0ED56A01C6D2DDF (opencloseStallDoor_tA14F81BF83AC1BB5EA4ADA3E1616ED3E944CECC1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9148,7 +9148,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* opencloseStallDoor_closing_m32
 		return L_1;
 	}
 }
-// Method Definition Index: 76177
+// Method Definition Index: 76200
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseStallDoor__ctor_m177E60871848602F812A57DE6C0E374F20A74D8B (opencloseStallDoor_tA14F81BF83AC1BB5EA4ADA3E1616ED3E944CECC1* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9164,7 +9164,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseStallDoor__ctor_m177E6087184860
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76178
+// Method Definition Index: 76201
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6__ctor_mFFB75B5BFAFDDBE20C45DDD57C3115958C7B4F76 (U3CclosingU3Ed__6_t7376EC9A4EC0BD0FA8264AFC57543EA30E23D238* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -9174,14 +9174,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6__ctor_mFFB75B5BFAFDDBE
 		return;
 	}
 }
-// Method Definition Index: 76179
+// Method Definition Index: 76202
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6_System_IDisposable_Dispose_m6812C625B3F1EA4F389F2D07E0ECFD739060E45A (U3CclosingU3Ed__6_t7376EC9A4EC0BD0FA8264AFC57543EA30E23D238* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 76180
+// Method Definition Index: 76203
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CclosingU3Ed__6_MoveNext_mB3D67CB7AD6F3933AE3F69413E3E0B61D0CE4284 (U3CclosingU3Ed__6_t7376EC9A4EC0BD0FA8264AFC57543EA30E23D238* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9219,19 +9219,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CclosingU3Ed__6_MoveNext_mB3D67CB7AD6F
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs:64>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs:64>
 		MonoBehaviour_print_m9E6FF71C673B651F35DD418C293CFC50C46803B6(_stringLiteral28ED81CF5AD6FE392326D7F88BC350380E97CAC5, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs:65>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs:65>
 		opencloseStallDoor_tA14F81BF83AC1BB5EA4ADA3E1616ED3E944CECC1* L_4 = V_1;
 		NullCheck(L_4);
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_5 = L_4->___openandclose;
 		NullCheck(L_5);
 		Animator_Play_m0F6A9F84B2E256E644D56C34A7A9BD622CB00FF9(L_5, _stringLiteral959CF7126A3C168B5A25816EEFF815B55EEA20FF, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs:66>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs:66>
 		opencloseStallDoor_tA14F81BF83AC1BB5EA4ADA3E1616ED3E944CECC1* L_6 = V_1;
 		NullCheck(L_6);
 		L_6->___open = (bool)0;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs:67>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs:67>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_7 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_7, (0.5f), NULL);
 		__this->___U3CU3E2__current = L_7;
@@ -9243,11 +9243,11 @@ IL_0017:
 IL_0058:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs:68>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs:68>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 76181
+// Method Definition Index: 76204
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mB7F469BC96C281DFE0EE1048B6958963E9CDAD12 (U3CclosingU3Ed__6_t7376EC9A4EC0BD0FA8264AFC57543EA30E23D238* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9255,7 +9255,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Colle
 		return L_0;
 	}
 }
-// Method Definition Index: 76182
+// Method Definition Index: 76205
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6_System_Collections_IEnumerator_Reset_m541DFE8DDD091300FC8BD444B66A68BD2183700C (U3CclosingU3Ed__6_t7376EC9A4EC0BD0FA8264AFC57543EA30E23D238* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9264,7 +9264,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6_System_Collections_IEn
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CclosingU3Ed__6_System_Collections_IEnumerator_Reset_m541DFE8DDD091300FC8BD444B66A68BD2183700C_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 76183
+// Method Definition Index: 76206
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Collections_IEnumerator_get_Current_m994BA32D3F21D7C4C1C5990367FF67FE2E72C292 (U3CclosingU3Ed__6_t7376EC9A4EC0BD0FA8264AFC57543EA30E23D238* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9280,7 +9280,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Colle
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76184
+// Method Definition Index: 76207
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5__ctor_m70C20308FCB83EF314AA5D67E59C5EA4C62F2F6E (U3CopeningU3Ed__5_t28AC0349B0813F1F0BFAE145855EE7F365847894* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -9290,14 +9290,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5__ctor_m70C20308FCB83EF
 		return;
 	}
 }
-// Method Definition Index: 76185
+// Method Definition Index: 76208
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5_System_IDisposable_Dispose_m6DEF2CDE3987679C6A0CD52BE42634BD2E9E1C96 (U3CopeningU3Ed__5_t28AC0349B0813F1F0BFAE145855EE7F365847894* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 76186
+// Method Definition Index: 76209
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CopeningU3Ed__5_MoveNext_m8976018F5A1DE231260D5361C460D72824128749 (U3CopeningU3Ed__5_t28AC0349B0813F1F0BFAE145855EE7F365847894* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9335,19 +9335,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CopeningU3Ed__5_MoveNext_m8976018F5A1D
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs:56>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs:56>
 		MonoBehaviour_print_m9E6FF71C673B651F35DD418C293CFC50C46803B6(_stringLiteral22C446C7E5E3265EDDBA27BFE391935857CD98BE, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs:57>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs:57>
 		opencloseStallDoor_tA14F81BF83AC1BB5EA4ADA3E1616ED3E944CECC1* L_4 = V_1;
 		NullCheck(L_4);
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_5 = L_4->___openandclose;
 		NullCheck(L_5);
 		Animator_Play_m0F6A9F84B2E256E644D56C34A7A9BD622CB00FF9(L_5, _stringLiteral92873158F8EA0C6A8F900B67C838305C1944365A, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs:58>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs:58>
 		opencloseStallDoor_tA14F81BF83AC1BB5EA4ADA3E1616ED3E944CECC1* L_6 = V_1;
 		NullCheck(L_6);
 		L_6->___open = (bool)1;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs:59>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs:59>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_7 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_7, (0.5f), NULL);
 		__this->___U3CU3E2__current = L_7;
@@ -9359,11 +9359,11 @@ IL_0017:
 IL_0058:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs:60>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors/opencloseStallDoor.cs:60>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 76187
+// Method Definition Index: 76210
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m4C8B3020183CA34DDAC41656DCE957ABE03EE3C8 (U3CopeningU3Ed__5_t28AC0349B0813F1F0BFAE145855EE7F365847894* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9371,7 +9371,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Colle
 		return L_0;
 	}
 }
-// Method Definition Index: 76188
+// Method Definition Index: 76211
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5_System_Collections_IEnumerator_Reset_m7591D4C7B980907DBCE7764A1B4577D912374D46 (U3CopeningU3Ed__5_t28AC0349B0813F1F0BFAE145855EE7F365847894* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9380,7 +9380,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5_System_Collections_IEn
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CopeningU3Ed__5_System_Collections_IEnumerator_Reset_m7591D4C7B980907DBCE7764A1B4577D912374D46_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 76189
+// Method Definition Index: 76212
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Collections_IEnumerator_get_Current_mF6311FE297E39480D339592A8766F3B6ABB177A2 (U3CopeningU3Ed__5_t28AC0349B0813F1F0BFAE145855EE7F365847894* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9396,17 +9396,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Colle
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76190
+// Method Definition Index: 76213
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Drawer_Pull_X_Start_mF3043644D731DDE8F820531426E9632BE967C3C7 (Drawer_Pull_X_t6EF16AB776C1B7532B8D11AD10C57226468BE2B2* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs:18>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs:18>
 		__this->___open = (bool)0;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs:19>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs:19>
 		return;
 	}
 }
-// Method Definition Index: 76191
+// Method Definition Index: 76214
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Drawer_Pull_X_OnMouseOver_m818AA4C15C25E4AC79336607D4B4798DC6946D01 (Drawer_Pull_X_t6EF16AB776C1B7532B8D11AD10C57226468BE2B2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9417,7 +9417,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Drawer_Pull_X_OnMouseOver_m818AA4C15C25E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs:24>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs:24>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___Player;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -9428,7 +9428,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Drawer_Pull_X_OnMouseOver_m818AA4C15C25E
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs:26>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs:26>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = __this->___Player;
 		NullCheck(L_2);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
@@ -9440,16 +9440,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Drawer_Pull_X_OnMouseOver_m818AA4C15C25E
 		L_5 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_4, NULL);
 		float L_6;
 		L_6 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_3, L_5, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs:27>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs:27>
 		if ((!(((float)L_6) < ((float)(10.0f)))))
 		{
 			goto IL_0074;
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs:29>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs:29>
 		MonoBehaviour_print_m9E6FF71C673B651F35DD418C293CFC50C46803B6(_stringLiteralF3A75D921A32532B9A0A2F8A4018127ABD2C0687, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs:30>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs:30>
 		bool L_7 = __this->___open;
 		if (L_7)
 		{
@@ -9457,7 +9457,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Drawer_Pull_X_OnMouseOver_m818AA4C15C25E
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs:32>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs:32>
 		bool L_8;
 		L_8 = Input_GetMouseButtonDown_m8DFC792D15FFF15D311614D5CC6C5D055E5A1DE3(0, NULL);
 		if (!L_8)
@@ -9466,7 +9466,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Drawer_Pull_X_OnMouseOver_m818AA4C15C25E
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs:34>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs:34>
 		RuntimeObject* L_9;
 		L_9 = Drawer_Pull_X_opening_m0879ADF27877BE167FAA597539B2BE51ECEAE48C(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_10;
@@ -9476,7 +9476,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Drawer_Pull_X_OnMouseOver_m818AA4C15C25E
 
 IL_0057:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs:39>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs:39>
 		bool L_11 = __this->___open;
 		if (!L_11)
 		{
@@ -9484,7 +9484,7 @@ IL_0057:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs:41>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs:41>
 		bool L_12;
 		L_12 = Input_GetMouseButtonDown_m8DFC792D15FFF15D311614D5CC6C5D055E5A1DE3(0, NULL);
 		if (!L_12)
@@ -9493,7 +9493,7 @@ IL_0057:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs:43>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs:43>
 		RuntimeObject* L_13;
 		L_13 = Drawer_Pull_X_closing_m1C1FAF2F11F44618EC24E1024DB7FEA352615095(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_14;
@@ -9502,11 +9502,11 @@ IL_0057:
 
 IL_0074:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs:54>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs:54>
 		return;
 	}
 }
-// Method Definition Index: 76192
+// Method Definition Index: 76215
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Drawer_Pull_X_opening_m0879ADF27877BE167FAA597539B2BE51ECEAE48C (Drawer_Pull_X_t6EF16AB776C1B7532B8D11AD10C57226468BE2B2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9525,7 +9525,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Drawer_Pull_X_opening_m0879ADF
 		return L_1;
 	}
 }
-// Method Definition Index: 76193
+// Method Definition Index: 76216
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Drawer_Pull_X_closing_m1C1FAF2F11F44618EC24E1024DB7FEA352615095 (Drawer_Pull_X_t6EF16AB776C1B7532B8D11AD10C57226468BE2B2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9544,7 +9544,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Drawer_Pull_X_closing_m1C1FAF2
 		return L_1;
 	}
 }
-// Method Definition Index: 76194
+// Method Definition Index: 76217
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Drawer_Pull_X__ctor_mF607B4A1F1E12DDCB5E233DE1142C495F42A7AA1 (Drawer_Pull_X_t6EF16AB776C1B7532B8D11AD10C57226468BE2B2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9560,7 +9560,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Drawer_Pull_X__ctor_mF607B4A1F1E12DDCB5E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76195
+// Method Definition Index: 76218
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6__ctor_m063A0DBFF58FE57440316F5E1D215FD9CCF14D16 (U3CclosingU3Ed__6_t0A258D7C1F772ABB5AB94539D159D65DEC4A86C2* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -9570,14 +9570,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6__ctor_m063A0DBFF58FE57
 		return;
 	}
 }
-// Method Definition Index: 76196
+// Method Definition Index: 76219
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6_System_IDisposable_Dispose_m1C84E01B0523CE46845557788CB8CC3B6191743D (U3CclosingU3Ed__6_t0A258D7C1F772ABB5AB94539D159D65DEC4A86C2* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 76197
+// Method Definition Index: 76220
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CclosingU3Ed__6_MoveNext_m6B37AABC2159D233231F0E4245D9203C38CA077A (U3CclosingU3Ed__6_t0A258D7C1F772ABB5AB94539D159D65DEC4A86C2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9615,19 +9615,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CclosingU3Ed__6_MoveNext_m6B37AABC2159
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs:66>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs:66>
 		MonoBehaviour_print_m9E6FF71C673B651F35DD418C293CFC50C46803B6(_stringLiteral28ED81CF5AD6FE392326D7F88BC350380E97CAC5, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs:67>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs:67>
 		Drawer_Pull_X_t6EF16AB776C1B7532B8D11AD10C57226468BE2B2* L_4 = V_1;
 		NullCheck(L_4);
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_5 = L_4->___pull_01;
 		NullCheck(L_5);
 		Animator_Play_m0F6A9F84B2E256E644D56C34A7A9BD622CB00FF9(L_5, _stringLiteral8DB46F804A221B05881E2D7D919F77DB08A24B32, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs:68>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs:68>
 		Drawer_Pull_X_t6EF16AB776C1B7532B8D11AD10C57226468BE2B2* L_6 = V_1;
 		NullCheck(L_6);
 		L_6->___open = (bool)0;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs:69>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs:69>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_7 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_7, (0.5f), NULL);
 		__this->___U3CU3E2__current = L_7;
@@ -9639,11 +9639,11 @@ IL_0017:
 IL_0058:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs:70>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs:70>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 76198
+// Method Definition Index: 76221
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m394695C55D02DCF1208D7AC71FF607F604B3BFD0 (U3CclosingU3Ed__6_t0A258D7C1F772ABB5AB94539D159D65DEC4A86C2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9651,7 +9651,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Colle
 		return L_0;
 	}
 }
-// Method Definition Index: 76199
+// Method Definition Index: 76222
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6_System_Collections_IEnumerator_Reset_m0DAFF4556E1EE512D96E1AFB2A60F4B9308EF53D (U3CclosingU3Ed__6_t0A258D7C1F772ABB5AB94539D159D65DEC4A86C2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9660,7 +9660,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6_System_Collections_IEn
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CclosingU3Ed__6_System_Collections_IEnumerator_Reset_m0DAFF4556E1EE512D96E1AFB2A60F4B9308EF53D_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 76200
+// Method Definition Index: 76223
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Collections_IEnumerator_get_Current_m58401076106CACE9D5F1B27AD8CBD69B6137AA23 (U3CclosingU3Ed__6_t0A258D7C1F772ABB5AB94539D159D65DEC4A86C2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9676,7 +9676,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Colle
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76201
+// Method Definition Index: 76224
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5__ctor_m4C85BD4C1EBDC9109D9D777B251A474B393C0F84 (U3CopeningU3Ed__5_t9CB37EB847D5382D2456233C250F7F8172FA370F* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -9686,14 +9686,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5__ctor_m4C85BD4C1EBDC91
 		return;
 	}
 }
-// Method Definition Index: 76202
+// Method Definition Index: 76225
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5_System_IDisposable_Dispose_mA0EFA7409A06DBF4D93E734DB9D8637225D07935 (U3CopeningU3Ed__5_t9CB37EB847D5382D2456233C250F7F8172FA370F* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 76203
+// Method Definition Index: 76226
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CopeningU3Ed__5_MoveNext_m8A5D07E697B5A1D84A9037BC22D52BD22AFB5C39 (U3CopeningU3Ed__5_t9CB37EB847D5382D2456233C250F7F8172FA370F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9731,19 +9731,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CopeningU3Ed__5_MoveNext_m8A5D07E697B5
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs:58>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs:58>
 		MonoBehaviour_print_m9E6FF71C673B651F35DD418C293CFC50C46803B6(_stringLiteral22C446C7E5E3265EDDBA27BFE391935857CD98BE, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs:59>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs:59>
 		Drawer_Pull_X_t6EF16AB776C1B7532B8D11AD10C57226468BE2B2* L_4 = V_1;
 		NullCheck(L_4);
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_5 = L_4->___pull_01;
 		NullCheck(L_5);
 		Animator_Play_m0F6A9F84B2E256E644D56C34A7A9BD622CB00FF9(L_5, _stringLiteralFB6A7C80E1017EC35DBFE2CF7268C25730B94A7F, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs:60>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs:60>
 		Drawer_Pull_X_t6EF16AB776C1B7532B8D11AD10C57226468BE2B2* L_6 = V_1;
 		NullCheck(L_6);
 		L_6->___open = (bool)1;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs:61>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs:61>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_7 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_7, (0.5f), NULL);
 		__this->___U3CU3E2__current = L_7;
@@ -9755,11 +9755,11 @@ IL_0017:
 IL_0058:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs:62>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X Axis/Drawer_Pull_X.cs:62>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 76204
+// Method Definition Index: 76227
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mAB8710A7F23969A9BF9B1D75F63DB16702799A5A (U3CopeningU3Ed__5_t9CB37EB847D5382D2456233C250F7F8172FA370F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9767,7 +9767,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Colle
 		return L_0;
 	}
 }
-// Method Definition Index: 76205
+// Method Definition Index: 76228
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5_System_Collections_IEnumerator_Reset_mFFFAFF2555FC8785260F4E6430EF6BA4B08B8D13 (U3CopeningU3Ed__5_t9CB37EB847D5382D2456233C250F7F8172FA370F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9776,7 +9776,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5_System_Collections_IEn
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CopeningU3Ed__5_System_Collections_IEnumerator_Reset_mFFFAFF2555FC8785260F4E6430EF6BA4B08B8D13_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 76206
+// Method Definition Index: 76229
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Collections_IEnumerator_get_Current_m4CB6C7B2E2B41B84B7E3793EF5881515890857DC (U3CopeningU3Ed__5_t9CB37EB847D5382D2456233C250F7F8172FA370F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9792,17 +9792,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Colle
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76207
+// Method Definition Index: 76230
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Drawer_Pull_Z_Start_mA6C0EAE04DBDB6E34800E414FF0F7C10D440A3A3 (Drawer_Pull_Z_t67A22F1C2582D525BF6BAFAAA3FE352827B0A542* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs:17>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs:17>
 		__this->___open = (bool)0;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs:18>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs:18>
 		return;
 	}
 }
-// Method Definition Index: 76208
+// Method Definition Index: 76231
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Drawer_Pull_Z_OnMouseOver_m3BF1C8EA19E57ABA59523128557C2AC77C0B89B1 (Drawer_Pull_Z_t67A22F1C2582D525BF6BAFAAA3FE352827B0A542* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9813,7 +9813,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Drawer_Pull_Z_OnMouseOver_m3BF1C8EA19E57
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs:23>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs:23>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___Player;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -9824,7 +9824,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Drawer_Pull_Z_OnMouseOver_m3BF1C8EA19E57
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs:25>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs:25>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = __this->___Player;
 		NullCheck(L_2);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
@@ -9836,16 +9836,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Drawer_Pull_Z_OnMouseOver_m3BF1C8EA19E57
 		L_5 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_4, NULL);
 		float L_6;
 		L_6 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_3, L_5, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs:26>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs:26>
 		if ((!(((float)L_6) < ((float)(10.0f)))))
 		{
 			goto IL_0074;
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs:28>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs:28>
 		MonoBehaviour_print_m9E6FF71C673B651F35DD418C293CFC50C46803B6(_stringLiteralF3A75D921A32532B9A0A2F8A4018127ABD2C0687, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs:29>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs:29>
 		bool L_7 = __this->___open;
 		if (L_7)
 		{
@@ -9853,7 +9853,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Drawer_Pull_Z_OnMouseOver_m3BF1C8EA19E57
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs:31>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs:31>
 		bool L_8;
 		L_8 = Input_GetMouseButtonDown_m8DFC792D15FFF15D311614D5CC6C5D055E5A1DE3(0, NULL);
 		if (!L_8)
@@ -9862,7 +9862,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Drawer_Pull_Z_OnMouseOver_m3BF1C8EA19E57
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs:33>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs:33>
 		RuntimeObject* L_9;
 		L_9 = Drawer_Pull_Z_opening_m04374C1EE8736ED27E0666AC852A5573547AF8B0(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_10;
@@ -9872,7 +9872,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Drawer_Pull_Z_OnMouseOver_m3BF1C8EA19E57
 
 IL_0057:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs:38>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs:38>
 		bool L_11 = __this->___open;
 		if (!L_11)
 		{
@@ -9880,7 +9880,7 @@ IL_0057:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs:40>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs:40>
 		bool L_12;
 		L_12 = Input_GetMouseButtonDown_m8DFC792D15FFF15D311614D5CC6C5D055E5A1DE3(0, NULL);
 		if (!L_12)
@@ -9889,7 +9889,7 @@ IL_0057:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs:42>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs:42>
 		RuntimeObject* L_13;
 		L_13 = Drawer_Pull_Z_closing_mD2B8593C2497D480C5B61373D12FC70C0635A4F2(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_14;
@@ -9898,11 +9898,11 @@ IL_0057:
 
 IL_0074:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs:53>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs:53>
 		return;
 	}
 }
-// Method Definition Index: 76209
+// Method Definition Index: 76232
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Drawer_Pull_Z_opening_m04374C1EE8736ED27E0666AC852A5573547AF8B0 (Drawer_Pull_Z_t67A22F1C2582D525BF6BAFAAA3FE352827B0A542* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9921,7 +9921,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Drawer_Pull_Z_opening_m04374C1
 		return L_1;
 	}
 }
-// Method Definition Index: 76210
+// Method Definition Index: 76233
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Drawer_Pull_Z_closing_mD2B8593C2497D480C5B61373D12FC70C0635A4F2 (Drawer_Pull_Z_t67A22F1C2582D525BF6BAFAAA3FE352827B0A542* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9940,7 +9940,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Drawer_Pull_Z_closing_mD2B8593
 		return L_1;
 	}
 }
-// Method Definition Index: 76211
+// Method Definition Index: 76234
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Drawer_Pull_Z__ctor_m02FB80A25F100FB3C0C4103F929547A990E84CA8 (Drawer_Pull_Z_t67A22F1C2582D525BF6BAFAAA3FE352827B0A542* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9956,7 +9956,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Drawer_Pull_Z__ctor_m02FB80A25F100FB3C0C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76212
+// Method Definition Index: 76235
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6__ctor_m33301F56B392CBB60438C6241C9D16BE17C87B5A (U3CclosingU3Ed__6_t02B44885F276B1D4EDC280EE331AB247A05D3B9A* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -9966,14 +9966,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6__ctor_m33301F56B392CBB
 		return;
 	}
 }
-// Method Definition Index: 76213
+// Method Definition Index: 76236
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6_System_IDisposable_Dispose_m6AD9244B8BBD3E5639D7121BC36C805E13C46680 (U3CclosingU3Ed__6_t02B44885F276B1D4EDC280EE331AB247A05D3B9A* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 76214
+// Method Definition Index: 76237
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CclosingU3Ed__6_MoveNext_mFC0B84DCE0CDC1CA224BDAD2913054A8BAD6A494 (U3CclosingU3Ed__6_t02B44885F276B1D4EDC280EE331AB247A05D3B9A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10011,19 +10011,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CclosingU3Ed__6_MoveNext_mFC0B84DCE0CD
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs:65>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs:65>
 		MonoBehaviour_print_m9E6FF71C673B651F35DD418C293CFC50C46803B6(_stringLiteral28ED81CF5AD6FE392326D7F88BC350380E97CAC5, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs:66>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs:66>
 		Drawer_Pull_Z_t67A22F1C2582D525BF6BAFAAA3FE352827B0A542* L_4 = V_1;
 		NullCheck(L_4);
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_5 = L_4->___pull;
 		NullCheck(L_5);
 		Animator_Play_m0F6A9F84B2E256E644D56C34A7A9BD622CB00FF9(L_5, _stringLiteral23BC23743CA78CCF7AA374847689BBDC815DD7B2, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs:67>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs:67>
 		Drawer_Pull_Z_t67A22F1C2582D525BF6BAFAAA3FE352827B0A542* L_6 = V_1;
 		NullCheck(L_6);
 		L_6->___open = (bool)0;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs:68>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs:68>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_7 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_7, (0.5f), NULL);
 		__this->___U3CU3E2__current = L_7;
@@ -10035,11 +10035,11 @@ IL_0017:
 IL_0058:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs:69>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs:69>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 76215
+// Method Definition Index: 76238
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mF50C3E517FC06BFA8B0459464D55B7C6F7D7C423 (U3CclosingU3Ed__6_t02B44885F276B1D4EDC280EE331AB247A05D3B9A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10047,7 +10047,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Colle
 		return L_0;
 	}
 }
-// Method Definition Index: 76216
+// Method Definition Index: 76239
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6_System_Collections_IEnumerator_Reset_mA9A68B4C592F955D54C7C21457234107AE6B9B5A (U3CclosingU3Ed__6_t02B44885F276B1D4EDC280EE331AB247A05D3B9A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10056,7 +10056,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6_System_Collections_IEn
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CclosingU3Ed__6_System_Collections_IEnumerator_Reset_mA9A68B4C592F955D54C7C21457234107AE6B9B5A_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 76217
+// Method Definition Index: 76240
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Collections_IEnumerator_get_Current_mB44A3B97720ACEEAE3C8964CB14240DB60728FDA (U3CclosingU3Ed__6_t02B44885F276B1D4EDC280EE331AB247A05D3B9A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10072,7 +10072,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Colle
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76218
+// Method Definition Index: 76241
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5__ctor_m824B17F8CD1ADB27AFECB99A9D405F4E631C89BE (U3CopeningU3Ed__5_t80AAF1C1F38375FCA3AFF7417F840CF12A64C7AD* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -10082,14 +10082,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5__ctor_m824B17F8CD1ADB2
 		return;
 	}
 }
-// Method Definition Index: 76219
+// Method Definition Index: 76242
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5_System_IDisposable_Dispose_mB18EB3444E1488B0C61E0107EEFAD22BAE2C57EA (U3CopeningU3Ed__5_t80AAF1C1F38375FCA3AFF7417F840CF12A64C7AD* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 76220
+// Method Definition Index: 76243
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CopeningU3Ed__5_MoveNext_m480DE56B34EB87E0FD1D9EC6BAE797E4F426C273 (U3CopeningU3Ed__5_t80AAF1C1F38375FCA3AFF7417F840CF12A64C7AD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10127,19 +10127,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CopeningU3Ed__5_MoveNext_m480DE56B34EB
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs:57>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs:57>
 		MonoBehaviour_print_m9E6FF71C673B651F35DD418C293CFC50C46803B6(_stringLiteral22C446C7E5E3265EDDBA27BFE391935857CD98BE, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs:58>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs:58>
 		Drawer_Pull_Z_t67A22F1C2582D525BF6BAFAAA3FE352827B0A542* L_4 = V_1;
 		NullCheck(L_4);
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_5 = L_4->___pull;
 		NullCheck(L_5);
 		Animator_Play_m0F6A9F84B2E256E644D56C34A7A9BD622CB00FF9(L_5, _stringLiteralCEC6EACB0EC6BEF0C62E54C19D8F90E01DE0C908, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs:59>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs:59>
 		Drawer_Pull_Z_t67A22F1C2582D525BF6BAFAAA3FE352827B0A542* L_6 = V_1;
 		NullCheck(L_6);
 		L_6->___open = (bool)1;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs:60>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs:60>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_7 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_7, (0.5f), NULL);
 		__this->___U3CU3E2__current = L_7;
@@ -10151,11 +10151,11 @@ IL_0017:
 IL_0058:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs:61>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z Axis/Drawer_Pull_Z.cs:61>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 76221
+// Method Definition Index: 76244
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m807A6AC6DD3C8E95D8FBAD329E9358A5487BFE6E (U3CopeningU3Ed__5_t80AAF1C1F38375FCA3AFF7417F840CF12A64C7AD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10163,7 +10163,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Colle
 		return L_0;
 	}
 }
-// Method Definition Index: 76222
+// Method Definition Index: 76245
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5_System_Collections_IEnumerator_Reset_m92F3A640FB35F9CAE67200AC68BCAC34178F3D20 (U3CopeningU3Ed__5_t80AAF1C1F38375FCA3AFF7417F840CF12A64C7AD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10172,7 +10172,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5_System_Collections_IEn
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CopeningU3Ed__5_System_Collections_IEnumerator_Reset_m92F3A640FB35F9CAE67200AC68BCAC34178F3D20_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 76223
+// Method Definition Index: 76246
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Collections_IEnumerator_get_Current_mBB801F09FCD6A3BF46D511ABA6FED06E2733784F (U3CopeningU3Ed__5_t80AAF1C1F38375FCA3AFF7417F840CF12A64C7AD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10188,17 +10188,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Colle
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76224
+// Method Definition Index: 76247
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MouseLook_Start_mAED465021CC67B5CA5918EE9849F646078CE0DFC (MouseLook_tC23F7E839420EA476CD0FD1194A98C3304860D16* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/MouseLook.cs:20>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/MouseLook.cs:20>
 		Cursor_set_lockState_mD81F6E5F3D86506FFB88567689A3A00A7AD242E9(1, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/MouseLook.cs:21>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/MouseLook.cs:21>
 		return;
 	}
 }
-// Method Definition Index: 76225
+// Method Definition Index: 76248
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MouseLook_Update_m507B72FBDDEDBA9B71068C583A0BEF25613EE5EE (MouseLook_tC23F7E839420EA476CD0FD1194A98C3304860D16* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10211,30 +10211,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MouseLook_Update_m507B72FBDDEDBA9B71068C
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/MouseLook.cs:26>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/MouseLook.cs:26>
 		float L_0;
 		L_0 = Input_GetAxis_m10372E6C5FF591668D2DC5F58C58D213CC598A62(_stringLiteral88BEE283254D7094E258B3A88730F4CC4F1E4AC7, NULL);
 		float L_1 = __this->___mouseXSensitivity;
 		float L_2;
 		L_2 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		V_0 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_0, L_1)), L_2));
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/MouseLook.cs:27>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/MouseLook.cs:27>
 		float L_3;
 		L_3 = Input_GetAxis_m10372E6C5FF591668D2DC5F58C58D213CC598A62(_stringLiteral16DD21BE77B115D392226EB71A2D3A9FDC29E3F0, NULL);
 		float L_4 = __this->___mouseXSensitivity;
 		float L_5;
 		L_5 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		V_1 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_3, L_4)), L_5));
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/MouseLook.cs:29>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/MouseLook.cs:29>
 		float L_6 = __this->___xRotation;
 		float L_7 = V_1;
 		__this->___xRotation = ((float)il2cpp_codegen_subtract(L_6, L_7));
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/MouseLook.cs:30>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/MouseLook.cs:30>
 		float L_8 = __this->___xRotation;
 		float L_9;
 		L_9 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_8, (-90.0f), (90.0f), NULL);
 		__this->___xRotation = L_9;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/MouseLook.cs:32>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/MouseLook.cs:32>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10;
 		L_10 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		float L_11 = __this->___xRotation;
@@ -10242,7 +10242,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MouseLook_Update_m507B72FBDDEDBA9B71068C
 		L_12 = Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline(L_11, (0.0f), (0.0f), NULL);
 		NullCheck(L_10);
 		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_10, L_12, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/MouseLook.cs:33>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/MouseLook.cs:33>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13 = __this->___playerBody;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
 		L_14 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
@@ -10251,15 +10251,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MouseLook_Update_m507B72FBDDEDBA9B71068C
 		L_16 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_14, L_15, NULL);
 		NullCheck(L_13);
 		Transform_Rotate_m2A308205498AFEEA3DF784B1C86E4F7C126CA2EE(L_13, L_16, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/MouseLook.cs:34>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/MouseLook.cs:34>
 		return;
 	}
 }
-// Method Definition Index: 76226
+// Method Definition Index: 76249
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MouseLook__ctor_mE4D9E506B0A6A47171F0458801A624CD97109A52 (MouseLook_tC23F7E839420EA476CD0FD1194A98C3304860D16* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/MouseLook.cs:11>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/MouseLook.cs:11>
 		__this->___mouseXSensitivity = (100.0f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -10273,7 +10273,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MouseLook__ctor_mE4D9E506B0A6A47171F0458
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76227
+// Method Definition Index: 76250
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMovement_Update_mD9D3F70D4433B230EF6027FE013AAF00A46FECE7 (PlayerMovement_tDE6A0E9E0CC3347F30021417F6ED4FA6A533734D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10288,15 +10288,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMovement_Update_mD9D3F70D4433B230E
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/PlayerMovement.cs:24>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/PlayerMovement.cs:24>
 		float L_0;
 		L_0 = Input_GetAxis_m10372E6C5FF591668D2DC5F58C58D213CC598A62(_stringLiteral7F8C014BD4810CC276D0F9F81A1E759C7B098B1E, NULL);
 		V_0 = L_0;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/PlayerMovement.cs:25>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/PlayerMovement.cs:25>
 		float L_1;
 		L_1 = Input_GetAxis_m10372E6C5FF591668D2DC5F58C58D213CC598A62(_stringLiteral265E15F1F86F1C766555899D5771CF29055DE75A, NULL);
 		V_1 = L_1;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/PlayerMovement.cs:27>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/PlayerMovement.cs:27>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
 		L_2 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_2);
@@ -10316,7 +10316,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMovement_Update_mD9D3F70D4433B230E
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
 		L_10 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_5, L_9, NULL);
 		V_2 = L_10;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/PlayerMovement.cs:29>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/PlayerMovement.cs:29>
 		CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* L_11 = __this->___controller;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = V_2;
 		float L_13 = __this->___speed;
@@ -10329,7 +10329,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMovement_Update_mD9D3F70D4433B230E
 		NullCheck(L_11);
 		int32_t L_17;
 		L_17 = CharacterController_Move_mE3F7AC1B4A2D6955980811C088B68ED3A31D2DA4(L_11, L_16, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/PlayerMovement.cs:31>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/PlayerMovement.cs:31>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_18 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___velocity);
 		float* L_19 = (float*)(&L_18->___y);
 		float* L_20 = L_19;
@@ -10338,7 +10338,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMovement_Update_mD9D3F70D4433B230E
 		float L_23;
 		L_23 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		*((float*)L_20) = (float)((float)il2cpp_codegen_add(L_21, ((float)il2cpp_codegen_multiply(L_22, L_23))));
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/PlayerMovement.cs:33>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/PlayerMovement.cs:33>
 		CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* L_24 = __this->___controller;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25 = __this->___velocity;
 		float L_26;
@@ -10348,17 +10348,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMovement_Update_mD9D3F70D4433B230E
 		NullCheck(L_24);
 		int32_t L_28;
 		L_28 = CharacterController_Move_mE3F7AC1B4A2D6955980811C088B68ED3A31D2DA4(L_24, L_27, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/PlayerMovement.cs:35>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/PlayerMovement.cs:35>
 		return;
 	}
 }
-// Method Definition Index: 76228
+// Method Definition Index: 76251
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMovement__ctor_mC4896AC8FE448922AEAB330410FD5A274CA773C7 (PlayerMovement_tDE6A0E9E0CC3347F30021417F6ED4FA6A533734D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/PlayerMovement.cs:13>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/PlayerMovement.cs:13>
 		__this->___speed = (5.0f);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/PlayerMovement.cs:14>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/PlayerMovement.cs:14>
 		__this->___gravity = (-15.0f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -10372,15 +10372,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMovement__ctor_mC4896AC8FE448922AE
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76229
+// Method Definition Index: 76252
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneSwitchGen_Start_mF3DEFB1E92605C73566A7A6E9EDD6A4C41EEAA9F (SceneSwitchGen_tA7C5751FB40D835ECBBC648C7DCF329367578B6D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/SceneSwitchGen.cs:17>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/SceneSwitchGen.cs:17>
 		return;
 	}
 }
-// Method Definition Index: 76230
+// Method Definition Index: 76253
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneSwitchGen_Update_m282E48D9A535163007A59B926BB85B88B65CAAE1 (SceneSwitchGen_tA7C5751FB40D835ECBBC648C7DCF329367578B6D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10398,7 +10398,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneSwitchGen_Update_m282E48D9A53516300
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/SceneSwitchGen.cs:22>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/SceneSwitchGen.cs:22>
 		bool L_0;
 		L_0 = Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2(((int32_t)49), NULL);
 		if (!L_0)
@@ -10407,14 +10407,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneSwitchGen_Update_m282E48D9A53516300
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/SceneSwitchGen.cs:24>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/SceneSwitchGen.cs:24>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral47FAEBE5EC379397CF8B55738A695B6AC8818808, NULL);
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/SceneSwitchGen.cs:27>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/SceneSwitchGen.cs:27>
 		bool L_1;
 		L_1 = Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2(((int32_t)50), NULL);
 		if (!L_1)
@@ -10423,14 +10423,14 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/SceneSwitchGen.cs:29>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/SceneSwitchGen.cs:29>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral0561A578F08EC273CC9F9E211D782DC093FD62B1, NULL);
 	}
 
 IL_0026:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/SceneSwitchGen.cs:31>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/SceneSwitchGen.cs:31>
 		bool L_2;
 		L_2 = Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2(((int32_t)51), NULL);
 		if (!L_2)
@@ -10439,14 +10439,14 @@ IL_0026:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/SceneSwitchGen.cs:33>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/SceneSwitchGen.cs:33>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral892592B1C2CE8A81762451C62622E4CD5FEA587B, NULL);
 	}
 
 IL_0039:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/SceneSwitchGen.cs:36>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/SceneSwitchGen.cs:36>
 		bool L_3;
 		L_3 = Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2(((int32_t)52), NULL);
 		if (!L_3)
@@ -10455,14 +10455,14 @@ IL_0039:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/SceneSwitchGen.cs:38>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/SceneSwitchGen.cs:38>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral4847371B759FDF692A434C86CB9CFEE40508E781, NULL);
 	}
 
 IL_004c:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/SceneSwitchGen.cs:41>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/SceneSwitchGen.cs:41>
 		bool L_4;
 		L_4 = Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2(((int32_t)53), NULL);
 		if (!L_4)
@@ -10471,14 +10471,14 @@ IL_004c:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/SceneSwitchGen.cs:43>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/SceneSwitchGen.cs:43>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteralB121005DC90DD3C413CC8D629A257458F59C6CB0, NULL);
 	}
 
 IL_005f:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/SceneSwitchGen.cs:46>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/SceneSwitchGen.cs:46>
 		bool L_5;
 		L_5 = Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2(((int32_t)54), NULL);
 		if (!L_5)
@@ -10487,14 +10487,14 @@ IL_005f:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/SceneSwitchGen.cs:48>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/SceneSwitchGen.cs:48>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteralC2AB32CC9B83B9D140DB6263F664E20DF3DB0082, NULL);
 	}
 
 IL_0072:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/SceneSwitchGen.cs:51>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/SceneSwitchGen.cs:51>
 		bool L_6;
 		L_6 = Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2(((int32_t)55), NULL);
 		if (!L_6)
@@ -10503,14 +10503,14 @@ IL_0072:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/SceneSwitchGen.cs:53>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/SceneSwitchGen.cs:53>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral6F3D9BE4D9B1B08BF5AFE1CA9BCD257AF0EA166D, NULL);
 	}
 
 IL_0085:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/SceneSwitchGen.cs:56>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/SceneSwitchGen.cs:56>
 		bool L_7;
 		L_7 = Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2(((int32_t)27), NULL);
 		if (!L_7)
@@ -10519,18 +10519,18 @@ IL_0085:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/SceneSwitchGen.cs:58>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/SceneSwitchGen.cs:58>
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		Application_Quit_mE304382DB9A6455C2A474C8F364C7387F37E9281(NULL);
 	}
 
 IL_0093:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/SceneSwitchGen.cs:60>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/SceneSwitchGen.cs:60>
 		return;
 	}
 }
-// Method Definition Index: 76231
+// Method Definition Index: 76254
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneSwitchGen__ctor_m01A00DF094F9009CD95A838E9D3D897D604D7E32 (SceneSwitchGen_tA7C5751FB40D835ECBBC648C7DCF329367578B6D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10546,17 +10546,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneSwitchGen__ctor_m01A00DF094F9009CD9
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76232
+// Method Definition Index: 76255
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseWindow_Start_mE0041090CAF590E34DBF3039E7A5706C593E3B1D (opencloseWindow_t0B7B93F4A3675CE48DC578137E0973CD84D5736F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs:17>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs:17>
 		__this->___open = (bool)0;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs:18>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs:18>
 		return;
 	}
 }
-// Method Definition Index: 76233
+// Method Definition Index: 76256
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseWindow_OnMouseOver_m2A473179FC1A28651D1B69752C8EFD295DDD749E (opencloseWindow_t0B7B93F4A3675CE48DC578137E0973CD84D5736F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10566,7 +10566,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseWindow_OnMouseOver_m2A473179FC1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs:23>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs:23>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___Player;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -10577,7 +10577,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseWindow_OnMouseOver_m2A473179FC1
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs:25>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs:25>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = __this->___Player;
 		NullCheck(L_2);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
@@ -10589,14 +10589,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseWindow_OnMouseOver_m2A473179FC1
 		L_5 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_4, NULL);
 		float L_6;
 		L_6 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_3, L_5, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs:26>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs:26>
 		if ((!(((float)L_6) < ((float)(15.0f)))))
 		{
 			goto IL_006a;
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs:28>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs:28>
 		bool L_7 = __this->___open;
 		if (L_7)
 		{
@@ -10604,7 +10604,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseWindow_OnMouseOver_m2A473179FC1
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs:30>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs:30>
 		bool L_8;
 		L_8 = Input_GetMouseButtonDown_m8DFC792D15FFF15D311614D5CC6C5D055E5A1DE3(0, NULL);
 		if (!L_8)
@@ -10613,7 +10613,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseWindow_OnMouseOver_m2A473179FC1
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs:32>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs:32>
 		RuntimeObject* L_9;
 		L_9 = opencloseWindow_opening_m09B5901E2E515EC387DA7FAF3F28D3D839CC408A(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_10;
@@ -10623,7 +10623,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseWindow_OnMouseOver_m2A473179FC1
 
 IL_004d:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs:37>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs:37>
 		bool L_11 = __this->___open;
 		if (!L_11)
 		{
@@ -10631,7 +10631,7 @@ IL_004d:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs:39>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs:39>
 		bool L_12;
 		L_12 = Input_GetMouseButtonDown_m8DFC792D15FFF15D311614D5CC6C5D055E5A1DE3(0, NULL);
 		if (!L_12)
@@ -10640,7 +10640,7 @@ IL_004d:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs:41>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs:41>
 		RuntimeObject* L_13;
 		L_13 = opencloseWindow_closing_mD4F8D977E411902A11F26EC5544D0EAB0C89531E(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_14;
@@ -10649,11 +10649,11 @@ IL_004d:
 
 IL_006a:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs:52>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs:52>
 		return;
 	}
 }
-// Method Definition Index: 76234
+// Method Definition Index: 76257
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* opencloseWindow_opening_m09B5901E2E515EC387DA7FAF3F28D3D839CC408A (opencloseWindow_t0B7B93F4A3675CE48DC578137E0973CD84D5736F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10672,7 +10672,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* opencloseWindow_opening_m09B59
 		return L_1;
 	}
 }
-// Method Definition Index: 76235
+// Method Definition Index: 76258
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* opencloseWindow_closing_mD4F8D977E411902A11F26EC5544D0EAB0C89531E (opencloseWindow_t0B7B93F4A3675CE48DC578137E0973CD84D5736F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10691,7 +10691,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* opencloseWindow_closing_mD4F8D
 		return L_1;
 	}
 }
-// Method Definition Index: 76236
+// Method Definition Index: 76259
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseWindow__ctor_m6E91630386003EC29946265DE4D4E571538589D8 (opencloseWindow_t0B7B93F4A3675CE48DC578137E0973CD84D5736F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10707,7 +10707,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseWindow__ctor_m6E91630386003EC29
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76237
+// Method Definition Index: 76260
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6__ctor_m93C7D4E9A1D08BBF2843D92401E99E6AB836C89F (U3CclosingU3Ed__6_t7A0C0CDD11AD8C2DA56544813AF88C3A39E33CCD* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -10717,14 +10717,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6__ctor_m93C7D4E9A1D08BB
 		return;
 	}
 }
-// Method Definition Index: 76238
+// Method Definition Index: 76261
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6_System_IDisposable_Dispose_m92E86AD6BE64671523FEA6C85C4AA75DC7A496F5 (U3CclosingU3Ed__6_t7A0C0CDD11AD8C2DA56544813AF88C3A39E33CCD* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 76239
+// Method Definition Index: 76262
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CclosingU3Ed__6_MoveNext_mA48FA813DA2D55C43E505A7809DADD3A0A2C58C5 (U3CclosingU3Ed__6_t7A0C0CDD11AD8C2DA56544813AF88C3A39E33CCD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10762,19 +10762,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CclosingU3Ed__6_MoveNext_mA48FA813DA2D
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs:64>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs:64>
 		MonoBehaviour_print_m9E6FF71C673B651F35DD418C293CFC50C46803B6(_stringLiteral9EA7FA3E82B407E3083259451D6608D8247A3C5F, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs:65>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs:65>
 		opencloseWindow_t0B7B93F4A3675CE48DC578137E0973CD84D5736F* L_4 = V_1;
 		NullCheck(L_4);
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_5 = L_4->___openandclosewindow;
 		NullCheck(L_5);
 		Animator_Play_m0F6A9F84B2E256E644D56C34A7A9BD622CB00FF9(L_5, _stringLiteral437D4B096877A1450EC9D7A7C4C35431EA2B2FC8, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs:66>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs:66>
 		opencloseWindow_t0B7B93F4A3675CE48DC578137E0973CD84D5736F* L_6 = V_1;
 		NullCheck(L_6);
 		L_6->___open = (bool)0;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs:67>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs:67>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_7 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_7, (0.5f), NULL);
 		__this->___U3CU3E2__current = L_7;
@@ -10786,11 +10786,11 @@ IL_0017:
 IL_0058:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs:68>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs:68>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 76240
+// Method Definition Index: 76263
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m7A03D9EE0273C34A7ABA1314DED3682BB0D27A61 (U3CclosingU3Ed__6_t7A0C0CDD11AD8C2DA56544813AF88C3A39E33CCD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10798,7 +10798,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Colle
 		return L_0;
 	}
 }
-// Method Definition Index: 76241
+// Method Definition Index: 76264
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6_System_Collections_IEnumerator_Reset_mD30975A8C4205DEFD6B3E90F6E3323714AA8D615 (U3CclosingU3Ed__6_t7A0C0CDD11AD8C2DA56544813AF88C3A39E33CCD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10807,7 +10807,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6_System_Collections_IEn
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CclosingU3Ed__6_System_Collections_IEnumerator_Reset_mD30975A8C4205DEFD6B3E90F6E3323714AA8D615_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 76242
+// Method Definition Index: 76265
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Collections_IEnumerator_get_Current_m514F4211197478BAF907812E5CACBD4FB83085E7 (U3CclosingU3Ed__6_t7A0C0CDD11AD8C2DA56544813AF88C3A39E33CCD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10823,7 +10823,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Colle
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76243
+// Method Definition Index: 76266
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5__ctor_m6AD388059C7731018ACD71A794B9DC43E5CDC409 (U3CopeningU3Ed__5_tA1F4D2478CC61970B403F5D210B27AF360BA4F11* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -10833,14 +10833,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5__ctor_m6AD388059C77310
 		return;
 	}
 }
-// Method Definition Index: 76244
+// Method Definition Index: 76267
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5_System_IDisposable_Dispose_m09A131D0BE1464D78C6C35D6C419769DA9E898C0 (U3CopeningU3Ed__5_tA1F4D2478CC61970B403F5D210B27AF360BA4F11* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 76245
+// Method Definition Index: 76268
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CopeningU3Ed__5_MoveNext_m1820D887C42B22E549AF0439C06C0D75F2FC21A1 (U3CopeningU3Ed__5_tA1F4D2478CC61970B403F5D210B27AF360BA4F11* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10878,19 +10878,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CopeningU3Ed__5_MoveNext_m1820D887C42B
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs:56>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs:56>
 		MonoBehaviour_print_m9E6FF71C673B651F35DD418C293CFC50C46803B6(_stringLiteral2C77DF174D758CF558C6CC300CB509AD9B27AD58, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs:57>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs:57>
 		opencloseWindow_t0B7B93F4A3675CE48DC578137E0973CD84D5736F* L_4 = V_1;
 		NullCheck(L_4);
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_5 = L_4->___openandclosewindow;
 		NullCheck(L_5);
 		Animator_Play_m0F6A9F84B2E256E644D56C34A7A9BD622CB00FF9(L_5, _stringLiteralD5F4565D879A5EE081D0C86E94468CA47F45179F, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs:58>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs:58>
 		opencloseWindow_t0B7B93F4A3675CE48DC578137E0973CD84D5736F* L_6 = V_1;
 		NullCheck(L_6);
 		L_6->___open = (bool)1;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs:59>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs:59>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_7 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_7, (0.5f), NULL);
 		__this->___U3CU3E2__current = L_7;
@@ -10902,11 +10902,11 @@ IL_0017:
 IL_0058:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs:60>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs:60>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 76246
+// Method Definition Index: 76269
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m6569F0A91C04390ED72BF318D792A1EB757CB2F5 (U3CopeningU3Ed__5_tA1F4D2478CC61970B403F5D210B27AF360BA4F11* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10914,7 +10914,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Colle
 		return L_0;
 	}
 }
-// Method Definition Index: 76247
+// Method Definition Index: 76270
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5_System_Collections_IEnumerator_Reset_mEF1E94F83DA516ECFD272ADF2276CA0924A4954D (U3CopeningU3Ed__5_tA1F4D2478CC61970B403F5D210B27AF360BA4F11* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10923,7 +10923,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5_System_Collections_IEn
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CopeningU3Ed__5_System_Collections_IEnumerator_Reset_mEF1E94F83DA516ECFD272ADF2276CA0924A4954D_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 76248
+// Method Definition Index: 76271
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Collections_IEnumerator_get_Current_m11A20B22C0BB3B4645DDBC20440158139FDF3953 (U3CopeningU3Ed__5_tA1F4D2478CC61970B403F5D210B27AF360BA4F11* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10939,17 +10939,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Colle
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76249
+// Method Definition Index: 76272
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseWindow1_Start_m2418A549F71923514DE00ACEF62A64AADC30D22C (opencloseWindow1_tD18288FF5E0C1FE0747490D0F65950FABA8ACB12* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs:17>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs:17>
 		__this->___open = (bool)0;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs:18>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs:18>
 		return;
 	}
 }
-// Method Definition Index: 76250
+// Method Definition Index: 76273
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseWindow1_OnMouseOver_mC1DC9DA7F674AD3FA92AA49F028D05FD99BEA041 (opencloseWindow1_tD18288FF5E0C1FE0747490D0F65950FABA8ACB12* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10959,7 +10959,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseWindow1_OnMouseOver_mC1DC9DA7F6
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs:23>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs:23>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___Player;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -10970,7 +10970,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseWindow1_OnMouseOver_mC1DC9DA7F6
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs:25>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs:25>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = __this->___Player;
 		NullCheck(L_2);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
@@ -10982,14 +10982,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseWindow1_OnMouseOver_mC1DC9DA7F6
 		L_5 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_4, NULL);
 		float L_6;
 		L_6 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_3, L_5, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs:26>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs:26>
 		if ((!(((float)L_6) < ((float)(15.0f)))))
 		{
 			goto IL_006a;
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs:28>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs:28>
 		bool L_7 = __this->___open;
 		if (L_7)
 		{
@@ -10997,7 +10997,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseWindow1_OnMouseOver_mC1DC9DA7F6
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs:30>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs:30>
 		bool L_8;
 		L_8 = Input_GetMouseButtonDown_m8DFC792D15FFF15D311614D5CC6C5D055E5A1DE3(0, NULL);
 		if (!L_8)
@@ -11006,7 +11006,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseWindow1_OnMouseOver_mC1DC9DA7F6
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs:32>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs:32>
 		RuntimeObject* L_9;
 		L_9 = opencloseWindow1_opening_m3A409887BE45E31A4F4778BFB781D2BA33A0E3A3(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_10;
@@ -11016,7 +11016,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseWindow1_OnMouseOver_mC1DC9DA7F6
 
 IL_004d:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs:37>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs:37>
 		bool L_11 = __this->___open;
 		if (!L_11)
 		{
@@ -11024,7 +11024,7 @@ IL_004d:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs:39>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs:39>
 		bool L_12;
 		L_12 = Input_GetMouseButtonDown_m8DFC792D15FFF15D311614D5CC6C5D055E5A1DE3(0, NULL);
 		if (!L_12)
@@ -11033,7 +11033,7 @@ IL_004d:
 		}
 	}
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs:41>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs:41>
 		RuntimeObject* L_13;
 		L_13 = opencloseWindow1_closing_m5D7A2FCD93A4B4B81E7F86C943570F8ABA40205E(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_14;
@@ -11042,11 +11042,11 @@ IL_004d:
 
 IL_006a:
 	{
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs:52>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs:52>
 		return;
 	}
 }
-// Method Definition Index: 76251
+// Method Definition Index: 76274
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* opencloseWindow1_opening_m3A409887BE45E31A4F4778BFB781D2BA33A0E3A3 (opencloseWindow1_tD18288FF5E0C1FE0747490D0F65950FABA8ACB12* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11065,7 +11065,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* opencloseWindow1_opening_m3A40
 		return L_1;
 	}
 }
-// Method Definition Index: 76252
+// Method Definition Index: 76275
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* opencloseWindow1_closing_m5D7A2FCD93A4B4B81E7F86C943570F8ABA40205E (opencloseWindow1_tD18288FF5E0C1FE0747490D0F65950FABA8ACB12* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11084,7 +11084,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* opencloseWindow1_closing_m5D7A
 		return L_1;
 	}
 }
-// Method Definition Index: 76253
+// Method Definition Index: 76276
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseWindow1__ctor_m9C7C1028A7A8ED4B59AE6A57D178550500ECA941 (opencloseWindow1_tD18288FF5E0C1FE0747490D0F65950FABA8ACB12* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11100,7 +11100,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void opencloseWindow1__ctor_m9C7C1028A7A8ED4B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76254
+// Method Definition Index: 76277
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6__ctor_m7EA2A71415F1399115F925A87AD229B03DFB793B (U3CclosingU3Ed__6_tF0C084DECCB87CE511E9B96E9262592615C19614* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -11110,14 +11110,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6__ctor_m7EA2A71415F1399
 		return;
 	}
 }
-// Method Definition Index: 76255
+// Method Definition Index: 76278
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6_System_IDisposable_Dispose_mA150505CC489CBB502B17F9CEB21F8A897E5CBCF (U3CclosingU3Ed__6_tF0C084DECCB87CE511E9B96E9262592615C19614* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 76256
+// Method Definition Index: 76279
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CclosingU3Ed__6_MoveNext_mACB071C14C84D164C29F58BE7FD6789C1B97F121 (U3CclosingU3Ed__6_tF0C084DECCB87CE511E9B96E9262592615C19614* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11155,19 +11155,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CclosingU3Ed__6_MoveNext_mACB071C14C84
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs:64>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs:64>
 		MonoBehaviour_print_m9E6FF71C673B651F35DD418C293CFC50C46803B6(_stringLiteral9EA7FA3E82B407E3083259451D6608D8247A3C5F, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs:65>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs:65>
 		opencloseWindow1_tD18288FF5E0C1FE0747490D0F65950FABA8ACB12* L_4 = V_1;
 		NullCheck(L_4);
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_5 = L_4->___openandclosewindow1;
 		NullCheck(L_5);
 		Animator_Play_m0F6A9F84B2E256E644D56C34A7A9BD622CB00FF9(L_5, _stringLiteralA860EF323F0B7701FB8C8E4116345741D4FFA0D7, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs:66>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs:66>
 		opencloseWindow1_tD18288FF5E0C1FE0747490D0F65950FABA8ACB12* L_6 = V_1;
 		NullCheck(L_6);
 		L_6->___open = (bool)0;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs:67>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs:67>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_7 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_7, (0.5f), NULL);
 		__this->___U3CU3E2__current = L_7;
@@ -11179,11 +11179,11 @@ IL_0017:
 IL_0058:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs:68>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs:68>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 76257
+// Method Definition Index: 76280
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mF6C14E666284433C92F65A2C95BEE6F290A1E21B (U3CclosingU3Ed__6_tF0C084DECCB87CE511E9B96E9262592615C19614* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11191,7 +11191,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Colle
 		return L_0;
 	}
 }
-// Method Definition Index: 76258
+// Method Definition Index: 76281
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6_System_Collections_IEnumerator_Reset_mCD5D6F2064E4B2D85B86CF138AE68EE891962390 (U3CclosingU3Ed__6_tF0C084DECCB87CE511E9B96E9262592615C19614* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11200,7 +11200,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CclosingU3Ed__6_System_Collections_IEn
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CclosingU3Ed__6_System_Collections_IEnumerator_Reset_mCD5D6F2064E4B2D85B86CF138AE68EE891962390_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 76259
+// Method Definition Index: 76282
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Collections_IEnumerator_get_Current_mC74E615B67D4D11BA760CC1EAAE1AEB52294A908 (U3CclosingU3Ed__6_tF0C084DECCB87CE511E9B96E9262592615C19614* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11216,7 +11216,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CclosingU3Ed__6_System_Colle
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76260
+// Method Definition Index: 76283
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5__ctor_m467901284533702DBAB445C2634BD9C099777316 (U3CopeningU3Ed__5_t88CE2BBAD12959DC2145E144FD4978F63E539E04* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -11226,14 +11226,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5__ctor_m467901284533702
 		return;
 	}
 }
-// Method Definition Index: 76261
+// Method Definition Index: 76284
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5_System_IDisposable_Dispose_m74CC1ADDDCF854ABC5AC7F13F50E379F4E5E8B85 (U3CopeningU3Ed__5_t88CE2BBAD12959DC2145E144FD4978F63E539E04* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 76262
+// Method Definition Index: 76285
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CopeningU3Ed__5_MoveNext_mC64117C143618A9F2A35D3A610856CCE23CD577A (U3CopeningU3Ed__5_t88CE2BBAD12959DC2145E144FD4978F63E539E04* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11271,19 +11271,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CopeningU3Ed__5_MoveNext_mC64117C14361
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs:56>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs:56>
 		MonoBehaviour_print_m9E6FF71C673B651F35DD418C293CFC50C46803B6(_stringLiteral2C77DF174D758CF558C6CC300CB509AD9B27AD58, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs:57>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs:57>
 		opencloseWindow1_tD18288FF5E0C1FE0747490D0F65950FABA8ACB12* L_4 = V_1;
 		NullCheck(L_4);
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_5 = L_4->___openandclosewindow1;
 		NullCheck(L_5);
 		Animator_Play_m0F6A9F84B2E256E644D56C34A7A9BD622CB00FF9(L_5, _stringLiteral59EFA2332155424C07015805E9D5F807DD21B3E1, NULL);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs:58>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs:58>
 		opencloseWindow1_tD18288FF5E0C1FE0747490D0F65950FABA8ACB12* L_6 = V_1;
 		NullCheck(L_6);
 		L_6->___open = (bool)1;
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs:59>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs:59>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_7 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_7, (0.5f), NULL);
 		__this->___U3CU3E2__current = L_7;
@@ -11295,11 +11295,11 @@ IL_0017:
 IL_0058:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/hithi/OneDrive/Desktop/Classes/CS 417/MP1/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs:60>
+		//<source_info:C:/Users/mattg/Downloads/CS-417-MP1/CS 417 MP1/Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs:60>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 76263
+// Method Definition Index: 76286
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m6BF49B13B3AEA89BDE8C06A39C64F52CDDA6770B (U3CopeningU3Ed__5_t88CE2BBAD12959DC2145E144FD4978F63E539E04* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11307,7 +11307,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Colle
 		return L_0;
 	}
 }
-// Method Definition Index: 76264
+// Method Definition Index: 76287
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5_System_Collections_IEnumerator_Reset_m012A9CBE69059A1EE21B0EB45D3CB59675CC4A0E (U3CopeningU3Ed__5_t88CE2BBAD12959DC2145E144FD4978F63E539E04* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11316,7 +11316,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CopeningU3Ed__5_System_Collections_IEn
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CopeningU3Ed__5_System_Collections_IEnumerator_Reset_m012A9CBE69059A1EE21B0EB45D3CB59675CC4A0E_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 76265
+// Method Definition Index: 76288
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CopeningU3Ed__5_System_Collections_IEnumerator_get_Current_m7DE53FEB321C4930699C6DD1990874E90E1CDA82 (U3CopeningU3Ed__5_t88CE2BBAD12959DC2145E144FD4978F63E539E04* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11600,7 +11600,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999E
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TMP_Text_get_havePropertiesChanged_m42ECC7D1CA0DF6E59ACF761EB20635E81FCB8EFF_inline (TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.ugui@1890c14c96ff/Runtime/TMP/TMP_Text.cs:1246>
+		//<source_info:./Library/PackageCache/com.unity.ugui@b9d1dd437cb9/Runtime/TMP/TMP_Text.cs:1246>
 		bool L_0 = __this->___m_havePropertiesChanged;
 		return L_0;
 	}

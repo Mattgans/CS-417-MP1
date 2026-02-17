@@ -4539,6 +4539,7 @@ struct TextSpan_tD088342260A71C10DC0840BCA5D5E28139BA4219
 	int32_t ___startIndex;
 	int32_t ___length;
 	intptr_t ___fontAsset;
+	intptr_t ___gradientAsset;
 	int32_t ___fontSize;
 	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___color;
 	int32_t ___fontStyle;
@@ -4565,6 +4566,7 @@ struct TextSpan_tD088342260A71C10DC0840BCA5D5E28139BA4219_marshaled_pinvoke
 	int32_t ___startIndex;
 	int32_t ___length;
 	intptr_t ___fontAsset;
+	intptr_t ___gradientAsset;
 	int32_t ___fontSize;
 	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___color;
 	int32_t ___fontStyle;
@@ -4591,6 +4593,7 @@ struct TextSpan_tD088342260A71C10DC0840BCA5D5E28139BA4219_marshaled_com
 	int32_t ___startIndex;
 	int32_t ___length;
 	intptr_t ___fontAsset;
+	intptr_t ___gradientAsset;
 	int32_t ___fontSize;
 	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___color;
 	int32_t ___fontStyle;
@@ -16525,16 +16528,16 @@ IL_001e:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74874
+// Method Definition Index: 74886
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PersistentGpuArray_1_get_elementCount_m49F75197DBEBE9E225F1C16CC61D2A064FB2AC03_gshared (PersistentGpuArray_1_tA073CEBC46D7FB48486784992579BCE09053A056* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:18>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:18>
 		int32_t L_0 = __this->___m_ElementCount;
 		return L_0;
 	}
 }
-// Method Definition Index: 74875
+// Method Definition Index: 74887
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PersistentGpuArray_1__ctor_m5F2212C787FDDEFB9F6051E6BADB371AEDC2C4F6_gshared (PersistentGpuArray_1_tA073CEBC46D7FB48486784992579BCE09053A056* __this, int32_t ___0_initialSize, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16546,15 +16549,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PersistentGpuArray_1__ctor_m5F2212C787FD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:16>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:16>
 		__this->___m_gpuBufferDirty = (bool)1;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:20>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:20>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:22>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:22>
 		BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458* L_0 = (BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458*)(&__this->___m_SlotAllocator);
 		int32_t L_1 = ___0_initialSize;
 		BlockAllocator_Initialize_m2692B42CE98C20C21D4D3620B29B2FF262337B78(L_0, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:23>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:23>
 		int32_t L_2 = ___0_initialSize;
 		il2cpp_codegen_runtime_class_init_inline(Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
 		int32_t L_3;
@@ -16563,45 +16566,45 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PersistentGpuArray_1__ctor_m5F2212C787FD
 		ComputeBuffer__ctor_mE40DE5EF5ADAC29B6B4DECBD1EE33E8526202617(L_4, L_2, L_3, NULL);
 		__this->___m_GpuBuffer = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_GpuBuffer), (void*)L_4);
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:24>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:24>
 		int32_t L_5 = ___0_initialSize;
 		NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 L_6;
 		memset((&L_6), 0, sizeof(L_6));
 		NativeArray_1__ctor_m788DE0F85C4051DDF092DDF96484DE655ACFB6F1((&L_6), L_5, (int32_t)4, (int32_t)1, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
 		__this->___m_CpuList = L_6;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:25>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:25>
 		int32_t L_7 = ___0_initialSize;
 		BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* L_8 = (BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616*)il2cpp_codegen_object_new(BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616_il2cpp_TypeInfo_var);
 		BitArray__ctor_m50B5380BF9C051C0C4E528CFEE6579F8BFBBFFA7(L_8, L_7, NULL);
 		__this->___m_Updates = L_8;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Updates), (void*)L_8);
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:26>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:26>
 		__this->___m_ElementCount = 0;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:27>
 		return;
 	}
 }
-// Method Definition Index: 74876
+// Method Definition Index: 74888
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PersistentGpuArray_1_Dispose_m17B8A183118392CFB07F48D1630FA507F21ECAE6_gshared (PersistentGpuArray_1_tA073CEBC46D7FB48486784992579BCE09053A056* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:31>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:31>
 		__this->___m_ElementCount = 0;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:32>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:32>
 		BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458* L_0 = (BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458*)(&__this->___m_SlotAllocator);
 		BlockAllocator_Dispose_m06C0E65586B479EF5A9802BED16C59FA212018E5(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:33>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:33>
 		ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* L_1 = __this->___m_GpuBuffer;
 		NullCheck(L_1);
 		ComputeBuffer_Dispose_mBCA0F8A5BE75A41C77E1FCFBCB4EAE84A45D6BF2(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:34>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:34>
 		NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18* L_2 = (NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18*)(&__this->___m_CpuList);
 		((  void (*) (NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 4)))(L_2, il2cpp_rgctx_method(method->klass->rgctx_data, 4));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:35>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:35>
 		return;
 	}
 }
-// Method Definition Index: 74877
+// Method Definition Index: 74889
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Allocation_tB22CAD44C5AF0C13B3D441F8B419C9BA1D19F70C PersistentGpuArray_1_Add_m70220C1080321457A6EDCD229A199650DA2A37CA_gshared (PersistentGpuArray_1_tA073CEBC46D7FB48486784992579BCE09053A056* __this, Il2CppFullySharedGenericStruct ___0_element, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16615,15 +16618,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Allocation_tB22CAD44C5AF0C13B3D441F8B419C9BA1
 	Allocation_tB22CAD44C5AF0C13B3D441F8B419C9BA1D19F70C V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:39>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:39>
 		int32_t L_0 = __this->___m_ElementCount;
 		__this->___m_ElementCount = ((int32_t)il2cpp_codegen_add(L_0, 1));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:40>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:40>
 		BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458* L_1 = (BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458*)(&__this->___m_SlotAllocator);
 		Allocation_tB22CAD44C5AF0C13B3D441F8B419C9BA1D19F70C L_2;
 		L_2 = BlockAllocator_Allocate_m70BE66431062FE5DC312F2B378EAC9F3C5457F24(L_1, 1, NULL);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:41>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:41>
 		il2cpp_codegen_runtime_class_init_inline(Allocation_tB22CAD44C5AF0C13B3D441F8B419C9BA1D19F70C_il2cpp_TypeInfo_var);
 		bool L_3;
 		L_3 = Allocation_get_valid_m3D20A007E74045BFA4FBCA68DB455DAC9F308477((&V_0), NULL);
@@ -16633,9 +16636,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Allocation_tB22CAD44C5AF0C13B3D441F8B419C9BA1
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:43>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:43>
 		((  void (*) (PersistentGpuArray_1_tA073CEBC46D7FB48486784992579BCE09053A056*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 6)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 6));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:44>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:44>
 		BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458* L_4 = (BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458*)(&__this->___m_SlotAllocator);
 		Allocation_tB22CAD44C5AF0C13B3D441F8B419C9BA1D19F70C L_5;
 		L_5 = BlockAllocator_Allocate_m70BE66431062FE5DC312F2B378EAC9F3C5457F24(L_4, 1, NULL);
@@ -16644,28 +16647,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Allocation_tB22CAD44C5AF0C13B3D441F8B419C9BA1
 
 IL_0037:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:47>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:47>
 		NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18* L_6 = (NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18*)(&__this->___m_CpuList);
 		Allocation_tB22CAD44C5AF0C13B3D441F8B419C9BA1D19F70C L_7 = V_0;
 		Block_tBD2149E220F819A66A4A0A18F237932ACD9011DE L_8 = L_7.___block;
 		int32_t L_9 = L_8.___offset;
 		il2cpp_codegen_memcpy(L_10, ___0_element, SizeOf_Tstruct_tF02DF836E8C58F0457663472956801F4798218DC);
 		InvokerActionInvoker2< int32_t, Il2CppFullySharedGenericStruct >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 8)), il2cpp_rgctx_method(method->klass->rgctx_data, 8), L_6, L_9, L_10);
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:48>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:48>
 		BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* L_11 = __this->___m_Updates;
 		Allocation_tB22CAD44C5AF0C13B3D441F8B419C9BA1D19F70C L_12 = V_0;
 		Block_tBD2149E220F819A66A4A0A18F237932ACD9011DE L_13 = L_12.___block;
 		int32_t L_14 = L_13.___offset;
 		NullCheck(L_11);
 		BitArray_set_Item_m58EFAF76D726AE0632AE5D8BD7E482AE9B982976(L_11, L_14, (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:49>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:49>
 		__this->___m_gpuBufferDirty = (bool)1;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:51>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:51>
 		Allocation_tB22CAD44C5AF0C13B3D441F8B419C9BA1D19F70C L_15 = V_0;
 		return L_15;
 	}
 }
-// Method Definition Index: 74878
+// Method Definition Index: 74890
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AllocationU5BU5D_tDD10506C390C41ACDE321445AEBB6D0D607DA0AD* PersistentGpuArray_1_Add_m33AA314B2ED6A02E56C2C5E2C3FA2FA3C87CC8D4_gshared (PersistentGpuArray_1_tA073CEBC46D7FB48486784992579BCE09053A056* __this, int32_t ___0_elementCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16677,17 +16680,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AllocationU5BU5D_tDD10506C390C41ACDE321445AEB
 	Allocation_tB22CAD44C5AF0C13B3D441F8B419C9BA1D19F70C V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:56>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:56>
 		int32_t L_0 = __this->___m_ElementCount;
 		int32_t L_1 = ___0_elementCount;
 		__this->___m_ElementCount = ((int32_t)il2cpp_codegen_add(L_0, L_1));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:57>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:57>
 		BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458* L_2 = (BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458*)(&__this->___m_SlotAllocator);
 		int32_t L_3 = ___0_elementCount;
 		Allocation_tB22CAD44C5AF0C13B3D441F8B419C9BA1D19F70C L_4;
 		L_4 = BlockAllocator_Allocate_m70BE66431062FE5DC312F2B378EAC9F3C5457F24(L_2, L_3, NULL);
 		V_0 = L_4;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:58>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:58>
 		il2cpp_codegen_runtime_class_init_inline(Allocation_tB22CAD44C5AF0C13B3D441F8B419C9BA1D19F70C_il2cpp_TypeInfo_var);
 		bool L_5;
 		L_5 = Allocation_get_valid_m3D20A007E74045BFA4FBCA68DB455DAC9F308477((&V_0), NULL);
@@ -16697,9 +16700,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AllocationU5BU5D_tDD10506C390C41ACDE321445AEB
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:60>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:60>
 		((  void (*) (PersistentGpuArray_1_tA073CEBC46D7FB48486784992579BCE09053A056*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 6)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 6));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:61>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:61>
 		BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458* L_6 = (BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458*)(&__this->___m_SlotAllocator);
 		int32_t L_7 = ___0_elementCount;
 		Allocation_tB22CAD44C5AF0C13B3D441F8B419C9BA1D19F70C L_8;
@@ -16709,7 +16712,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AllocationU5BU5D_tDD10506C390C41ACDE321445AEB
 
 IL_0037:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:65>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:65>
 		BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458* L_9 = (BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458*)(&__this->___m_SlotAllocator);
 		int32_t L_10 = ___0_elementCount;
 		AllocationU5BU5D_tDD10506C390C41ACDE321445AEBB6D0D607DA0AD* L_11;
@@ -16717,21 +16720,21 @@ IL_0037:
 		return L_11;
 	}
 }
-// Method Definition Index: 74879
+// Method Definition Index: 74891
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PersistentGpuArray_1_Remove_m0C6B624542AFA2669B23FB6B86D548D6161A00F3_gshared (PersistentGpuArray_1_tA073CEBC46D7FB48486784992579BCE09053A056* __this, Allocation_tB22CAD44C5AF0C13B3D441F8B419C9BA1D19F70C ___0_allocation, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:71>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:71>
 		int32_t L_0 = __this->___m_ElementCount;
 		__this->___m_ElementCount = ((int32_t)il2cpp_codegen_subtract(L_0, 1));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:72>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:72>
 		BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458* L_1 = (BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458*)(&__this->___m_SlotAllocator);
 		BlockAllocator_FreeAllocation_m5E45FFD460EB3C816201AF1F6CE09A85B1AD6029(L_1, (&___0_allocation), NULL);
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:73>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:73>
 		return;
 	}
 }
-// Method Definition Index: 74880
+// Method Definition Index: 74892
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PersistentGpuArray_1_Clear_mADED515359361419449BD7CADED4332AB48BA30D_gshared (PersistentGpuArray_1_tA073CEBC46D7FB48486784992579BCE09053A056* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16742,68 +16745,68 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PersistentGpuArray_1_Clear_mADED51535936
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:77>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:77>
 		__this->___m_ElementCount = 0;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:78>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:78>
 		BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458* L_0 = (BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458*)(&__this->___m_SlotAllocator);
 		int32_t L_1;
 		L_1 = BlockAllocator_get_capacity_mC93E0F25948B56D3CC9969359A2B7E125EC2FEAC_inline(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:79>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:79>
 		BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458* L_2 = (BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458*)(&__this->___m_SlotAllocator);
 		BlockAllocator_Dispose_m06C0E65586B479EF5A9802BED16C59FA212018E5(L_2, NULL);
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:80>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:80>
 		BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458* L_3 = (BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458*)(&__this->___m_SlotAllocator);
 		il2cpp_codegen_initobj(L_3, sizeof(BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:81>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:81>
 		BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458* L_4 = (BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458*)(&__this->___m_SlotAllocator);
 		int32_t L_5 = V_0;
 		BlockAllocator_Initialize_m2692B42CE98C20C21D4D3620B29B2FF262337B78(L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:82>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:82>
 		int32_t L_6 = V_0;
 		BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* L_7 = (BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616*)il2cpp_codegen_object_new(BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616_il2cpp_TypeInfo_var);
 		BitArray__ctor_m50B5380BF9C051C0C4E528CFEE6579F8BFBBFFA7(L_7, L_6, NULL);
 		__this->___m_Updates = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Updates), (void*)L_7);
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:83>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:83>
 		__this->___m_gpuBufferDirty = (bool)0;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:84>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:84>
 		return;
 	}
 }
-// Method Definition Index: 74881
+// Method Definition Index: 74893
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PersistentGpuArray_1_Set_m21521DEA57581805C960B6CB5B00CAB91DB990D9_gshared (PersistentGpuArray_1_tA073CEBC46D7FB48486784992579BCE09053A056* __this, Allocation_tB22CAD44C5AF0C13B3D441F8B419C9BA1D19F70C ___0_allocation, Il2CppFullySharedGenericStruct ___1_element, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_Tstruct_tF02DF836E8C58F0457663472956801F4798218DC = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 7));
 	const Il2CppFullySharedGenericStruct L_4 = alloca(SizeOf_Tstruct_tF02DF836E8C58F0457663472956801F4798218DC);
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:88>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:88>
 		NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18* L_0 = (NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18*)(&__this->___m_CpuList);
 		Allocation_tB22CAD44C5AF0C13B3D441F8B419C9BA1D19F70C L_1 = ___0_allocation;
 		Block_tBD2149E220F819A66A4A0A18F237932ACD9011DE L_2 = L_1.___block;
 		int32_t L_3 = L_2.___offset;
 		il2cpp_codegen_memcpy(L_4, ___1_element, SizeOf_Tstruct_tF02DF836E8C58F0457663472956801F4798218DC);
 		InvokerActionInvoker2< int32_t, Il2CppFullySharedGenericStruct >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 8)), il2cpp_rgctx_method(method->klass->rgctx_data, 8), L_0, L_3, L_4);
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:89>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:89>
 		BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* L_5 = __this->___m_Updates;
 		Allocation_tB22CAD44C5AF0C13B3D441F8B419C9BA1D19F70C L_6 = ___0_allocation;
 		Block_tBD2149E220F819A66A4A0A18F237932ACD9011DE L_7 = L_6.___block;
 		int32_t L_8 = L_7.___offset;
 		NullCheck(L_5);
 		BitArray_set_Item_m58EFAF76D726AE0632AE5D8BD7E482AE9B982976(L_5, L_8, (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:90>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:90>
 		__this->___m_gpuBufferDirty = (bool)1;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:91>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:91>
 		return;
 	}
 }
-// Method Definition Index: 74882
+// Method Definition Index: 74894
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PersistentGpuArray_1_Get_m132E73E19CF6C16E83B9788C6A6F38CDD3080C1C_gshared (PersistentGpuArray_1_tA073CEBC46D7FB48486784992579BCE09053A056* __this, Allocation_tB22CAD44C5AF0C13B3D441F8B419C9BA1D19F70C ___0_allocation, Il2CppFullySharedGenericStruct* il2cppRetVal, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_Tstruct_tF02DF836E8C58F0457663472956801F4798218DC = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 7));
 	const Il2CppFullySharedGenericStruct L_4 = alloca(SizeOf_Tstruct_tF02DF836E8C58F0457663472956801F4798218DC);
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:95>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:95>
 		NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18* L_0 = (NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18*)(&__this->___m_CpuList);
 		Allocation_tB22CAD44C5AF0C13B3D441F8B419C9BA1D19F70C L_1 = ___0_allocation;
 		Block_tBD2149E220F819A66A4A0A18F237932ACD9011DE L_2 = L_1.___block;
@@ -16813,7 +16816,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PersistentGpuArray_1_Get_m132E73E19CF6C1
 		return;
 	}
 }
-// Method Definition Index: 74883
+// Method Definition Index: 74895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PersistentGpuArray_1_ModifyForEach_m787477548AE29F55207D44951BFE6C8E6482D5BC_gshared (PersistentGpuArray_1_tA073CEBC46D7FB48486784992579BCE09053A056* __this, Func_2_tDDC415B0A5306A4473D2ADD7C4E25824337698DB* ___0_lambda, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_Tstruct_tF02DF836E8C58F0457663472956801F4798218DC = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 7));
@@ -16821,14 +16824,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PersistentGpuArray_1_ModifyForEach_m7874
 	const Il2CppFullySharedGenericStruct L_6 = alloca(SizeOf_Tstruct_tF02DF836E8C58F0457663472956801F4798218DC);
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:100>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:100>
 		V_0 = 0;
 		goto IL_0033;
 	}
 
 IL_0004:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:102>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:102>
 		NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18* L_0 = (NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18*)(&__this->___m_CpuList);
 		int32_t L_1 = V_0;
 		Func_2_tDDC415B0A5306A4473D2ADD7C4E25824337698DB* L_2 = ___0_lambda;
@@ -16838,19 +16841,19 @@ IL_0004:
 		NullCheck(L_2);
 		InvokerActionInvoker2< Il2CppFullySharedGenericStruct, Il2CppFullySharedGenericStruct* >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 11)), il2cpp_rgctx_method(method->klass->rgctx_data, 11), L_2, L_5, (Il2CppFullySharedGenericStruct*)L_6);
 		InvokerActionInvoker2< int32_t, Il2CppFullySharedGenericStruct >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 8)), il2cpp_rgctx_method(method->klass->rgctx_data, 8), L_0, L_1, L_6);
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:103>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:103>
 		BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* L_7 = __this->___m_Updates;
 		int32_t L_8 = V_0;
 		NullCheck(L_7);
 		BitArray_set_Item_m58EFAF76D726AE0632AE5D8BD7E482AE9B982976(L_7, L_8, (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:100>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:100>
 		int32_t L_9 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_9, 1));
 	}
 
 IL_0033:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:100>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:100>
 		int32_t L_10 = V_0;
 		NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18* L_11 = (NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18*)(&__this->___m_CpuList);
 		int32_t L_12;
@@ -16861,13 +16864,13 @@ IL_0033:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:105>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:105>
 		__this->___m_gpuBufferDirty = (bool)1;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:106>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:106>
 		return;
 	}
 }
-// Method Definition Index: 74884
+// Method Definition Index: 74896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* PersistentGpuArray_1_GetGpuBuffer_m1B81E0BD9D5FCCD45EB43DD65A2BF0006550C465_gshared (PersistentGpuArray_1_tA073CEBC46D7FB48486784992579BCE09053A056* __this, CommandBuffer_tB56007DC84EF56296C325EC32DD12AC1E3DC91F7* ___0_cmd, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -16875,7 +16878,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB27
 	int32_t V_2 = 0;
 	int32_t V_3 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:111>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:111>
 		bool L_0 = __this->___m_gpuBufferDirty;
 		if (!L_0)
 		{
@@ -16883,16 +16886,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB27
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:113>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:113>
 		V_0 = (-1);
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:114>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:114>
 		V_1 = 0;
 		goto IL_0057;
 	}
 
 IL_0011:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:116>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:116>
 		BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* L_1 = __this->___m_Updates;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
@@ -16904,7 +16907,7 @@ IL_0011:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:118>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:118>
 		int32_t L_4 = V_0;
 		if ((!(((uint32_t)L_4) == ((uint32_t)(-1)))))
 		{
@@ -16912,14 +16915,14 @@ IL_0011:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:119>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:119>
 		int32_t L_5 = V_1;
 		V_0 = L_5;
 	}
 
 IL_0025:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:121>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:121>
 		BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* L_6 = __this->___m_Updates;
 		int32_t L_7 = V_1;
 		NullCheck(L_6);
@@ -16929,7 +16932,7 @@ IL_0025:
 
 IL_0034:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:123>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:123>
 		int32_t L_8 = V_0;
 		if ((((int32_t)L_8) == ((int32_t)(-1))))
 		{
@@ -16937,10 +16940,10 @@ IL_0034:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:125>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:125>
 		int32_t L_9 = V_1;
 		V_2 = L_9;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:126>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:126>
 		CommandBuffer_tB56007DC84EF56296C325EC32DD12AC1E3DC91F7* L_10 = ___0_cmd;
 		ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* L_11 = __this->___m_GpuBuffer;
 		NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 L_12 = __this->___m_CpuList;
@@ -16950,20 +16953,20 @@ IL_0034:
 		int32_t L_16 = V_0;
 		NullCheck(L_10);
 		((  void (*) (CommandBuffer_tB56007DC84EF56296C325EC32DD12AC1E3DC91F7*, ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233*, NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18, int32_t, int32_t, int32_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 13)))(L_10, L_11, L_12, L_13, L_14, ((int32_t)il2cpp_codegen_subtract(L_15, L_16)), il2cpp_rgctx_method(method->klass->rgctx_data, 13));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:127>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:127>
 		V_0 = (-1);
 	}
 
 IL_0053:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:114>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:114>
 		int32_t L_17 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_17, 1));
 	}
 
 IL_0057:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:114>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:114>
 		int32_t L_18 = V_1;
 		BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* L_19 = __this->___m_Updates;
 		NullCheck(L_19);
@@ -16975,7 +16978,7 @@ IL_0057:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:131>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:131>
 		int32_t L_21 = V_0;
 		if ((((int32_t)L_21) == ((int32_t)(-1))))
 		{
@@ -16983,13 +16986,13 @@ IL_0057:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:133>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:133>
 		BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* L_22 = __this->___m_Updates;
 		NullCheck(L_22);
 		int32_t L_23;
 		L_23 = BitArray_get_Length_mC0782C19E93F3CCCAE262D6DB931F2497F5C6E6A_inline(L_22, NULL);
 		V_3 = L_23;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:134>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:134>
 		CommandBuffer_tB56007DC84EF56296C325EC32DD12AC1E3DC91F7* L_24 = ___0_cmd;
 		ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* L_25 = __this->___m_GpuBuffer;
 		NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 L_26 = __this->___m_CpuList;
@@ -17003,18 +17006,18 @@ IL_0057:
 
 IL_008c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:137>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:137>
 		__this->___m_gpuBufferDirty = (bool)0;
 	}
 
 IL_0093:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:140>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:140>
 		ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* L_31 = __this->___m_GpuBuffer;
 		return L_31;
 	}
 }
-// Method Definition Index: 74885
+// Method Definition Index: 74897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PersistentGpuArray_1_Grow_mB0AE68E5BA016E49567892887DACE73A70B2F952_gshared (PersistentGpuArray_1_tA073CEBC46D7FB48486784992579BCE09053A056* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17031,23 +17034,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PersistentGpuArray_1_Grow_mB0AE68E5BA016
 	BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* V_2 = NULL;
 	int32_t V_3 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:145>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:145>
 		BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458* L_0 = (BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458*)(&__this->___m_SlotAllocator);
 		int32_t L_1;
 		L_1 = BlockAllocator_get_capacity_mC93E0F25948B56D3CC9969359A2B7E125EC2FEAC_inline(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:146>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:146>
 		BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458* L_2 = (BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458*)(&__this->___m_SlotAllocator);
 		BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458* L_3 = (BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458*)(&__this->___m_SlotAllocator);
 		int32_t L_4;
 		L_4 = BlockAllocator_get_capacity_mC93E0F25948B56D3CC9969359A2B7E125EC2FEAC_inline(L_3, NULL);
 		int32_t L_5;
 		L_5 = BlockAllocator_Grow_m88878BBD939BE53A89A89F3EF8D14B1A587BDD94(L_2, ((int32_t)il2cpp_codegen_add(L_4, 1)), ((int32_t)2147483647LL), NULL);
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:148>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:148>
 		ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* L_6 = __this->___m_GpuBuffer;
 		NullCheck(L_6);
 		ComputeBuffer_Dispose_mBCA0F8A5BE75A41C77E1FCFBCB4EAE84A45D6BF2(L_6, NULL);
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:149>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:149>
 		BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458* L_7 = (BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458*)(&__this->___m_SlotAllocator);
 		int32_t L_8;
 		L_8 = BlockAllocator_get_capacity_mC93E0F25948B56D3CC9969359A2B7E125EC2FEAC_inline(L_7, NULL);
@@ -17058,10 +17061,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PersistentGpuArray_1_Grow_mB0AE68E5BA016
 		ComputeBuffer__ctor_mE40DE5EF5ADAC29B6B4DECBD1EE33E8526202617(L_10, L_8, L_9, NULL);
 		__this->___m_GpuBuffer = L_10;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_GpuBuffer), (void*)L_10);
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:151>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:151>
 		NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 L_11 = __this->___m_CpuList;
 		V_1 = L_11;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:152>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:152>
 		BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458* L_12 = (BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458*)(&__this->___m_SlotAllocator);
 		int32_t L_13;
 		L_13 = BlockAllocator_get_capacity_mC93E0F25948B56D3CC9969359A2B7E125EC2FEAC_inline(L_12, NULL);
@@ -17069,17 +17072,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PersistentGpuArray_1_Grow_mB0AE68E5BA016
 		memset((&L_14), 0, sizeof(L_14));
 		NativeArray_1__ctor_m788DE0F85C4051DDF092DDF96484DE655ACFB6F1((&L_14), L_13, (int32_t)4, (int32_t)1, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
 		__this->___m_CpuList = L_14;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:153>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:153>
 		NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 L_15 = V_1;
 		NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 L_16 = __this->___m_CpuList;
 		int32_t L_17 = V_0;
 		((  void (*) (NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18, NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18, int32_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 14)))(L_15, L_16, L_17, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:154>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:154>
 		((  void (*) (NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 4)))((&V_1), il2cpp_rgctx_method(method->klass->rgctx_data, 4));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:156>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:156>
 		BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* L_18 = __this->___m_Updates;
 		V_2 = L_18;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:157>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:157>
 		BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458* L_19 = (BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458*)(&__this->___m_SlotAllocator);
 		int32_t L_20;
 		L_20 = BlockAllocator_get_capacity_mC93E0F25948B56D3CC9969359A2B7E125EC2FEAC_inline(L_19, NULL);
@@ -17087,14 +17090,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PersistentGpuArray_1_Grow_mB0AE68E5BA016
 		BitArray__ctor_m50B5380BF9C051C0C4E528CFEE6579F8BFBBFFA7(L_21, L_20, NULL);
 		__this->___m_Updates = L_21;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Updates), (void*)L_21);
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:158>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:158>
 		V_3 = 0;
 		goto IL_00bb;
 	}
 
 IL_00a4:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:159>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:159>
 		BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* L_22 = __this->___m_Updates;
 		int32_t L_23 = V_3;
 		BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* L_24 = V_2;
@@ -17104,14 +17107,14 @@ IL_00a4:
 		L_26 = BitArray_get_Item_m4896068D3BCCB04D4321A14AD26080FC217E4115(L_24, L_25, NULL);
 		NullCheck(L_22);
 		BitArray_set_Item_m58EFAF76D726AE0632AE5D8BD7E482AE9B982976(L_22, L_23, L_26, NULL);
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:158>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:158>
 		int32_t L_27 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_27, 1));
 	}
 
 IL_00bb:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:158>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:158>
 		int32_t L_28 = V_3;
 		int32_t L_29 = V_0;
 		if ((((int32_t)L_28) < ((int32_t)L_29)))
@@ -17120,7 +17123,7 @@ IL_00bb:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:160>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:160>
 		return;
 	}
 }
@@ -17132,16 +17135,16 @@ IL_00bb:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74874
+// Method Definition Index: 74886
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PersistentGpuArray_1_get_elementCount_mB7F7EC454634397144F91D7A7E425DC2233248E9_gshared (PersistentGpuArray_1_tAE1DC2169F12C211CF72FB7E39F1304941CBAAB3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:18>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:18>
 		int32_t L_0 = __this->___m_ElementCount;
 		return L_0;
 	}
 }
-// Method Definition Index: 74875
+// Method Definition Index: 74887
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PersistentGpuArray_1__ctor_mE43DBF208013D1FC890FDCDA03BD63501394F853_gshared (PersistentGpuArray_1_tAE1DC2169F12C211CF72FB7E39F1304941CBAAB3* __this, int32_t ___0_initialSize, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17153,15 +17156,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PersistentGpuArray_1__ctor_mE43DBF208013
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:16>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:16>
 		__this->___m_gpuBufferDirty = (bool)1;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:20>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:20>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:22>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:22>
 		BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458* L_0 = (BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458*)(&__this->___m_SlotAllocator);
 		int32_t L_1 = ___0_initialSize;
 		BlockAllocator_Initialize_m2692B42CE98C20C21D4D3620B29B2FF262337B78(L_0, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:23>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:23>
 		int32_t L_2 = ___0_initialSize;
 		il2cpp_codegen_runtime_class_init_inline(Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
 		int32_t L_3;
@@ -17170,45 +17173,45 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PersistentGpuArray_1__ctor_mE43DBF208013
 		ComputeBuffer__ctor_mE40DE5EF5ADAC29B6B4DECBD1EE33E8526202617(L_4, L_2, L_3, NULL);
 		__this->___m_GpuBuffer = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_GpuBuffer), (void*)L_4);
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:24>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:24>
 		int32_t L_5 = ___0_initialSize;
 		NativeArray_1_tD55A8A5373957E82630A2527DC4EA188F4EF2F47 L_6;
 		memset((&L_6), 0, sizeof(L_6));
 		NativeArray_1__ctor_mA01786BEC48BF2F27B5FE6C490A7C442F381290A((&L_6), L_5, (int32_t)4, (int32_t)1, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
 		__this->___m_CpuList = L_6;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:25>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:25>
 		int32_t L_7 = ___0_initialSize;
 		BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* L_8 = (BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616*)il2cpp_codegen_object_new(BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616_il2cpp_TypeInfo_var);
 		BitArray__ctor_m50B5380BF9C051C0C4E528CFEE6579F8BFBBFFA7(L_8, L_7, NULL);
 		__this->___m_Updates = L_8;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Updates), (void*)L_8);
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:26>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:26>
 		__this->___m_ElementCount = 0;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:27>
 		return;
 	}
 }
-// Method Definition Index: 74876
+// Method Definition Index: 74888
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PersistentGpuArray_1_Dispose_m54BFFB7CFA8C459AC80C82819F335F75F91354C8_gshared (PersistentGpuArray_1_tAE1DC2169F12C211CF72FB7E39F1304941CBAAB3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:31>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:31>
 		__this->___m_ElementCount = 0;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:32>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:32>
 		BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458* L_0 = (BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458*)(&__this->___m_SlotAllocator);
 		BlockAllocator_Dispose_m06C0E65586B479EF5A9802BED16C59FA212018E5(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:33>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:33>
 		ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* L_1 = __this->___m_GpuBuffer;
 		NullCheck(L_1);
 		ComputeBuffer_Dispose_mBCA0F8A5BE75A41C77E1FCFBCB4EAE84A45D6BF2(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:34>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:34>
 		NativeArray_1_tD55A8A5373957E82630A2527DC4EA188F4EF2F47* L_2 = (NativeArray_1_tD55A8A5373957E82630A2527DC4EA188F4EF2F47*)(&__this->___m_CpuList);
 		NativeArray_1_Dispose_m3CBDDBA586A088026E33CC5125C6B7B4EE75E474(L_2, il2cpp_rgctx_method(method->klass->rgctx_data, 4));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:35>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:35>
 		return;
 	}
 }
-// Method Definition Index: 74877
+// Method Definition Index: 74889
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Allocation_tB22CAD44C5AF0C13B3D441F8B419C9BA1D19F70C PersistentGpuArray_1_Add_mC650067EA4D96CB1C51E4CA29C9E512E5E7524CE_gshared (PersistentGpuArray_1_tAE1DC2169F12C211CF72FB7E39F1304941CBAAB3* __this, RTInstance_t82A289FDC8E8112219057734D0AE172A4E822AED ___0_element, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17220,15 +17223,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Allocation_tB22CAD44C5AF0C13B3D441F8B419C9BA1
 	Allocation_tB22CAD44C5AF0C13B3D441F8B419C9BA1D19F70C V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:39>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:39>
 		int32_t L_0 = __this->___m_ElementCount;
 		__this->___m_ElementCount = ((int32_t)il2cpp_codegen_add(L_0, 1));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:40>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:40>
 		BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458* L_1 = (BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458*)(&__this->___m_SlotAllocator);
 		Allocation_tB22CAD44C5AF0C13B3D441F8B419C9BA1D19F70C L_2;
 		L_2 = BlockAllocator_Allocate_m70BE66431062FE5DC312F2B378EAC9F3C5457F24(L_1, 1, NULL);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:41>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:41>
 		il2cpp_codegen_runtime_class_init_inline(Allocation_tB22CAD44C5AF0C13B3D441F8B419C9BA1D19F70C_il2cpp_TypeInfo_var);
 		bool L_3;
 		L_3 = Allocation_get_valid_m3D20A007E74045BFA4FBCA68DB455DAC9F308477((&V_0), NULL);
@@ -17238,9 +17241,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Allocation_tB22CAD44C5AF0C13B3D441F8B419C9BA1
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:43>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:43>
 		PersistentGpuArray_1_Grow_mE5BE535C0A8AA5764FBE1DB96976CB80F81D4B15(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 6));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:44>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:44>
 		BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458* L_4 = (BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458*)(&__this->___m_SlotAllocator);
 		Allocation_tB22CAD44C5AF0C13B3D441F8B419C9BA1D19F70C L_5;
 		L_5 = BlockAllocator_Allocate_m70BE66431062FE5DC312F2B378EAC9F3C5457F24(L_4, 1, NULL);
@@ -17249,28 +17252,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Allocation_tB22CAD44C5AF0C13B3D441F8B419C9BA1
 
 IL_0037:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:47>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:47>
 		NativeArray_1_tD55A8A5373957E82630A2527DC4EA188F4EF2F47* L_6 = (NativeArray_1_tD55A8A5373957E82630A2527DC4EA188F4EF2F47*)(&__this->___m_CpuList);
 		Allocation_tB22CAD44C5AF0C13B3D441F8B419C9BA1D19F70C L_7 = V_0;
 		Block_tBD2149E220F819A66A4A0A18F237932ACD9011DE L_8 = L_7.___block;
 		int32_t L_9 = L_8.___offset;
 		RTInstance_t82A289FDC8E8112219057734D0AE172A4E822AED L_10 = ___0_element;
 		IL2CPP_NATIVEARRAY_SET_ITEM(RTInstance_t82A289FDC8E8112219057734D0AE172A4E822AED, (L_6)->___m_Buffer, L_9, (L_10));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:48>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:48>
 		BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* L_11 = __this->___m_Updates;
 		Allocation_tB22CAD44C5AF0C13B3D441F8B419C9BA1D19F70C L_12 = V_0;
 		Block_tBD2149E220F819A66A4A0A18F237932ACD9011DE L_13 = L_12.___block;
 		int32_t L_14 = L_13.___offset;
 		NullCheck(L_11);
 		BitArray_set_Item_m58EFAF76D726AE0632AE5D8BD7E482AE9B982976(L_11, L_14, (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:49>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:49>
 		__this->___m_gpuBufferDirty = (bool)1;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:51>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:51>
 		Allocation_tB22CAD44C5AF0C13B3D441F8B419C9BA1D19F70C L_15 = V_0;
 		return L_15;
 	}
 }
-// Method Definition Index: 74878
+// Method Definition Index: 74890
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AllocationU5BU5D_tDD10506C390C41ACDE321445AEBB6D0D607DA0AD* PersistentGpuArray_1_Add_m8D0BDED6ECCB9774CB6544C51C26AA76D44E8874_gshared (PersistentGpuArray_1_tAE1DC2169F12C211CF72FB7E39F1304941CBAAB3* __this, int32_t ___0_elementCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17282,17 +17285,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AllocationU5BU5D_tDD10506C390C41ACDE321445AEB
 	Allocation_tB22CAD44C5AF0C13B3D441F8B419C9BA1D19F70C V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:56>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:56>
 		int32_t L_0 = __this->___m_ElementCount;
 		int32_t L_1 = ___0_elementCount;
 		__this->___m_ElementCount = ((int32_t)il2cpp_codegen_add(L_0, L_1));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:57>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:57>
 		BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458* L_2 = (BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458*)(&__this->___m_SlotAllocator);
 		int32_t L_3 = ___0_elementCount;
 		Allocation_tB22CAD44C5AF0C13B3D441F8B419C9BA1D19F70C L_4;
 		L_4 = BlockAllocator_Allocate_m70BE66431062FE5DC312F2B378EAC9F3C5457F24(L_2, L_3, NULL);
 		V_0 = L_4;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:58>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:58>
 		il2cpp_codegen_runtime_class_init_inline(Allocation_tB22CAD44C5AF0C13B3D441F8B419C9BA1D19F70C_il2cpp_TypeInfo_var);
 		bool L_5;
 		L_5 = Allocation_get_valid_m3D20A007E74045BFA4FBCA68DB455DAC9F308477((&V_0), NULL);
@@ -17302,9 +17305,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AllocationU5BU5D_tDD10506C390C41ACDE321445AEB
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:60>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:60>
 		PersistentGpuArray_1_Grow_mE5BE535C0A8AA5764FBE1DB96976CB80F81D4B15(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 6));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:61>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:61>
 		BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458* L_6 = (BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458*)(&__this->___m_SlotAllocator);
 		int32_t L_7 = ___0_elementCount;
 		Allocation_tB22CAD44C5AF0C13B3D441F8B419C9BA1D19F70C L_8;
@@ -17314,7 +17317,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AllocationU5BU5D_tDD10506C390C41ACDE321445AEB
 
 IL_0037:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:65>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:65>
 		BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458* L_9 = (BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458*)(&__this->___m_SlotAllocator);
 		int32_t L_10 = ___0_elementCount;
 		AllocationU5BU5D_tDD10506C390C41ACDE321445AEBB6D0D607DA0AD* L_11;
@@ -17322,21 +17325,21 @@ IL_0037:
 		return L_11;
 	}
 }
-// Method Definition Index: 74879
+// Method Definition Index: 74891
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PersistentGpuArray_1_Remove_m9D58E166BF134920299D7D26A81FF530B468B64B_gshared (PersistentGpuArray_1_tAE1DC2169F12C211CF72FB7E39F1304941CBAAB3* __this, Allocation_tB22CAD44C5AF0C13B3D441F8B419C9BA1D19F70C ___0_allocation, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:71>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:71>
 		int32_t L_0 = __this->___m_ElementCount;
 		__this->___m_ElementCount = ((int32_t)il2cpp_codegen_subtract(L_0, 1));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:72>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:72>
 		BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458* L_1 = (BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458*)(&__this->___m_SlotAllocator);
 		BlockAllocator_FreeAllocation_m5E45FFD460EB3C816201AF1F6CE09A85B1AD6029(L_1, (&___0_allocation), NULL);
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:73>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:73>
 		return;
 	}
 }
-// Method Definition Index: 74880
+// Method Definition Index: 74892
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PersistentGpuArray_1_Clear_m3B7D50D94AB8823203D0F29D9AE96792559303D1_gshared (PersistentGpuArray_1_tAE1DC2169F12C211CF72FB7E39F1304941CBAAB3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17347,64 +17350,64 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PersistentGpuArray_1_Clear_m3B7D50D94AB8
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:77>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:77>
 		__this->___m_ElementCount = 0;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:78>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:78>
 		BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458* L_0 = (BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458*)(&__this->___m_SlotAllocator);
 		int32_t L_1;
 		L_1 = BlockAllocator_get_capacity_mC93E0F25948B56D3CC9969359A2B7E125EC2FEAC_inline(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:79>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:79>
 		BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458* L_2 = (BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458*)(&__this->___m_SlotAllocator);
 		BlockAllocator_Dispose_m06C0E65586B479EF5A9802BED16C59FA212018E5(L_2, NULL);
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:80>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:80>
 		BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458* L_3 = (BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458*)(&__this->___m_SlotAllocator);
 		il2cpp_codegen_initobj(L_3, sizeof(BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:81>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:81>
 		BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458* L_4 = (BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458*)(&__this->___m_SlotAllocator);
 		int32_t L_5 = V_0;
 		BlockAllocator_Initialize_m2692B42CE98C20C21D4D3620B29B2FF262337B78(L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:82>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:82>
 		int32_t L_6 = V_0;
 		BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* L_7 = (BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616*)il2cpp_codegen_object_new(BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616_il2cpp_TypeInfo_var);
 		BitArray__ctor_m50B5380BF9C051C0C4E528CFEE6579F8BFBBFFA7(L_7, L_6, NULL);
 		__this->___m_Updates = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Updates), (void*)L_7);
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:83>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:83>
 		__this->___m_gpuBufferDirty = (bool)0;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:84>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:84>
 		return;
 	}
 }
-// Method Definition Index: 74881
+// Method Definition Index: 74893
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PersistentGpuArray_1_Set_mD44EF1FB835BFE38153E98769BD6D6EC8CE0CD31_gshared (PersistentGpuArray_1_tAE1DC2169F12C211CF72FB7E39F1304941CBAAB3* __this, Allocation_tB22CAD44C5AF0C13B3D441F8B419C9BA1D19F70C ___0_allocation, RTInstance_t82A289FDC8E8112219057734D0AE172A4E822AED ___1_element, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:88>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:88>
 		NativeArray_1_tD55A8A5373957E82630A2527DC4EA188F4EF2F47* L_0 = (NativeArray_1_tD55A8A5373957E82630A2527DC4EA188F4EF2F47*)(&__this->___m_CpuList);
 		Allocation_tB22CAD44C5AF0C13B3D441F8B419C9BA1D19F70C L_1 = ___0_allocation;
 		Block_tBD2149E220F819A66A4A0A18F237932ACD9011DE L_2 = L_1.___block;
 		int32_t L_3 = L_2.___offset;
 		RTInstance_t82A289FDC8E8112219057734D0AE172A4E822AED L_4 = ___1_element;
 		IL2CPP_NATIVEARRAY_SET_ITEM(RTInstance_t82A289FDC8E8112219057734D0AE172A4E822AED, (L_0)->___m_Buffer, L_3, (L_4));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:89>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:89>
 		BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* L_5 = __this->___m_Updates;
 		Allocation_tB22CAD44C5AF0C13B3D441F8B419C9BA1D19F70C L_6 = ___0_allocation;
 		Block_tBD2149E220F819A66A4A0A18F237932ACD9011DE L_7 = L_6.___block;
 		int32_t L_8 = L_7.___offset;
 		NullCheck(L_5);
 		BitArray_set_Item_m58EFAF76D726AE0632AE5D8BD7E482AE9B982976(L_5, L_8, (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:90>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:90>
 		__this->___m_gpuBufferDirty = (bool)1;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:91>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:91>
 		return;
 	}
 }
-// Method Definition Index: 74882
+// Method Definition Index: 74894
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RTInstance_t82A289FDC8E8112219057734D0AE172A4E822AED PersistentGpuArray_1_Get_m81A8E337F050EB113037C308486A897BF01F260D_gshared (PersistentGpuArray_1_tAE1DC2169F12C211CF72FB7E39F1304941CBAAB3* __this, Allocation_tB22CAD44C5AF0C13B3D441F8B419C9BA1D19F70C ___0_allocation, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:95>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:95>
 		NativeArray_1_tD55A8A5373957E82630A2527DC4EA188F4EF2F47* L_0 = (NativeArray_1_tD55A8A5373957E82630A2527DC4EA188F4EF2F47*)(&__this->___m_CpuList);
 		Allocation_tB22CAD44C5AF0C13B3D441F8B419C9BA1D19F70C L_1 = ___0_allocation;
 		Block_tBD2149E220F819A66A4A0A18F237932ACD9011DE L_2 = L_1.___block;
@@ -17414,19 +17417,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RTInstance_t82A289FDC8E8112219057734D0AE172A4
 		return L_4;
 	}
 }
-// Method Definition Index: 74883
+// Method Definition Index: 74895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PersistentGpuArray_1_ModifyForEach_m0A4BF3E5DC5BC7641E9546378E1D95A3FFAE8CA4_gshared (PersistentGpuArray_1_tAE1DC2169F12C211CF72FB7E39F1304941CBAAB3* __this, Func_2_t14813866989AEB8271C7816E0C8F26FF4A7B2F1C* ___0_lambda, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:100>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:100>
 		V_0 = 0;
 		goto IL_0033;
 	}
 
 IL_0004:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:102>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:102>
 		NativeArray_1_tD55A8A5373957E82630A2527DC4EA188F4EF2F47* L_0 = (NativeArray_1_tD55A8A5373957E82630A2527DC4EA188F4EF2F47*)(&__this->___m_CpuList);
 		int32_t L_1 = V_0;
 		Func_2_t14813866989AEB8271C7816E0C8F26FF4A7B2F1C* L_2 = ___0_lambda;
@@ -17438,19 +17441,19 @@ IL_0004:
 		RTInstance_t82A289FDC8E8112219057734D0AE172A4E822AED L_6;
 		L_6 = Func_2_Invoke_m945BF4C951CEBFFC96C7E0EEF2F3D506082E0FBF_inline(L_2, L_5, il2cpp_rgctx_method(method->klass->rgctx_data, 11));
 		IL2CPP_NATIVEARRAY_SET_ITEM(RTInstance_t82A289FDC8E8112219057734D0AE172A4E822AED, (L_0)->___m_Buffer, L_1, (L_6));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:103>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:103>
 		BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* L_7 = __this->___m_Updates;
 		int32_t L_8 = V_0;
 		NullCheck(L_7);
 		BitArray_set_Item_m58EFAF76D726AE0632AE5D8BD7E482AE9B982976(L_7, L_8, (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:100>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:100>
 		int32_t L_9 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_9, 1));
 	}
 
 IL_0033:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:100>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:100>
 		int32_t L_10 = V_0;
 		NativeArray_1_tD55A8A5373957E82630A2527DC4EA188F4EF2F47* L_11 = (NativeArray_1_tD55A8A5373957E82630A2527DC4EA188F4EF2F47*)(&__this->___m_CpuList);
 		int32_t L_12;
@@ -17461,13 +17464,13 @@ IL_0033:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:105>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:105>
 		__this->___m_gpuBufferDirty = (bool)1;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:106>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:106>
 		return;
 	}
 }
-// Method Definition Index: 74884
+// Method Definition Index: 74896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* PersistentGpuArray_1_GetGpuBuffer_mD03BF6BB909D3ADABE1922D7CB0B99D97E90D229_gshared (PersistentGpuArray_1_tAE1DC2169F12C211CF72FB7E39F1304941CBAAB3* __this, CommandBuffer_tB56007DC84EF56296C325EC32DD12AC1E3DC91F7* ___0_cmd, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -17475,7 +17478,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB27
 	int32_t V_2 = 0;
 	int32_t V_3 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:111>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:111>
 		bool L_0 = __this->___m_gpuBufferDirty;
 		if (!L_0)
 		{
@@ -17483,16 +17486,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB27
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:113>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:113>
 		V_0 = (-1);
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:114>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:114>
 		V_1 = 0;
 		goto IL_0057;
 	}
 
 IL_0011:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:116>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:116>
 		BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* L_1 = __this->___m_Updates;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
@@ -17504,7 +17507,7 @@ IL_0011:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:118>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:118>
 		int32_t L_4 = V_0;
 		if ((!(((uint32_t)L_4) == ((uint32_t)(-1)))))
 		{
@@ -17512,14 +17515,14 @@ IL_0011:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:119>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:119>
 		int32_t L_5 = V_1;
 		V_0 = L_5;
 	}
 
 IL_0025:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:121>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:121>
 		BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* L_6 = __this->___m_Updates;
 		int32_t L_7 = V_1;
 		NullCheck(L_6);
@@ -17529,7 +17532,7 @@ IL_0025:
 
 IL_0034:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:123>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:123>
 		int32_t L_8 = V_0;
 		if ((((int32_t)L_8) == ((int32_t)(-1))))
 		{
@@ -17537,10 +17540,10 @@ IL_0034:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:125>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:125>
 		int32_t L_9 = V_1;
 		V_2 = L_9;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:126>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:126>
 		CommandBuffer_tB56007DC84EF56296C325EC32DD12AC1E3DC91F7* L_10 = ___0_cmd;
 		ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* L_11 = __this->___m_GpuBuffer;
 		NativeArray_1_tD55A8A5373957E82630A2527DC4EA188F4EF2F47 L_12 = __this->___m_CpuList;
@@ -17550,20 +17553,20 @@ IL_0034:
 		int32_t L_16 = V_0;
 		NullCheck(L_10);
 		CommandBuffer_SetBufferData_TisRTInstance_t82A289FDC8E8112219057734D0AE172A4E822AED_mE273FD67A7D681BC2469CDA5A9ED070E71F7CDA2(L_10, L_11, L_12, L_13, L_14, ((int32_t)il2cpp_codegen_subtract(L_15, L_16)), il2cpp_rgctx_method(method->klass->rgctx_data, 13));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:127>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:127>
 		V_0 = (-1);
 	}
 
 IL_0053:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:114>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:114>
 		int32_t L_17 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_17, 1));
 	}
 
 IL_0057:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:114>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:114>
 		int32_t L_18 = V_1;
 		BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* L_19 = __this->___m_Updates;
 		NullCheck(L_19);
@@ -17575,7 +17578,7 @@ IL_0057:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:131>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:131>
 		int32_t L_21 = V_0;
 		if ((((int32_t)L_21) == ((int32_t)(-1))))
 		{
@@ -17583,13 +17586,13 @@ IL_0057:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:133>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:133>
 		BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* L_22 = __this->___m_Updates;
 		NullCheck(L_22);
 		int32_t L_23;
 		L_23 = BitArray_get_Length_mC0782C19E93F3CCCAE262D6DB931F2497F5C6E6A_inline(L_22, NULL);
 		V_3 = L_23;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:134>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:134>
 		CommandBuffer_tB56007DC84EF56296C325EC32DD12AC1E3DC91F7* L_24 = ___0_cmd;
 		ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* L_25 = __this->___m_GpuBuffer;
 		NativeArray_1_tD55A8A5373957E82630A2527DC4EA188F4EF2F47 L_26 = __this->___m_CpuList;
@@ -17603,18 +17606,18 @@ IL_0057:
 
 IL_008c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:137>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:137>
 		__this->___m_gpuBufferDirty = (bool)0;
 	}
 
 IL_0093:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:140>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:140>
 		ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* L_31 = __this->___m_GpuBuffer;
 		return L_31;
 	}
 }
-// Method Definition Index: 74885
+// Method Definition Index: 74897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PersistentGpuArray_1_Grow_mE5BE535C0A8AA5764FBE1DB96976CB80F81D4B15_gshared (PersistentGpuArray_1_tAE1DC2169F12C211CF72FB7E39F1304941CBAAB3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17631,23 +17634,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PersistentGpuArray_1_Grow_mE5BE535C0A8AA
 	BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* V_2 = NULL;
 	int32_t V_3 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:145>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:145>
 		BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458* L_0 = (BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458*)(&__this->___m_SlotAllocator);
 		int32_t L_1;
 		L_1 = BlockAllocator_get_capacity_mC93E0F25948B56D3CC9969359A2B7E125EC2FEAC_inline(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:146>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:146>
 		BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458* L_2 = (BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458*)(&__this->___m_SlotAllocator);
 		BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458* L_3 = (BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458*)(&__this->___m_SlotAllocator);
 		int32_t L_4;
 		L_4 = BlockAllocator_get_capacity_mC93E0F25948B56D3CC9969359A2B7E125EC2FEAC_inline(L_3, NULL);
 		int32_t L_5;
 		L_5 = BlockAllocator_Grow_m88878BBD939BE53A89A89F3EF8D14B1A587BDD94(L_2, ((int32_t)il2cpp_codegen_add(L_4, 1)), ((int32_t)2147483647LL), NULL);
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:148>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:148>
 		ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* L_6 = __this->___m_GpuBuffer;
 		NullCheck(L_6);
 		ComputeBuffer_Dispose_mBCA0F8A5BE75A41C77E1FCFBCB4EAE84A45D6BF2(L_6, NULL);
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:149>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:149>
 		BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458* L_7 = (BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458*)(&__this->___m_SlotAllocator);
 		int32_t L_8;
 		L_8 = BlockAllocator_get_capacity_mC93E0F25948B56D3CC9969359A2B7E125EC2FEAC_inline(L_7, NULL);
@@ -17658,10 +17661,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PersistentGpuArray_1_Grow_mE5BE535C0A8AA
 		ComputeBuffer__ctor_mE40DE5EF5ADAC29B6B4DECBD1EE33E8526202617(L_10, L_8, L_9, NULL);
 		__this->___m_GpuBuffer = L_10;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_GpuBuffer), (void*)L_10);
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:151>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:151>
 		NativeArray_1_tD55A8A5373957E82630A2527DC4EA188F4EF2F47 L_11 = __this->___m_CpuList;
 		V_1 = L_11;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:152>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:152>
 		BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458* L_12 = (BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458*)(&__this->___m_SlotAllocator);
 		int32_t L_13;
 		L_13 = BlockAllocator_get_capacity_mC93E0F25948B56D3CC9969359A2B7E125EC2FEAC_inline(L_12, NULL);
@@ -17669,17 +17672,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PersistentGpuArray_1_Grow_mE5BE535C0A8AA
 		memset((&L_14), 0, sizeof(L_14));
 		NativeArray_1__ctor_mA01786BEC48BF2F27B5FE6C490A7C442F381290A((&L_14), L_13, (int32_t)4, (int32_t)1, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
 		__this->___m_CpuList = L_14;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:153>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:153>
 		NativeArray_1_tD55A8A5373957E82630A2527DC4EA188F4EF2F47 L_15 = V_1;
 		NativeArray_1_tD55A8A5373957E82630A2527DC4EA188F4EF2F47 L_16 = __this->___m_CpuList;
 		int32_t L_17 = V_0;
 		NativeArray_1_Copy_mC68543846A76C2D490A5ED9A8BB3BB90088BCF38(L_15, L_16, L_17, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:154>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:154>
 		NativeArray_1_Dispose_m3CBDDBA586A088026E33CC5125C6B7B4EE75E474((&V_1), il2cpp_rgctx_method(method->klass->rgctx_data, 4));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:156>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:156>
 		BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* L_18 = __this->___m_Updates;
 		V_2 = L_18;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:157>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:157>
 		BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458* L_19 = (BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458*)(&__this->___m_SlotAllocator);
 		int32_t L_20;
 		L_20 = BlockAllocator_get_capacity_mC93E0F25948B56D3CC9969359A2B7E125EC2FEAC_inline(L_19, NULL);
@@ -17687,14 +17690,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PersistentGpuArray_1_Grow_mE5BE535C0A8AA
 		BitArray__ctor_m50B5380BF9C051C0C4E528CFEE6579F8BFBBFFA7(L_21, L_20, NULL);
 		__this->___m_Updates = L_21;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Updates), (void*)L_21);
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:158>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:158>
 		V_3 = 0;
 		goto IL_00bb;
 	}
 
 IL_00a4:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:159>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:159>
 		BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* L_22 = __this->___m_Updates;
 		int32_t L_23 = V_3;
 		BitArray_tFD42FDEB4A51DD2D6C20DC8E220B1EBE999F2616* L_24 = V_2;
@@ -17704,14 +17707,14 @@ IL_00a4:
 		L_26 = BitArray_get_Item_m4896068D3BCCB04D4321A14AD26080FC217E4115(L_24, L_25, NULL);
 		NullCheck(L_22);
 		BitArray_set_Item_m58EFAF76D726AE0632AE5D8BD7E482AE9B982976(L_22, L_23, L_26, NULL);
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:158>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:158>
 		int32_t L_27 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_27, 1));
 	}
 
 IL_00bb:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:158>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:158>
 		int32_t L_28 = V_3;
 		int32_t L_29 = V_0;
 		if ((((int32_t)L_28) < ((int32_t)L_29)))
@@ -17720,7 +17723,7 @@ IL_00bb:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:160>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/PersistentGPUArray.cs:160>
 		return;
 	}
 }
@@ -21619,15 +21622,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PointerEventBase_1__ctor_mEB528D68A25691
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PooledObject__ctor_m0FD3E032B1FE45A4807AC75BC951942AF1E929DE_gshared (PooledObject_tBA4B486F707087AB2ED5AACE52B650C7F6F6D863* __this, RuntimeObject* ___0_value, ObjectPool_1_t99595E72EFE3F4492DB424138C3B94C9E0C18B58* ___1_pool, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/Common/ObjectPools.cs:75>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/Common/ObjectPools.cs:75>
 		RuntimeObject* L_0 = ___0_value;
 		__this->___m_ToReturn = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ToReturn), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/Common/ObjectPools.cs:76>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/Common/ObjectPools.cs:76>
 		ObjectPool_1_t99595E72EFE3F4492DB424138C3B94C9E0C18B58* L_1 = ___1_pool;
 		__this->___m_Pool = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Pool), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/Common/ObjectPools.cs:77>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/Common/ObjectPools.cs:77>
 		return;
 	}
 }
@@ -21642,7 +21645,7 @@ IL2CPP_EXTERN_C  void PooledObject__ctor_m0FD3E032B1FE45A4807AC75BC951942AF1E929
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PooledObject_System_IDisposable_Dispose_m39A83E71A7D41985B4A2A7B3B0E5582CD2E9DA6E_gshared (PooledObject_tBA4B486F707087AB2ED5AACE52B650C7F6F6D863* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/Common/ObjectPools.cs:82>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/Common/ObjectPools.cs:82>
 		ObjectPool_1_t99595E72EFE3F4492DB424138C3B94C9E0C18B58* L_0 = __this->___m_Pool;
 		RuntimeObject* L_1 = __this->___m_ToReturn;
 		NullCheck(L_0);
@@ -21671,13 +21674,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PooledObject__ctor_mD764E277667D0ABBBF6F
 	const uint32_t SizeOf_T_t3889CA155B86333EE7ADE0385FC7096FEE6162A5 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 0));
 	const Il2CppFullySharedGenericAny L_0 = alloca(SizeOf_T_t3889CA155B86333EE7ADE0385FC7096FEE6162A5);
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/Common/ObjectPools.cs:75>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/Common/ObjectPools.cs:75>
 		il2cpp_codegen_memcpy(L_0, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 0)) ? ___0_value : &___0_value), SizeOf_T_t3889CA155B86333EE7ADE0385FC7096FEE6162A5);
 		il2cpp_codegen_write_instance_field_data(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 1),0), L_0, SizeOf_T_t3889CA155B86333EE7ADE0385FC7096FEE6162A5);
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/Common/ObjectPools.cs:76>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/Common/ObjectPools.cs:76>
 		ObjectPool_1_t1BF53E631D2563ED2CFA4ED38919CC939FA2951C* L_1 = ___1_pool;
 		il2cpp_codegen_write_instance_field_data<ObjectPool_1_t1BF53E631D2563ED2CFA4ED38919CC939FA2951C*>(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 1),1), L_1);
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/Common/ObjectPools.cs:77>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/Common/ObjectPools.cs:77>
 		return;
 	}
 }
@@ -21694,7 +21697,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PooledObject_System_IDisposable_Dispose_
 	const uint32_t SizeOf_T_t3889CA155B86333EE7ADE0385FC7096FEE6162A5 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 0));
 	const Il2CppFullySharedGenericAny L_1 = alloca(SizeOf_T_t3889CA155B86333EE7ADE0385FC7096FEE6162A5);
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/Common/ObjectPools.cs:82>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/Common/ObjectPools.cs:82>
 		ObjectPool_1_t1BF53E631D2563ED2CFA4ED38919CC939FA2951C* L_0 = *(ObjectPool_1_t1BF53E631D2563ED2CFA4ED38919CC939FA2951C**)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 1),1));
 		il2cpp_codegen_memcpy(L_1, il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 1),0)), SizeOf_T_t3889CA155B86333EE7ADE0385FC7096FEE6162A5);
 		NullCheck(L_0);
@@ -31863,11 +31866,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Predicate_1_Invoke_mED0C204BB5D8D3EC683F
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 74848
+// Method Definition Index: 74860
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t BlockAllocator_get_capacity_mC93E0F25948B56D3CC9969359A2B7E125EC2FEAC_inline (BlockAllocator_tAB74FB1333964BD43DD4057EE2689AB51A022458* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@ce614113b3ba/Runtime/UnifiedRayTracing/Common/Utilities/BlockAllocator.cs:35>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@9a9c0155552c/Runtime/UnifiedRayTracing/Common/Utilities/BlockAllocator.cs:35>
 		int32_t L_0 = __this->___m_MaxElementCount;
 		return L_0;
 	}
@@ -31956,7 +31959,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_4;
 	}
 }
-// Method Definition Index: 78273
+// Method Definition Index: 78296
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PointerEvent_get_eventSource_m433AD39B323BF13AE165F5F9D025444092FAEB33_inline (PointerEvent_tC25A522EBDFCAF2CDEEE1D70428C281F78C1FA05* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31964,7 +31967,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PointerEvent_get_eventSou
 		return L_0;
 	}
 }
-// Method Definition Index: 78276
+// Method Definition Index: 78299
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR EventModifiers_t4B1B8EBE011383F2D6236E6B9F99AB156BCE35DD PointerEvent_get_eventModifiers_m5C238F94AA34FB172F4D7256E5D68E838E3C5A05_inline (PointerEvent_tC25A522EBDFCAF2CDEEE1D70428C281F78C1FA05* __this, const RuntimeMethod* method) 
 {
 	{
@@ -32529,7 +32532,7 @@ IL_003c:
 		return;
 	}
 }
-// Method Definition Index: 76600
+// Method Definition Index: 76623
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t HashSetList_1_get_Count_m41A237C4BAD20BE639C0EBB549A8593EDAA41234_gshared_inline (HashSetList_1_tBD050D503D5313B052F0053124E1481EEA35BE09* __this, const RuntimeMethod* method) 
 {
 	{
