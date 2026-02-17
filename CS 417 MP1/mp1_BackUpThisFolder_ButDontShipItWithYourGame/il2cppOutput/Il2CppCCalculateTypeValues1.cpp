@@ -5563,7 +5563,7 @@ struct MoreInfo_tB58ABF2D5D75E92D35BBC37192CD0D5C02C3F0FA  : public RuntimeObjec
 struct BindingsMarshaller_t83C2670C243D70DB012B2CA95F16AE91ACA39F5D  : public RuntimeObject
 {
 };
-struct U3COpenKeyboardWithDelayU3Ed__4_t6031B68F3070CFA9D8AD0E97BDA6C1245CA260C9  : public RuntimeObject
+struct U3COpenKeyboardWithDelayU3Ed__8_t7AB814E95DCFD727C895F3D0DF5B0F98E4D3DB3B  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
@@ -47742,8 +47742,12 @@ struct VRCodeEntry_t740C8DDC2B7DDC03D384B34BFF5934E52C7C93E6  : public MonoBehav
 };
 struct VRKeyboardInput_tAFAF6374824EA7BCED5D2754537E3B7ECEFA29AE  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___keyPrefab;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___spawnPoint;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___backgroundBox;
 	TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F* ___inputField;
 	TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* ___overlayKeyboard;
+	bool ___hasSpawned;
 };
 struct ValveIndexControllerProfile_tB00771C9F4DA589B16B2D9C8488CDBFF1ACB169B  : public OpenXRInteractionFeature_t643728BC4EB54CC2852F8D9921027BEE62E7682E
 {
@@ -60916,7 +60920,7 @@ const Il2CppTypeDefinitionSizes g_typeDefinitionSize8763 = { sizeof(Readme_tE17B
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize8764;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize8764 = { sizeof(VRCodeEntry_t740C8DDC2B7DDC03D384B34BFF5934E52C7C93E6), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize8765;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize8765 = { sizeof(U3COpenKeyboardWithDelayU3Ed__4_t6031B68F3070CFA9D8AD0E97BDA6C1245CA260C9), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize8765 = { sizeof(U3COpenKeyboardWithDelayU3Ed__8_t7AB814E95DCFD727C895F3D0DF5B0F98E4D3DB3B), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize8766;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize8766 = { sizeof(VRKeyboardInput_tAFAF6374824EA7BCED5D2754537E3B7ECEFA29AE), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize8767;
