@@ -1,51 +1,33 @@
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class Campfire : MonoBehaviour
 {
     public int requiredBranches = 4;
-    private int branchCount = 0;
-    private HashSet<GameObject> branchesInside = new HashSet<GameObject>();
+    private int currentBranches = 0;
 
-    public GameObject fireEffect; 
+    public GameObject fireEffect;
     private bool isLit = false;
+
     private void Start()
     {
         fireEffect.SetActive(false);
     }
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("Branch"))
-        {
-            if (!branchesInside.Contains(other.gameObject))
-            {
-                branchesInside.Add(other.gameObject);
-                branchCount++;
-                Debug.Log("Branches in fire: " + branchCount);
-            }
-        }
 
-        if (other.CompareTag("Lighter"))
-        {
-            TryLightFire();
-        }
+    public void RegisterBranch(SelectEnterEventArgs args)
+    {
+        currentBranches++;
+        Debug.Log("Branches placed: " + currentBranches);
     }
 
-    private void OnTriggerExit(Collider other)
+    public void UnregisterBranch(SelectExitEventArgs args)
     {
-        if (other.CompareTag("Branch"))
-        {
-            if (branchesInside.Contains(other.gameObject))
-            {
-                branchesInside.Remove(other.gameObject);
-                branchCount--;
-            }
-        }
+        currentBranches--;
     }
 
-    private void TryLightFire()
+    public void TryLightFire()
     {
-        if (!isLit && branchCount > requiredBranches)
+        if (!isLit && currentBranches >= requiredBranches)
         {
             isLit = true;
             fireEffect.SetActive(true);
