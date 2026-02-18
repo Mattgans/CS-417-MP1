@@ -4282,6 +4282,7 @@ struct TextSpan_tD088342260A71C10DC0840BCA5D5E28139BA4219
 	int32_t ___startIndex;
 	int32_t ___length;
 	intptr_t ___fontAsset;
+	intptr_t ___gradientAsset;
 	int32_t ___fontSize;
 	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___color;
 	int32_t ___fontStyle;
@@ -4308,6 +4309,7 @@ struct TextSpan_tD088342260A71C10DC0840BCA5D5E28139BA4219_marshaled_pinvoke
 	int32_t ___startIndex;
 	int32_t ___length;
 	intptr_t ___fontAsset;
+	intptr_t ___gradientAsset;
 	int32_t ___fontSize;
 	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___color;
 	int32_t ___fontStyle;
@@ -4334,6 +4336,7 @@ struct TextSpan_tD088342260A71C10DC0840BCA5D5E28139BA4219_marshaled_com
 	int32_t ___startIndex;
 	int32_t ___length;
 	intptr_t ___fontAsset;
+	intptr_t ___gradientAsset;
 	int32_t ___fontSize;
 	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___color;
 	int32_t ___fontStyle;
@@ -30406,7 +30409,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ATGTextEventHandler_LinkTagOnPointerDown
 	}
 	{
 		int32_t L_21 = V_1;
-		G_B3_0 = ((((int32_t)((((int32_t)L_21) == ((int32_t)((int32_t)14)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		G_B3_0 = ((((int32_t)((((int32_t)L_21) == ((int32_t)((int32_t)15)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 		goto IL_0073;
 	}
 
@@ -30558,7 +30561,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ATGTextEventHandler_LinkTagOnPointerUp_m
 	}
 	{
 		int32_t L_21 = V_1;
-		G_B3_0 = ((((int32_t)((((int32_t)L_21) == ((int32_t)((int32_t)14)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		G_B3_0 = ((((int32_t)((((int32_t)L_21) == ((int32_t)((int32_t)15)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 		goto IL_0073;
 	}
 
@@ -30717,7 +30720,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ATGTextEventHandler_LinkTagOnPointerMove
 	}
 	{
 		int32_t L_21 = V_1;
-		G_B3_0 = ((((int32_t)L_21) == ((int32_t)((int32_t)14)))? 1 : 0);
+		G_B3_0 = ((((int32_t)L_21) == ((int32_t)((int32_t)15)))? 1 : 0);
 		goto IL_0070;
 	}
 
@@ -32061,7 +32064,7 @@ IL_0022_1:
 			}
 			{
 				int32_t L_7 = V_4;
-				G_B6_0 = ((((int32_t)L_7) == ((int32_t)((int32_t)14)))? 1 : 0);
+				G_B6_0 = ((((int32_t)L_7) == ((int32_t)((int32_t)15)))? 1 : 0);
 				goto IL_003d_1;
 			}
 
@@ -32190,7 +32193,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueTuple_2_t85E097D322420D9F03288E97554B181
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteralEE601D6B5461869F4EC3BA2F5C75B7F03AE82B64, NULL);
 		ValueTuple_2_t85E097D322420D9F03288E97554B1816DEC2EC6D L_4;
 		memset((&L_4), 0, sizeof(L_4));
-		ValueTuple_2__ctor_mEC89C5B1A27EE06B504B5E938A9C09C656E95290((&L_4), ((int32_t)33), (String_t*)NULL, ValueTuple_2__ctor_mEC89C5B1A27EE06B504B5E938A9C09C656E95290_RuntimeMethod_var);
+		ValueTuple_2__ctor_mEC89C5B1A27EE06B504B5E938A9C09C656E95290((&L_4), ((int32_t)34), (String_t*)NULL, ValueTuple_2__ctor_mEC89C5B1A27EE06B504B5E938A9C09C656E95290_RuntimeMethod_var);
 		V_2 = L_4;
 		goto IL_008d;
 	}
@@ -32218,7 +32221,7 @@ IL_0038:
 	{
 		ValueTuple_2_t85E097D322420D9F03288E97554B1816DEC2EC6D L_12;
 		memset((&L_12), 0, sizeof(L_12));
-		ValueTuple_2__ctor_mEC89C5B1A27EE06B504B5E938A9C09C656E95290((&L_12), ((int32_t)33), (String_t*)NULL, ValueTuple_2__ctor_mEC89C5B1A27EE06B504B5E938A9C09C656E95290_RuntimeMethod_var);
+		ValueTuple_2__ctor_mEC89C5B1A27EE06B504B5E938A9C09C656E95290((&L_12), ((int32_t)34), (String_t*)NULL, ValueTuple_2__ctor_mEC89C5B1A27EE06B504B5E938A9C09C656E95290_RuntimeMethod_var);
 		V_2 = L_12;
 		goto IL_008d;
 	}
@@ -35961,7 +35964,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 		return L_4;
 	}
 }
-// Method Definition Index: 72420
+// Method Definition Index: 72432
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Capture_get_Index_m35E8D105E5E2142415F85116BFD4BA369AF7A17A_inline (Capture_tE11B735186DAFEE5F7A3BF5A739E9CCCE99DC24A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -36466,7 +36469,7 @@ IL_000c:
 		return L_4;
 	}
 }
-// Method Definition Index: 67409
+// Method Definition Index: 67421
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TextHandle_get_IsCachedTemporary_m2EB6D0791424D7F76530A84A777A62F9A17AAD95_inline (TextHandle_tA1D5C98B154F1F73CBD35E42EB4E9CCB02280EF8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -36474,7 +36477,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TextHandle_get_IsCachedTempo
 		return L_0;
 	}
 }
-// Method Definition Index: 67423
+// Method Definition Index: 67435
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TextHandle_get_IsPlaceholder_m009132CDAC2C0E7C785A4CA97F4DF2B7B2A1B1D0_inline (TextHandle_tA1D5C98B154F1F73CBD35E42EB4E9CCB02280EF8* __this, const RuntimeMethod* method) 
 {
 	{

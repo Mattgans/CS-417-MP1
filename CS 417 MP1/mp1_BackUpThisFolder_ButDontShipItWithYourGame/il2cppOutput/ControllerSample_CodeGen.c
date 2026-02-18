@@ -226,7 +226,7 @@ static Il2CppMethodPointer s_methodPointers[107] =
 };
 static const int32_t s_InvokerIndices[107] = 
 {
-	26065,
+	26069,
 	15010,
 	14798,
 	11387,
@@ -265,7 +265,7 @@ static const int32_t s_InvokerIndices[107] =
 	15010,
 	15010,
 	15010,
-	26029,
+	26033,
 	15010,
 	9746,
 	15010,
@@ -309,7 +309,7 @@ static const int32_t s_InvokerIndices[107] =
 	11387,
 	11387,
 	15010,
-	26029,
+	26033,
 	14710,
 	11302,
 	14798,
@@ -332,7 +332,7 @@ static const int32_t s_InvokerIndices[107] =
 	11387,
 	15010,
 	15010,
-	26029,
+	26033,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_ControllerSample_CodeGenModule;
 const Il2CppCodeGenModule g_ControllerSample_CodeGenModule = 
