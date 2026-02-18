@@ -34349,6 +34349,8 @@ struct Clock_t17EA52E53E247753CBF8E7DD07D5A5EB41A2AC86  : public MonoBehaviour_t
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___handHours;
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___handMinutes;
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___handSeconds;
+	bool ___spinFast;
+	float ___spinSpeed;
 };
 struct ClosetopencloseDoor_tB0EDA1832C32D2132A6B6D454754400C6D3FA933  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -47132,9 +47134,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8828[5] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8829[5] = 
 {
 	static_cast<int32_t>(offsetof(WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E, ___m_TextComponent)),static_cast<int32_t>(offsetof(WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E, ___VertexCurve)),static_cast<int32_t>(offsetof(WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E, ___AngleMultiplier)),static_cast<int32_t>(offsetof(WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E, ___SpeedMultiplier)),static_cast<int32_t>(offsetof(WarpTextExample_tB54C406E58B9D90FC49CD73B5FBF7FAFCCD3CD7E, ___CurveScale)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8830[3] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8830[5] = 
 {
-	static_cast<int32_t>(offsetof(Clock_t17EA52E53E247753CBF8E7DD07D5A5EB41A2AC86, ___handHours)),static_cast<int32_t>(offsetof(Clock_t17EA52E53E247753CBF8E7DD07D5A5EB41A2AC86, ___handMinutes)),static_cast<int32_t>(offsetof(Clock_t17EA52E53E247753CBF8E7DD07D5A5EB41A2AC86, ___handSeconds)),};
+	static_cast<int32_t>(offsetof(Clock_t17EA52E53E247753CBF8E7DD07D5A5EB41A2AC86, ___handHours)),static_cast<int32_t>(offsetof(Clock_t17EA52E53E247753CBF8E7DD07D5A5EB41A2AC86, ___handMinutes)),static_cast<int32_t>(offsetof(Clock_t17EA52E53E247753CBF8E7DD07D5A5EB41A2AC86, ___handSeconds)),static_cast<int32_t>(offsetof(Clock_t17EA52E53E247753CBF8E7DD07D5A5EB41A2AC86, ___spinFast)),static_cast<int32_t>(offsetof(Clock_t17EA52E53E247753CBF8E7DD07D5A5EB41A2AC86, ___spinSpeed)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8831[3] = 
 {
 	static_cast<int32_t>(offsetof(U3CclosingU3Ed__6_t4A69CAE73B3853983C9C0459AA33E22EC88344E0, ___U3CU3E1__state)),static_cast<int32_t>(offsetof(U3CclosingU3Ed__6_t4A69CAE73B3853983C9C0459AA33E22EC88344E0, ___U3CU3E2__current)),static_cast<int32_t>(offsetof(U3CclosingU3Ed__6_t4A69CAE73B3853983C9C0459AA33E22EC88344E0, ___U3CU3E4__this)),};

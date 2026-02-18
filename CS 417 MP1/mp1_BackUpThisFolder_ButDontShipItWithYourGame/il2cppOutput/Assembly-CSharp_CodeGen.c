@@ -348,9 +348,11 @@ extern void U3CWarpTextU3Ed__8_MoveNext_mCE7A826C5E4854C2C509C77BD18F5A9B6D691B0
 extern void U3CWarpTextU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD80368E9B7E259311C03E406B75161ED6F7618E3 (void);
 extern void U3CWarpTextU3Ed__8_System_Collections_IEnumerator_Reset_m07746C332D2D8CE5DEA59873C26F2FAD4B369B42 (void);
 extern void U3CWarpTextU3Ed__8_System_Collections_IEnumerator_get_Current_m71D7F84D9DEF63BEC6B44866515DDCF35B142A19 (void);
-extern void Clock_Start_mEE1DFA6558B219F19AFE1887B48ADD3B93110BE1 (void);
-extern void Clock_UpdateHands_mECAD671B92C9434A9F6354C4F6C7C7E219EDCBC6 (void);
-extern void Clock_OnDestroy_m180D107D5F34818240BDE62D01111BCA16E00DDE (void);
+extern void Clock_Update_mDACBCF0C840CB64A24C6ED945B7ED0208EDEA294 (void);
+extern void Clock_UpdateRealTime_mDE53AE2D6D1B76D51DE41686ACA34DBB8B1D488A (void);
+extern void Clock_SpinFast_m7DC105B3FAC8D1FAD76B0A3C2FC35D2CAC8479CF (void);
+extern void Clock_StartFastSpin_mE51B164D916216527A91CF9C6F17A2355E2CE5A9 (void);
+extern void Clock_StopFastSpin_mED8430625813F27A522D13A19C36316325B954FD (void);
 extern void Clock__ctor_m56A9618938A0B8FAB4FD4522279E793F37BF4455 (void);
 extern void ClosetopencloseDoor_Start_mA2F0D9A67524E1E3B8A692CEB7141CF60F9E28DD (void);
 extern void ClosetopencloseDoor_OnMouseOver_mA90BDB1B09EC0BFE1CF58A4DEC03774387766137 (void);
@@ -584,7 +586,7 @@ extern void U3CopeningU3Ed__5_MoveNext_mC64117C143618A9F2A35D3A610856CCE23CD577A
 extern void U3CopeningU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m6BF49B13B3AEA89BDE8C06A39C64F52CDDA6770B (void);
 extern void U3CopeningU3Ed__5_System_Collections_IEnumerator_Reset_m012A9CBE69059A1EE21B0EB45D3CB59675CC4A0E (void);
 extern void U3CopeningU3Ed__5_System_Collections_IEnumerator_get_Current_m7DE53FEB321C4930699C6DD1990874E90E1CDA82 (void);
-static Il2CppMethodPointer s_methodPointers[577] = 
+static Il2CppMethodPointer s_methodPointers[579] = 
 {
 	TableFlipL_Start_m0593EFF2345620173604B8933379E83820FD12C8,
 	TableFlipL_OnMouseOver_m3799C9F20B4367FF848CF30D478EABE94498E23B,
@@ -927,9 +929,11 @@ static Il2CppMethodPointer s_methodPointers[577] =
 	U3CWarpTextU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD80368E9B7E259311C03E406B75161ED6F7618E3,
 	U3CWarpTextU3Ed__8_System_Collections_IEnumerator_Reset_m07746C332D2D8CE5DEA59873C26F2FAD4B369B42,
 	U3CWarpTextU3Ed__8_System_Collections_IEnumerator_get_Current_m71D7F84D9DEF63BEC6B44866515DDCF35B142A19,
-	Clock_Start_mEE1DFA6558B219F19AFE1887B48ADD3B93110BE1,
-	Clock_UpdateHands_mECAD671B92C9434A9F6354C4F6C7C7E219EDCBC6,
-	Clock_OnDestroy_m180D107D5F34818240BDE62D01111BCA16E00DDE,
+	Clock_Update_mDACBCF0C840CB64A24C6ED945B7ED0208EDEA294,
+	Clock_UpdateRealTime_mDE53AE2D6D1B76D51DE41686ACA34DBB8B1D488A,
+	Clock_SpinFast_m7DC105B3FAC8D1FAD76B0A3C2FC35D2CAC8479CF,
+	Clock_StartFastSpin_mE51B164D916216527A91CF9C6F17A2355E2CE5A9,
+	Clock_StopFastSpin_mED8430625813F27A522D13A19C36316325B954FD,
 	Clock__ctor_m56A9618938A0B8FAB4FD4522279E793F37BF4455,
 	ClosetopencloseDoor_Start_mA2F0D9A67524E1E3B8A692CEB7141CF60F9E28DD,
 	ClosetopencloseDoor_OnMouseOver_mA90BDB1B09EC0BFE1CF58A4DEC03774387766137,
@@ -1164,7 +1168,7 @@ static Il2CppMethodPointer s_methodPointers[577] =
 	U3CopeningU3Ed__5_System_Collections_IEnumerator_Reset_m012A9CBE69059A1EE21B0EB45D3CB59675CC4A0E,
 	U3CopeningU3Ed__5_System_Collections_IEnumerator_get_Current_m7DE53FEB321C4930699C6DD1990874E90E1CDA82,
 };
-static const int32_t s_InvokerIndices[577] = 
+static const int32_t s_InvokerIndices[579] = 
 {
 	15010,
 	15010,
@@ -1513,6 +1517,8 @@ static const int32_t s_InvokerIndices[577] =
 	15010,
 	15010,
 	15010,
+	15010,
+	15010,
 	14798,
 	14798,
 	15010,
@@ -1748,7 +1754,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	577,
+	579,
 	s_methodPointers,
 	0,
 	NULL,
