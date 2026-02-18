@@ -1,37 +1,41 @@
 using UnityEngine;
 using TMPro;
-using UnityEngine.UI; // Needed to change the background color
+using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using System.Collections;
 
 public class VRKeyboardInput : MonoBehaviour, IPointerDownHandler
 {
     [Header("Code Settings")]
-    public GameObject keyPrefab;
-    public Transform spawnPoint;
+    [Tooltip("Drag the disabled object from your Hierarchy here")]
+    public GameObject objectToEnable; 
     
     [Header("UI Settings")]
-    public Image backgroundBox; // Drag the background image of the textbox here
+    public Image backgroundBox; 
 
     private TMP_InputField inputField;
     private TouchScreenKeyboard overlayKeyboard;
-    private bool hasSpawned = false;
+    private bool hasSolved = false;
 
     void Start()
     {
         inputField = GetComponent<TMP_InputField>();
 
-        // Auto-find the background image if you forgot to drag it in
         if (backgroundBox == null)
         {
             backgroundBox = GetComponent<Image>();
+        }
+        
+        // Safety check: Make sure the object starts disabled if you haven't already
+        if (objectToEnable != null && objectToEnable.activeSelf)
+        {
+            objectToEnable.SetActive(false);
         }
     }
 
     public void OnPointerDown(PointerEventData eventData)
     {
-        // Don't open keyboard if we already solved the puzzle
-        if (hasSpawned) return;
+        if (hasSolved) return;
 
         inputField.ActivateInputField();
         StopAllCoroutines();
@@ -56,7 +60,7 @@ public class VRKeyboardInput : MonoBehaviour, IPointerDownHandler
         }
 
         // Check for the code "4357"
-        if (!hasSpawned && inputField.text == "4357")
+        if (!hasSolved && inputField.text == "4357")
         {
             Success();
         }
@@ -64,7 +68,7 @@ public class VRKeyboardInput : MonoBehaviour, IPointerDownHandler
 
     void Success()
     {
-        hasSpawned = true;
+        hasSolved = true;
 
         // 1. Turn the background Green
         if (backgroundBox != null)
@@ -72,20 +76,20 @@ public class VRKeyboardInput : MonoBehaviour, IPointerDownHandler
             backgroundBox.color = Color.green;
         }
 
-        // 2. Spawn the Key
-        if (keyPrefab != null && spawnPoint != null)
+        // 2. ENABLE the object instead of spawning
+        if (objectToEnable != null)
         {
-            Instantiate(keyPrefab, spawnPoint.position, spawnPoint.rotation);
+            objectToEnable.SetActive(true);
         }
 
-        // 3. Close the keyboard immediately
+        // 3. Close the keyboard
         if (overlayKeyboard != null)
         {
             overlayKeyboard.active = false;
             overlayKeyboard = null;
         }
 
-        // 4. Lock the input field so they can't change the answer
+        // 4. Lock the input field
         inputField.interactable = false;
     }
 }
