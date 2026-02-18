@@ -1143,8 +1143,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84e8e67dd73dfaf43b037d3de54aa16f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BranchSocket
-  campfire: {fileID: 0}
-  isFilled: 0
 --- !u!114 &176004483
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1515,15 +1513,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.79
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6.89
+      value: -6
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4320,8 +4318,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84e8e67dd73dfaf43b037d3de54aa16f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BranchSocket
-  campfire: {fileID: 0}
-  isFilled: 0
 --- !u!114 &758749116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7030,8 +7026,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84e8e67dd73dfaf43b037d3de54aa16f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BranchSocket
-  campfire: {fileID: 0}
-  isFilled: 0
 --- !u!135 &1276332156
 SphereCollider:
   m_ObjectHideFlags: 0
