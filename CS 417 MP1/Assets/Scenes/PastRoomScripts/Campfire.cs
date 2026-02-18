@@ -34,4 +34,12 @@ public class Campfire : MonoBehaviour
             Debug.Log("Campfire Lit!");
         }
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Lighter"))
+        {
+            TryLightFire();
+        }
+    }
 }
