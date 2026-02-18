@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
+using UnityEngine.SceneManagement;
 
 public class Campfire : MonoBehaviour
 {
@@ -32,6 +33,7 @@ public class Campfire : MonoBehaviour
             isLit = true;
             fireEffect.SetActive(true);
             Debug.Log("Campfire Lit!");
+            Invoke(nameof(finish), 10f);
         }
     }
 
@@ -40,6 +42,13 @@ public class Campfire : MonoBehaviour
         if (other.CompareTag("Lighter"))
         {
             TryLightFire();
+
         }
+        
+    }
+
+    private void finish()
+    {
+        SceneManager.LoadScene("Start Room");
     }
 }
