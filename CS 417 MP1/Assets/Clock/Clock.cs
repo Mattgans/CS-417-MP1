@@ -1,6 +1,6 @@
 using System;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 namespace ClockSample
 {
     public class Clock : MonoBehaviour
@@ -10,8 +10,8 @@ namespace ClockSample
         public Transform handSeconds;
 
         [Header("Fast Spin Settings")]
-        public bool spinFast = false;      // Default: real time
-        public float spinSpeed = 720f;     // Degrees per second for fast spin
+        public bool spinFast = false;
+        public float spinSpeed = 720f;
 
         private void Update()
         {
@@ -25,11 +25,11 @@ namespace ClockSample
             }
         }
 
-        // Normal real-time clock
+
         private void UpdateRealTime()
         {
-            float handRotationHours   = DateTime.Now.Hour   * 30f; // 360 / 12
-            float handRotationMinutes = DateTime.Now.Minute * 6f;  // 360 / 60
+            float handRotationHours   = DateTime.Now.Hour   * 30f; 
+            float handRotationMinutes = DateTime.Now.Minute * 6f; 
             float handRotationSeconds = DateTime.Now.Second * 6f;
 
             if (handHours)
@@ -40,7 +40,6 @@ namespace ClockSample
                 handSeconds.localEulerAngles = new Vector3(0, 0, handRotationSeconds);
         }
 
-        // Fast spinning mode
         private void SpinFast()
         {
             float rotation = spinSpeed * Time.deltaTime;
@@ -53,16 +52,16 @@ namespace ClockSample
                 handSeconds.Rotate(0, 0, rotation * 4f);
         }
 
-        // Call this when key is inserted
         public void StartFastSpin()
         {
             spinFast = true;
+            Invoke(nameof(RunOtherCode), 10f);
+
         }
 
-        // Call this when key is removed (optional)
-        public void StopFastSpin()
+        private void RunOtherCode()
         {
-            spinFast = false;
+            SceneManager.LoadScene("FutureRoom");
         }
     }
 }
