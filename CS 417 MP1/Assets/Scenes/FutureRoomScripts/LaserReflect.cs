@@ -35,20 +35,27 @@ public class LaserReflect : MonoBehaviour
                 line.positionCount++;
                 line.SetPosition(line.positionCount - 1, hit.point);
 
-                // If hit mirror → reflect
-                if (hit.collider.CompareTag("Mirror"))
+                // If hit mirror, reflect
+              if (hit.collider.CompareTag("Mirror"))
                 {
                     direction = Vector3.Reflect(direction, hit.normal);
-                    position = hit.point + direction * 0.01f; // avoid self-hit
+                    position = hit.point + direction * 0.01f;
                 }
                 else
                 {
-                    break; // stop at non-mirror
+                    LaserTarget target = hit.collider.GetComponentInParent<LaserTarget>();
+
+                    if (target != null)
+                    {
+                        target.OnLaserHit();
+                    }
+
+                    break;
                 }
             }
             else
             {
-                // no hit → draw straight line
+                // no hit, draw straight line
                 line.positionCount++;
                 line.SetPosition(line.positionCount - 1, position + direction * maxDistance);
                 break;
