@@ -3532,7 +3532,7 @@ struct MoreInfo_tB58ABF2D5D75E92D35BBC37192CD0D5C02C3F0FA  : public RuntimeObjec
 	int32_t ___Hash;
 	String_t* ___RemoteUrl;
 };
-struct U3COpenKeyboardWithDelayU3Ed__8_t7AB814E95DCFD727C895F3D0DF5B0F98E4D3DB3B  : public RuntimeObject
+struct U3COpenKeyboardWithDelayU3Ed__7_t878ABF5CB2FAA7AB19ED5F62965FD217FC0F09D5  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
@@ -35291,12 +35291,11 @@ struct VRCodeEntry_t740C8DDC2B7DDC03D384B34BFF5934E52C7C93E6  : public MonoBehav
 };
 struct VRKeyboardInput_tAFAF6374824EA7BCED5D2754537E3B7ECEFA29AE  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___keyPrefab;
-	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___spawnPoint;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___objectToEnable;
 	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___backgroundBox;
 	TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F* ___inputField;
 	TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* ___overlayKeyboard;
-	bool ___hasSpawned;
+	bool ___hasSolved;
 };
 struct ValveIndexControllerProfile_tB00771C9F4DA589B16B2D9C8488CDBFF1ACB169B  : public OpenXRInteractionFeature_t643728BC4EB54CC2852F8D9921027BEE62E7682E
 {
@@ -46964,10 +46963,10 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8765[3] =
 	static_cast<int32_t>(offsetof(VRCodeEntry_t740C8DDC2B7DDC03D384B34BFF5934E52C7C93E6, ___correctCode)),static_cast<int32_t>(offsetof(VRCodeEntry_t740C8DDC2B7DDC03D384B34BFF5934E52C7C93E6, ___inputField)),static_cast<int32_t>(offsetof(VRCodeEntry_t740C8DDC2B7DDC03D384B34BFF5934E52C7C93E6, ___overlayKeyboard)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8766[3] = 
 {
-	static_cast<int32_t>(offsetof(U3COpenKeyboardWithDelayU3Ed__8_t7AB814E95DCFD727C895F3D0DF5B0F98E4D3DB3B, ___U3CU3E1__state)),static_cast<int32_t>(offsetof(U3COpenKeyboardWithDelayU3Ed__8_t7AB814E95DCFD727C895F3D0DF5B0F98E4D3DB3B, ___U3CU3E2__current)),static_cast<int32_t>(offsetof(U3COpenKeyboardWithDelayU3Ed__8_t7AB814E95DCFD727C895F3D0DF5B0F98E4D3DB3B, ___U3CU3E4__this)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8767[6] = 
+	static_cast<int32_t>(offsetof(U3COpenKeyboardWithDelayU3Ed__7_t878ABF5CB2FAA7AB19ED5F62965FD217FC0F09D5, ___U3CU3E1__state)),static_cast<int32_t>(offsetof(U3COpenKeyboardWithDelayU3Ed__7_t878ABF5CB2FAA7AB19ED5F62965FD217FC0F09D5, ___U3CU3E2__current)),static_cast<int32_t>(offsetof(U3COpenKeyboardWithDelayU3Ed__7_t878ABF5CB2FAA7AB19ED5F62965FD217FC0F09D5, ___U3CU3E4__this)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8767[5] = 
 {
-	static_cast<int32_t>(offsetof(VRKeyboardInput_tAFAF6374824EA7BCED5D2754537E3B7ECEFA29AE, ___keyPrefab)),static_cast<int32_t>(offsetof(VRKeyboardInput_tAFAF6374824EA7BCED5D2754537E3B7ECEFA29AE, ___spawnPoint)),static_cast<int32_t>(offsetof(VRKeyboardInput_tAFAF6374824EA7BCED5D2754537E3B7ECEFA29AE, ___backgroundBox)),static_cast<int32_t>(offsetof(VRKeyboardInput_tAFAF6374824EA7BCED5D2754537E3B7ECEFA29AE, ___inputField)),static_cast<int32_t>(offsetof(VRKeyboardInput_tAFAF6374824EA7BCED5D2754537E3B7ECEFA29AE, ___overlayKeyboard)),static_cast<int32_t>(offsetof(VRKeyboardInput_tAFAF6374824EA7BCED5D2754537E3B7ECEFA29AE, ___hasSpawned)),};
+	static_cast<int32_t>(offsetof(VRKeyboardInput_tAFAF6374824EA7BCED5D2754537E3B7ECEFA29AE, ___objectToEnable)),static_cast<int32_t>(offsetof(VRKeyboardInput_tAFAF6374824EA7BCED5D2754537E3B7ECEFA29AE, ___backgroundBox)),static_cast<int32_t>(offsetof(VRKeyboardInput_tAFAF6374824EA7BCED5D2754537E3B7ECEFA29AE, ___inputField)),static_cast<int32_t>(offsetof(VRKeyboardInput_tAFAF6374824EA7BCED5D2754537E3B7ECEFA29AE, ___overlayKeyboard)),static_cast<int32_t>(offsetof(VRKeyboardInput_tAFAF6374824EA7BCED5D2754537E3B7ECEFA29AE, ___hasSolved)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8768[5] = 
 {
 	static_cast<int32_t>(offsetof(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E, ___FilePathsData)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E, ___TypesData)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E, ___TotalTypes)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E, ___TotalFiles)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E, ___IsEditorOnly)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
