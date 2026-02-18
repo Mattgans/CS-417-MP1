@@ -1,56 +1,68 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace ClockSample
 {
+    public class Clock : MonoBehaviour
+    {
+        public Transform handHours;
+        public Transform handMinutes;
+        public Transform handSeconds;
 
-	public class Clock : MonoBehaviour
-	{
-		public Transform handHours;
-		public Transform handMinutes;
-		public Transform handSeconds;
+        [Header("Fast Spin Settings")]
+        public bool spinFast = false;      // Default: real time
+        public float spinSpeed = 720f;     // Degrees per second for fast spin
 
-		private void Start()
-		{
-			//we are only updating everything once a second since this is sufficient for our clock
-			InvokeRepeating(nameof(UpdateHands), 0, 1);
-		}
+        private void Update()
+        {
+            if (spinFast)
+            {
+                SpinFast();
+            }
+            else
+            {
+                UpdateRealTime();
+            }
+        }
 
-		void UpdateHands()
-		{
-			//get the current time and convert it to hand rotation
-			float handRotationHours		= System.DateTime.Now.Hour		* 30;	//360/12 = 30
-			float handRotationMinutes	= System.DateTime.Now.Minute	* 6;	//360/60 = 6
-			float handRotationSeconds	= System.DateTime.Now.Second	* 6;	//360/60 = 6
+        // Normal real-time clock
+        private void UpdateRealTime()
+        {
+            float handRotationHours   = DateTime.Now.Hour   * 30f; // 360 / 12
+            float handRotationMinutes = DateTime.Now.Minute * 6f;  // 360 / 60
+            float handRotationSeconds = DateTime.Now.Second * 6f;
 
-			//create vectors that we can assign to the transforms
-			Vector3 hoursVec	= new Vector3(0, 0, handRotationHours);
-			Vector3 minutesVec	= new Vector3(0, 0, handRotationMinutes);
-			Vector3 secondsVec	= new Vector3(0, 0, handRotationSeconds);
+            if (handHours)
+                handHours.localEulerAngles = new Vector3(0, 0, handRotationHours);
+            if (handMinutes)
+                handMinutes.localEulerAngles = new Vector3(0, 0, handRotationMinutes);
+            if (handSeconds)
+                handSeconds.localEulerAngles = new Vector3(0, 0, handRotationSeconds);
+        }
 
-			//assign the rotation to the hand Transforms
-			if (handHours)
-			{
-				handHours.localEulerAngles = hoursVec;
-			}
+        // Fast spinning mode
+        private void SpinFast()
+        {
+            float rotation = spinSpeed * Time.deltaTime;
 
-			if (handMinutes)
-			{
-				handMinutes.localEulerAngles = minutesVec;
-			}
+            if (handHours)
+                handHours.Rotate(0, 0, rotation);
+            if (handMinutes)
+                handMinutes.Rotate(0, 0, rotation * 2f);
+            if (handSeconds)
+                handSeconds.Rotate(0, 0, rotation * 4f);
+        }
 
-			if (handSeconds)
-			{
-				handSeconds.localEulerAngles = secondsVec;
-			}
-		}
+        // Call this when key is inserted
+        public void StartFastSpin()
+        {
+            spinFast = true;
+        }
 
-		private void OnDestroy()
-		{
-			CancelInvoke();
-		}
-	}
-
+        // Call this when key is removed (optional)
+        public void StopFastSpin()
+        {
+            spinFast = false;
+        }
+    }
 }
