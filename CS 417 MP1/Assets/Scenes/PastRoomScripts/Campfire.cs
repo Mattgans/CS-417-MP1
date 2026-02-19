@@ -49,6 +49,6 @@ public class Campfire : MonoBehaviour
 
     private void finish()
     {
-        SceneManager.LoadScene("Start Room");
+        SceneManager.LoadScene("Win");
     }
 }
